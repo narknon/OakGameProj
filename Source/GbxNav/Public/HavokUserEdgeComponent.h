@@ -13,6 +13,12 @@ class UGbxUserEdge;
 class AActor;
 class UHavokUserEdge;
 
+
+class GBXNAV_API IHavokNavSeed : public IInterface
+{
+};
+
+
 UCLASS(ClassGroup=Custom, Config=Game, meta=(BlueprintSpawnableComponent))
 class GBXNAV_API UHavokUserEdgeComponent : public UPrimitiveComponent, public IHavokNavSeed {
     GENERATED_BODY()

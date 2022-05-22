@@ -6,6 +6,14 @@
 
 class UGbxUserEdge;
 
+
+/*likely not right fix */
+UCLASS()
+class UGbxUserEdgeBase : public UObject
+{
+};
+
+
 UCLASS()
 class GBXNAV_API UGbxUserEdge : public UGbxUserEdgeBase {
     GENERATED_BODY()

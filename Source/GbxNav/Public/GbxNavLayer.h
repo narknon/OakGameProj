@@ -4,6 +4,13 @@
 #include "UObject/NoExportTypes.h"
 #include "GbxNavLayer.generated.h"
 
+
+UCLASS()
+class GBXNAV_API UGbxNavLayerBase : public UObject
+{
+};
+
+
 UCLASS()
 class GBXNAV_API UGbxNavLayer : public UGbxNavLayerBase {
     GENERATED_BODY()

@@ -10,7 +10,7 @@ class UGbxNavMeshLayer;
 class UGbxNavArea;
 
 UCLASS()
-class UGbxNavAreaBase : public UDataAsset
+class GBXNAV_API UGbxNavAreaBase : public UDataAsset
 {
 };
 
@@ -27,9 +27,11 @@ private:
     
     UPROPERTY(EditAnywhere)
     UGbxNavArea* EffectiveArea;
-    
+
+
+    /*to fix
     UPROPERTY(EditAnywhere)
-    EHavokNavMaterial HavokNavMaterial;
+    EHavokNavMaterial HavokNavMaterial;*/
     
 public:
     UGbxNavArea();

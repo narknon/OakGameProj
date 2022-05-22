@@ -1,5 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "HavokUserEdge.h"
+#include "HavokUserEdgeComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=HavokUserEdge -FallbackName=HavokUserEdge
 #include "HavokUserEdge_Jump.generated.h"
 
