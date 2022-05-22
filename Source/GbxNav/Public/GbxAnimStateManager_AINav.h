@@ -3,6 +3,7 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAnimStateManager -FallbackName=GbxAnimStateManager
 #include "ENavAnimState.h"
 #include "AnimActionDef.h"
+#include "GbxAnimStateManager.h"
 #include "GbxAnimStateManager_AINav.generated.h"
 
 class UGbxNavAnimTable;

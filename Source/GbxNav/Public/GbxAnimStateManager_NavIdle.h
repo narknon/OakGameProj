@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GbxAnimStateManager.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAnimStateManager -FallbackName=GbxAnimStateManager
 #include "GbxAnimStateManager_NavIdle.generated.h"
 
