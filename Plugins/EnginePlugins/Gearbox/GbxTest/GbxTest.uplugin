@@ -1,0 +1,43 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0",
+	"FriendlyName": "Gearbox Test",
+	"Description": "Allows users to define test policies and run them via Automation, during import, etc...",
+	"Category": "Gearbox",
+	"CreatedBy": "Gearbox Software, LLC.",
+	"CreatedByURL": "http://www.gearboxsoftware.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GbxTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GbxInput",
+			"Enabled": true
+		},
+		{
+			"Name": "GbxProbes",
+			"Enabled": true
+		},
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		},
+		{
+			"Name": "GbxJira",
+			"Enabled": true
+		}
+	]
+}

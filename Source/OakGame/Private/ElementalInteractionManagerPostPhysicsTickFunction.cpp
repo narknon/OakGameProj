@@ -1,0 +1,5 @@
+#include "ElementalInteractionManagerPostPhysicsTickFunction.h"
+
+FElementalInteractionManagerPostPhysicsTickFunction::FElementalInteractionManagerPostPhysicsTickFunction() {
+}
+

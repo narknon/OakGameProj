@@ -1,0 +1,5 @@
+#include "StatusEffectModifierAttributePropertyValueResolver.h"
+
+UStatusEffectModifierAttributePropertyValueResolver::UStatusEffectModifierAttributePropertyValueResolver() {
+}
+

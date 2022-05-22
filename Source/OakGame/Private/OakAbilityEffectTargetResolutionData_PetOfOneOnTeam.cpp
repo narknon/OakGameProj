@@ -1,0 +1,5 @@
+#include "OakAbilityEffectTargetResolutionData_PetOfOneOnTeam.h"
+
+UOakAbilityEffectTargetResolutionData_PetOfOneOnTeam::UOakAbilityEffectTargetResolutionData_PetOfOneOnTeam() {
+}
+

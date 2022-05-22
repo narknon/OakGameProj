@@ -1,0 +1,5 @@
+#include "UIStatData_OakPassiveAbilityAttributeInitializer.h"
+
+UUIStatData_OakPassiveAbilityAttributeInitializer::UUIStatData_OakPassiveAbilityAttributeInitializer() {
+}
+

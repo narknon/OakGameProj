@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "2K Asset Thumbnail Exporter",
+	"Description": "Plugin which allows export of thumnails to disk",
+	"Category": "2KGames",
+	"CreatedBy": "2K Games",
+	"CreatedByURL": "https://www.2k.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

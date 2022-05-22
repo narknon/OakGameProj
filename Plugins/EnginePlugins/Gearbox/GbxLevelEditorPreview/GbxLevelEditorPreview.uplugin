@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Gearbox Level Editor Preview",
+	"Description": "Utilities for providing visualizations in the Level Editor.",
+	"Category": "Gearbox",
+	"CreatedBy": "Gearbox Software, LLC.",
+	"CreatedByURL": "http://www.gearboxsoftware.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GbxLevelEditorPreview",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

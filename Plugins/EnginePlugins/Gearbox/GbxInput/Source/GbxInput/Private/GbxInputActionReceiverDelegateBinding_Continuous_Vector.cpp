@@ -1,0 +1,5 @@
+#include "GbxInputActionReceiverDelegateBinding_Continuous_Vector.h"
+
+UGbxInputActionReceiverDelegateBinding_Continuous_Vector::UGbxInputActionReceiverDelegateBinding_Continuous_Vector() {
+}
+

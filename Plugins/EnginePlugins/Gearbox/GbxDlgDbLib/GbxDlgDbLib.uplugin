@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Gearbox Dialog Database Lib",
+	"Description": "A library for loading the Dialog Database written by the Writer's Tool.",
+	"Category": "Gearbox",
+	"CreatedBy": "Gearbox Software, LLC.",
+	"CreatedByURL": "http://www.gearboxsoftware.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "GbxDialog",
+			"Enabled": true
+		},
+		{
+			"Name": "WwiseAudio",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,5 @@
+#include "GameResourcePoolCurrentValueNoPauseOnHealResolver.h"
+
+UGameResourcePoolCurrentValueNoPauseOnHealResolver::UGameResourcePoolCurrentValueNoPauseOnHealResolver() {
+}
+

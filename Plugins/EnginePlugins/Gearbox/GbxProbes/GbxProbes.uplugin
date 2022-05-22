@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0",
+	"FriendlyName": "Gearbox Probes",
+	"Description": "Allows users to define test cases and report results to a service",
+	"Category": "Gearbox",
+	"CreatedBy": "Gearbox Software, LLC.",
+	"CreatedByURL": "http://www.gearboxsoftware.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GbxProbes",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault"
+		}
+	]
+}

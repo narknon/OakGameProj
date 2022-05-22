@@ -1,0 +1,23 @@
+#include "GbxAbilityResourceControllerBlueprintFunctionLibrary.h"
+
+void UGbxAbilityResourceControllerBlueprintFunctionLibrary::UnregisterResourcePoolDelegate(FGbxAbilityResourceController_ResourcePoolDelegate& Controller, const FGbxAbilityResourceSpec_ResourcePoolDelegate& Spec) {
+}
+
+void UGbxAbilityResourceControllerBlueprintFunctionLibrary::UnregisterConditionalDamageModifier(FGbxAbilityResourceController_ConditionalDamageModifier& Controller, const FGbxAbilityResourceSpec_ConditionalDamageModifier& Spec) {
+}
+
+void UGbxAbilityResourceControllerBlueprintFunctionLibrary::UnregisterAbilityDelegate(FGbxAbilityResourceController_ScriptDelegate& Controller, const FGbxAbilityResourceSpec_ScriptDelegate& Spec) {
+}
+
+void UGbxAbilityResourceControllerBlueprintFunctionLibrary::RegisterResourcePoolDelegate(FGbxAbilityResourceController_ResourcePoolDelegate& Controller, const FGbxAbilityResourceSpec_ResourcePoolDelegate& Spec) {
+}
+
+void UGbxAbilityResourceControllerBlueprintFunctionLibrary::RegisterConditionalDamageModifier(FGbxAbilityResourceController_ConditionalDamageModifier& Controller, const FGbxAbilityResourceSpec_ConditionalDamageModifier& Spec) {
+}
+
+void UGbxAbilityResourceControllerBlueprintFunctionLibrary::RegisterAbilityDelegate(FGbxAbilityResourceController_ScriptDelegate& Controller, const FGbxAbilityResourceSpec_ScriptDelegate& Spec) {
+}
+
+UGbxAbilityResourceControllerBlueprintFunctionLibrary::UGbxAbilityResourceControllerBlueprintFunctionLibrary() {
+}
+

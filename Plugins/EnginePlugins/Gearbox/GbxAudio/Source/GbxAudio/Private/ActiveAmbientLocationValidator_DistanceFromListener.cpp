@@ -1,0 +1,5 @@
+#include "ActiveAmbientLocationValidator_DistanceFromListener.h"
+
+UActiveAmbientLocationValidator_DistanceFromListener::UActiveAmbientLocationValidator_DistanceFromListener() {
+}
+

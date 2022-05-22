@@ -1,0 +1,5 @@
+#include "GbxAbilityResourceController_ConditionalDamageModifier.h"
+
+FGbxAbilityResourceController_ConditionalDamageModifier::FGbxAbilityResourceController_ConditionalDamageModifier() {
+}
+

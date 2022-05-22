@@ -1,0 +1,5 @@
+#include "GrenadeModMayhemExperienceLevelAttributeValueResolver.h"
+
+UGrenadeModMayhemExperienceLevelAttributeValueResolver::UGrenadeModMayhemExperienceLevelAttributeValueResolver() {
+}
+

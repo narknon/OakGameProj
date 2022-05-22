@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.0",
+	"FriendlyName": "GbxTimeOfDay",
+	"Description": "WIP Time of Day things.",
+	"Category": "Gearbox",
+	"CreatedBy": "GBX - Kathryn Williams",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GbxTimeOfDay",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GbxAudio",
+			"Enabled": true
+		}
+	]
+}

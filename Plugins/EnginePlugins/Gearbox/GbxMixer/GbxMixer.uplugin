@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GbxMixer",
+	"Description": "Mixer API and Interaction Plugin",
+	"Category": "Gearbox",
+	"CreatedBy": "GSQ - Michael Dube",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GbxMixer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

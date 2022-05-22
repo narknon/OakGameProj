@@ -1,0 +1,7 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "GbxGFxListCellUpdateInfo.h"
+#include "GbxGFxListCellUpdateDelegateDelegate.generated.h"
+
+UDELEGATE() DECLARE_DYNAMIC_DELEGATE_OneParam(FGbxGFxListCellUpdateDelegate, const FGbxGFxListCellUpdateInfo&, UpdateInfo);
+

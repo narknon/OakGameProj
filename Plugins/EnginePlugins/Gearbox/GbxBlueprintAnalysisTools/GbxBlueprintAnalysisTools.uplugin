@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0",
+	"FriendlyName": "Gearbox Blueprint Analysis Tools",
+	"Description": "A collection of developer tools for analyzing Blueprint content.",
+	"Category": "Gearbox",
+	"CreatedBy": "Gearbox Software, LLC.",
+	"CreatedByURL": "http://www.gearboxsoftware.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false
+}

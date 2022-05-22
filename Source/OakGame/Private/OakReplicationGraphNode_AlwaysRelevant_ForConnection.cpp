@@ -1,0 +1,5 @@
+#include "OakReplicationGraphNode_AlwaysRelevant_ForConnection.h"
+
+UOakReplicationGraphNode_AlwaysRelevant_ForConnection::UOakReplicationGraphNode_AlwaysRelevant_ForConnection() {
+}
+

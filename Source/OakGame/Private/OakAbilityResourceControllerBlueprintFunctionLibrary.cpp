@@ -1,0 +1,17 @@
+#include "OakAbilityResourceControllerBlueprintFunctionLibrary.h"
+
+void UOakAbilityResourceControllerBlueprintFunctionLibrary::UnregisterWeaponShotModifier(FOakAbilityResourceController_WeaponShotModifier& Controller, const FOakAbilityResourceSpec_WeaponShotModifier& Spec) {
+}
+
+void UOakAbilityResourceControllerBlueprintFunctionLibrary::UnregisterSirenRushStack(FOakAbilityResourceController_SirenRushStack& Controller, const FOakAbilityResourceSpec_SirenRushStack& Spec) {
+}
+
+void UOakAbilityResourceControllerBlueprintFunctionLibrary::RegisterWeaponShotModifier(FOakAbilityResourceController_WeaponShotModifier& Controller, const FOakAbilityResourceSpec_WeaponShotModifier& Spec) {
+}
+
+void UOakAbilityResourceControllerBlueprintFunctionLibrary::RegisterSirenRushStack(FOakAbilityResourceController_SirenRushStack& Controller, const FOakAbilityResourceSpec_SirenRushStack& Spec) {
+}
+
+UOakAbilityResourceControllerBlueprintFunctionLibrary::UOakAbilityResourceControllerBlueprintFunctionLibrary() {
+}
+

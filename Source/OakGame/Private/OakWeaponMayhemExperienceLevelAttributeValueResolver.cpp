@@ -1,0 +1,5 @@
+#include "OakWeaponMayhemExperienceLevelAttributeValueResolver.h"
+
+UOakWeaponMayhemExperienceLevelAttributeValueResolver::UOakWeaponMayhemExperienceLevelAttributeValueResolver() {
+}
+

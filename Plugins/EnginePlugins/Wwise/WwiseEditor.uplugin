@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 201611,
+	"VersionName": "2016.1.1 [Gbx] build 5823",
+	"FriendlyName": "[Gbx] Wwise Editor tools",
+	"Description": "Wwise integration for Unreal Engine 4",
+	"Category": "Audio",
+	"CreatedBy": "Audiokinetic, Inc.",
+	"CreatedByURL": "http://audiokinetic.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "WwiseAudio",
+			"Enabled": true
+		}
+	]
+}
