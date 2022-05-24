@@ -3,7 +3,7 @@
 #include "EGbxInputEvent_Button_PressPulse_Events.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxInputEvent_Button_PressPulse_Events :  {
+enum class EGbxInputEvent_Button_PressPulse_Events : uint8 {
     Pressed,
     InitialPulse,
     Pulse,

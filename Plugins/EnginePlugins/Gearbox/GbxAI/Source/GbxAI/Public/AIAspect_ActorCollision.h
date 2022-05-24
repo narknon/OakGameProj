@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AIAspect.h"
+#include "UObject/NoExportTypes.h"
 #include "AIAspectSettings_ActorCollision.h"
 #include "Engine/EngineTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "AIAspect_ActorCollision.generated.h"
 
 class AActor;

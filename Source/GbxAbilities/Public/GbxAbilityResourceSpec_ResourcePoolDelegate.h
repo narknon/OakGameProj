@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EAbilityResourceDelegateType.h"
 #include "GbxAbilityResourceSpec.h"
+#include "EAbilityResourceDelegateType.h"
 #include "GbxAbilityResourceSpec_ResourcePoolDelegate.generated.h"
 
 class UGameResourcePoolManagerComponent;

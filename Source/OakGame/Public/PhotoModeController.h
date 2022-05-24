@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PhotoModeState.h"
 #include "GameFramework/Actor.h"
+#include "PhotoModeState.h"
 #include "PhotoModeController.generated.h"
 
 class AOakPlayerController;
 class UPostProcessComponent;
 class AOakCharacter_Player;
-class UGameStatData;
 class UPhotoModeViewInterface;
 class IPhotoModeViewInterface;
+class UGameStatData;
 
 UCLASS()
 class OAKGAME_API APhotoModeController : public AActor {

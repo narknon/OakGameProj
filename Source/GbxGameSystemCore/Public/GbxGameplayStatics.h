@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "Kismet/GameplayStatics.h"
+#include "UObject/NoExportTypes.h"
 #include "ETeamCollisionChannel.h"
 #include "UObject/NoExportTypes.h"
 #include "GbxGameplayStatics.generated.h"
 
-class APlayerController;
 class AActor;
 class USceneComponent;
 class UGbxSkeletalMeshComponent;
+class APlayerController;
 class UObject;
 class AGbxCharacter;
 

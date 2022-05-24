@@ -1,24 +1,24 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
-#include "FeedbackTableRowHandle.h"
-#include "FeedbackDataFirstPersonImpulse.h"
-#include "EFeedbackDataFirstPersonImpulseType.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=FOscillator -FallbackName=FOscillator
-#include "GameFramework/ForceFeedbackEffect.h"
 #include "AttributeInitializationData.h"
-#include "RangedDistanceOverrides.h"
+#include "GbxDataAsset.h"
+#include "GameFramework/ForceFeedbackEffect.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ROscillator -FallbackName=ROscillator
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=VOscillator -FallbackName=VOscillator
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=FOscillator -FallbackName=FOscillator
 #include "ShakeScaleAssociation.h"
+#include "EFeedbackDataFirstPersonImpulseType.h"
+#include "FeedbackTableRowHandle.h"
+#include "FeedbackDataFirstPersonImpulse.h"
 #include "UObject/NoExportTypes.h"
 #include "EScreenParticleScalingMode.h"
 #include "GbxHUDFeedbackImpulse.h"
 #include "Curves/CurveFloat.h"
-#include "LoopingShakeInfo.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RadialBlurSelection -FallbackName=RadialBlurSelection
 #include "UObject/NoExportTypes.h"
+#include "LoopingShakeInfo.h"
+#include "RangedDistanceOverrides.h"
 #include "FeedbackData.generated.h"
 
 class UForceFeedbackEffect;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ReplicatedHoverComponentState.h"
 #include "Components/ActorComponent.h"
 #include "Curves/CurveFloat.h"
+#include "ReplicatedHoverComponentState.h"
 #include "UObject/NoExportTypes.h"
 #include "VehicleHoverComponent.generated.h"
 

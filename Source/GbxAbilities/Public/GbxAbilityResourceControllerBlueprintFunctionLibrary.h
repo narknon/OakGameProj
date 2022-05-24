@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxAbilityResourceSpec_ResourcePoolDelegate.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
-#include "GbxAbilityResourceController_ResourcePoolDelegate.h"
 #include "GbxAbilityResourceSpec_ConditionalDamageModifier.h"
 #include "GbxAbilityResourceController_ConditionalDamageModifier.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
+#include "GbxAbilityResourceController_ResourcePoolDelegate.h"
+#include "GbxAbilityResourceSpec_ResourcePoolDelegate.h"
 #include "GbxAbilityResourceController_ScriptDelegate.h"
 #include "GbxAbilityResourceSpec_ScriptDelegate.h"
 #include "GbxAbilityResourceControllerBlueprintFunctionLibrary.generated.h"

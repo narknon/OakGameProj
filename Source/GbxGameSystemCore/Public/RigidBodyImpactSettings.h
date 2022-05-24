@@ -3,9 +3,9 @@
 #include "PhysicalMaterialImpactPair.h"
 #include "RigidBodyImpactSettings.generated.h"
 
-class UWwiseRtpc;
 class UImpactData;
 class UPhysicalMaterial;
+class UWwiseRtpc;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FRigidBodyImpactSettings {

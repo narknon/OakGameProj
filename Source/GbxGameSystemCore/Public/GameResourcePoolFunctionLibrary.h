@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourceUserEvent.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "GameResourcePoolReference.h"
 #include "EGameResourcePoolState.h"
+#include "GameResourceUserEvent.h"
 #include "GameResourcePoolFunctionLibrary.generated.h"
 
+class UGameResourcePoolData;
 class AActor;
 class UGameResourceData;
-class UGameResourcePoolData;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UGameResourcePoolFunctionLibrary : public UBlueprintFunctionLibrary {

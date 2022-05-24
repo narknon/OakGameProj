@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/PrimaryAssetLabel.h"
 #include "LevelAssetList.h"
+#include "Engine/PrimaryAssetLabel.h"
 #include "LevelAssetListData.generated.h"
 
 UCLASS()

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "OakActionAbility.h"
-#include "UObject/NoExportTypes.h"
 #include "OakLightProjectileInitializationData.h"
+#include "UObject/NoExportTypes.h"
 #include "OakActionAbility_ShoulderCannon.generated.h"
 
 class UOakAimAssistParameters;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "SpawnPatternResult.h"
 #include "GbxDataAsset.h"
 #include "SpawnPatternInputs.h"
-#include "SpawnPatternResult.h"
 #include "SpawnPatternData.generated.h"
 
 UCLASS(Abstract, BlueprintType)

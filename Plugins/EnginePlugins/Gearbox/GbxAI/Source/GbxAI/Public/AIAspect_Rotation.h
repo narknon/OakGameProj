@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AIAspectSettings_RotationChannel.h"
 #include "AIAspect.h"
 #include "AIAspectSettings_Rotation.h"
-#include "AIAspectSettings_RotationChannel.h"
 #include "AIAspect_Rotation.generated.h"
 
 class UProperty;

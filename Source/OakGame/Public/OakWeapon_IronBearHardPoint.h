@@ -9,9 +9,9 @@
 #include "OakWeapon_IronBearHardPoint.generated.h"
 
 class AOakCharacter_IronBear;
-class UGFxIronbearWeaponWidget;
-class UOakActionAbilityAugmentData_IronBear;
 class UOakCustomizationComponent;
+class UOakActionAbilityAugmentData_IronBear;
+class UGFxIronbearWeaponWidget;
 class UOakActionAbilityAugmentData;
 
 UCLASS()

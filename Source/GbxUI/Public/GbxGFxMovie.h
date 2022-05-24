@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EGbxGFxMovieGetChildStrategy.h"
+#include "GbxGFxMovieClipAppendix.h"
 #include "GFxMoviePlayer.h"
-#include "GbxGFxAnchor.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "EGFxScaleMode.h"
 #include "EGFxAlign.h"
-#include "GbxGFxMovieClipAppendix.h"
+#include "GbxGFxAnchor.h"
+#include "EGbxGFxMovieGetChildStrategy.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "EUIAudioSettingOperation.h"
@@ -16,10 +16,10 @@
 
 class USwfMovie;
 class UDataTable;
-class UGbxGFxMovie;
 class UGbxGFxObject;
 class AGbxPlayerController;
 class UTextureRenderTarget2D;
+class UGbxGFxMovie;
 class APawn;
 
 UCLASS()

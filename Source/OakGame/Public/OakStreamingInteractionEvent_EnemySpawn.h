@@ -2,15 +2,15 @@
 #include "CoreMinimal.h"
 #include "OakStreamingInteractionEvent.h"
 #include "GameplayTagContainer.h"
-#include "DialogTimeSlotReference.h"
 #include "PollActionInfo.h"
+#include "DialogTimeSlotReference.h"
 #include "OakStreamingInteractionEvent_EnemySpawn.generated.h"
 
 class AGbxCharacter;
-class UInWorldIconData;
-class UGbxUIName;
-class AOakCharacter;
 class AActor;
+class UInWorldIconData;
+class AOakCharacter;
+class UGbxUIName;
 class UOakMissionIconComponent;
 class USpawnerComponent;
 

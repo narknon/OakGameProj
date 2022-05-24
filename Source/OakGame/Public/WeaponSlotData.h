@@ -3,8 +3,8 @@
 #include "GbxWeaponSlotData.h"
 #include "WeaponSlotData.generated.h"
 
-class UGameResourceData;
 class UWeaponSlotData;
+class UGameResourceData;
 
 UCLASS()
 class UWeaponSlotData : public UGbxWeaponSlotData {

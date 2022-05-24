@@ -10,14 +10,14 @@ class UFastTravelStationComponent;
 class UGFxFriendsInArea;
 class UGbxGFxMenuData;
 class UUsableComponent;
-class ULevelTravelStationComponent;
 class USkeletalMeshComponent;
+class ULevelTravelStationComponent;
 class UGbxAreaComponent;
-class UPrimitiveComponent;
 class UGFxBillboardComponent;
 class UOutOfMapWaypointComponent;
 class AGbxPlayerController;
 class AController;
+class UPrimitiveComponent;
 class AActor;
 
 UCLASS(Abstract)

@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "StatusEffectQuery.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "StatusEffectInstanceReference.h"
 #include "StatusEffectRemoveSpec.h"
+#include "StatusEffectInstanceReference.h"
 #include "StatusEffectSpec.h"
 #include "StatusEffectQueryResult.h"
+#include "StatusEffectQuery.h"
 #include "StatusEffectsStatics.generated.h"
 
 class AActor;

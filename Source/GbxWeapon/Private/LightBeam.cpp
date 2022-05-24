@@ -2,8 +2,8 @@
 #include "Net/UnrealNetwork.h"
 
 class UParticleSystemComponent;
-class APawn;
 class AActor;
+class APawn;
 class UGbxDamageType;
 
 void ULightBeam::SetTargetSocket(FName Socket) {

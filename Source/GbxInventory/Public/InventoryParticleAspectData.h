@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "InventoryAspectData.h"
 #include "ConditionalInventoryParticleEmitter.h"
+#include "InventoryAspectData.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "InventoryParticleAspectData.generated.h"
 
 class UParticleSystem;

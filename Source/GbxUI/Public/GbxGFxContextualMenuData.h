@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ContextualMenuInfo.h"
 #include "GbxGFxMenuData.h"
+#include "ContextualMenuInfo.h"
 #include "GbxGFxContextualMenuData.generated.h"
 
 UCLASS()

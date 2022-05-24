@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "GbxDataAsset.h"
-#include "InventorySerialNumberAssetInterface.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
+#include "UObject/NoExportTypes.h"
+#include "InventorySerialNumberAssetInterface.h"
 #include "ManufacturerData.generated.h"
 
-class UDialogEnumValue;
 class UUIStatData;
+class UDialogEnumValue;
 
 UCLASS()
 class GBXINVENTORY_API UManufacturerData : public UGbxDataAsset, public IInventorySerialNumberAssetInterface {

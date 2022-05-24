@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MissionVehicleSpawnedEventDelegate.h"
 #include "OakMissionSpawner.h"
+#include "MissionVehicleSpawnedEventDelegate.h"
 #include "SpawnerActorData.h"
 #include "OakMissionVehicleSpawner.generated.h"
 

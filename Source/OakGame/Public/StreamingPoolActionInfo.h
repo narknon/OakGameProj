@@ -4,9 +4,9 @@
 #include "UObject/NoExportTypes.h"
 #include "StreamingPoolActionInfo.generated.h"
 
-class UObject;
-class UStreamingPoolActionInfo;
 class AOakPlayerController;
+class UStreamingPoolActionInfo;
+class UObject;
 
 UCLASS(Abstract, Blueprintable)
 class OAKGAME_API UStreamingPoolActionInfo : public UGbxDataAsset {

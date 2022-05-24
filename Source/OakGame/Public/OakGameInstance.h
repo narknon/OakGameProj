@@ -14,26 +14,26 @@ class UOakManagedActorDefinition;
 class UOakUIControllerDisconnectManager;
 class UOakSingletons;
 class UGbxMenuInput;
+class AOakInventoryItemPickup;
 class UGFxPCTextChatBuffer;
 class UGbxGFxMenu;
-class UOakManagedActorManager;
 class UPlayerClassIdentifier;
-class UWwiseEvent;
+class UOakManagedActorManager;
+class UEchoLogData;
 class UNameplateInfoProviderInterface;
 class INameplateInfoProviderInterface;
-class UGbxDialogComponent;
 class UOakDialogSystemCustomization;
 class UMatchmakingTest;
 class UOakOnlineStatsHelper;
 class UOakModifierManager;
 class AActor;
 class UOakDiscordManager;
-class UGbxMenuData;
 class UObject;
-class UEchoLogData;
+class UGbxMenuData;
+class UGbxDialogComponent;
 class URegionData;
 class UGbxGFxDialogBox;
-class AOakInventoryItemPickup;
+class UWwiseEvent;
 
 UCLASS(NonTransient)
 class OAKGAME_API UOakGameInstance : public UGbxGameInstance, public IMissionObserverInterface {

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "OakPawnAttachSlotComponent.h"
+#include "UseCharacterWeaponSettings.h"
 #include "EFollowVehicleRotation.h"
 #include "PawnDetachTransition.h"
-#include "UseCharacterWeaponSettings.h"
 #include "VehicleSeatComponent.generated.h"
 
 class AActor;

@@ -1,20 +1,20 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
-#include "Engine/EngineTypes.h"
+#include "ELightBeamQueryActorType.h"
+#include "Engine/NetSerialization.h"
+#include "LightBeamAttachment.h"
 #include "ClientLightBeamState.h"
 #include "EWeaponShotModifierType.h"
-#include "Engine/NetSerialization.h"
+#include "Engine/EngineTypes.h"
 #include "LightBeamImpactFXTrackingData.h"
-#include "LightBeamAttachment.h"
 #include "LightBeamInitializationData.h"
-#include "ELightBeamQueryActorType.h"
 #include "LightBeam.generated.h"
 
-class UParticleSystemComponent;
-class ULightBeamData;
-class AActor;
 class ULightBeam;
+class ULightBeamData;
+class UParticleSystemComponent;
+class AActor;
 class APawn;
 class UGbxDamageType;
 

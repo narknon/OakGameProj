@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "ShieldAugment.h"
-#include "EAugmentTriggerOn.h"
 #include "GameResourcePoolReference.h"
+#include "EAugmentTriggerOn.h"
 #include "AugmentData.h"
 #include "ShieldAugment_Triggerable.generated.h"
 

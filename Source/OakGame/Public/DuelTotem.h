@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EDuelMode.h"
 #include "InteractiveObject.h"
-#include "UseEvent.h"
-#include "EDuelTotemDestroyReason.h"
 #include "EPotentialDuelState.h"
+#include "EDuelTotemDestroyReason.h"
+#include "UseEvent.h"
+#include "EDuelMode.h"
 #include "DuelTotem.generated.h"
 
 class UDuelGlobals;

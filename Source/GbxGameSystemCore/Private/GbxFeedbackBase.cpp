@@ -1,7 +1,7 @@
 #include "GbxFeedbackBase.h"
 
-class UObject;
 class UGbxFeedbackBase;
+class UObject;
 class AGbxPlayerController;
 
 void UGbxFeedbackBase::StopGbxFeedback(const UGbxFeedbackBase* FeedbackData, UObject* WorldContextObject, AGbxPlayerController* Controller) {

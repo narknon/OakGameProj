@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Curves/CurveFloat.h"
 #include "ERumbleSlot.h"
+#include "Curves/CurveFloat.h"
 #include "RumbleSlotMapping.generated.h"
 
 USTRUCT(BlueprintType)

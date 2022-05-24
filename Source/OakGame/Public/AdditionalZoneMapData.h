@@ -7,8 +7,8 @@
 #include "AdditionalZoneMapData.generated.h"
 
 class UZoneMapData;
-class UPatchExpansionData;
 class UDownloadableContentData;
+class UPatchExpansionData;
 
 UCLASS(BlueprintType)
 class OAKGAME_API UAdditionalZoneMapData : public UGbxDataAsset {

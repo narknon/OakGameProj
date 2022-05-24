@@ -2,18 +2,18 @@
 #include "CoreMinimal.h"
 #include "AdvancedInteractiveObject.h"
 #include "OakCARMenuInteractionInterface.h"
+#include "ECARRestrictionType.h"
 #include "OnVehicleSpawnedDelegate.h"
 #include "UObject/NoExportTypes.h"
-#include "ECARRestrictionType.h"
 #include "UObject/NoExportTypes.h"
 #include "ECARPartType.h"
 #include "OakCARMenuVehicleConfig.h"
 #include "CatchARide.generated.h"
 
 class ACatchARidePlatform;
+class UOakCARVehiclePartData;
 class UGFxCARMenu;
 class AOakCharacter_Player;
-class UOakCARVehiclePartData;
 class AOakPlayerController;
 class UOakCARVehicleData;
 class AController;

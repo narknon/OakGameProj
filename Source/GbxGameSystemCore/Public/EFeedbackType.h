@@ -3,7 +3,7 @@
 #include "EFeedbackType.generated.h"
 
 UENUM(BlueprintType)
-enum class EFeedbackType :  {
+enum class EFeedbackType : uint8 {
     Ranged,
     Directional,
     RandomRumble,

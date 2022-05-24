@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeValueResolver.h"
 #include "BalanceFormulaDefinedValueRow.h"
+#include "AttributeValueResolver.h"
 #include "AttributeInitializationData.h"
 #include "BalanceFormulaAttributeValueResolver.generated.h"
 

@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakUIInventoryItemDisplayInfo.h"
 #include "GbxUILibrary.h"
+#include "OakUIInventoryItemDisplayInfo.h"
 #include "OakUILibrary.generated.h"
 
 class UGbxMenuData;
-class AOakPlayerController;
 class UTutorialMessageDataAsset;
-class UGameInstance;
+class AOakPlayerController;
 class UGbxMenu;
 class IGbxMenu;
+class UGameInstance;
 class UObject;
 class UInventoryListComponent;
 class UInventoryCategoryData;

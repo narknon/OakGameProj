@@ -1,22 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "PhaseTranceActivationComboData.h"
 #include "OwnedActionAbilityActor.h"
-#include "OakPhaseWebSphereLinkedTargetList.h"
+#include "PhaseTranceActivationComboData.h"
 #include "OakPhaseWebSphereListLock.h"
+#include "OakPhaseWebSphere_SharedDamageData.h"
+#include "OakPhaseWebSphereLinkedTargetList.h"
 #include "Engine/EngineTypes.h"
 #include "OakPhaseWebSphereLinkedTargetItem.h"
-#include "OakPhaseWebSphere_SharedDamageData.h"
 #include "OakPhaseWebSphereBeamData.h"
 #include "OakPhaseWebSphere.generated.h"
 
 class UOakActionAbility_PhaseTrance;
+class AActor;
 class AOakCharacter;
 class UDamageSource;
 class UTeamComponent;
 class UPrimitiveComponent;
-class AActor;
 
 UCLASS()
 class AOakPhaseWebSphere : public AOwnedActionAbilityActor {

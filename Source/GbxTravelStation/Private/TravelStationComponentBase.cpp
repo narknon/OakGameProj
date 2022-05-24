@@ -1,7 +1,7 @@
 #include "TravelStationComponentBase.h"
 
-class UTravelStationData;
 class UObject;
+class UTravelStationData;
 class APawn;
 class AActor;
 

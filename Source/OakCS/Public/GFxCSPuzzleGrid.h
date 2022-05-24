@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GFxCSTileArray.h"
 #include "GbxGFxObject.h"
+#include "GFxCSTileArray.h"
 #include "GFxCSPuzzleGrid.generated.h"
 
 class UGFxCSTokenTile;

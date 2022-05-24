@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "AttitudeDamageRules.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
+#include "AttitudeDamageRules.h"
 #include "SplatData.generated.h"
 
 class UMaterialInterface;

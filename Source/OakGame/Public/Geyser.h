@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InteractiveObject.h"
 #include "EGeyserState.h"
+#include "InteractiveObject.h"
 #include "Geyser.generated.h"
 
 class UCapsuleComponent;

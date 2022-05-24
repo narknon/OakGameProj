@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
 #include "ESmartActionResult.h"
+#include "GameplayTagContainer.h"
 #include "SmartObjectUsageResultEventDelegate.generated.h"
 
 class AController;

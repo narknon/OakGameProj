@@ -3,7 +3,7 @@
 #include "EWeaponUseEvent.generated.h"
 
 UENUM(BlueprintType)
-enum class EWeaponUseEvent :  {
+enum class EWeaponUseEvent : uint8 {
     UseStarted,
     Used,
     UseFinished,

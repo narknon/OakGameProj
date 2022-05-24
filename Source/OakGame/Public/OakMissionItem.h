@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "MissionObjectiveReferenceWeak.h"
 #include "GameFramework/Actor.h"
 #include "MissionObserverInterface.h"
-#include "MissionObjectiveReferenceWeak.h"
 #include "UIStatPriorityData.h"
 #include "GbxUIFormattedText.h"
 #include "UObject/NoExportTypes.h"
 #include "OakMissionItem.generated.h"
 
-class UUIStatData;
 class UEchoLogData;
-class UOakMissionInventoryBalanceStateComponent;
+class UUIStatData;
 class UInventoryBalanceData;
+class UOakMissionInventoryBalanceStateComponent;
 class UInventoryData;
 class AOakInventoryItemPickup;
 

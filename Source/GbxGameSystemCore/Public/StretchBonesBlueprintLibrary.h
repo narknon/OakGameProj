@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "GbxActionRegister.h"
 #include "UObject/NoExportTypes.h"
+#include "GbxActionRegister.h"
 #include "StretchBonesBlueprintLibrary.generated.h"
 
 class AActor;

@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "AttributeEffectData.h"
 #include "ESpawnDroppedPickupLootRequestType.h"
 #include "SelectedInventoryInfo.h"
 #include "ELootInstancingPolicy.h"
+#include "AttributeEffectData.h"
 #include "EPickupLootAttachmentMode.h"
 #include "SpawnDroppedPickupLootAsyncDelegateDelegate.h"
 #include "SpawnDroppedPickupLootRequest.generated.h"
 
 class AOakPlayerController;
 class AActor;
-class ULootSpawnPatternData;
 class UItemPoolListInterface;
 class UGbxAction;
+class ULootSpawnPatternData;
 class USceneComponent;
 
 USTRUCT(BlueprintType)

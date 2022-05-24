@@ -1,29 +1,29 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "Curves/CurveFloat.h"
-#include "WeaponUseComponent.h"
-#include "ForceSelection.h"
-#include "Engine/EngineTypes.h"
-#include "EGbxActionEndState.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
-#include "AttributeInitializationData.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
-#include "GbxParam.h"
-#include "SoundPerceptionProperties.h"
 #include "EWeaponEffectType.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
+#include "NumericRange.h"
+#include "WeaponUseComponent.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "Engine/EngineTypes.h"
+#include "AttributeInitializationData.h"
+#include "GbxParam.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxForceFeedbackEffect -FallbackName=GbxForceFeedbackEffect
+#include "ForceSelection.h"
+#include "SoundPerceptionProperties.h"
+#include "Curves/CurveFloat.h"
 #include "EWeaponFireRateState.h"
 #include "Engine/NetSerialization.h"
-#include "NumericRange.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxForceFeedbackEffect -FallbackName=GbxForceFeedbackEffect
+#include "EGbxActionEndState.h"
 #include "WeaponFireComponent.generated.h"
 
-class UGbxDamageType;
-class UCurveFloat;
-class UDamageSource;
-class UImpactData;
-class UFeedbackData;
 class AActor;
+class UImpactData;
+class UCurveFloat;
+class UGbxDamageType;
+class UDamageSource;
+class UFeedbackData;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXWEAPON_API UWeaponFireComponent : public UWeaponUseComponent {

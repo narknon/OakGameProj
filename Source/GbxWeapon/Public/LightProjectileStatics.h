@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "ELightProjectileFlag.h"
+#include "LightProjectileInitializationData.h"
+#include "ELightProjectileSplitPattern.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "LightProjectileEventDelegate.h"
 #include "LightProjectileQueryData.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
-#include "ELightProjectileFlag.h"
 #include "UObject/NoExportTypes.h"
-#include "ELightProjectileSplitPattern.h"
-#include "LightProjectileInitializationData.h"
 #include "LightProjectileStatics.generated.h"
 
 class UDamageSource;

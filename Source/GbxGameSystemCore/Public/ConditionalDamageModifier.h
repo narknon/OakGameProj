@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EDamageFilterExprMode.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
+#include "EDamageFilterExprMode.h"
 #include "EConditionalAreaDamageFilter.h"
 #include "EConditionalDamageCriticalFilter.h"
-#include "AttributeInitializationData.h"
 #include "ConditionalDamageModifier.generated.h"
 
 class UDamageSource;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "OakAttachedDrone.h"
 #include "EnvQueryParams.h"
+#include "OakAttachedDrone.h"
 #include "OakAttachedDroneAttacker.generated.h"
 
 class ULightProjectileData;

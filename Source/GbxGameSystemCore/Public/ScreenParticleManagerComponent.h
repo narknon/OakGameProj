@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "EScreenParticleScalingMode.h"
+#include "ParticlePropertyTracker.h"
 #include "Components/ActorComponent.h"
 #include "ScreenParticleRecord.h"
-#include "ParticlePropertyTracker.h"
-#include "EScreenParticleScalingMode.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "ScreenParticleManagerComponent.generated.h"
 
-class UParticlePropertyTrackingData;
-class AActor;
 class UParticleSystemComponent;
 class UParticleSystem;
+class AActor;
+class UParticlePropertyTrackingData;
 class UMaterialInterface;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

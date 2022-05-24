@@ -3,7 +3,7 @@
 #include "EThreatReason.generated.h"
 
 UENUM(BlueprintType)
-enum class EThreatReason :  {
+enum class EThreatReason : uint8 {
     ThreatReason_None,
     ThreatReason_TerritoryEverywhereThreat,
     ThreatReason_TerritoryIncursionAuto,

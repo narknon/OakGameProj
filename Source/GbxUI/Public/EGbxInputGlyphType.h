@@ -3,7 +3,7 @@
 #include "EGbxInputGlyphType.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxInputGlyphType :  {
+enum class EGbxInputGlyphType : uint8 {
     KeyboardMouse,
     PS4,
     XboxOne,

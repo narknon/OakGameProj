@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxMenuInputHandlerDelegate.h"
-#include "UObject/Object.h"
 #include "GbxMenuKeyRepeatInfo.h"
+#include "UObject/Object.h"
+#include "GbxMenuInputHandlerDelegate.h"
 #include "GbxMenuInputRawMousePos.h"
 #include "GbxMenuInputAction.h"
 #include "GbxMenuInputAxisAction.h"

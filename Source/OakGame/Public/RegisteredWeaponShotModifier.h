@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "RegisteredWeaponShotModifier.generated.h"
 
-class UWeaponShotModifier;
 class UObject;
+class UWeaponShotModifier;
 
 USTRUCT(BlueprintType)
 struct FRegisteredWeaponShotModifier {

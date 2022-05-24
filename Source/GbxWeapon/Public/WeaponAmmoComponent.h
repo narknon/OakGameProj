@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "LoadedAmmoChangedDelegateDelegate.h"
 #include "Components/ActorComponent.h"
 #include "WeaponDebugInterface.h"
-#include "LoadedAmmoChangedDelegateDelegate.h"
 #include "WeaponAmmoComponent.generated.h"
 
 class UGbxAmmoTypeData;

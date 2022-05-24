@@ -3,8 +3,8 @@
 #include "Templates/SubclassOf.h"
 #include "BrainComponent.h"
 #include "AIActionInstance.h"
-#include "GameplayTagContainer.h"
 #include "EnvQueryParamsProvider.h"
+#include "GameplayTagContainer.h"
 #include "AIActionComponent.generated.h"
 
 class UAIAction;

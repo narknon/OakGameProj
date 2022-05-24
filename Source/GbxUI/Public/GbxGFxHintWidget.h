@@ -7,10 +7,10 @@
 #include "GbxMenuInputEvent.h"
 #include "GbxGFxHintWidget.generated.h"
 
-class AGbxPlayerController;
+class UGbxGFxObject;
 class UGbxTextField;
 class UGbxHintBar;
-class UGbxGFxObject;
+class AGbxPlayerController;
 class UGbxGFxProgressBar;
 class UGbxGFxButton;
 

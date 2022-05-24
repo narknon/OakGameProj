@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReplicationType.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
+#include "GameResourcePoolReplicationType.h"
 #include "GameResourcePoolData.generated.h"
 
 class UGameResourceData;

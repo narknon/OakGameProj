@@ -1,8 +1,8 @@
 #include "GbxSpawner.h"
+#include "SpawnNodeComponent.h"
 #include "GameplayTasksComponent.h"
 #include "BalanceStateComponent.h"
 #include "GbxSpawnerComponent.h"
-#include "SpawnNodeComponent.h"
 
 class UAINodeComponent;
 class UAIGroupState;

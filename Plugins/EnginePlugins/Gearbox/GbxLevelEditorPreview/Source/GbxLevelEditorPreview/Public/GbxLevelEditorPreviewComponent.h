@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxLevelEditorPreviewInstanceData.h"
 #include "Components/SceneComponent.h"
+#include "GbxLevelEditorPreviewInstanceData.h"
 #include "GbxLevelEditorPreviewComponent.generated.h"
 
 class UGbxLevelEditorPreviewDefinition;

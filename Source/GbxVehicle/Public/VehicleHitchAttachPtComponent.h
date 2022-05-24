@@ -3,8 +3,8 @@
 #include "Components/SphereComponent.h"
 #include "VehicleHitchAttachPtComponent.generated.h"
 
-class UPrimitiveComponent;
 class AVehicle;
+class UPrimitiveComponent;
 class UWheeledVehicleMovementComponentNW;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, Config=GbxVehicle, meta=(BlueprintSpawnableComponent))

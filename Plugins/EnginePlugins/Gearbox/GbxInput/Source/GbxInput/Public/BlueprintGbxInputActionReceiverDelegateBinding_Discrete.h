@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/EngineBaseTypes.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/EngineBaseTypes.h"
 #include "BlueprintGbxInputActionReceiverDelegateBinding_Discrete.generated.h"
 
 class UGbxInputActionData_Discrete;

@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EDamageCausedModificationStrategy.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EDamageCausedModificationStrategy : int32 {
     UseSelfModifier,
     UseInstigatorModifier,

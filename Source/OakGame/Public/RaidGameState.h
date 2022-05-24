@@ -4,8 +4,8 @@
 #include "EGameModeNotificationType.h"
 #include "RaidGameState.generated.h"
 
-class UGbxHUDStateData;
 class AOakPlayerState;
+class UGbxHUDStateData;
 class UHUDNotificationAsset;
 class UGbxHUDData;
 

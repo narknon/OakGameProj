@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
 #include "ExtraFoleyParameter.h"
+#include "Components/ActorComponent.h"
 #include "FoleyEventParams.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "FoleyMainComponent.generated.h"
 
 class UWwiseEvent;
-class UWwiseSwitch;
 class UFoleyAccessoryComponent;
+class UWwiseSwitch;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXAUDIO_API UFoleyMainComponent : public UActorComponent {

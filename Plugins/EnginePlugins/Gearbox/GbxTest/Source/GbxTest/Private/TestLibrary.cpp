@@ -1,9 +1,9 @@
 #include "TestLibrary.h"
 #include "Templates/SubclassOf.h"
 
+class AActor;
 class UObject;
 class APlayerController;
-class AActor;
 class UWorld;
 
 void UTestLibrary::TakeScreenshot(const FString& CustomFilename, const FVector2D OverrideResolution, const bool ShowUI, const bool AddUniqueSuffix) {

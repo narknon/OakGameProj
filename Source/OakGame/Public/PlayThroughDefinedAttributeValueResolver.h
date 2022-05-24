@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeValueResolver.h"
 #include "PlaythroughDefinedValueRow.h"
+#include "AttributeValueResolver.h"
 #include "PlayThroughDefinedAttributeValueResolver.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

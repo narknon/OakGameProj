@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EItemDropOnDeathType.h"
 #include "SpawnFactory_Oak.h"
+#include "EItemDropOnDeathType.h"
 #include "ItemPoolCollection.h"
 #include "SpawnFactorKeyedAction.h"
 #include "SpawnFactory_OakAI.generated.h"
 
-class UItemPoolListInterface;
 class UGestaltPartListData;
 class UGbxUIName;
-class UDialogNameTag;
+class UItemPoolListInterface;
 class AOakCharacter;
 class UTeam;
+class UDialogNameTag;
 
 UCLASS(CollapseCategories, EditInlineNew)
 class OAKGAME_API USpawnFactory_OakAI : public USpawnFactory_Oak {

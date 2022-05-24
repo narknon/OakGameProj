@@ -6,9 +6,9 @@
 #include "WantedPoster.generated.h"
 
 class AActor;
+class UPrimitiveComponent;
 class UWantedPosterDefinition;
 class UGbxSkeletalMeshComponent;
-class UPrimitiveComponent;
 class UMissionDirectorComponent;
 class UMissionObserverComponent;
 class UMission;

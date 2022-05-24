@@ -6,8 +6,8 @@
 #include "CriticalHitDamageOverrides.h"
 #include "WeaponShotModifierData.generated.h"
 
-class UImpactData;
 class UGbxDamageType;
+class UImpactData;
 
 USTRUCT(BlueprintType)
 struct GBXWEAPON_API FWeaponShotModifierData {

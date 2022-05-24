@@ -2,21 +2,21 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "OakActionAbility.h"
+#include "OakActionAbilityEnumMaskHelper.h"
+#include "AttributeInitializationData.h"
 #include "EnvQueryParams.h"
 #include "GameResourcePoolReference.h"
-#include "AttributeInitializationData.h"
-#include "OakActionAbilityEnumMaskHelper.h"
 #include "UObject/NoExportTypes.h"
 #include "ECloneSwapReason.h"
 #include "EDigiCloneModType.h"
 #include "OakActionAbility_Digiclone.generated.h"
 
-class UGameResourcePoolData;
-class APawn;
-class UOakActionAbilityAugmentData_Digiclone;
-class UDamageSource;
 class AOakCharacter;
+class UDamageSource;
+class UGameResourcePoolData;
+class UOakActionAbilityAugmentData_Digiclone;
 class AActor;
+class APawn;
 
 UCLASS()
 class UOakActionAbility_Digiclone : public UOakActionAbility {

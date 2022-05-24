@@ -3,9 +3,9 @@
 #include "GbxDataAsset.h"
 #include "GbxFlagData.generated.h"
 
-class UGbxFlagValueResolver;
 class UGbxCondition;
 class UAttributeContextResolver;
+class UGbxFlagValueResolver;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UGbxFlagData : public UGbxDataAsset {

@@ -1,18 +1,18 @@
 #include "PlanetData.h"
 #include "Templates/SubclassOf.h"
 
-class UZoneMapData;
 class UObject;
+class UZoneMapData;
 class AOakPlayerController;
 class UPatchExpansionData;
 class UDownloadableContentData;
 class UChallengeCategoryData;
+class APlayerController;
 class UPlanetData;
+class AZoneMapPlanetViewer;
 class UPlanetMeshData;
 class UMission;
 class UFastTravelStationData;
-class APlayerController;
-class AZoneMapPlanetViewer;
 
 bool UPlanetData::ShouldHighlight(UObject* WorldContextObject) const {
     return false;

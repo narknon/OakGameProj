@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "EPlayerTradingStance.h"
 #include "EPlayerTradeManagerStatus.h"
+#include "GameFramework/Actor.h"
 #include "PlayerTradeManager.generated.h"
 
 class AOakPlayerController;

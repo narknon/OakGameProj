@@ -4,18 +4,18 @@
 class AWeapon;
 class AActor;
 class UGbxDamageType;
+class UParticleSystem;
 class UDamageSource;
-class UGameStatData;
 class UDamageType;
-class UImpactData;
 class UDamageData;
 class AController;
 class APawn;
-class UExplosionData;
-class UObject;
-class UParticleSystem;
 class UDamageModifierComponent;
+class UExplosionData;
+class UImpactData;
+class UObject;
 class UFeedbackData;
+class UGameStatData;
 
 AWeapon* UOakDamageStatics::ResolveDamagingWeapon(AActor* DamageCauser) {
     return NULL;

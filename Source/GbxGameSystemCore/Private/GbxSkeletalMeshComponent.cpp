@@ -1,8 +1,8 @@
 #include "GbxSkeletalMeshComponent.h"
 #include "Net/UnrealNetwork.h"
 
-class UGestaltPartData_Mesh;
 class USkeletalMeshComponent;
+class UGestaltPartData_Mesh;
 class UGestaltPartListData;
 class UGbxCustomizationTargetData;
 class AActor;

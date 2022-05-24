@@ -4,11 +4,11 @@
 #include "GbxGFxLeagueMenuChestButton.generated.h"
 
 class UOakCustomizationData;
+class AActor;
+class UOakChallenge;
 class UGbxTextField;
 class UWeaponSkinPartData;
 class UGbxGFxObject;
-class AActor;
-class UOakChallenge;
 class UWeaponTrinketPartData;
 
 UCLASS(NonTransient)

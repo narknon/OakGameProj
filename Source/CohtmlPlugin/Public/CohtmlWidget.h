@@ -1,20 +1,20 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/Widget.h"
-#include "CohtmlScriptingReadyDelegate.h"
 #include "CohtmlReadyForBindingsSignatureDelegate.h"
 #include "CohtmlBindingsReleasedSignatureDelegate.h"
-#include "Engine/Texture.h"
-#include "ECohtmlInputPropagationBehaviour.h"
 #include "Sound/SoundAttenuation.h"
+#include "CohtmlScriptingReadyDelegate.h"
+#include "ECohtmlInputPropagationBehaviour.h"
+#include "Engine/Texture.h"
 #include "CohtmlWidget.generated.h"
 
 class UCohtmlAudioWrapper;
 class AActor;
-class UTextureRenderTarget2D;
 class UStructProperty;
 class UObject;
 class UCohtmlJSEvent;
+class UTextureRenderTarget2D;
 
 UCLASS()
 class COHTMLPLUGIN_API UCohtmlWidget : public UWidget {

@@ -5,14 +5,14 @@
 #include "HitReactionState.generated.h"
 
 class UHitReactionData;
-class AGbxCharacter;
-class UHitReactionLayer;
 class UHitReactionTag;
+class UAIDodgeComponent;
 class UGbxAction;
 class UBrainComponent;
 class UDamageComponent;
-class UAIDodgeComponent;
+class UHitReactionLayer;
 class UGbxActionComponent;
+class AGbxCharacter;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FHitReactionState {

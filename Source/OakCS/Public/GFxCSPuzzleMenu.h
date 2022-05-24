@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GFxCSPuzzleMenuDelegate.h"
 #include "GFxCSSubMenu.h"
 #include "GbxMenuInputEvent.h"
-#include "GFxCSPuzzleMenuDelegate.h"
 #include "GFxCSPuzzleMenu.generated.h"
 
 class UGFxCSPuzzle;

@@ -2,13 +2,13 @@
 #include "CoreMinimal.h"
 #include "GameplayTask.h"
 #include "EnvQueryTaskEndedDelegateDelegate.h"
-#include "EnvironmentQuery/EnvQueryTypes.h"
 #include "EnvQueryParams.h"
 #include "UObject/NoExportTypes.h"
+#include "EnvironmentQuery/EnvQueryTypes.h"
 #include "GameplayTask_RunEnvQuery.generated.h"
 
-class UGameplayTask_RunEnvQuery;
 class AActor;
+class UGameplayTask_RunEnvQuery;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UGameplayTask_RunEnvQuery : public UGameplayTask {

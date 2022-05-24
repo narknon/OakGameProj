@@ -3,7 +3,7 @@
 #include "EDialogImplementationStatus.generated.h"
 
 UENUM(BlueprintType)
-enum class EDialogImplementationStatus :  {
+enum class EDialogImplementationStatus : uint8 {
     Unimplemented,
     Implemented,
 };

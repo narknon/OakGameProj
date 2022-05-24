@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxGFxListCell.h"
 #include "EGbxMenuInputDevice.h"
+#include "GbxGFxListCell.h"
 #include "GFxCSButton.generated.h"
 
 class UGbxTextField;

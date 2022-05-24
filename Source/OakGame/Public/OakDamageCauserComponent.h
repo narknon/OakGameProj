@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
-#include "DamageCauserComponent.h"
 #include "WeaponShotModifierData.h"
+#include "DamageCauserComponent.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
 #include "RegisteredWeaponShotModifier.h"
 #include "OakDamageCauserComponent.generated.h"
 
 class AWeapon;
-class UWeaponShotModifier;
 class UObject;
+class UWeaponShotModifier;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class OAKGAME_API UOakDamageCauserComponent : public UDamageCauserComponent {

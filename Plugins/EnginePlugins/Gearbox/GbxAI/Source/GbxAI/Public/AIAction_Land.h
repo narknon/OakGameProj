@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Navigation.h"
-#include "AIAction_Sequence.h"
 #include "AIAspectSettings_GbxAction.h"
 #include "AIAspectSettings_FlyToNavMesh.h"
+#include "AIAction_Sequence.h"
+#include "AIAspectSettings_Navigation.h"
 #include "AIAction_Land.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

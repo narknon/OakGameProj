@@ -4,8 +4,8 @@
 #include "Engine/EngineTypes.h"
 #include "FXVolume.generated.h"
 
-class UParticleSystem;
 class UPrimitiveComponent;
+class UParticleSystem;
 class AActor;
 
 UCLASS()

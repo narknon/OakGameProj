@@ -3,9 +3,9 @@
 #include "MantleTraceInputs.generated.h"
 
 class UWorld;
+class UMantleData;
 class AActor;
 class UGbxGameplayGlobals;
-class UMantleData;
 
 USTRUCT(BlueprintType)
 struct FMantleTraceInputs {

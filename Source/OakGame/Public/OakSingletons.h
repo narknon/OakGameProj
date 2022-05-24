@@ -4,7 +4,6 @@
 #include "OakSingletons.generated.h"
 
 class URegionManager;
-class UDamageAsyncManager;
 class UEchoManager;
 class UOakVehicleManager;
 class UCorpseManager;
@@ -12,6 +11,7 @@ class ARadiusDamageReplicationManager;
 class UOakMinimapIconTracker;
 class UOakSubtitleManager;
 class USpawnLootManager;
+class UDamageAsyncManager;
 class AClothManager;
 class UDamageOverTimeManager;
 class UPerPlayerActorCullingManager;

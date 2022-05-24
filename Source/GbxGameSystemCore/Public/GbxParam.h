@@ -2,16 +2,16 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "EGbxParamValueMode.h"
-#include "AttributeInitializationData.h"
 #include "EGbxParamValueType.h"
 #include "NumericRange.h"
+#include "AttributeInitializationData.h"
 #include "GbxBlackboardKeySelector.h"
 #include "GbxParam.generated.h"
 
-class UGbxCondition;
+class AActor;
 class UAttributeInitializer;
 class UGbxAttributeData;
-class AActor;
+class UGbxCondition;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FGbxParam {

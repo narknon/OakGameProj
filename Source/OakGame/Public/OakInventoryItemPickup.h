@@ -1,22 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DroppedInventoryItemPickup.h"
-#include "SpawnedActorInterface.h"
-#include "PickupFlyToAbleInterface.h"
-#include "PlayerAlertableInterface.h"
-#include "EPickupFlyToAlignmentType.h"
 #include "UObject/NoExportTypes.h"
+#include "EPickupFlyToAlignmentType.h"
+#include "DroppedInventoryItemPickup.h"
+#include "PickupFlyToAbleInterface.h"
+#include "SpawnedActorInterface.h"
+#include "PlayerAlertableInterface.h"
 #include "EVaultRewardType.h"
 #include "EPickupFlyToSettingsType.h"
 #include "EPlayerAlertType.h"
 #include "OakInventoryItemPickup.generated.h"
 
-class UPickupFlyToData;
-class UMissionIconComponent;
-class UItemPoolData;
-class UParticleSystemComponent;
 class UUsableComponent;
+class UItemPoolData;
+class UPickupFlyToData;
+class UParticleSystemComponent;
 class UInventoryRarityData;
+class UMissionIconComponent;
 class AActor;
 
 UCLASS()

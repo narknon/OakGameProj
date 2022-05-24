@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SpawnFactoryDataArray.h"
 #include "SpawnFactory_OakVehicle.h"
+#include "SpawnFactoryDataArray.h"
 #include "SpawnFactory_OakVehicleRandomSeats.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

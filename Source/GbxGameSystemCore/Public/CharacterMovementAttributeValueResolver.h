@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ECharacterMovementAttributeValueType.h"
 #include "AttributeValueResolver.h"
+#include "ECharacterMovementAttributeValueType.h"
 #include "CharacterMovementAttributeValueResolver.generated.h"
 
 UCLASS(EditInlineNew)

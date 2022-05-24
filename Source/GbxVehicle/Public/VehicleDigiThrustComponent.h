@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GameResourcePoolReference.h"
 #include "Components/ActorComponent.h"
+#include "GameResourcePoolReference.h"
 #include "UObject/NoExportTypes.h"
 #include "VehicleDigiThrustComponent.generated.h"
 

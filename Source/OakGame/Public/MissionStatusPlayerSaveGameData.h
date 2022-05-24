@@ -3,8 +3,8 @@
 #include "EMissionStatus.h"
 #include "MissionStatusPlayerSaveGameData.generated.h"
 
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 
 USTRUCT(BlueprintType)
 struct FMissionStatusPlayerSaveGameData {

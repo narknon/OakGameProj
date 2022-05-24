@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "MultiSelectionGestaltPartNameData.h"
-#include "AttributeInitializationData.h"
 #include "ActorPartData.generated.h"
 
 class UEnum;

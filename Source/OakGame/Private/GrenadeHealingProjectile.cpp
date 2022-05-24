@@ -1,8 +1,8 @@
 #include "GrenadeHealingProjectile.h"
 #include "Net/UnrealNetwork.h"
-#include "Components/SphereComponent.h"
 #include "WwiseAudioComponent.h"
 #include "ProjectileHomingComponent.h"
+#include "Components/SphereComponent.h"
 
 class UPrimitiveComponent;
 class AActor;

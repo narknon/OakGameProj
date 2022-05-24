@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "GbxParam.h"
 #include "GameplayTagContainer.h"
 #include "GbxBlackboardKeySelector.h"
-#include "GbxParam.h"
 #include "AIAspectSettings_GbxAction.generated.h"
 
 class UGbxAction;

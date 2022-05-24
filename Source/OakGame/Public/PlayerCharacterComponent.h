@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakPlayerCharacterSlotItemList.h"
 #include "Components/ActorComponent.h"
+#include "OakPlayerCharacterSlotItemList.h"
 #include "PlayerCharacterComponent.generated.h"
 
 class UPlayerCharacterComponentSlotData;

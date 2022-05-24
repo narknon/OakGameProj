@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeConditionalValue.h"
 #include "AttributeValueResolver.h"
 #include "AttributeInitializationData.h"
+#include "AttributeConditionalValue.h"
 #include "ConditionalAttributeValueResolver.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

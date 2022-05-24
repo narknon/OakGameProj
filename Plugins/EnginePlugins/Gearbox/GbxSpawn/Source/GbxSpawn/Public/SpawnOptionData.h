@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GbxDataAsset.h"
 #include "SpawnDetails.h"
 #include "SpawnFactoryData.h"
-#include "GbxDataAsset.h"
 #include "SpawnOptionData.generated.h"
 
 UCLASS()

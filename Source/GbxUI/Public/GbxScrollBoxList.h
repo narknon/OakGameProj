@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EGbxFocusableWidgetMouseBehavior.h"
 #include "Components/ScrollBox.h"
 #include "GbxListItemDelegateDelegate.h"
 #include "GbxList.h"
 #include "GbxFocusableWidget.h"
+#include "EGbxFocusableWidgetMouseBehavior.h"
 #include "GbxListItemDelegateWithControllerDelegate.h"
 #include "EGbxScrollBoxListWrapMode.h"
 #include "EGbxScrollBoxListFocusChangedAction.h"

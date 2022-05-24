@@ -12,9 +12,9 @@
 #include "GbxNavComponent.generated.h"
 
 class UCapsuleComponent;
-class UHavokMovementData;
 class AGbxNavWorld;
 class UHavokPathFindingData;
+class UHavokMovementData;
 class AAIController;
 class UGbxNavCharacterMovementComponent;
 

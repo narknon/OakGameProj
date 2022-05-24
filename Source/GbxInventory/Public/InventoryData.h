@@ -1,29 +1,29 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxDataAsset.h"
 #include "InventorySerialNumberAssetInterface.h"
 #include "AttributeEffectData.h"
-#include "UObject/NoExportTypes.h"
 #include "InstigatorAttributeEffectData.h"
 #include "UIStatPriorityData.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "EPlayerDroppability.h"
 #include "AttributeInitializationData.h"
 #include "UObject/NoExportTypes.h"
 #include "InventoryData.generated.h"
 
-class AActor;
 class UInventoryNamePartData;
-class UInventoryAspectData;
 class UInventoryNamingStrategyData;
+class UInventoryAspectData;
+class AActor;
 class UGbxCondition;
 class UWwiseEvent;
-class UInventoryCategoryData;
 class UDialogEvent;
 class UImpactData;
 class AInventoryItemPickup;
+class UInventoryCategoryData;
 class UObject;
 
 UCLASS(BlueprintType)

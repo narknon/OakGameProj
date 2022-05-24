@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "ActiveFastTravelData.h"
+#include "GameFramework/Actor.h"
 #include "TravelCountdownInfo.h"
 #include "TravelStationTracker.generated.h"
 
-class UTravelStationResurrectComponent;
-class UGlobalTravelGraph;
-class ULevelTravelStationComponent;
 class UFastTravelStationComponent;
+class UTravelStationResurrectComponent;
+class ULevelTravelStationComponent;
 class UFastTravelStationData;
+class UGlobalTravelGraph;
 class UTravelStationComponentBase;
 class UTravelStationData;
 class APlayerController;

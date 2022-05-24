@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxLevelSequenceBindingSlot.h"
-#include "LevelSequenceActor.h"
 #include "GameplayTaskOwnerInterface.h"
+#include "LevelSequenceActor.h"
 #include "UObject/NoExportTypes.h"
 #include "MovieSceneSequencePlayer.h"
 #include "MovieSceneFwd.h"
+#include "GbxLevelSequenceBindingSlot.h"
 #include "GbxLevelSequenceBoundActorSlot.h"
 #include "GbxLevelSequenceActor.generated.h"
 
-class UGameplayTasksComponent;
 class UGbxLevelSequencePlayer;
+class UGameplayTasksComponent;
 
 UCLASS()
 class GBXLEVELSEQUENCE_API AGbxLevelSequenceActor : public ALevelSequenceActor, public IGameplayTaskOwnerInterface {

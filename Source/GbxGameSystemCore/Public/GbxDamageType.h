@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/DamageType.h"
-#include "Engine/DataTable.h"
-#include "GameplayTagAssetInterface.h"
-#include "GameplayTagContainer.h"
-#include "UObject/NoExportTypes.h"
 #include "DamageModifierAttributeCollection.h"
+#include "GameFramework/DamageType.h"
+#include "GameplayTagAssetInterface.h"
+#include "UObject/NoExportTypes.h"
 #include "DamageSurfaceModifier.h"
+#include "GameplayTagContainer.h"
+#include "Engine/DataTable.h"
 #include "GameplayTagContainer.h"
 #include "GbxDamageType.generated.h"
 

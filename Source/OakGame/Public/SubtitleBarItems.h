@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "SubtitleBarItems.generated.h"
 
+class UGbxGFxHintWidget;
 class UGbxGFxGridScrollingList;
 class UGbxGFxListCell;
-class UGbxGFxHintWidget;
 
 USTRUCT(BlueprintType)
 struct FSubtitleBarItems {

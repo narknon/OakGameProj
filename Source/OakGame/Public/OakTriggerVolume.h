@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/TriggerVolume.h"
 #include "OakTouchedTriggerDelegateDelegate.h"
+#include "Engine/TriggerVolume.h"
 #include "OakUnTouchedTriggerDelegateDelegate.h"
 #include "OakTriggerDelegateDelegate.h"
 #include "OakTriggerVolume.generated.h"

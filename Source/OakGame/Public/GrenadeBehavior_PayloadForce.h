@@ -3,8 +3,8 @@
 #include "GrenadeBehavior_PayloadBlueprint.h"
 #include "GrenadeBehavior_PayloadForce.generated.h"
 
-class UWwiseEvent;
 class UParticleSystem;
+class UWwiseEvent;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UGrenadeBehavior_PayloadForce : public UGrenadeBehavior_PayloadBlueprint {

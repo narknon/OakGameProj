@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "AnimStateGroup.h"
+#include "GbxDataAsset.h"
 #include "GbxAnimStateMachineDefinition.generated.h"
 
 UCLASS()

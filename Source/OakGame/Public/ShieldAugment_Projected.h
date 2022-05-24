@@ -4,9 +4,9 @@
 #include "UObject/NoExportTypes.h"
 #include "ShieldAugment_Projected.generated.h"
 
+class UMaterialInterface;
 class UParticleSystem;
 class UStaticMesh;
-class UMaterialInterface;
 class UWwiseEvent;
 
 UCLASS(EditInlineNew)

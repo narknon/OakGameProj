@@ -3,7 +3,7 @@
 #include "EHUDStateManagerVisibility.generated.h"
 
 UENUM(BlueprintType)
-enum class EHUDStateManagerVisibility :  {
+enum class EHUDStateManagerVisibility : uint8 {
     Unknown,
     Visible,
     NotVisible,

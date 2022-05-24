@@ -5,8 +5,8 @@
 #include "LevelTravelOnDestinationForTextRenderChangedDelegate.h"
 #include "LevelTravelStationComponent.generated.h"
 
-class AController;
 class ULevelTravelStationData;
+class AController;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXTRAVELSTATION_API ULevelTravelStationComponent : public UTravelStationComponentBase {

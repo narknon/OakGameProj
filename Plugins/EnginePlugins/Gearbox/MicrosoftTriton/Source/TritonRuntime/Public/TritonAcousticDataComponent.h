@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/SceneComponent.h"
+#include "GbxTriggerProperty.h"
 #include "TritonProbeLayer.h"
 #include "AudioPrepComponentFilter.h"
 #include "EOcclusionVoxelThinningAlgorithm.h"
 #include "TritonUpdateDesc.h"
-#include "GbxTriggerProperty.h"
 #include "TritonAcousticDataComponent.generated.h"
 
 class UAudioOcclusionVoxelDataProvider;

@@ -4,8 +4,8 @@
 #include "ESmartObjectTaskState.h"
 #include "AITask_UseLookAtPoint.generated.h"
 
-class UAITask_MoveTo;
 class ULookAtPointComponent;
+class UAITask_MoveTo;
 class ULookAtPointTag;
 
 UCLASS()

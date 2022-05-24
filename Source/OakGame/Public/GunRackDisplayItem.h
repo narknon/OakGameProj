@@ -4,11 +4,11 @@
 #include "DisplayItemChangedEventDelegate.h"
 #include "GunRackDisplayItem.generated.h"
 
-class UTextRenderComponent;
 class AOakPlayerController;
 class UGbxMenuData;
 class UGunRackSlotData;
 class USceneComponent;
+class UTextRenderComponent;
 
 UCLASS()
 class OAKGAME_API AGunRackDisplayItem : public AOakInventoryItemPickup {

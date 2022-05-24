@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GFxVirtualKeyboardType.h"
 #include "GbxGFxListCell.h"
+#include "GFxVirtualKeyboardType.h"
 #include "GbxGFxEditableTextField.generated.h"
 
 UCLASS(NonTransient)

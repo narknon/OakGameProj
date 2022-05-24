@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxCondition.h"
 #include "GbxBlackboardKeySelector.h"
+#include "GbxCondition.h"
 #include "GbxCondition_BlackboardKey.generated.h"
 
 UCLASS(CollapseCategories, Const, EditInlineNew)

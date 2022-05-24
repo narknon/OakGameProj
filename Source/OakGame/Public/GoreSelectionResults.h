@@ -9,8 +9,8 @@ class UParticleSystem;
 class UStaticMesh;
 class UWwiseEvent;
 class UMaterialInstanceConstant;
-class AActor;
 class UObject;
+class AActor;
 
 USTRUCT(BlueprintType)
 struct FGoreSelectionResults {

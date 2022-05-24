@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIDodgeInstance.h"
 #include "Components/ActorComponent.h"
 #include "AIDodgeData.h"
 #include "OnDodgedDelegate.h"
 #include "AIDodgeBasicData.h"
 #include "GbxParam.h"
-#include "EAIDodgeType.h"
+#include "AIDodgeInstance.h"
 #include "UObject/NoExportTypes.h"
+#include "EAIDodgeType.h"
 #include "AIDodgeComponent.generated.h"
 
 class UBlackboardComponent;
-class AActor;
 class UTeamComponent;
+class AActor;
 class UGbxActionComponent;
 class UBrainComponent;
 class UNavComponent;

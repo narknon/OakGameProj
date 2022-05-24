@@ -4,8 +4,8 @@
 #include "GameFramework/Actor.h"
 #include "OakWorldAudioProvider.generated.h"
 
-class UWwiseAuxBus;
 class UCurveFloat;
+class UWwiseAuxBus;
 class UOakAudioGlobalsData;
 
 UCLASS()

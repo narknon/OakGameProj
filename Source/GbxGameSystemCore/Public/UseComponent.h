@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
-#include "ResourceLock.h"
 #include "UsabilityInfo.h"
 #include "EUsabilityType.h"
+#include "Components/ActorComponent.h"
 #include "UObject/NoExportTypes.h"
 #include "UsableCostCache.h"
 #include "UseTraceResult.h"
 #include "LatentUseState.h"
+#include "ResourceLock.h"
 #include "UseComponent.generated.h"
 
 class UUsableComponent;

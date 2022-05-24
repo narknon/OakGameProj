@@ -3,7 +3,7 @@
 #include "ECloakAction.generated.h"
 
 UENUM(BlueprintType)
-enum class ECloakAction :  {
+enum class ECloakAction : uint8 {
     OnStart,
     OnStop,
 };

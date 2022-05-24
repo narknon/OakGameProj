@@ -1,31 +1,31 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "MenuTransitionOutCompletedDelegate.h"
 #include "GbxGFxMovie.h"
-#include "EGbxFocusableWidgetMouseBehavior.h"
 #include "GbxMenu.h"
 #include "EGbxGFxListAlignment.h"
-#include "MenuTransitionOutCompletedDelegate.h"
+#include "EGbxFocusableWidgetMouseBehavior.h"
 #include "MenuInputChangedDelegate.h"
 #include "GbxFocusableWidgetAdjacencyInfo.h"
 #include "GbxGFxMenu.generated.h"
 
-class UGbxGFxContextualMenu;
 class UGbxGFxObject;
 class UGbxGFxMenuData;
-class UObject;
-class UGbxGFxHintBarContainer;
-class UGbxGFxMenu;
-class UGbxWidgetFocusManager;
-class AGbxPlayerController;
 class UGbxUIGlobals;
-class UGbxGameInstance;
-class AGbxCharacter;
-class UGbxMenuStack;
 class UGbxHintBar;
+class AGbxCharacter;
+class UGbxGFxContextualMenu;
+class UGbxGFxMenu;
+class AGbxPlayerController;
+class UGbxMenuStack;
+class UGbxWidgetFocusManager;
+class UGbxGFxHintBarContainer;
 class UGbxGFxMouseBlocker;
+class UGbxGameInstance;
+class UGbxGFxButton;
 class UGbxFocusableWidget;
 class IGbxFocusableWidget;
-class UGbxGFxButton;
+class UObject;
 
 UCLASS()
 class GBXUI_API UGbxGFxMenu : public UGbxGFxMovie, public IGbxMenu {

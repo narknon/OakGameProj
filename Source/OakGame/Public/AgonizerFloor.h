@@ -2,17 +2,17 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GameFramework/Actor.h"
-#include "OnFloorFirstFlameDelegate.h"
 #include "FloorSectorRing.h"
+#include "OnFloorFirstFlameDelegate.h"
 #include "FloorSector.h"
 #include "AgonizerFloor.generated.h"
 
+class UDamageType;
+class UDamageData;
 class UStaticMesh;
 class UParticleSystem;
 class USceneComponent;
 class UMaterialInstance;
-class UDamageType;
-class UDamageData;
 class UWwiseEvent;
 class UCurveFloat;
 class AAgonizer9k;

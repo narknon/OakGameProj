@@ -2,15 +2,15 @@
 #include "CoreMinimal.h"
 #include "OakAIBalancedProjectile.h"
 #include "EnvironmentQuery/EQSQueryResultSourceInterface.h"
-#include "PlayerAlertableInterface.h"
 #include "EnvQueryParamsProvider.h"
+#include "PlayerAlertableInterface.h"
 #include "EPlayerAlertType.h"
 #include "OakDroneProjectile.generated.h"
 
 class UTargetableComponent;
+class UOakDamageComponent;
 class USphereComponent;
 class UOakDroneProjectileMovementComponent;
-class UOakDamageComponent;
 class UTargetingComponent;
 class UAIPerceptionStimuliSourceComponent;
 class AActor;

@@ -2,18 +2,18 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "LightBeamAttachment.h"
+#include "DamageGoreModifiers.h"
 #include "ForceSelection.h"
 #include "EWeaponShotModifierType.h"
 #include "CriticalHitDamageOverrides.h"
-#include "DamageGoreModifiers.h"
 #include "LightBeamInitializationData.generated.h"
 
-class UCurveFloat;
 class ULightBeamData;
 class APawn;
 class AActor;
-class UGbxDamageType;
 class UDamageSource;
+class UCurveFloat;
+class UGbxDamageType;
 class UImpactData;
 class ULightBeam;
 

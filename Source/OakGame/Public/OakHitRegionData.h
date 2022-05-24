@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeInitializationData.h"
-#include "HitRegionData.h"
 #include "OakHitRegionModifierData.h"
+#include "HitRegionData.h"
+#include "AttributeInitializationData.h"
 #include "OakHitRegionData.generated.h"
 
 UCLASS()

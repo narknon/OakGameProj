@@ -4,9 +4,9 @@
 #include "EFrontendStandInAnimType.h"
 #include "FrontendStandInAnimInstance.generated.h"
 
-class AOakCharacter;
 class APlayerStandIn;
 class UStandInGlobals;
+class AOakCharacter;
 
 UCLASS(NonTransient)
 class UFrontendStandInAnimInstance : public UGbxAnimInstance {

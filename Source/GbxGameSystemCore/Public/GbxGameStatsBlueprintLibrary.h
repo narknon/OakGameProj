@@ -3,8 +3,8 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "GbxGameStatsBlueprintLibrary.generated.h"
 
-class UGameStatData;
 class UObject;
+class UGameStatData;
 class AActor;
 
 UCLASS(BlueprintType)

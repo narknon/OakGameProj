@@ -6,11 +6,11 @@
 #include "UObject/NoExportTypes.h"
 #include "OakPawnAttachSlotComponent.generated.h"
 
+class UCameraModeSetData;
+class UWwiseEvent;
 class APawn;
 class AController;
-class UCameraModeSetData;
 class UOakPawnAttachSlotComponent;
-class UWwiseEvent;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class OAKGAME_API UOakPawnAttachSlotComponent : public UPawnAttachSlotComponent {

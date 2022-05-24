@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RaidGameState.h"
-#include "UObject/NoExportTypes.h"
 #include "EDeathCircleStatus.h"
+#include "RaidGameState.h"
 #include "GearUpAirdropData.h"
 #include "EOakGameStateUIGroupMode.h"
+#include "UObject/NoExportTypes.h"
 #include "GearUpGameState.generated.h"
 
 class AGearUpRespawnStation;

@@ -4,9 +4,9 @@
 #include "OakChallenge.h"
 #include "OakDamageBasedChallenge.generated.h"
 
-class UGbxDamageType;
 class UWeaponTypeData;
 class UManufacturerData;
+class UGbxDamageType;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UOakDamageBasedChallenge : public UOakChallenge {

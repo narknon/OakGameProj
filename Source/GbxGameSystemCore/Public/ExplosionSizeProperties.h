@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GbxSignificanceEvent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RadialBlurSelection -FallbackName=RadialBlurSelection
 #include "EExplosionTinnitusDuration.h"
-#include "GbxSignificanceEvent.h"
 #include "ExplosionSizeProperties.generated.h"
 
 class UFeedbackData;

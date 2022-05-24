@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
 #include "ECommandRingLocationType.h"
 #include "CommandRingTarget.h"
-#include "GameFramework/Actor.h"
-#include "UObject/NoExportTypes.h"
 #include "ECommandRingReferenceActorType.h"
 #include "ECommandRingAlignmentType.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "CommandRing.generated.h"
 

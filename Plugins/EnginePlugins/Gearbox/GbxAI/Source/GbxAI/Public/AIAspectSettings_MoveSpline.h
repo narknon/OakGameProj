@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EGbxNavGoalReach.h"
 #include "GbxBlackboardKeySelector.h"
+#include "EGbxNavGoalReach.h"
 #include "AIAspectSettings_MoveSpline.generated.h"
 
 USTRUCT(BlueprintType)

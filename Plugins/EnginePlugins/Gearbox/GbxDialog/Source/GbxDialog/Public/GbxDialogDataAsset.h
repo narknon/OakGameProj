@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxDataAsset.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxDialogDataAsset.generated.h"
 
 UCLASS(Abstract, MinimalAPI)

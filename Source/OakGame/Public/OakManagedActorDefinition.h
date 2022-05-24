@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EReapOrder.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
+#include "EReapOrder.h"
 #include "OakManagedActorDefinition.generated.h"
 
 UCLASS()

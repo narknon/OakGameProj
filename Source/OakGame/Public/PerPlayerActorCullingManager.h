@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PerPlayerCullable.h"
 #include "UObject/Object.h"
+#include "PerPlayerCullable.h"
 #include "PerPlayerActorCullingManager.generated.h"
 
 UCLASS(Transient)

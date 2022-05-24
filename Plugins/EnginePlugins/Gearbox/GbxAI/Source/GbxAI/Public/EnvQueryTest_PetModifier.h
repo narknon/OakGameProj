@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
 #include "EnvironmentQuery/EnvQueryTest.h"
+#include "GameplayTagContainer.h"
 #include "EnvQueryTest_PetModifier.generated.h"
 
 UCLASS(EditInlineNew, MinimalAPI)

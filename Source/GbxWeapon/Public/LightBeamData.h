@@ -15,9 +15,9 @@ class UWwiseEvent;
 class UEffectCollectionData;
 class UImpactData;
 class UDamageData;
+class UEnvQuery;
 class UConditionalDamageModifier;
 class ULightBeamData;
-class UEnvQuery;
 class AActor;
 
 UCLASS(Blueprintable, Const)

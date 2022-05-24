@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
 #include "OakActionAbilityAugmentData.h"
 #include "AttributeInitializationData.h"
 #include "EPhaseTranceEffectType.h"
 #include "EPhaseTranceEffectTargetType.h"
+#include "GameplayTagContainer.h"
 #include "OakActionAbilityAugmentData_PhaseTrance_Effect.generated.h"
 
 class UGbxCondition;

@@ -3,8 +3,8 @@
 #include "Components/ActorComponent.h"
 #include "FogOfDiscoveryComponent.generated.h"
 
-class UMaterialInstanceDynamic;
 class UZoneMapData;
+class UMaterialInstanceDynamic;
 class UPawnAttachSlotComponent;
 class APawn;
 

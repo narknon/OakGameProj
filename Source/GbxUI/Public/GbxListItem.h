@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxUserWidget.h"
 #include "GbxListItemDelegateDelegate.h"
+#include "GbxUserWidget.h"
 #include "GbxListItem.generated.h"
 
 class UGbxList;

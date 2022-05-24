@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "BoostPhysicsParams.h"
+#include "GbxDataAsset.h"
 #include "Curves/CurveFloat.h"
 #include "VehicleBoostData.generated.h"
 

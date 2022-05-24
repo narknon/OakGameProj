@@ -5,8 +5,8 @@
 #include "UObject/NoExportTypes.h"
 #include "GbxNavBlueprintLibrary.generated.h"
 
-class AActor;
 class UGbxNavMeshLayer;
+class AActor;
 class UObject;
 
 UCLASS(BlueprintType)

@@ -3,7 +3,7 @@
 #include "EAdditionalDamageClassifier.generated.h"
 
 UENUM(BlueprintType)
-enum class EAdditionalDamageClassifier :  {
+enum class EAdditionalDamageClassifier : uint8 {
     None,
     BonusDamage,
     ReflectedBonusDamage,

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "InteractiveObject.h"
 #include "OnMovedActorDelegate.h"
+#include "InteractiveObject.h"
 #include "DisplacementZone.generated.h"
 
 class AActor;

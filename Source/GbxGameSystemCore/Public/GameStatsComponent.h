@@ -4,8 +4,8 @@
 #include "GameStat.h"
 #include "GameStatsComponent.generated.h"
 
-class UGameStatChannel;
 class UGameStatData;
+class UGameStatChannel;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UGameStatsComponent : public UActorComponent {

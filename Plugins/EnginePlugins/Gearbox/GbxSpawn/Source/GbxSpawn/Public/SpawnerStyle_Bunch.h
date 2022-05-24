@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxParam.h"
 #include "SpawnerStyle.h"
+#include "GbxParam.h"
 #include "SpawnerStyle_Bunch.generated.h"
 
 class USpawnOptionData;

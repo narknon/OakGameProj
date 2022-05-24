@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "VehicleComponent.h"
-#include "ExtraWadingData.h"
 #include "Engine/EngineBaseTypes.h"
-#include "VehicleTrailParticleSystemData.h"
 #include "UObject/NoExportTypes.h"
+#include "VehicleTrailParticleSystemData.h"
 #include "VehicleTrailData.h"
+#include "ExtraWadingData.h"
 #include "VehicleTrailComponent.generated.h"
 
 class UElementalInteractionData;

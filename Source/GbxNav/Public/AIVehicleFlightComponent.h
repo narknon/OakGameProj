@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
 #include "GameFramework/FloatingPawnMovement.h"
 #include "VehicleSplineConsumerInterface.h"
 #include "Interfaces/NetworkPredictionInterface.h"
 #include "FlightState.h"
-#include "UObject/NoExportTypes.h"
 #include "AIVehicleFlightComponent.generated.h"
 
 class UGbxNavComponent;

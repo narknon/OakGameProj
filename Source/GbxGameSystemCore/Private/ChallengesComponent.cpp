@@ -1,7 +1,7 @@
 #include "ChallengesComponent.h"
 
-class UGameStatData;
 class UChallengeCategoryData;
+class UGameStatData;
 
 void UChallengesComponent::UnregisterInActivePlayerChallenges() {
 }

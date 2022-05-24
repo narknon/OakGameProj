@@ -4,9 +4,9 @@
 #include "Components/ActorComponent.h"
 #include "OakLostLootComponent.generated.h"
 
+class ULootSpawnPatternData;
 class UPrimitiveComponent;
 class UGbxAction;
-class ULootSpawnPatternData;
 class AOakPlayerController;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

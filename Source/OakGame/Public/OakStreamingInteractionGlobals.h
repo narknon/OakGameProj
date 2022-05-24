@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogTimeSlotReference.h"
 #include "GbxDataAsset.h"
+#include "DialogTimeSlotReference.h"
 #include "OakThumbnailManagerConfig.h"
 #include "OakStreamingInteractionGlobals.generated.h"
 
+class UDialogScriptData;
 class UStreamerBoosterData;
 class UOakStreamingInteractionEvent;
-class UDialogScriptData;
 
 UCLASS()
 class OAKGAME_API UOakStreamingInteractionGlobals : public UGbxDataAsset {

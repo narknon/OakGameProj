@@ -3,25 +3,25 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "DialogContext.h"
 #include "DialogConversation.h"
-#include "Engine/LatentActionManager.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/LatentActionManager.h"
 #include "DialogTimeSlotReference.h"
-#include "OnDialogPerformanceNotifyDelegate.h"
-#include "OnDialogSequenceFinishedDelegate.h"
 #include "EGbxDialogConversationStatus.h"
 #include "EDialogDecisionTestResult.h"
+#include "OnDialogPerformanceNotifyDelegate.h"
+#include "OnDialogSequenceFinishedDelegate.h"
 #include "GbxDialogBlueprintLibrary.generated.h"
 
-class UDialogNameTag;
-class UDialogSelectorFunction;
-class UDialogEvent;
 class UObject;
 class AActor;
+class UDialogNameTag;
+class UDialogSelectorFunction;
 class UDialogEnumValue;
 class UDialogParameter;
 class UDialogTimeSlotData;
 class UDialogScriptData;
 class UQuietTimePredicate;
+class UDialogEvent;
 class UGbxDialogComponent;
 class UDialogPerformanceData;
 

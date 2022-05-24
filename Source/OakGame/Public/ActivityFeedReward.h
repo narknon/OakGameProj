@@ -4,8 +4,8 @@
 #include "EActivityFeedImageAspectRatio.h"
 #include "ActivityFeedReward.generated.h"
 
-class UActivityFeedOpenStoreActionData;
 class UActivityFeedURLActionData;
+class UActivityFeedOpenStoreActionData;
 class UActivityFeedStartGameActionData;
 
 UCLASS()

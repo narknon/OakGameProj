@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogDecisionTree.h"
 #include "GbxDialogDataAsset.h"
 #include "GbxTriggerProperty.h"
 #include "ETimeSlotEchoPreference.h"
 #include "DialogTimeSlotReference.h"
+#include "DialogDecisionTree.h"
 #include "DialogTimeSlotData.generated.h"
 
 class UDialogLineData;

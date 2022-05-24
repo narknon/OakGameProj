@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxUserWidget.h"
-#include "EGbxFocusableWidgetMouseBehavior.h"
-#include "GbxMenu.h"
-#include "GbxFocusableWidgetAdjacencyInfo.h"
 #include "EGbxMenuInputDevice.h"
+#include "GbxMenu.h"
+#include "EGbxFocusableWidgetMouseBehavior.h"
+#include "GbxFocusableWidgetAdjacencyInfo.h"
 #include "GbxUmgMenu.generated.h"
 
-class UObject;
+class UGbxHintBar;
 class UGbxUmgMenuData;
+class UGbxMenuStack;
 class AGbxPlayerController;
 class UGbxWidgetFocusManager;
-class UGbxHintBar;
-class UGbxMenuStack;
+class UObject;
 class UWidget;
 class UGbxHintBarWidgetContainer;
 class IGbxHintBarWidgetContainer;

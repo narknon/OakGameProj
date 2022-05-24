@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "GbxObjectReplicatorProxyItem.generated.h"
 
-class UActorComponent;
 class UGbxReplicatorProxyData;
 class IGbxReplicatorProxyData;
+class UActorComponent;
 
 USTRUCT(BlueprintType)
 struct FGbxObjectReplicatorProxyItem {

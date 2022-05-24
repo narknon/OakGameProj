@@ -5,8 +5,8 @@
 #include "InventoryReplicationData.h"
 #include "VaultCardManager.generated.h"
 
-class UVaultCardGeneralData;
 class AOakPlayerController;
+class UVaultCardGeneralData;
 
 USTRUCT(BlueprintType)
 struct FVaultCardManager {

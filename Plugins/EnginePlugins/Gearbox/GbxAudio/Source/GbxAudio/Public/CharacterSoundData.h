@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "GbxDataAsset.h"
 #include "GbxTriggerProperty.h"
-#include "InheritableVocalLoopList.h"
 #include "InheritableSoundMap.h"
+#include "InheritableVocalLoopList.h"
 #include "CharacterSoundData.generated.h"
 
 class UCharacterSoundData;

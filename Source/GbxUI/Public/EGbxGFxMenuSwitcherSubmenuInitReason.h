@@ -3,7 +3,7 @@
 #include "EGbxGFxMenuSwitcherSubmenuInitReason.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxGFxMenuSwitcherSubmenuInitReason :  {
+enum class EGbxGFxMenuSwitcherSubmenuInitReason : uint8 {
     Unknown,
     Pushed,
     NextPage,

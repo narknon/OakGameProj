@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "UIStatPriorityData.h"
-#include "AttributeInitializationData.h"
 #include "CustomizationAssetEntry.h"
 #include "ActionState_Base.h"
 #include "CustomizationAssetLoadedDelegate.h"
 #include "GbxCustomizationData.generated.h"
 
 class UTexture;
-class UGbxCustomizationData;
-class UGbxCustomizationTypeData;
 class AActor;
+class UGbxCustomizationTypeData;
+class UGbxCustomizationData;
 class UGbxAction;
 
 UCLASS(Abstract, BlueprintType)

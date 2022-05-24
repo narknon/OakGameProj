@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "ELookAtPointType.h"
 #include "EnvironmentQuery/EnvQueryGenerator.h"
+#include "ELookAtPointType.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvQueryGenerator_FindLookAtPoint.generated.h"
 

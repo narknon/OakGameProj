@@ -6,8 +6,8 @@
 #include "StatusEffect.generated.h"
 
 class UStatusEffectStackingStrategyData;
-class UDamageSource;
 class UGbxDamageType;
+class UDamageSource;
 class AActor;
 class UStatusEffectData;
 

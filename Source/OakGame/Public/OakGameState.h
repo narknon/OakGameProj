@@ -3,10 +3,8 @@
 #include "Templates/SubclassOf.h"
 #include "GbxGameState.h"
 #include "BossbarEventData.h"
-#include "EKilledEnemyFriendEventType.h"
 #include "ENewGameState.h"
 #include "MayhemModeState.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
 #include "OakMayhemModeUpdatedBlueprintDelegateDelegate.h"
 #include "EMultiplayerLootMode.h"
 #include "EOakGameStateUIGroupMode.h"
@@ -14,23 +12,25 @@
 #include "EOakLeague.h"
 #include "MapIDData.h"
 #include "GlobalScreenParticleData.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
 #include "Engine/LatentActionManager.h"
 #include "EMatchmakingState.h"
+#include "EKilledEnemyFriendEventType.h"
 #include "OakGameState.generated.h"
 
-class ATravelStationTracker;
-class AElementalInteractionManager;
-class AMissionTrackerBase;
-class AOakInventoryItemPickup;
-class ADuelManager;
 class AOakModifierManagerActor;
+class AMissionTrackerBase;
+class ATravelStationTracker;
+class ADuelManager;
 class AOakMusicProvider;
-class UObject;
-class UGbxHUDStateData;
-class AActor;
-class AOakProjectile;
+class AElementalInteractionManager;
 class AOakCharacter;
+class AActor;
+class UGbxHUDStateData;
+class AOakInventoryItemPickup;
+class AOakProjectile;
 class UTutorialMessageDataAsset;
+class UObject;
 class UMission;
 class UGameStatData;
 

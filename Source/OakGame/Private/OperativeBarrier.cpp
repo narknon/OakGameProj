@@ -4,9 +4,9 @@
 #include "OakDamageComponent.h"
 #include "GbxCustomizationComponent.h"
 
+class UDamageSource;
 class UPrimitiveComponent;
 class UGbxDamageType;
-class UDamageSource;
 class AActor;
 class UShieldAugment;
 class UObject;

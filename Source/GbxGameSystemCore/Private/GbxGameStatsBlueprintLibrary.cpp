@@ -1,7 +1,7 @@
 #include "GbxGameStatsBlueprintLibrary.h"
 
-class UGameStatData;
 class UObject;
+class UGameStatData;
 class AActor;
 
 void UGbxGameStatsBlueprintLibrary::UpdateStatForParty(UObject* WorldContextObject, UGameStatData* StatData, int32 NewValue) {

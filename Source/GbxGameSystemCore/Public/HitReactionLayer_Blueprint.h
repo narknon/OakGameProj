@@ -3,12 +3,12 @@
 #include "HitReactionLayer.h"
 #include "HitReactionLayer_Blueprint.generated.h"
 
+class UHitRegionData;
 class UHitReactionTag;
 class UDamageComponent;
 class UGbxDamageType;
 class UDamageCauserComponent;
 class UDamageSource;
-class UHitRegionData;
 
 UCLASS(Abstract, Blueprintable, Const)
 class GBXGAMESYSTEMCORE_API UHitReactionLayer_Blueprint : public UHitReactionLayer {

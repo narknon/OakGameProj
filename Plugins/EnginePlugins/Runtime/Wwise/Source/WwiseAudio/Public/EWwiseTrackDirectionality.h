@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EWwiseTrackDirectionality.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EWwiseTrackDirectionality : int32 {
     ForwardsAndBackwards,
     OnlyForwards,

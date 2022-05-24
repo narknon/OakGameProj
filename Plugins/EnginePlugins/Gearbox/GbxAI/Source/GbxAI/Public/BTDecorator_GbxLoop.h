@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "BehaviorTree/BTDecorator.h"
-#include "BTGbxLoopConditionData.h"
 #include "GbxParam.h"
+#include "BTGbxLoopConditionData.h"
 #include "BTDecorator_GbxLoop.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

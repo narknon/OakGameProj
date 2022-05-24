@@ -271,8 +271,8 @@ EAmbientOcclusionQuality UOakGameUserSettings::GetAmbientOcclusionQualityMode() 
 
 UOakGameUserSettings::UOakGameUserSettings() {
     this->ResolutionScale = EResolutionScale::Scale_100;
-    this->FrameRateLimitMode = EFrameRateLimit::Unlimited;
-    this->CustomFrameRateLimit = 144;
+    this->FrameRateLimitMode = EFrameRateLimit::Custom;
+    this->CustomFrameRateLimit = 273;
     this->bEnableCameraMotionBlur = true;
     this->bEnablePerObjectMotionBlur = true;
     this->bEnableCAS = true;

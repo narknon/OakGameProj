@@ -1,10 +1,10 @@
 #include "ElementalInteractionComponent.h"
 #include "Net/UnrealNetwork.h"
 
-class UElementalInteractionConfigurationData;
-class UElementalInteractionData;
 class UPrimitiveComponent;
+class UElementalInteractionConfigurationData;
 class AActor;
+class UElementalInteractionData;
 class AController;
 
 void UElementalInteractionComponent::SetElementalInteractionMode(EElementalInteractionMode NewInteractionMode) {

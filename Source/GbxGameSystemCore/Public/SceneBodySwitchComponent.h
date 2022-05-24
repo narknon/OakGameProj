@@ -4,8 +4,8 @@
 #include "SceneComponentSwitchRecord.h"
 #include "SceneBodySwitchComponent.generated.h"
 
-class UWwiseAudioComponent;
 class USceneBodySwitchAction;
+class UWwiseAudioComponent;
 class UWwiseEvent;
 class UParticleSystemComponent;
 

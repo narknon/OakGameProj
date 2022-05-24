@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EnvQueryParams.h"
-#include "OakCharacter_IronBear.h"
 #include "UObject/NoExportTypes.h"
+#include "OakCharacter_IronBear.h"
+#include "EnvQueryParams.h"
 #include "OakCharacter_IronCub.generated.h"
 
 class AWeapon;

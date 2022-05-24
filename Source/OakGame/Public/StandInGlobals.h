@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxDataAsset.h"
-#include "FrontendStandInSlotSettings.h"
 #include "GlobalsStandInSettings.h"
 #include "NumericRange.h"
+#include "FrontendStandInSlotSettings.h"
 #include "StandInGlobals.generated.h"
 
 class UDataTable;

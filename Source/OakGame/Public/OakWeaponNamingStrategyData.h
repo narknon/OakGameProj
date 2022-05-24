@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakWeaponAttributeNamingData.h"
 #include "InventoryNamingStrategyData.h"
+#include "OakWeaponAttributeNamingData.h"
 #include "OakWeaponNamingAttributeThresholdData.h"
 #include "OakWeaponNamingAttributePair.h"
 #include "OakWeaponNamingStrategyData.generated.h"

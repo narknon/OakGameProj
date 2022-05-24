@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/Object.h"
+#include "OnRequestCompleteDelegate.h"
+#include "Engine/LatentActionManager.h"
+#include "OnRequestFailDelegate.h"
 #include "ERequestVerb.h"
 #include "ERequestStatus.h"
 #include "ERequestContentType.h"
-#include "UObject/Object.h"
-#include "OnRequestCompleteDelegate.h"
-#include "OnRequestFailDelegate.h"
-#include "Engine/LatentActionManager.h"
 #include "VaRestRequestJSON.generated.h"
 
 class UVaRestJsonObject;

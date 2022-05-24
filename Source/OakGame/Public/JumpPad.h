@@ -7,11 +7,11 @@
 #include "JumpPad.generated.h"
 
 class AActor;
-class UPrimitiveComponent;
-class AOakCharacter;
 class UOakControlledMove;
-class UGbxCondition;
+class AOakCharacter;
+class UPrimitiveComponent;
 class AHavokUserEdgeActor;
+class UGbxCondition;
 
 UCLASS()
 class AJumpPad : public AInteractiveObject {

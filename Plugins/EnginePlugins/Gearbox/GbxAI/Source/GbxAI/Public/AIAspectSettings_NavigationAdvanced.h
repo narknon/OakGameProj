@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxNavGoalModifiers.h"
 #include "EGbxStrafeType.h"
 #include "EGbxPathType.h"
 #include "EGbxNavGoalCheats.h"
+#include "GbxNavGoalModifiers.h"
 #include "AIAspectSettings_NavigationAdvanced.generated.h"
 
 USTRUCT(BlueprintType)

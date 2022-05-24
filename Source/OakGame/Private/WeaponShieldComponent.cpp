@@ -2,10 +2,10 @@
 #include "Net/UnrealNetwork.h"
 
 class UWwiseEvent;
-class APawn;
-class UStatusEffectData;
 class AOakPlayerController;
+class UStatusEffectData;
 class AWeapon;
+class APawn;
 
 void UWeaponShieldComponent::StopShieldEffect_Implementation() {
 }

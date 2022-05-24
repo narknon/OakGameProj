@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "Engine/NetSerialization.h"
 #include "GameFramework/Actor.h"
+#include "Engine/NetSerialization.h"
 #include "GbxSignificanceEvent.h"
 #include "RadiusDamageReplicationManager.generated.h"
 
-class UImpactData;
-class UDamageData;
-class UGbxDamageType;
 class UParticleSystem;
 class UExplosionData;
+class UDamageData;
+class UGbxDamageType;
 class UWwiseEvent;
+class UImpactData;
 
 UCLASS(NotPlaceable, Transient, Config=Game)
 class GBXGAMESYSTEMCORE_API ARadiusDamageReplicationManager : public AActor {

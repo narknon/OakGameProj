@@ -4,10 +4,10 @@
 #include "EOakStatusEffectResourceEffectType.h"
 #include "OakResourceEffectData.generated.h"
 
+class UOakStatusEffectPresentationData;
 class UGbxAttributeData;
 class UGameResourcePoolData;
 class UGbxDamageType;
-class UOakStatusEffectPresentationData;
 
 USTRUCT(BlueprintType)
 struct FOakResourceEffectData {

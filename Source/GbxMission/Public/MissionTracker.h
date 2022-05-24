@@ -6,12 +6,12 @@
 #include "MissionTracker.generated.h"
 
 class UMission;
+class AActor;
 class UMissionIconObserverInterface;
 class IMissionIconObserverInterface;
 class UMissionObjectiveSet;
 class UMissionObserverInterface;
 class IMissionObserverInterface;
-class AActor;
 class UGameStatData;
 
 UCLASS(NonTransient)

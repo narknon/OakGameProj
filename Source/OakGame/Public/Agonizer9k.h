@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakCharacter_Default.h"
 #include "UObject/NoExportTypes.h"
 #include "EA9KFightPhase.h"
-#include "OnSawStateChangeDelegate.h"
-#include "EA9KSawState.h"
-#include "EquiptProjectileSawDelegate.h"
+#include "OakCharacter_Default.h"
 #include "OnFloorDoneDelegate.h"
 #include "CancelSawDelegate.h"
+#include "EA9KSawState.h"
+#include "OnSawStateChangeDelegate.h"
+#include "EquiptProjectileSawDelegate.h"
 #include "OnShootProjectileDelegate.h"
 #include "Agonizer9k.generated.h"
 
-class APawn;
 class UBlackboardComponent;
+class APawn;
 
 UCLASS()
 class OAKGAME_API AAgonizer9k : public AOakCharacter_Default {

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "VaRestCallDelegateDelegate.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "ERequestContentType.h"
 #include "ERequestVerb.h"
-#include "VaRestCallDelegateDelegate.h"
 #include "VaRestLibrary.generated.h"
 
 class UObject;

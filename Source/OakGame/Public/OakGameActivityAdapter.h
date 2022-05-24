@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MissionObserverInterface.h"
 #include "UObject/Object.h"
+#include "MissionObserverInterface.h"
 #include "OakGameActivityAdapter.generated.h"
 
 UCLASS()

@@ -3,7 +3,7 @@
 #include "EActorPartTypeSelectionOverrideMode.generated.h"
 
 UENUM(BlueprintType)
-enum class EActorPartTypeSelectionOverrideMode :  {
+enum class EActorPartTypeSelectionOverrideMode : uint8 {
     PreferredParts,
     OverrideParts,
 };

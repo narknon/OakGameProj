@@ -7,11 +7,11 @@
 
 class UMissionIconInterface;
 class IMissionIconInterface;
-class UPrimitiveComponent;
-class USceneComponent;
-class UDataAsset;
 class UMission;
 class UMissionObjective;
+class USceneComponent;
+class UDataAsset;
+class UPrimitiveComponent;
 
 USTRUCT(BlueprintType)
 struct GBXMISSION_API FActiveMissionIconData {

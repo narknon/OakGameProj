@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "EUsabilityType.h"
+#include "TouchPickupEvaluationResult.h"
 #include "UseComponent.h"
 #include "PickupEvaluationResult.h"
-#include "TouchPickupEvaluationResult.h"
-#include "EUsabilityType.h"
 #include "OakUseComponent.generated.h"
 
 class AOakInventoryItemPickup;

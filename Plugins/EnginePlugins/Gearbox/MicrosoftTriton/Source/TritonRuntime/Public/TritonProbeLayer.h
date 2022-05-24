@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WwiseAcousticEmulationParameters.h"
 #include "TritonProbeSet.h"
 #include "TritonSimulationParams.h"
 #include "TritonLayerFadeParams.h"
-#include "WwiseAcousticEmulationParameters.h"
 #include "TritonAdvancedParams.h"
 #include "Engine/EngineTypes.h"
 #include "FallbackAcousticData.h"

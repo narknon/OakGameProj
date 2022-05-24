@@ -1,9 +1,9 @@
 #include "TinkPile.h"
 #include "Net/UnrealNetwork.h"
-#include "RegionBalanceStateComponent.h"
-#include "OakSpawnerComponent.h"
-#include "OakSpawnPointComponent.h"
 #include "Components/SkeletalMeshComponent.h"
+#include "OakSpawnPointComponent.h"
+#include "OakSpawnerComponent.h"
+#include "RegionBalanceStateComponent.h"
 #include "TerritoryComponent.h"
 
 class AActor;

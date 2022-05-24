@@ -1,38 +1,38 @@
 #include "OakCharacter.h"
 #include "Net/UnrealNetwork.h"
 #include "Templates/SubclassOf.h"
-#include "OakDamageCauserComponent.h"
-#include "OakCharacterMovementComponent.h"
-#include "OakDamageComponent.h"
-#include "WadingEffectsComponent.h"
-#include "GameResourcePoolManagerComponent.h"
 #include "OakStatusEffectManagerComponent.h"
+#include "WadingEffectsComponent.h"
+#include "OakDamageComponent.h"
+#include "OakCharacterMovementComponent.h"
+#include "GameResourcePoolManagerComponent.h"
+#include "OakDamageCauserComponent.h"
 
+class AOakVehicle;
 class AWeapon;
-class UOakAIActionComponent;
-class UWorld;
+class UHealthTypeData;
 class UWeaponSlotData;
-class UGameResourcePoolData;
-class AOakAIController;
 class AOakCharacter;
-class UItemPoolListData;
+class UParticleSystem;
 class UInventorySlotData;
 class UGbxAction_CoordinatedEffect;
-class AOakVehicle;
+class UOakAIActionComponent;
+class UWorld;
 class UWeaponTrinketPartData;
 class UInventoryCategoryData;
 class AActor;
 class AInventoryItemPickup;
 class UImpactData;
-class UItemPoolData;
 class UWwiseEvent;
-class UParticleSystem;
 class UCharacterSoundTag;
-class UHealthTypeData;
 class AOakPlayerController;
+class AOakAIController;
 class UInventoryListComponent;
 class USkeletalMeshComponent;
 class UAnimNotify;
+class UGameResourcePoolData;
+class UItemPoolListData;
+class UItemPoolData;
 
 void AOakCharacter::WeaponReloadStarted(AWeapon* Weapon, bool bAuto) {
 }

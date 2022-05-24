@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
 #include "FoleyImplementerInterface.h"
+#include "Components/ActorComponent.h"
 #include "TrivialFoleyImplementationComponent.generated.h"
 
-class UFoleyMainComponent;
+class UPhysicalMaterial;
 class UImpactData;
 class USkeletalMeshComponent;
-class UPhysicalMaterial;
+class UFoleyMainComponent;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UTrivialFoleyImplementationComponent : public UActorComponent, public IFoleyImplementerInterface {

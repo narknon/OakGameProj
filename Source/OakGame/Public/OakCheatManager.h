@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=OnlineSubsystem -ObjectName=EOnlineActivityOutcome -FallbackName=EOnlineActivityOutcome
 #include "GbxCheatManager.h"
 #include "UObject/NoExportTypes.h"
 #include "ENetworkType.h"
+#include "EMultiplayerLootMode.h"
 #include "EPlayerDifficultySetting.h"
 #include "EInviteType.h"
-#include "EMultiplayerLootMode.h"
 #include "EPickupLootAttachmentMode.h"
 #include "GbxMenuInputEvent.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=OnlineSubsystem -ObjectName=EOnlineActivityOutcome -FallbackName=EOnlineActivityOutcome
 #include "EDebugMatchmakingFailure.h"
 #include "OakCheatManager.generated.h"
 
-class UTeam;
 class AVehicle;
+class UTeam;
 class USwfMovie;
 class UPIEBenchmarkManager;
 class UPlayerClassIdentifier;

@@ -4,8 +4,8 @@
 
 class AActor;
 class UControlledMove;
-class UPrimitiveComponent;
 class USceneComponent;
+class UPrimitiveComponent;
 class UMantleData;
 class USkeletalMeshComponent;
 

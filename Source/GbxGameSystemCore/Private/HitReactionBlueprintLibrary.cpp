@@ -2,11 +2,11 @@
 #include "Templates/SubclassOf.h"
 
 class UHitReactionLayer;
-class UHitReactionTag;
 class AActor;
 class UHitReactionData;
-class UGbxAction;
+class UHitReactionTag;
 class UObject;
+class UGbxAction;
 
 void UHitReactionBlueprintLibrary::SetHitReactionData(AActor* Actor, UHitReactionData* HitReactionData) {
 }

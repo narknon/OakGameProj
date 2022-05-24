@@ -1,7 +1,6 @@
 #include "GbxAudioSettings.h"
 
 UGbxAudioSettings::UGbxAudioSettings() {
-    this->AudioGlobalsData = NULL;
     this->FoleyCullingDistanceFraction = 0.80f;
     this->FoleyCullingDistanceMinVolumeForReduction = -12.00f;
     this->FoleyCullingDistanceReductionFractionPerDBOverMin = 0.90f;

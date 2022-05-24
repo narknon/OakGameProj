@@ -5,9 +5,9 @@
 #include "AttributeInitializationData.h"
 #include "LingeringDamageTypeInfo.generated.h"
 
-class ULightBeamData;
-class UParticleSystem;
 class UDamageData;
+class UParticleSystem;
+class ULightBeamData;
 
 USTRUCT(BlueprintType)
 struct FLingeringDamageTypeInfo {

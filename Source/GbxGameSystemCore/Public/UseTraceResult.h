@@ -3,8 +3,8 @@
 #include "UsabilityInfo.h"
 #include "UseTraceResult.generated.h"
 
-class UPrimitiveComponent;
 class UUsableComponent;
+class UPrimitiveComponent;
 
 USTRUCT(BlueprintType)
 struct FUseTraceResult {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "VehicleBoostComponent.h"
 #include "Engine/EngineTypes.h"
+#include "VehicleBoostComponent.h"
 #include "OakVehicleBoostComponent.generated.h"
 
 class UPrimitiveComponent;

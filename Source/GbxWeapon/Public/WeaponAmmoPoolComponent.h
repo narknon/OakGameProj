@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "WeaponAmmoComponent.h"
-#include "EAmmoRegenType.h"
-#include "AttributeInitializationData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
+#include "AttributeInitializationData.h"
+#include "EAmmoRegenType.h"
+#include "GameResourcePoolReference.h"
 #include "WeaponAmmoPoolComponent.generated.h"
 
 class UGameResourceData;

@@ -3,9 +3,9 @@
 #include "AttributeInitializationData.h"
 #include "OakChallengeTierRewards.generated.h"
 
+class UWeaponSkinPartData;
 class UItemPoolData;
 class UOakCustomizationData;
-class UWeaponSkinPartData;
 class UWeaponTrinketPartData;
 
 USTRUCT(BlueprintType)

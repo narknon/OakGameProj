@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "UObject/NoExportTypes.h"
 #include "Engine/EngineTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "HitResultFunctionLibrary.generated.h"
 
-class UPhysicalMaterial;
 class UPrimitiveComponent;
+class UPhysicalMaterial;
 class AActor;
 
 UCLASS(BlueprintType)

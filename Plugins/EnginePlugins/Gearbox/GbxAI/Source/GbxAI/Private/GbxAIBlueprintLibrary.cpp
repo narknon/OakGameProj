@@ -1,12 +1,12 @@
 #include "GbxAIBlueprintLibrary.h"
 #include "Templates/SubclassOf.h"
 
-class UBlackboardComponent;
+class UGbxNavAreaData;
 class AActor;
 class UHavokPathFindingData;
-class UGbxNavAreaData;
-class UAIAction;
+class UBlackboardComponent;
 class UBTNode;
+class UAIAction;
 
 void UGbxAIBlueprintLibrary::SetPerceivableToAllAI(AActor* Actor, bool bPerceivable) {
 }

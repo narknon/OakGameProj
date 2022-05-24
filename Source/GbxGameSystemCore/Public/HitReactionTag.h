@@ -3,8 +3,8 @@
 #include "GbxDataAsset.h"
 #include "HitReactionTag.generated.h"
 
-class UHitReactionTag;
 class UCharacterSoundTag;
+class UHitReactionTag;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UHitReactionTag : public UGbxDataAsset {

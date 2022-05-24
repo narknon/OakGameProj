@@ -5,9 +5,9 @@
 #include "UObject/NoExportTypes.h"
 #include "SDUCaseProxy.generated.h"
 
+class USocketComponent;
 class UMaterialInstanceConstant;
 class UOakSDUData;
-class USocketComponent;
 
 UCLASS(NonTransient)
 class ASDUCaseProxy : public AAdvancedInteractiveObjectProxy {

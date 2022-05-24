@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakMinimapIconComponentDelegateDelegate.h"
 #include "UObject/Object.h"
+#include "OakMinimapIconComponentDelegateDelegate.h"
 #include "OakMinimapIconTracker.generated.h"
 
 class UOakMinimapIconComponent;

@@ -5,8 +5,8 @@
 #include "GbxTriggerProperty.h"
 #include "BTService_TriggerDialog.generated.h"
 
-class UDialogEvent;
 class UDialogParameter;
+class UDialogEvent;
 
 UCLASS(Const, EditInlineNew)
 class UBTService_TriggerDialog : public UBTService {

@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UIStatData.h"
-#include "AttributeInitializationData.h"
 #include "EUIStatValueSignStyle.h"
 #include "EUIStatValueStyle.h"
-#include "EUIStatValueRoundingMode.h"
 #include "UIStatValueRemappingData.h"
+#include "EUIStatValueRoundingMode.h"
+#include "AttributeInitializationData.h"
 #include "EUIStatCombinationMethod.h"
 #include "UIStatData_Numeric.generated.h"
 

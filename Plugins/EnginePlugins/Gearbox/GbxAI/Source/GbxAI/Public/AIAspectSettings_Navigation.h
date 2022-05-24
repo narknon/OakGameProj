@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EGbxStrafeType.h"
-#include "GbxParam.h"
 #include "AIAspectSettings_NavigationAdvanced.h"
+#include "GbxParam.h"
+#include "EGbxStrafeType.h"
 #include "EGbxPathType.h"
 #include "AIAspectSettings_Navigation.generated.h"
 

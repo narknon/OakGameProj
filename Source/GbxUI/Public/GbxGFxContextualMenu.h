@@ -6,9 +6,9 @@
 #include "GbxGFxContextualMenu.generated.h"
 
 class UGbxGFxButton;
+class UGbxTextField;
 class UGFxObject;
 class UGbxGFxGridScrollingList;
-class UGbxTextField;
 class UGbxGFxListCell;
 
 UCLASS(Config=Game)

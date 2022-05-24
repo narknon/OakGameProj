@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxCondition.h"
 #include "EOakLeague.h"
+#include "GbxCondition.h"
 #include "OakCondition_League.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "LightProjectileMoveModifier.h"
 #include "GbxEasingFunc.h"
+#include "LightProjectileMoveModifier.h"
 #include "LightProjectileRandomDrunkenModifier.generated.h"
 
 UCLASS(EditInlineNew)

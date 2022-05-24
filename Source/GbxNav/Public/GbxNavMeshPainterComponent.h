@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "GbxPainterItem.h"
 #include "Components/ActorComponent.h"
 #include "EGbxPainterType.h"
-#include "GbxPainterItem.h"
 #include "GbxNavMeshPainterComponent.generated.h"
 
-class UNavArea;
 class UGbxNavArea;
+class UNavArea;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXNAV_API UGbxNavMeshPainterComponent : public UActorComponent {

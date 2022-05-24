@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "EStandInAutoScaleMode.h"
+#include "UObject/NoExportTypes.h"
 #include "StandInScaleSetting.generated.h"
 
 class UPlayerClassIdentifier;

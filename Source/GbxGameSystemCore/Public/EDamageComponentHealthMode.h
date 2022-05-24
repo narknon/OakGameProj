@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EDamageComponentHealthMode.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EDamageComponentHealthMode : int32 {
     ResourcePools,
     SimpleHealth,

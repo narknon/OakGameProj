@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDialogBoxInfo.h"
 #include "GbxUmgMenu.h"
+#include "GbxDialogBoxInfo.h"
 #include "GbxDialogBox.generated.h"
 
-class UGbxScrollBoxList;
 class UGbxListItem;
+class UGbxScrollBoxList;
 
 UCLASS(EditInlineNew)
 class GBXUI_API UGbxDialogBox : public UGbxUmgMenu {

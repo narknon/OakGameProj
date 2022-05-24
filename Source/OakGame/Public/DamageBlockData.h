@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
 #include "DamageBlockData.generated.h"
 
 class UDamageSource;

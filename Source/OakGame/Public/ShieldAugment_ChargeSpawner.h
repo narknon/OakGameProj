@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
 #include "ShieldAugment.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
 #include "ShieldAugment_ChargeSpawner.generated.h"
 
+class ULootSpawnPatternData;
+class UMaterialInterface;
 class UStaticMesh;
 class UGbxAttributeData;
-class ULootSpawnPatternData;
-class UItemPoolListData;
-class UMaterialInterface;
 class UWwiseEvent;
+class UItemPoolListData;
 
 UCLASS(EditInlineNew)
 class UShieldAugment_ChargeSpawner : public UShieldAugment {

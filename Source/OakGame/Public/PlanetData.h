@@ -1,27 +1,27 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "LevelGroupData.h"
 #include "UObject/NoExportTypes.h"
+#include "LevelGroupData.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "EOakLeague.h"
 #include "PlanetAssetLoadedDelegate.h"
 #include "PlanetData.generated.h"
 
-class UTexture2D;
-class AOakPlayerController;
-class UZoneMapData;
 class UObject;
+class UZoneMapData;
+class AOakPlayerController;
+class UTexture2D;
 class UPatchExpansionData;
 class UDownloadableContentData;
 class UChallengeCategoryData;
+class APlayerController;
 class UPlanetData;
+class AZoneMapPlanetViewer;
 class UPlanetMeshData;
 class UMission;
 class UFastTravelStationData;
-class APlayerController;
-class AZoneMapPlanetViewer;
 
 UCLASS()
 class OAKGAME_API UPlanetData : public ULevelGroupData {

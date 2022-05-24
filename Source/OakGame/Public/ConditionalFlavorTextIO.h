@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "TextElementCondition.h"
 #include "AdvancedInteractiveObject.h"
+#include "TextElementCondition.h"
 #include "ConditionalFlavorTextIO.generated.h"
 
 class UGbxMenuData;

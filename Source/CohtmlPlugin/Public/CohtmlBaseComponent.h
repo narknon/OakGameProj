@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "CohtmlBindingsReleasedSignatureDelegate.h"
 #include "Components/ActorComponent.h"
 #include "CohtmlReadyForBindingsSignatureDelegate.h"
-#include "CohtmlBindingsReleasedSignatureDelegate.h"
+#include "Sound/SoundAttenuation.h"
 #include "CohtmlScriptingReadyDelegate.h"
 #include "Engine/Texture.h"
-#include "Sound/SoundAttenuation.h"
 #include "CohtmlBaseComponent.generated.h"
 
-class UTextureRenderTarget2D;
-class UCohtmlAudioWrapper;
 class UStructProperty;
+class UCohtmlAudioWrapper;
+class UTextureRenderTarget2D;
 class UObject;
 class UCohtmlJSEvent;
 

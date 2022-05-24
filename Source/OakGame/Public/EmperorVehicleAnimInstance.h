@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakVehicleAnimInstance.h"
 #include "UObject/NoExportTypes.h"
+#include "OakVehicleAnimInstance.h"
 #include "EmperorVehicleAnimInstance.generated.h"
 
 class UMaterialInstanceDynamic;

@@ -1,8 +1,8 @@
 #include "PlayerMissionComponent.h"
 #include "Templates/SubclassOf.h"
 
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 class UMissionObjective;
 
 void UPlayerMissionComponent::ServerTrackPreviousActiveMissionInList_Implementation() {

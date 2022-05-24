@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogTimeSlotReference.h"
 #include "GbxDataAsset.h"
 #include "EEventTriggerType.h"
+#include "DialogTimeSlotReference.h"
 #include "EEndEventReasons.h"
 #include "OakStreamingInteractionEvent.generated.h"
 

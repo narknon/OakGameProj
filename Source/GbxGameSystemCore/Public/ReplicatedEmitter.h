@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Particles/Emitter.h"
-#include "ReplicatedEmitterTemplateOptions.h"
 #include "EmitterWwiseEvent.h"
 #include "EmitterFloatParam.h"
+#include "Particles/Emitter.h"
+#include "ReplicatedEmitterTemplateOptions.h"
 #include "EmitterVectorParam.h"
 #include "EmitterColorParam.h"
 #include "ReplicatedEmitter.generated.h"

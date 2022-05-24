@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EDuelClassification.h"
-#include "ActiveDuelState.h"
-#include "GameFramework/Actor.h"
 #include "EDuelLoseReason.h"
+#include "GameFramework/Actor.h"
+#include "ActiveDuelState.h"
+#include "EDuelClassification.h"
 #include "DuelManager.generated.h"
 
 class UDuelGlobals;

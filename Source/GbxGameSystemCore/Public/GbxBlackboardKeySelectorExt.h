@@ -2,14 +2,14 @@
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "GbxBlackboardKeySelector.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "TargetActorInfo.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxBlackboardKeySelectorExt.generated.h"
 
-class AActor;
 class UBlackboardComponent;
 class UObject;
+class AActor;
 class UProperty;
 
 UCLASS(BlueprintType)

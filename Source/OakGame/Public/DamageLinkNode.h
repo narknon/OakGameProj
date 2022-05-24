@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "RangedDistanceOverrides.h"
 #include "InteractiveObject.h"
 #include "AttributeInitializationData.h"
+#include "RangedDistanceOverrides.h"
 #include "DamageLinkNode.generated.h"
 
 class UOakDamageComponent;
 class UOakLightBeamData;
-class UDamageData;
 class UParticleSystem;
+class UDamageData;
 class UFeedbackData;
 class UTargetableComponent;
 

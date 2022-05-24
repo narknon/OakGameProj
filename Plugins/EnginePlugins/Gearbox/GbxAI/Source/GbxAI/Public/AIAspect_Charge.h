@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspect.h"
 #include "AIAspectSettings_Charge.h"
+#include "AIAspect.h"
 #include "AIAspect_Charge.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

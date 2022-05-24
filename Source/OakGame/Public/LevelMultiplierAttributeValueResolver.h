@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "LevelMultiplierDefinedValueRow.h"
 #include "AttributeValueResolver.h"
+#include "LevelMultiplierDefinedValueRow.h"
 #include "LevelMultiplierAttributeValueResolver.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

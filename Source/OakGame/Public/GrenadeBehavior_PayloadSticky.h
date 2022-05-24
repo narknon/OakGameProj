@@ -7,14 +7,14 @@
 #include "PayloadInstanceData.h"
 #include "GrenadeBehavior_PayloadSticky.generated.h"
 
-class UDamageData;
 class UPrimitiveComponent;
+class UDamageData;
 class UParticleSystem;
 class UGbxCondition;
+class AGrenadeMod;
 class UWwiseEvent;
 class AActor;
 class AGrenade;
-class AGrenadeMod;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UGrenadeBehavior_PayloadSticky : public UGrenadeBehavior_PayloadBlueprint {

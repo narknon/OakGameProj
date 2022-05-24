@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InspectionInfo.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
 #include "EDebugDisplayVerbosityLevel.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
+#include "InspectionInfo.h"
 #include "InspectionInfoFunctionLibrary.generated.h"
 
 UCLASS(BlueprintType)

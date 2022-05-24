@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxBlackboardKeySelector.h"
+#include "EnvQueryParams.h"
 #include "EAIActionResultTransition.h"
 #include "GbxParam.h"
 #include "AIAspectSettings_Move.h"
-#include "EnvQueryParams.h"
 #include "AIAspectSettings_Location.generated.h"
 
 USTRUCT(BlueprintType)

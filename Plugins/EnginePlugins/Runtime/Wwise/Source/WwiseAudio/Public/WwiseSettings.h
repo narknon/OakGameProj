@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWwisePlaybackConfiguration.h"
+#include "Engine/EngineTypes.h"
 #include "UObject/Object.h"
-#include "Engine/EngineTypes.h"
-#include "Engine/EngineTypes.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/EngineTypes.h"
+#include "EWwisePlaybackConfiguration.h"
 #include "WwiseSettings.generated.h"
 
 class UWwiseExternalSourceDebugData;

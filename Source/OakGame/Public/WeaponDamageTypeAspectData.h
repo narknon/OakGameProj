@@ -4,8 +4,8 @@
 #include "InventoryAspectData.h"
 #include "WeaponDamageTypeAspectData.generated.h"
 
-class UGbxDamageType;
 class UImpactData;
+class UGbxDamageType;
 
 UCLASS(EditInlineNew)
 class UWeaponDamageTypeAspectData : public UInventoryAspectData {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EnvironmentQuery/EnvQueryTest.h"
 #include "EnvironmentQuery/EnvQueryTypes.h"
+#include "EnvironmentQuery/EnvQueryTest.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvQueryTest_Angle.generated.h"
 

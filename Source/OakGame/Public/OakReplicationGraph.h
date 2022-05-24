@@ -3,9 +3,9 @@
 #include "ReplicationGraph.h"
 #include "OakReplicationGraph.generated.h"
 
+class AActor;
 class UReplicationGraphNode_GridSpatialization2D;
 class UOakReplicationGraphNode_AlwaysRelevant;
-class AActor;
 
 UCLASS(NonTransient)
 class UOakReplicationGraph : public UReplicationGraph {

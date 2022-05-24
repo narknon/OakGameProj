@@ -3,7 +3,7 @@
 #include "EAggregateBoneFatigueStatus.generated.h"
 
 UENUM(BlueprintType)
-enum class EAggregateBoneFatigueStatus :  {
+enum class EAggregateBoneFatigueStatus : uint8 {
     ABFS_FullyFatigued,
     ABFS_NoFatigue,
     ABFS_FullyDivergedFatigue,

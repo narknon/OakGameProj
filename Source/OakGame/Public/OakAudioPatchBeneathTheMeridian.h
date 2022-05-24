@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MissionObjectiveReference.h"
 #include "GameFramework/Actor.h"
+#include "MissionObjectiveReference.h"
 #include "EMissionObjectiveEvent.h"
 #include "OakAudioPatchBeneathTheMeridian.generated.h"
 

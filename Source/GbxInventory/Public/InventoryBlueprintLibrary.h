@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "GameplayTagContainer.h"
 #include "InventoryBalanceStateInitializationData.h"
+#include "GameplayTagContainer.h"
 #include "UObject/NoExportTypes.h"
 #include "InventoryBlueprintLibrary.generated.h"
 

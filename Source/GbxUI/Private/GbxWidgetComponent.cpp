@@ -2,10 +2,10 @@
 #include "Templates/SubclassOf.h"
 
 class UUserWidget;
-class UCurveFloat;
 class AGbxPlayerController;
 class USceneComponent;
 class UBorder;
+class UCurveFloat;
 
 void UGbxWidgetComponent::Setup(const TSubclassOf<UUserWidget>& NewWidgetClass, const AGbxPlayerController* NewTrackedPlayer, USceneComponent* ParentComponent, EWidgetSpace WidgetSpace, int32 NewLayerZOrder, FName CollisionProfile) {
 }

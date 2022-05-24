@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxDataAsset.h"
-#include "WwiseLocationOverride.h"
 #include "HealthType.h"
 #include "UObject/NoExportTypes.h"
+#include "WwiseLocationOverride.h"
 #include "ProjectedShieldData.generated.h"
 
-class UMaterialInterface;
 class UParticleSystem;
+class UMaterialInterface;
 class UStaticMesh;
 class UWwiseEvent;
 

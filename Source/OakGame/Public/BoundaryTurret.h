@@ -7,11 +7,11 @@
 
 class AOakVehicle;
 class UFeedbackData;
-class UBoxComponent;
 class UWwiseEvent;
+class UBoxComponent;
 class USkeletalMeshComponent;
-class AOakCharacter_Player;
 class UPrimitiveComponent;
+class AOakCharacter_Player;
 class AActor;
 
 UCLASS()

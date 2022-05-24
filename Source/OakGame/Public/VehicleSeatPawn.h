@@ -6,10 +6,10 @@
 #include "DamageCauserInterface.h"
 #include "VehicleSeatPawn.generated.h"
 
+class UGbxHUDData;
 class AOakVehicle;
 class UTurretMovementComponent;
 class UVehicleSeatComponent;
-class UGbxHUDData;
 
 UCLASS()
 class AVehicleSeatPawn : public ASeatPawn, public IHealthBarInfoProviderInterface, public IHUDDataProviderInterface, public IDamageCauserInterface {

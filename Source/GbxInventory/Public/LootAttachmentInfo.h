@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeInitializationData.h"
 #include "PoolSocketAttachmentInfo.h"
+#include "AttributeInitializationData.h"
 #include "LootAttachmentInfo.generated.h"
 
 class UItemPoolData;

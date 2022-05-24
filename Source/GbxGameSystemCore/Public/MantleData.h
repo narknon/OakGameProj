@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MantleActionData.h"
 #include "GbxDataAsset.h"
+#include "MantleActionData.h"
 #include "MantleData.generated.h"
 
 UCLASS()

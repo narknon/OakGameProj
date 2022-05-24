@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DamageOverTimeContribution.h"
 #include "AppliedAttributeEffect.h"
+#include "DamageOverTimeContribution.h"
 #include "StatusEffectInstance.h"
 #include "StatusEffectInstanceStack.generated.h"
 

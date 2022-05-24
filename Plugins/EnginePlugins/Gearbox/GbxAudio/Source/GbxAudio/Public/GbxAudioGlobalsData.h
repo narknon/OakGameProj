@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxDataAsset.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxAudioGlobalsData.generated.h"
 
+class UCurveFloat;
 class UWwiseRtpc;
+class UCharacterSoundTag;
 class UWwiseEvent;
 class UWwiseSwitch;
-class UCharacterSoundTag;
 class UWwiseBank;
-class UCurveFloat;
 
 UCLASS()
 class GBXAUDIO_API UGbxAudioGlobalsData : public UGbxDataAsset {

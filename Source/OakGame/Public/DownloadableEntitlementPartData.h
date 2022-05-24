@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventorySerialNumberAssetInterface.h"
 #include "Engine/DataAsset.h"
 #include "UObject/NoExportTypes.h"
+#include "InventorySerialNumberAssetInterface.h"
 #include "DownloadableEntitlementPartData.generated.h"
 
 UCLASS(Abstract)

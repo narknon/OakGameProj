@@ -3,10 +3,10 @@
 #include "NumericRange.h"
 #include "GbxNavForwardState.generated.h"
 
-class UAIVehicleFlightComponent;
 class AGbxNavWorld;
 class UWorld;
 class UGbxNavComponent;
+class UAIVehicleFlightComponent;
 class UGbxCharacterMovementComponent;
 
 USTRUCT(BlueprintType)

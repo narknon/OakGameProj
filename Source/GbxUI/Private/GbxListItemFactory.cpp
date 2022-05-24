@@ -2,11 +2,11 @@
 #include "Templates/SubclassOf.h"
 
 class APlayerController;
+class UGbxListItem;
 class UGbxListItemNumber;
 class UGbxList;
 class IGbxList;
 class UGbxListItemText;
-class UGbxListItem;
 class UGbxListItemComboBox;
 class UGbxListItemBoolean;
 

@@ -3,8 +3,8 @@
 
 class UCrewQuartersDecorationData;
 class AController;
-class ACrewQuartersRoom;
 class UPrimitiveComponent;
+class ACrewQuartersRoom;
 
 void ACrewQuartersDecoration::StartDefaultAnim() {
 }

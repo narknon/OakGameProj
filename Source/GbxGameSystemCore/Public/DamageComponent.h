@@ -1,42 +1,42 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "HitReactionState.h"
-#include "DamageCompDiedDelegateDelegate.h"
+#include "PlayerMeleeHitDelegateDelegate.h"
 #include "DamageBaseComponent.h"
 #include "DamageCompHealthDepletedDelegateDelegate.h"
 #include "InspectionInfoProvider.h"
 #include "TakeAnyPipelineDamageDelegateDelegate.h"
-#include "SyncedHitReactionData.h"
-#include "PlayerMeleeHitDelegateDelegate.h"
 #include "GameResourcePoolReference.h"
-#include "EDamageComponentHealthMode.h"
 #include "TakeAnyPipelineHealingDelegateDelegate.h"
+#include "EDamageComponentHealthMode.h"
+#include "DamageCompDiedDelegateDelegate.h"
 #include "HitByFriendlyDelegateDelegate.h"
-#include "HitReactionPlayedDelegateDelegate.h"
-#include "HealthType.h"
 #include "SimpleHealthInfo.h"
+#include "HitReactionPlayedDelegateDelegate.h"
+#include "Engine/NetSerialization.h"
+#include "HitReactionState.h"
+#include "HealthType.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
 #include "StatusEffectModifiers.h"
+#include "SyncedHitReactionData.h"
 #include "DamageGoreModifiers.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
 #include "DamageReactionEvent_DamageComponent.h"
 #include "ReceivedDamageDetails.h"
 #include "Engine/NetSerialization.h"
-#include "Engine/NetSerialization.h"
 #include "DamageComponent.generated.h"
 
-class UImpactData;
-class UGbxDamageType;
-class UDeathData;
-class APlayerController;
-class UConditionalDamageModifier;
 class UHitRegionComponent;
-class UDamageComponent;
+class UDeathData;
+class UImpactData;
+class AActor;
 class AController;
+class APlayerController;
+class UGbxDamageType;
+class UConditionalDamageModifier;
+class UDamageComponent;
 class UPhysicalMaterial;
 class UDamageCauserComponent;
-class AActor;
 class UDamageSource;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

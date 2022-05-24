@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeInitializationData.h"
 #include "GbxCondition.h"
+#include "AttributeInitializationData.h"
 #include "EConditionComparisonOperatorType.h"
 #include "GbxCondition_Comparison.generated.h"
 

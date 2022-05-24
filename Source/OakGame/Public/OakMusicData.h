@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GbxDataAsset.h"
-#include "EOakMusicSection.h"
 #include "MusicSection.h"
+#include "EOakMusicSection.h"
 #include "OakMusicData.generated.h"
 
 class UOakMusicSystemConfiguration;

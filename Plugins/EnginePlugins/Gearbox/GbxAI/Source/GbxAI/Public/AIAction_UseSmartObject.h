@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Navigation.h"
+#include "AIAspectSettings_EnvQuery.h"
 #include "AIAction_Sequence.h"
+#include "AIAspectSettings_Navigation.h"
 #include "AIAspectSettings_UseSmartObject.h"
 #include "AIAspectSettings_Rotation.h"
-#include "AIAspectSettings_EnvQuery.h"
 #include "GbxBlackboardKeySelector.h"
-#include "EnvQueryParams.h"
 #include "AIAspectSettings_Move.h"
+#include "EnvQueryParams.h"
 #include "AIAction_UseSmartObject.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

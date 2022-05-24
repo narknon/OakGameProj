@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AlphaBlend.h"
+#include "Animation/AnimTypes.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "UObject/NoExportTypes.h"
-#include "Animation/AnimTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "AlphaBlend.h"
-#include "AlphaBlend.h"
+#include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoneModInstance -FallbackName=BoneModInstance
 #include "BoneModBlueprintLibrary.generated.h"
 
 class UCurveFloat;
-class UGbxBoneModifyProfile;
 class UObject;
+class UGbxBoneModifyProfile;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UBoneModBlueprintLibrary : public UBlueprintFunctionLibrary {

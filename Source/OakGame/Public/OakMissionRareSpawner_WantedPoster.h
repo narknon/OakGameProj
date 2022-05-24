@@ -4,8 +4,8 @@
 #include "OakMissionSpawner.h"
 #include "OakMissionRareSpawner_WantedPoster.generated.h"
 
-class UGameStatData;
 class UMission;
+class UGameStatData;
 class AActor;
 
 UCLASS()

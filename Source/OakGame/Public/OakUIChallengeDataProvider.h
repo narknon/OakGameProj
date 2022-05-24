@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "OakUIChallengeListData.h"
 #include "UObject/Object.h"
+#include "OakUIChallengeListData.h"
 #include "EOakUIChallengeDataProviderPopulateType.h"
 #include "OakUIChallengeDataProvider.generated.h"
 

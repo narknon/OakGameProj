@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CrewQuartersChangeCountdownEventDelegate.h"
+#include "CrewQuartersChangedEventDelegate.h"
 #include "GameFramework/Actor.h"
 #include "CrewQuartersActorInterface.h"
-#include "CrewQuartersChangedEventDelegate.h"
+#include "CrewQuartersChangeCountdownEventDelegate.h"
 #include "CrewQuartersCountdownActor.generated.h"
 
 class ACrewQuartersRoom;

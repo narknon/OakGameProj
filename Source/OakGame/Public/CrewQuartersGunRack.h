@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "InventoryUnequippedEventDelegate.h"
 #include "GameFramework/Actor.h"
 #include "CrewQuartersActorInterface.h"
 #include "InventoryEquippedEventDelegate.h"
 #include "InventorySlotContainer.h"
+#include "InventoryUnequippedEventDelegate.h"
 #include "CrewQuartersGunRack.generated.h"
 
 class UGunRackSlotData;

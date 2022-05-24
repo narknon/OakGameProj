@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "SoundPerceptionProperties.h"
 #include "Components/ActorComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
-#include "DamageInfo.h"
 #include "UObject/NoExportTypes.h"
-#include "SoundPerceptionProperties.h"
+#include "DamageInfo.h"
 #include "ExplosionComponent.generated.h"
 
 class UWwiseEvent;

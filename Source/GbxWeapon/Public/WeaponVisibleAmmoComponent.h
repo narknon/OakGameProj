@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WeaponVisibleAmmoEffectData.h"
+#include "EWeaponVisibleAmmoState.h"
 #include "Components/ActorComponent.h"
 #include "WeaponDebugInterface.h"
 #include "EWeaponAttachmentVisibilityType.h"
-#include "EWeaponVisibleAmmoState.h"
-#include "WeaponVisibleAmmoEffectData.h"
 #include "EWeaponVisibleAmmoUpdateMethod.h"
 #include "WeaponVisibleAmmoComponent.generated.h"
 

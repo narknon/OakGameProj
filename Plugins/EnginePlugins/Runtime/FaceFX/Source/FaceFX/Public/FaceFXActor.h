@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "FaceFXActorData.h"
 #include "FaceFXAsset.h"
+#include "FaceFXActorData.h"
 #include "FaceFXActor.generated.h"
 
 class UFaceFXAnim;

@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "FrontendStandInSpecialAnimationData.h"
 #include "GbxDataAsset.h"
-#include "ExtraStandInAnimationMeshData.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "FrontendStandInAuxiliaryActorData.h"
 #include "PlayerStandIn_ActionAbility.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
+#include "ExtraStandInAnimationMeshData.h"
+#include "FrontendStandInSpecialAnimationData.h"
+#include "FrontendStandInAuxiliaryActorData.h"
 #include "PlayerStandIn_Augment.h"
 #include "PlayerStandInData.generated.h"
 
 class AOakCharacter_StandIn;
-class UGbxAnimSet;
 class UAnimInstance;
+class UGbxAnimSet;
 class UInventoryBalanceData;
 
 UCLASS()

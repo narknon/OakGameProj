@@ -6,11 +6,11 @@
 #include "EWeaponEffectType.h"
 #include "OakWeaponVehicleData.generated.h"
 
-class UInventoryAspectData;
 class UPhysicsAsset;
+class UInventoryAspectData;
+class UAnimSequenceBase;
 class USkeletalMesh;
 class UAnimInstance;
-class UAnimSequenceBase;
 class USwfMovie;
 
 UCLASS()

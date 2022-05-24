@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "TravelDataConditional.generated.h"
 
-class UGbxCondition;
 class ULevelTravelStationData;
+class UGbxCondition;
 
 USTRUCT(BlueprintType)
 struct FTravelDataConditional {

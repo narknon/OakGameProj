@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxProjectileMovementComponent.h"
-#include "OakDroneProjectileFacingTargetChangedDelegateDelegate.h"
 #include "EOakDroneFacingMode.h"
 #include "EOakDroneMovementMode.h"
 #include "NumericRange.h"
+#include "OakDroneProjectileFacingTargetChangedDelegateDelegate.h"
 #include "EnvQueryParams.h"
 #include "UObject/NoExportTypes.h"
 #include "OakDroneProjectileMovementComponent.generated.h"

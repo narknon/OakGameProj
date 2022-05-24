@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "ChallengeGoalValue.h"
 #include "UObject/Object.h"
 #include "EChallengeType.h"
 #include "StatChallengeTest.h"
-#include "ChallengeGoalValue.h"
 #include "Challenge.generated.h"
 
 class UChallengeCategoryData;
 class UChallengesComponent;
 class UChallenge;
 class AGbxPlayerController;
-class AGbxCharacter;
 class UChallengeLevelActorComponent;
+class AGbxCharacter;
 
 UCLASS(Blueprintable, EditInlineNew)
 class GBXGAMESYSTEMCORE_API UChallenge : public UObject {

@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EDestructibleDamageThresholdMagnitude.h"
 #include "DestructibleComponent.h"
 #include "ImpactDataOverride.h"
 #include "GbxComponentFractureSignatureDelegate.h"
 #include "EDestructibleRelevance.h"
+#include "EDestructibleDamageThresholdMagnitude.h"
 #include "Engine/EngineTypes.h"
 #include "GbxDestructibleComponent.generated.h"
 

@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EGbxGFxMenuSwitchNavWidgetType.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EGbxGFxMenuSwitchNavWidgetType : int32 {
     Unknown,
     MenuSwitcher,

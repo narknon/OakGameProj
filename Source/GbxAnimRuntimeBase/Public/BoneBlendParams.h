@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EGbxLookAxisOption.h"
 #include "BoneContainer.h"
 #include "NumericRange.h"
 #include "UObject/NoExportTypes.h"
+#include "EGbxLookAxisOption.h"
 #include "BoneBlendParams.generated.h"
 
 USTRUCT(BlueprintType)

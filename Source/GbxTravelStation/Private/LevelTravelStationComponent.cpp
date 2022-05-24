@@ -1,7 +1,7 @@
 #include "LevelTravelStationComponent.h"
 
-class AController;
 class ULevelTravelStationData;
+class AController;
 
 ULevelTravelStationData* ULevelTravelStationComponent::GetLevelTravelStationData() const {
     return NULL;

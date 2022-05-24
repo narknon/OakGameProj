@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WeaponPreUseComponent.h"
-#include "EGbxActionEndState.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
-#include "WeaponChargeAttributeEffect.h"
 #include "WeaponChargeEventDelegate.h"
 #include "WeaponChargeEventNotify.h"
+#include "WeaponPreUseComponent.h"
 #include "EWeaponChargeState.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "WeaponChargeAttributeEffect.h"
+#include "EGbxActionEndState.h"
 #include "WeaponChargeComponent.generated.h"
 
 class UFeedbackData;

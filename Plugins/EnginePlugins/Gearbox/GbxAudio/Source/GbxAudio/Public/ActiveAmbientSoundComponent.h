@@ -6,10 +6,10 @@
 #include "UObject/NoExportTypes.h"
 #include "ActiveAmbientSoundComponent.generated.h"
 
-class UActiveAmbientUpdater;
 class UWwiseEvent;
 class UActiveAmbientLocationChooser;
 class UActiveAmbientLocationValidator;
+class UActiveAmbientUpdater;
 
 UCLASS(BlueprintType, MinimalAPI, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UActiveAmbientSoundComponent : public UActorComponent {

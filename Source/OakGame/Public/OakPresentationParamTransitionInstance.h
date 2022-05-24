@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "OakPresentationParamTransitionInstance.generated.h"
 
-class UOakStatusEffectPresentationData;
 class UParticleSystemComponent;
+class UOakStatusEffectPresentationData;
 
 USTRUCT(BlueprintType)
 struct FOakPresentationParamTransitionInstance {

@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxMenuInputEvent.h"
 #include "GbxUmgMenu.h"
 #include "Engine/EngineTypes.h"
+#include "GbxMenuInputEvent.h"
 #include "DemoMenu.generated.h"
 
 class UGbxListItemText;
-class UGbxScrollBoxList;
 class UGbxUserWidget;
+class UGbxScrollBoxList;
 
 UCLASS(EditInlineNew, Config=Game)
 class UDemoMenu : public UGbxUmgMenu {

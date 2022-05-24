@@ -1,36 +1,36 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EOperativeBarrierModType.h"
 #include "InteractiveObject.h"
-#include "EnvQueryParams.h"
 #include "OakThroughCollisionHandlerInterface.h"
-#include "DataTableValueHandle.h"
-#include "Engine/EngineTypes.h"
+#include "EnvQueryParams.h"
 #include "OakActionAbilityOwnedResourceInterface.h"
+#include "OperativeBarrierStatusEffectInfo.h"
 #include "ShieldBarrierInterface.h"
+#include "DataTableValueHandle.h"
 #include "AttributeInitializationData.h"
 #include "ShieldBarrierTrackedBuffTarget.h"
 #include "AttributeEffectData.h"
-#include "OperativeBarrierStatusEffectInfo.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "EOperativeBarrierState.h"
 #include "OakActionAbilityEnumMaskHelper.h"
 #include "OperativeBarrierState.h"
-#include "EOperativeBarrierState.h"
+#include "Engine/EngineTypes.h"
+#include "EOperativeBarrierModType.h"
 #include "OperativeBarrier.generated.h"
 
-class UOakDamageComponent;
 class UStatusEffectData;
+class UOakDamageComponent;
 class UGbxCustomizationComponent;
-class UShieldAugment;
-class UGbxDamageType;
 class UPrimitiveComponent;
 class UUsableComponent;
-class AShield;
-class UOakActionAbility_Barrier;
 class UWeaponShotModifier;
+class AShield;
+class UShieldAugment;
+class UOakActionAbility_Barrier;
 class AActor;
 class UDamageSource;
+class UGbxDamageType;
 class UObject;
 
 UCLASS()

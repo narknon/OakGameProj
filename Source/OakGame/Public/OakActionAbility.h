@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GameResourcePoolReference.h"
+#include "EOakActionAbilitySecondaryUseActionType.h"
 #include "OakPlayerAbility.h"
 #include "ActionSkillFailureCodeDescription.h"
 #include "AttributeInitializationData.h"
-#include "EOakActionAbilitySecondaryUseActionType.h"
-#include "GameResourcePoolReference.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
 #include "EOakActionAbilityStopAction.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
 #include "OakActionAbility.generated.h"
 
-class UGameResourcePoolData;
 class UOakActionAbilityOwnedResourceInterface;
 class IOakActionAbilityOwnedResourceInterface;
 class UOakActionAbilityAugmentSlotData;
+class UGameResourcePoolData;
 class USwfMovie;
 class AOakPlayerController;
 class UOakActionAbilityAugmentData;

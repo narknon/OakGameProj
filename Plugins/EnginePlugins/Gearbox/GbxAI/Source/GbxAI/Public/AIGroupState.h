@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
-#include "SpawnerStateInterface.h"
-#include "AIPlanManager.h"
-#include "GbxThreatSystemInterface.h"
 #include "AICommunicationManager.h"
 #include "AITicketManager.h"
+#include "UObject/Object.h"
 #include "TargetPersistentNotes.h"
+#include "SpawnerStateInterface.h"
+#include "GbxThreatSystemInterface.h"
+#include "AIPlanManager.h"
 #include "AIGroupState.generated.h"
 
 class USpawnerLinkComponent;

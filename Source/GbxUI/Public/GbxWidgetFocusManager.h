@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "GbxFocusableWidgetInfo.h"
+#include "UObject/Object.h"
 #include "GbxWidgetFocusManager.generated.h"
 
 UCLASS()

@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
-#include "Components/ActorComponent.h"
-#include "GameResourcePool.h"
-#include "InspectionInfoProvider.h"
 #include "GameResourcePoolNet.h"
+#include "Components/ActorComponent.h"
 #include "GameResourceUserEvent.h"
+#include "InspectionInfoProvider.h"
+#include "GameResourcePool.h"
 #include "GameResourcePoolParamDelegateDelegate.h"
+#include "GameResourcePoolReference.h"
 #include "GameResourcePoolManagerComponent.generated.h"
 
-class UGameResourcePoolData;
 class UGameResourceData;
+class UGameResourcePoolData;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UGameResourcePoolManagerComponent : public UActorComponent, public IInspectionInfoProvider {

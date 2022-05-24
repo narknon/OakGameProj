@@ -1,15 +1,15 @@
 #include "OakHUD.h"
 
+class UHUDNotificationAsset;
+class UGFxBossBar;
 class UGbxHUDStateData;
 class AWeapon;
 class AOakPlayerController;
-class UGFxBossBar;
 class UWwiseEvent;
 class UGameInstance;
 class UOakPlayerAbilitySlotData;
-class UGbxAbility;
-class UHUDNotificationAsset;
 class UGbxInventoryCategoryData;
+class UGbxAbility;
 
 void AOakHUD::TriggerContextualPrompt() {
 }

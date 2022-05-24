@@ -1,9 +1,9 @@
 #include "BoundaryTurret.h"
 #include "Net/UnrealNetwork.h"
 
+class AOakCharacter_Player;
 class UPrimitiveComponent;
 class AActor;
-class AOakCharacter_Player;
 
 void ABoundaryTurret::WarningTrigger_OnEndOverlap(UPrimitiveComponent* OverlappedComp, AActor* Other, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex) {
 }

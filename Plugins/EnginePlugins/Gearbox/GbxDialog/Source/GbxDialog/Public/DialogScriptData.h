@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogDecisionTree.h"
 #include "GbxDialogDataAsset.h"
+#include "DialogDecisionTree.h"
 #include "DialogScriptData.generated.h"
 
 class UDialogTimeSlotData;

@@ -3,8 +3,8 @@
 #include "GameFramework/Actor.h"
 #include "OakUIActorContainer.generated.h"
 
-class USocketComponent;
 class USceneComponent;
+class USocketComponent;
 class UTextureCube;
 
 UCLASS()

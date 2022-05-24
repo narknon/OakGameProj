@@ -3,9 +3,9 @@
 #include "GFxCSButton.h"
 #include "GFxCSLevelButton.generated.h"
 
-class UGFxCSProgressBar;
 class UGbxTextField;
 class UGbxGFxObject;
+class UGFxCSProgressBar;
 
 UCLASS(NonTransient)
 class OAKCS_API UGFxCSLevelButton : public UGFxCSButton {

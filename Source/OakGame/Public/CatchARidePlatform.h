@@ -6,10 +6,10 @@
 #include "CatchARidePlatform.generated.h"
 
 class AOakVehicle;
+class USocketComponent;
 class UBoxComponent;
 class UStaticMeshComponent;
 class UPrimitiveComponent;
-class USocketComponent;
 
 UCLASS()
 class ACatchARidePlatform : public AActor {

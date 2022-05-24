@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "PlaythroughUnlockedData.h"
+#include "GbxDataAsset.h"
 #include "TutorialLevelUpData.h"
 #include "TutorialGlobals.generated.h"
 

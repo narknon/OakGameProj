@@ -5,8 +5,8 @@
 #include "SpawnDetails.h"
 #include "SpawnFactory.generated.h"
 
-class UGameplayTagContainerComponent;
 class UTeam;
+class UGameplayTagContainerComponent;
 
 UCLASS(Abstract, CollapseCategories, EditInlineNew)
 class GBXSPAWN_API USpawnFactory : public UObject {

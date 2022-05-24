@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "Components/ActorComponent.h"
 #include "ReceivedDamageDetails.h"
+#include "GameResourcePoolReference.h"
 #include "HealthType.h"
 #include "ProjectedShield.generated.h"
 

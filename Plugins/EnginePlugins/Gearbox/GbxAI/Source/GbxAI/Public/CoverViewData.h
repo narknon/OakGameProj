@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ECoverSlotHeight.h"
-#include "GbxDataAsset.h"
-#include "UObject/NoExportTypes.h"
 #include "CoverLineOfSightParams.h"
+#include "GbxDataAsset.h"
+#include "ECoverSlotHeight.h"
+#include "UObject/NoExportTypes.h"
 #include "CoverViewData.generated.h"
 
 UCLASS()

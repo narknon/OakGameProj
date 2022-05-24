@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeInitializationData.h"
 #include "GbxCondition.h"
 #include "EOakMayhemModeConditionType.h"
 #include "EConditionComparisonOperatorType.h"
+#include "AttributeInitializationData.h"
 #include "OakCondition_MayhemMode.generated.h"
 
 UCLASS(CollapseCategories, Const, EditInlineNew)

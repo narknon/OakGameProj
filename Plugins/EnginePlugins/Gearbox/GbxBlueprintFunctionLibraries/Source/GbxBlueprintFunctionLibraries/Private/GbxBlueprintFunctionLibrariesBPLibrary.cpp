@@ -1,9 +1,9 @@
 #include "GbxBlueprintFunctionLibrariesBPLibrary.h"
 
 class AActor;
+class UMaterialInterface;
 class ACharacter;
 class UObject;
-class UMaterialInterface;
 
 void UGbxBlueprintFunctionLibrariesBPLibrary::SortActorListByDistance(AActor* TargetActor, TArray<AActor*>& ActorList) {
 }

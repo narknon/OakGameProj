@@ -1,8 +1,8 @@
 #include "GbxMediaManager.h"
 
-class UGbxMediaData;
-class UObject;
 class UMediaPlayer;
+class UObject;
+class UGbxMediaData;
 
 void UGbxMediaManager::OnMovieMediaOpenFailed(const FString& DeviceUrl) {
 }

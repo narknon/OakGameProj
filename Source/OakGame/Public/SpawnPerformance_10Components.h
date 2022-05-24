@@ -4,11 +4,11 @@
 #include "SpawnPerformance_10Components.generated.h"
 
 class UOakMissionIconComponent;
-class UParticleSystemComponent;
 class UBalanceStateComponent;
-class UElementalInteractionComponent;
-class UOakDamageComponent;
 class URotatingMovementComponent;
+class UOakDamageComponent;
+class UElementalInteractionComponent;
+class UParticleSystemComponent;
 class USkeletalMeshComponent;
 class UStaticMeshComponent;
 class UUsableComponent;

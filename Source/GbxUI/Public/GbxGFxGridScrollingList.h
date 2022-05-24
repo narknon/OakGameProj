@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxGFxObject.h"
+#include "GbxGFxListConfig.h"
 #include "GbxFocusableWidget.h"
+#include "GbxUIScroller.h"
 #include "GbxGFxListItemDelegateDelegate.h"
 #include "UObject/NoExportTypes.h"
-#include "GbxScrollingListCellInfo.h"
 #include "GbxGFxListItemDelegateWithControllerDelegate.h"
+#include "GbxScrollingListCellInfo.h"
 #include "EGbxFocusableWidgetState.h"
-#include "GbxUIScroller.h"
-#include "GbxGFxListConfig.h"
 #include "GbxGFxGridScrollingList.generated.h"
 
 class UGbxGFxSlider;

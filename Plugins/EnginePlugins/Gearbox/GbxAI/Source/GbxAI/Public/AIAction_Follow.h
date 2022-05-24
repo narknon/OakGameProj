@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_FindClosestPlayer.h"
 #include "AIAction_Priority.h"
 #include "AIAspectSettings_Follow.h"
 #include "AIAspectSettings_Navigation.h"
+#include "AIAspectSettings_FindClosestPlayer.h"
 #include "GbxBlackboardKeySelector.h"
 #include "AIAction_Follow.generated.h"
 

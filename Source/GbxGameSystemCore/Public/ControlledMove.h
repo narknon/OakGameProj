@@ -1,23 +1,23 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "ECMTerminalVelocityModificationType.h"
-#include "ECMGravityModificationType.h"
-#include "CMMotionData.h"
+#include "Curves/CurveFloat.h"
 #include "UObject/Object.h"
 #include "AttributeInitializationData.h"
+#include "CMMotionData.h"
 #include "ECMMoveLRControlType.h"
 #include "ECMMovementType.h"
-#include "ECMLedgeBehavior.h"
-#include "Curves/CurveFloat.h"
-#include "ECMMoveFBControlType.h"
 #include "RelativeDirectionData.h"
+#include "ECMLedgeBehavior.h"
+#include "ECMTerminalVelocityModificationType.h"
+#include "ECMGravityModificationType.h"
+#include "ECMMoveFBControlType.h"
 #include "ECMTeleportPreferenceType.h"
 #include "UObject/NoExportTypes.h"
 #include "ControlledMove.generated.h"
 
-class UGbxAction;
 class AGbxCharacter;
+class UGbxAction;
 class AActor;
 
 UCLASS(Abstract, Blueprintable)

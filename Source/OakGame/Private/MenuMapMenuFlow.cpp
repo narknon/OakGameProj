@@ -1,8 +1,8 @@
 #include "MenuMapMenuFlow.h"
 
-class UObject;
 class UGbxMenuData;
 class AOakPlayerController;
+class UObject;
 class UGFxOakLegalScreenMenu;
 
 void AMenuMapMenuFlow::Start(TEnumAsByte<EInitialPlayerStatus::Type>& OutInitialPlayerStatus) {

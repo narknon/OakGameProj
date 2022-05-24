@@ -3,7 +3,7 @@
 #include "EWwisePostEventFlags.generated.h"
 
 UENUM(BlueprintType)
-enum class EWwisePostEventFlags :  {
+enum class EWwisePostEventFlags : uint8 {
     MarkerCallbacks,
     SupportDuration,
     SupportPlaybackPosition,

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AITicketUseData.h"
 #include "GbxParam.h"
+#include "AITicketUseData.h"
 #include "CoverStyleUserData.generated.h"
 
 class UCoverStyleData;

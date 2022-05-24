@@ -5,9 +5,9 @@
 #include "PetEnrageRift.generated.h"
 
 class UBeastmasterCharacterComponent;
+class UPrimitiveComponent;
 class AOakCharacter;
 class UTeamComponent;
-class UPrimitiveComponent;
 class UCinematicModeData;
 class AActor;
 

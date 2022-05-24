@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "GbxFlag.h"
+#include "UObject/Object.h"
 #include "FlagPropertyTestStruct.h"
 #include "FlagPropertyTestContext.generated.h"
 

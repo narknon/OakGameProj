@@ -4,13 +4,13 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
 #include "ShieldChargeInventoryPickup.generated.h"
 
-class UOakManagedActorDefinition;
-class UShieldAugment_ChargeSpawner;
 class UParticleSystem;
+class AOakCharacter;
 class UGbxAttributeData;
+class UOakManagedActorDefinition;
 class UStaticMeshComponent;
 class UWwiseEvent;
-class AOakCharacter;
+class UShieldAugment_ChargeSpawner;
 
 UCLASS()
 class AShieldChargeInventoryPickup : public AOakInventoryItem {

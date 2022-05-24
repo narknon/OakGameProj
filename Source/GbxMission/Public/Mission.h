@@ -9,16 +9,16 @@
 #include "DialogTimeSlotReference.h"
 #include "Mission.generated.h"
 
+class UMissionGraph;
 class AMissionTrackerBase;
-class UMissionObjectiveSet;
+class UMissionObjective;
 class UMission;
 class UMissionRewardData;
-class UMissionObjective;
+class UMissionObjectiveSet;
+class UTravelLocationData;
 class UMissionPhase;
 class UChallenge;
-class UTravelLocationData;
 class UDialogScriptData;
-class UMissionGraph;
 
 UCLASS(Blueprintable)
 class GBXMISSION_API UMission : public UObject {

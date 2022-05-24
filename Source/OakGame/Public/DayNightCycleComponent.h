@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DayBeginDelegateDelegate.h"
 #include "Components/ActorComponent.h"
+#include "DayBeginDelegateDelegate.h"
 #include "DayEndDelegateDelegate.h"
 #include "DayNightCycleComponent.generated.h"
 

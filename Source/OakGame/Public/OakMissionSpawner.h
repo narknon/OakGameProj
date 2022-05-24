@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakSpawner.h"
-#include "MissionEventReference.h"
-#include "MissionObserverInterface.h"
 #include "MissionSpawnerFailsafeData.h"
+#include "OakSpawner.h"
+#include "MissionObserverInterface.h"
 #include "MissionObjectiveReference.h"
 #include "SpawnerActorData.h"
+#include "MissionEventReference.h"
 #include "OakMissionSpawner.generated.h"
 
 class UObject;

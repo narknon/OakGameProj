@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CSPuzzleIntroSettings.h"
 #include "UObject/Object.h"
+#include "CSPuzzleIntroSettings.h"
 #include "CSPuzzleIntroManager.generated.h"
 
 UCLASS(DefaultToInstanced, EditInlineNew)

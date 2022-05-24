@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SplineTriggers.h"
 #include "GameFramework/Pawn.h"
 #include "CarnivoraFakeTurrets.h"
 #include "UObject/NoExportTypes.h"
+#include "SplineTriggers.h"
 #include "Engine/EngineTypes.h"
 #include "Carnivora.generated.h"
 
 class UGbxSkeletalMeshComponent;
-class USplineFollowerComponent;
 class UStaticMeshComponent;
 class ACarnivoraTrackBuilder;
 class ACarnivoraTread;
-class UPrimitiveComponent;
 class AActor;
+class USplineFollowerComponent;
+class UPrimitiveComponent;
 
 UCLASS()
 class OAKGAME_API ACarnivora : public APawn {

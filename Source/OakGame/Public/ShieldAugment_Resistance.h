@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DamageTypeAttribute.h"
 #include "ShieldAugment.h"
+#include "DamageTypeAttribute.h"
 #include "ShieldAugment_Resistance.generated.h"
 
 UCLASS(EditInlineNew)

@@ -6,9 +6,9 @@
 #include "WantedPosterDefinition.generated.h"
 
 class UMaterialInterface;
-class UGestaltPartListData;
-class USkeletalMesh;
 class UAnimSequence;
+class USkeletalMesh;
+class UGestaltPartListData;
 class UMission;
 
 UCLASS(Abstract, BlueprintType)

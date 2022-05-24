@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AreaPlayerEventDelegate.h"
 #include "Components/PrimitiveComponent.h"
+#include "AreaPlayerEventDelegate.h"
 #include "EGbxAreaDrawStyle.h"
 #include "GbxAreaComponent.generated.h"
 

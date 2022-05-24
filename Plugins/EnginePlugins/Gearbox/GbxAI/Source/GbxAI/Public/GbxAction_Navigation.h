@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxAction_SimpleAnim.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxAction_Navigation.generated.h"
 
 UCLASS(Abstract)

@@ -3,7 +3,7 @@
 #include "ESplitScreenViewportType.generated.h"
 
 UENUM(BlueprintType)
-enum class ESplitScreenViewportType :  {
+enum class ESplitScreenViewportType : uint8 {
     Standard,
     Horizontal,
     Vertical,

@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "AttributeBaseValueData.h"
 #include "WeaponFireComponent.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
+#include "AttributeBaseValueData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
 #include "WeaponFireProjectileComponent.generated.h"
 
-class UCurveFloat;
 class AActor;
-class ULightProjectileData;
 class UFiringPattern;
+class UCurveFloat;
+class ULightProjectileData;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXWEAPON_API UWeaponFireProjectileComponent : public UWeaponFireComponent {

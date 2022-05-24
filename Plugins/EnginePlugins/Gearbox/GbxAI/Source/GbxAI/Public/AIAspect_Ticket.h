@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Ticket.h"
 #include "AIAspect.h"
+#include "AIAspectSettings_Ticket.h"
 #include "AIAspect_Ticket.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

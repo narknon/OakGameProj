@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DeveloperPerk.h"
 #include "Components/ActorComponent.h"
+#include "DeveloperPerk.h"
 #include "OakDeveloperPerks.generated.h"
 
-class UGbxInventoryCategoryData;
 class UEnum;
 class UItemPoolData;
+class UGbxInventoryCategoryData;
 class AOakPlayerController;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

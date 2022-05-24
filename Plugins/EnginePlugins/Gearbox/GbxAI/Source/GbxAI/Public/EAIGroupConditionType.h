@@ -3,7 +3,7 @@
 #include "EAIGroupConditionType.generated.h"
 
 UENUM(BlueprintType)
-enum class EAIGroupConditionType :  {
+enum class EAIGroupConditionType : uint8 {
     AllFalse,
     AllTrue,
     SomeFalse,

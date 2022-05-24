@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "GbxAttributeModifierHandle.h"
 #include "WeaponDebugInterface.h"
 #include "WeaponUsedEventDelegate.h"
 #include "AttributeEffectData.h"
+#include "GbxAttributeModifierHandle.h"
 #include "WeaponUseComponent.generated.h"
 
 class UGbxCrosshairDataAsset;

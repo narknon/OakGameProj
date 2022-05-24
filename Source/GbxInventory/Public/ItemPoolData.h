@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "ItemPoolListInterface.h"
-#include "InventorySerialNumberAssetInterface.h"
 #include "UObject/NoExportTypes.h"
 #include "BalancedInventoryInfo.h"
+#include "InventorySerialNumberAssetInterface.h"
 #include "AttributeInitializationData.h"
 #include "ItemPoolData.generated.h"
 

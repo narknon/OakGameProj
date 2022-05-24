@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "OakUnTouchedTriggerDelegateDelegate.h"
 #include "Engine/TriggerSphere.h"
 #include "OakTouchedTriggerDelegateDelegate.h"
-#include "OakUnTouchedTriggerDelegateDelegate.h"
 #include "OakTriggerSphere.generated.h"
 
 class UOakTriggerComponent;

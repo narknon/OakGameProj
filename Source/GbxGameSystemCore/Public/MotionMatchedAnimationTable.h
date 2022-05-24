@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxAnimTable.h"
+#include "UObject/NoExportTypes.h"
 #include "EDynamicToKinematicTransition.h"
 #include "MotionMatchedAnimationTable.generated.h"
 

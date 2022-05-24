@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryGenericPartData.h"
 #include "EOakLeague.h"
+#include "InventoryGenericPartData.h"
 #include "OakInventoryGenericPartData.generated.h"
 
 UCLASS()

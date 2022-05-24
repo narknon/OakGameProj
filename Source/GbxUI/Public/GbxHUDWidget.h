@@ -4,9 +4,9 @@
 #include "Layout/Geometry.h"
 #include "GbxHUDWidget.generated.h"
 
+class UGbxHUDContainer;
 class AGbxPlayerController;
 class AGbxHUD;
-class UGbxHUDContainer;
 
 UCLASS(EditInlineNew)
 class GBXUI_API UGbxHUDWidget : public UGbxUserWidget {

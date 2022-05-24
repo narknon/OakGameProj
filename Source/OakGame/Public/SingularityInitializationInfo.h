@@ -6,8 +6,8 @@
 #include "UObject/NoExportTypes.h"
 #include "SingularityInitializationInfo.generated.h"
 
-class UParticleSystem;
 class UDamageSource;
+class UParticleSystem;
 
 USTRUCT(BlueprintType)
 struct FSingularityInitializationInfo : public FSingularityInitializationBase {

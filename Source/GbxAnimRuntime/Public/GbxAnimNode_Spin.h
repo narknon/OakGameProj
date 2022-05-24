@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "BoneControllers/AnimNode_SkeletalControlBase.h"
 #include "BoneContainer.h"
-#include "Animation/AnimTypes.h"
 #include "UObject/NoExportTypes.h"
+#include "Animation/AnimTypes.h"
 #include "GbxAnimNode_Spin.generated.h"
 
 USTRUCT(BlueprintType)

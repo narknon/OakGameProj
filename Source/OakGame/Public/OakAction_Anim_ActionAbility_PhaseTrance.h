@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/EngineTypes.h"
 #include "OakAction_Anim_ActionAbility.h"
-#include "PhaseTranceActivationComboData.h"
 #include "SirenArmControllerInterface.h"
+#include "PhaseTranceActivationComboData.h"
+#include "Engine/EngineTypes.h"
 #include "Engine/EngineTypes.h"
 #include "OakAction_Anim_ActionAbility_PhaseTrance.generated.h"
 

@@ -5,8 +5,8 @@
 #include "OakWeaponAudioProviderComponent.generated.h"
 
 class AWeapon;
-class UWeaponHeatComponent;
 class UWwiseEvent;
+class UWeaponHeatComponent;
 
 UCLASS(BlueprintType, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakWeaponAudioProviderComponent : public UOakWeaponAudioProviderBase {

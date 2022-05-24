@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Styling/SlateBrush.h"
 #include "EGbxFocusableWidgetState.h"
 #include "Styling/SlateColor.h"
+#include "Styling/SlateBrush.h"
 #include "GbxFocusableWidgetItemStyle.generated.h"
 
 USTRUCT(BlueprintType)

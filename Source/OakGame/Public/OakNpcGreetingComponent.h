@@ -5,10 +5,10 @@
 #include "OakNpcGreetingComponent.generated.h"
 
 class UAIPerceptionComponent;
+class AActor;
 class UGbxDialogComponent;
 class UMissionObserverComponent;
 class UOakMissionDirectorComponent;
-class AActor;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakNpcGreetingComponent : public UActorComponent {

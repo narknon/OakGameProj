@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryAspectData.h"
 #include "UIStatAttributeEffectProvider.h"
+#include "InventoryAspectData.h"
 #include "WeaponBonusDataTableSelectionData.h"
 #include "WeaponBonusAspectData.generated.h"
 

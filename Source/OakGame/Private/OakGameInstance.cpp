@@ -1,16 +1,16 @@
 #include "OakGameInstance.h"
 #include "Templates/SubclassOf.h"
-#include "OakDialogSystemCustomization.h"
 #include "OakDiscordManager.h"
 #include "OakManagedActorManager.h"
+#include "OakDialogSystemCustomization.h"
 
 class UMatchmakingTest;
 class UObject;
 class UGbxGFxDialogBox;
 class UEchoLogData;
+class AActor;
 class UGbxDialogComponent;
 class URegionData;
-class AActor;
 class UOakManagedActorDefinition;
 class AOakInventoryItemPickup;
 class UWwiseEvent;

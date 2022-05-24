@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "VehicleOverrideData.h"
 #include "Components/ActorComponent.h"
+#include "VehicleOverrideData.h"
 #include "VehicleComponent.generated.h"
 
 class AOakVehicle;

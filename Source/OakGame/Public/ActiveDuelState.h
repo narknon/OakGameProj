@@ -5,10 +5,10 @@
 #include "EDuelClassification.h"
 #include "ActiveDuelState.generated.h"
 
-class UTeam;
 class ADuelArena;
 class ADuelTotem;
 class AOakCharacter_Player;
+class UTeam;
 class APlayerTradeManager;
 
 USTRUCT(BlueprintType)

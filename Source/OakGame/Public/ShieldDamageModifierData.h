@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "ShieldDamageModifierData.generated.h"
 
-class UShieldAugment_DamageModifier;
 class UConditionalDamageModifier;
+class UShieldAugment_DamageModifier;
 class AOakCharacter;
 
 USTRUCT(BlueprintType)

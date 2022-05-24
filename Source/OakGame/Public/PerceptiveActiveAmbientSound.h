@@ -4,8 +4,8 @@
 #include "Perception/AIPerceptionTypes.h"
 #include "PerceptiveActiveAmbientSound.generated.h"
 
-class UAIPerceptionComponent;
 class AActor;
+class UAIPerceptionComponent;
 
 UCLASS()
 class APerceptiveActiveAmbientSound : public AActiveAmbientSound {

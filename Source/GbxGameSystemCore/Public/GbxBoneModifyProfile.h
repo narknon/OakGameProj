@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EGbxBoneModifyProfile_PoseMode.h"
-#include "GbxDataAsset.h"
 #include "BoneModifyInfo.h"
+#include "GbxDataAsset.h"
 #include "BoneModifyState.h"
+#include "EGbxBoneModifyProfile_PoseMode.h"
 #include "GbxBoneModifyProfile.generated.h"
 
 class UAnimSequence;

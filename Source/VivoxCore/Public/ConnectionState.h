@@ -3,7 +3,7 @@
 #include "ConnectionState.generated.h"
 
 UENUM(BlueprintType)
-enum class ConnectionState :  {
+enum class ConnectionState : uint8 {
     Disconnected,
     Connecting,
     Connected,

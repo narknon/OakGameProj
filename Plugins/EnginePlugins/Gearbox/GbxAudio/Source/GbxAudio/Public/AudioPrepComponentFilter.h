@@ -3,9 +3,9 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EPhysicalSurface -FallbackName=EPhysicalSurface
 #include "AudioPrepComponentFilter.generated.h"
 
-class AActor;
 class UPhysicalMaterial;
 class UMaterialInterface;
+class AActor;
 
 USTRUCT(BlueprintType)
 struct FAudioPrepComponentFilter {

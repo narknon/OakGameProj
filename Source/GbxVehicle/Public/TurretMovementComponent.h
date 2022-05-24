@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WwisePlaybackInstance.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "UObject/NoExportTypes.h"
+#include "WwisePlaybackInstance.h"
 #include "UObject/NoExportTypes.h"
 #include "TurretMovementComponent.generated.h"
 

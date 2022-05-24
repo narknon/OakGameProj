@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxDialogSettings.h"
-#include "NumericRange.h"
 #include "GameplayTagContainer.h"
 #include "DialogScriptToLoadEntry.h"
+#include "NumericRange.h"
 #include "EUIDialogCallout.h"
 #include "OakDialogSettings.generated.h"
 

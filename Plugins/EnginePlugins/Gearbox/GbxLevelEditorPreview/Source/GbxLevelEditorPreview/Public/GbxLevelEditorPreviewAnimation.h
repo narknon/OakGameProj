@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PreviewAnimationDescriptor.h"
 #include "GbxLevelEditorPreviewDefinition.h"
+#include "PreviewAnimationDescriptor.h"
 #include "GbxLevelEditorPreviewAnimation.generated.h"
 
 UCLASS(EditInlineNew)

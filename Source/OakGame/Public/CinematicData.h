@@ -3,11 +3,11 @@
 #include "MissionObjectiveReference.h"
 #include "CinematicData.generated.h"
 
+class UParticleSystem;
 class UOakCinematicTag;
 class ULevelSequence;
 class UCinematicModeData;
 class UMediaSource;
-class UParticleSystem;
 
 USTRUCT(BlueprintType)
 struct FCinematicData {

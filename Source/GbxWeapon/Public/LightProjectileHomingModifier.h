@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GbxEasingFunc.h"
 #include "LightProjectileMoveModifier.h"
 #include "UObject/NoExportTypes.h"
-#include "GbxEasingFunc.h"
 #include "LightProjectileHomingModifier.generated.h"
 
 UCLASS(EditInlineNew)

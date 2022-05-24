@@ -3,7 +3,7 @@
 #include "ECitizenScienceManagerState.generated.h"
 
 UENUM(BlueprintType)
-enum class ECitizenScienceManagerState :  {
+enum class ECitizenScienceManagerState : uint8 {
     StreamingManager_Uninitialized,
     StreamingManager_Initialized,
     StreamingManager_MAX UMETA(Hidden),

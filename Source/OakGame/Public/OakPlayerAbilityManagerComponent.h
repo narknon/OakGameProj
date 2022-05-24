@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "SimpleActionSkillDelegateSignatureDelegate.h"
 #include "OakCharacterAbilityManagerComponent.h"
+#include "SimpleActionSkillDelegateSignatureDelegate.h"
 #include "OakActionAbilityAugmentChangedSignatureDelegate.h"
 #include "SimplePlayerAbilitySlotDelegateSignatureDelegate.h"
 #include "OnActionAbilityFailedActivationDelegate.h"
@@ -13,16 +13,16 @@
 #include "OakPlayerAbilitySaveGameData.h"
 #include "OakPlayerAbilityManagerComponent.generated.h"
 
-class UOakPlayerAbilityData;
-class UOakPlayerAbilityTree;
 class UOakActionAbility;
 class UOakPlayerAbilityEventHub;
-class UOakPlayerAbilityTreeItemData;
-class UOakPlayerAbilityTreeBranchData;
+class UOakPlayerAbilityData;
+class UOakPlayerAbilityTree;
 class UOakActionAbilityAugmentSlotData;
+class UOakPlayerAbilityTreeBranchData;
 class UOakActionAbilityAugmentData;
 class UOakPlayerAbilitySlotData;
 class UOakPlayerAbility;
+class UOakPlayerAbilityTreeItemData;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakPlayerAbilityManagerComponent : public UOakCharacterAbilityManagerComponent {

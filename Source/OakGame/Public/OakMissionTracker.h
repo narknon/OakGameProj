@@ -2,15 +2,15 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "MissionTracker.h"
-#include "LevelSyncCompletedMission.h"
 #include "MissionObserverInterface.h"
+#include "LevelSyncCompletedMission.h"
 #include "GameplayTagContainer.h"
 #include "UObject/NoExportTypes.h"
 #include "OakMissionTracker.generated.h"
 
-class UObject;
-class UMissionGraph;
 class UOutOfMapWaypointComponent;
+class UMissionGraph;
+class UObject;
 class AOakCharacter;
 class UMission;
 

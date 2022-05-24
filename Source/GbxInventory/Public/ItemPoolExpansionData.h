@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "BalancedInventoryInfo.h"
 #include "GbxDataAsset.h"
+#include "BalancedInventoryInfo.h"
 #include "ItemPoolExpansionData.generated.h"
 
 class UItemPoolData;

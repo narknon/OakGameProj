@@ -7,12 +7,12 @@
 #include "SingularityInitializationInfo.h"
 #include "SingularityComponent.generated.h"
 
-class UPrimitiveComponent;
-class UHitReactionTag;
 class AActor;
-class AProjectile;
+class UPrimitiveComponent;
 class UParticleSystemComponent;
+class AProjectile;
 class UTeamComponent;
+class UHitReactionTag;
 class USingularityComponent;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

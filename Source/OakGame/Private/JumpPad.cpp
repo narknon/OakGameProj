@@ -1,8 +1,8 @@
 #include "JumpPad.h"
 
+class AOakCharacter;
 class UPrimitiveComponent;
 class AActor;
-class AOakCharacter;
 
 void AJumpPad::SetJumpPadEnabled(bool bEnabled) {
 }

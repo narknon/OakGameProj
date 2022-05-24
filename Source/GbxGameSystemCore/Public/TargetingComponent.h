@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EnvQueryParams.h"
 #include "Components/ActorComponent.h"
-#include "TargetingComponentTargetListChangedSignatureDelegate.h"
-#include "TargetActorInfo.h"
-#include "GbxBlackboardKeySelector.h"
 #include "UObject/NoExportTypes.h"
+#include "TargetingComponentTargetListChangedSignatureDelegate.h"
+#include "EnvQueryParams.h"
+#include "GbxBlackboardKeySelector.h"
+#include "TargetActorInfo.h"
 #include "TargetingComponent.generated.h"
 
 class UTargetableComponent;

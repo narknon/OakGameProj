@@ -1,7 +1,7 @@
 #include "PerformanceSnapshotCollector.h"
 
-class UPerformanceSnapshotCollector;
 class UObject;
+class UPerformanceSnapshotCollector;
 
 void UPerformanceSnapshotCollector::ResetSnapshotProviders() {
 }

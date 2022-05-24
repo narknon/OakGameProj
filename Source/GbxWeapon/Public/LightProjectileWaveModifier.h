@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "LightProjectileMoveModifier.h"
-#include "Vector2DWaveform.h"
 #include "GbxEasingFunc.h"
 #include "VectorWaveform.h"
+#include "LightProjectileMoveModifier.h"
+#include "Vector2DWaveform.h"
 #include "LightProjectileWaveModifier.generated.h"
 
 UCLASS(EditInlineNew)

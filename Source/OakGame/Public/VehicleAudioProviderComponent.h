@@ -1,21 +1,21 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWheelAudioType.h"
+#include "VehicleAudioLoopData.h"
 #include "Components/ActorComponent.h"
+#include "EWheelAudioType.h"
 #include "VehicleLandingEventData.h"
 #include "UObject/NoExportTypes.h"
-#include "VehicleAudioLoopData.h"
 #include "WheelRandomSwitchPack.h"
 #include "VehicleAudioLoopOnNamedCompData.h"
 #include "VehicleConfigurationEvent.h"
 #include "VehicleConfigurationRtpc.h"
 #include "VehicleAudioProviderComponent.generated.h"
 
-class UWwiseEvent;
-class AOakVehicle;
-class UOakAudioGlobalsData;
-class UWwiseAudioComponent;
 class UPhysicalMaterial;
+class UWwiseEvent;
+class UOakAudioGlobalsData;
+class AOakVehicle;
+class UWwiseAudioComponent;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class OAKGAME_API UVehicleAudioProviderComponent : public UActorComponent {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxGFxSliderAcceleration.h"
 #include "GbxGFxButton.h"
+#include "GbxGFxSliderAcceleration.h"
 #include "GbxMenuInputEvent.h"
 #include "GbxGFxSlider.generated.h"
 

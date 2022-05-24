@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxActionRegister.h"
 #include "EGbxActionNetMode.h"
-#include "UObject/NoExportTypes.h"
 #include "OakActionBlueprintLibrary.generated.h"
 
 class UGbxAction;

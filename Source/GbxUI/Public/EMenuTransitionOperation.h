@@ -3,7 +3,7 @@
 #include "EMenuTransitionOperation.generated.h"
 
 UENUM(BlueprintType)
-enum class EMenuTransitionOperation :  {
+enum class EMenuTransitionOperation : uint8 {
     Push,
     Pop,
     Invalid,

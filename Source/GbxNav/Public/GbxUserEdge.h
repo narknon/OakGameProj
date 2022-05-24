@@ -1,18 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=GbxUserEdgeBase -FallbackName=GbxUserEdgeBase
 #include "UObject/NoExportTypes.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=GbxUserEdgeBase -FallbackName=GbxUserEdgeBase
 #include "GbxUserEdge.generated.h"
 
 class UGbxUserEdge;
-
-
-/*likely not right fix */
-UCLASS()
-class UGbxUserEdgeBase : public UObject
-{
-};
-
 
 UCLASS()
 class GBXNAV_API UGbxUserEdge : public UGbxUserEdgeBase {

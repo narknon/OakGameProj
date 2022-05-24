@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxReplicatorProxyData.h"
 #include "Components/ActorComponent.h"
-#include "ZoomStateChangeNoLevelDelegateDelegate.h"
 #include "WeaponDebugInterface.h"
+#include "GbxReplicatorProxyData.h"
 #include "WeaponZoomLevel.h"
 #include "AttributeEffectData.h"
-#include "ZoomStateChangeWithLevelDelegateDelegate.h"
 #include "WeaponZoomState.h"
+#include "ZoomStateChangeWithLevelDelegateDelegate.h"
+#include "ZoomStateChangeNoLevelDelegateDelegate.h"
 #include "GbxAttributeModifierHandle.h"
 #include "WeaponZoomComponent.generated.h"
 

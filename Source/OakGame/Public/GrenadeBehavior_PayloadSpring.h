@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GrenadeBehavior_PayloadBlueprint.h"
 #include "AttributeInitializationData.h"
+#include "GrenadeBehavior_PayloadBlueprint.h"
 #include "GrenadeBehavior_PayloadSpring.generated.h"
 
 class UParticleSystem;

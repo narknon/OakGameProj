@@ -1,24 +1,24 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDLCMenuSplitscreenLayouts.h"
 #include "GbxDataAsset.h"
 #include "TextMarkupDictionaryEntry.h"
+#include "GbxDLCMenuSplitscreenLayouts.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "GbxMenuSplitscreenLayouts.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxUIGlobals.generated.h"
 
-class UGbxDialogBoxData;
 class UGbxListItemFactory;
 class UGbxInputToGlyphMap;
 class UGbxHUDData;
 class UGbxPlatformToGlyphMap;
+class UGbxDialogBoxData;
 class UMediaPlayer;
 class UGbxFullScreenMovie;
 class UGbxGFxContextualMenuData;
-class USwfMovie;
 class UGbxMenuData;
+class USwfMovie;
 class UGbxGFxMenu;
 
 UCLASS(Config=GbxUI)

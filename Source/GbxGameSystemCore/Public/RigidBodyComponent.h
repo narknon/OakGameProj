@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RigidBodyComponentImpulseAddedDelegate.h"
 #include "Components/StaticMeshComponent.h"
 #include "ImpactDataOverride.h"
+#include "RigidBodyComponentImpulseAddedDelegate.h"
 #include "RigidBodyComponent.generated.h"
 
 class UImpactData;

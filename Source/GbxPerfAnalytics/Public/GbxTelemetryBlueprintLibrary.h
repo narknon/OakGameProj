@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "ESetTelemetryValue.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "K2TelemetryValues.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
+#include "ESetTelemetryValue.h"
 #include "K2EventRef.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxTelemetryBlueprintLibrary.generated.h"
 
 class UObject;

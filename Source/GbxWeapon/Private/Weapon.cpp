@@ -3,15 +3,15 @@
 #include "Templates/SubclassOf.h"
 #include "DamageModifierComponent.h"
 
-class APawn;
 class UAnimMontage;
 class UMaterialInterface;
+class APawn;
 class UParticleSystem;
-class UWeaponUseComponent;
 class UGbxAction;
 class UActorComponent;
 class UMeshComponent;
 class UAimAssistParameters;
+class UWeaponUseComponent;
 
 void AWeapon::Unlock(bool bReplicate) {
 }

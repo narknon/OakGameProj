@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Rotation.h"
-#include "AIAction_Priority.h"
-#include "AIAspectSettings_UseCover.h"
 #include "EnvQueryParams.h"
+#include "AIAspectSettings_UseCover.h"
+#include "AIAction_Priority.h"
+#include "GbxQueryOptions.h"
 #include "AIAspectSettings_Navigation.h"
 #include "AIAspectSettings_Weapon.h"
-#include "GbxQueryOptions.h"
+#include "AIAspectSettings_Rotation.h"
 #include "AIAction_UseCover.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

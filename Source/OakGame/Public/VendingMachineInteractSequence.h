@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Curves/CurveFloat.h"
 #include "VendingMachineSequenceTimedEvent.h"
+#include "Curves/CurveFloat.h"
 #include "VendingMachineInteractSequence.generated.h"
 
 USTRUCT(BlueprintType)

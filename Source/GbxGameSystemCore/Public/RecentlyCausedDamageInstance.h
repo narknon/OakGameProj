@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "ERecentDamageFlags.h"
 #include "Engine/NetSerialization.h"
+#include "ERecentDamageFlags.h"
 #include "RecentlyCausedDamageInstance.generated.h"
 
 class UGbxDamageType;
 class UDamageSource;
-class AActor;
 class UHitRegionData;
+class AActor;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FRecentlyCausedDamageInstance {

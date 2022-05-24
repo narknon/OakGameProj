@@ -1,8 +1,8 @@
 #include "GFxAnointmentRerollMenu.h"
 
+class UGbxGFxObject;
 class AActor;
 class AOakPlayerController;
-class UGbxGFxObject;
 
 void UGFxAnointmentRerollMenu::OnThumbnailLoaded() const {
 }

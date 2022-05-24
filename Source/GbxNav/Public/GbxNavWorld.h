@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
+#include "NavigationData.h"
 #include "GbxNavLayerState.h"
 #include "GbxUserEdgeManager.h"
-#include "NavigationData.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxPainterManager.h"
 #include "GbxNavStreamingData.h"
 #include "GbxReachabilityTracker.h"

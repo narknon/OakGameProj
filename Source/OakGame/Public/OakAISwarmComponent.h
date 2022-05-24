@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakAISwarmMovement.h"
 #include "Components/BoxComponent.h"
 #include "SwarmActorEventDelegate.h"
+#include "OakAISwarmMovement.h"
 #include "OakAISwarmActor.h"
 #include "OakAISwarmComponent.generated.h"
 

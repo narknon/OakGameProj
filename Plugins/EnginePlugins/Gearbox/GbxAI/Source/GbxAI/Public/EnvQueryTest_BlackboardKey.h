@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EnvironmentQuery/EnvQueryTest.h"
 #include "GbxBlackboardKeySelector.h"
+#include "EnvironmentQuery/EnvQueryTest.h"
 #include "EnvQueryTest_BlackboardKey.generated.h"
 
 UCLASS(EditInlineNew, MinimalAPI)

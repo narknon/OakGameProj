@@ -1,7 +1,7 @@
 #include "OakDamageCauserComponent.h"
 
-class UWeaponShotModifier;
 class UObject;
+class UWeaponShotModifier;
 
 void UOakDamageCauserComponent::UnregisterWeaponShotModifier(UWeaponShotModifier* Modifier, UObject* ModifierOwner) {
 }

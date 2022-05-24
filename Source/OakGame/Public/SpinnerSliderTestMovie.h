@@ -3,9 +3,9 @@
 #include "GFxStatusMenuSubmenu.h"
 #include "SpinnerSliderTestMovie.generated.h"
 
-class UGbxGFxDropDownList;
-class UGbxSpinner;
 class UGbxGFxSlider;
+class UGbxSpinner;
+class UGbxGFxDropDownList;
 
 UCLASS()
 class OAKGAME_API USpinnerSliderTestMovie : public UGFxStatusMenuSubmenu {

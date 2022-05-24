@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakTouchedTriggerDelegateDelegate.h"
-#include "Components/ActorComponent.h"
 #include "MissionObserverInterface.h"
+#include "Components/ActorComponent.h"
+#include "OakTouchedTriggerDelegateDelegate.h"
 #include "OakUnTouchedTriggerDelegateDelegate.h"
 #include "OakTriggerDelegateDelegate.h"
 #include "Engine/EngineTypes.h"
 #include "EOakTriggerComponentEventType.h"
 #include "OakTriggerComponent.generated.h"
 
-class UPrimitiveComponent;
 class UGbxCondition;
+class UPrimitiveComponent;
 class AActor;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

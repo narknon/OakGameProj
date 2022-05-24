@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeInitializationData.h"
 #include "MissionRewardData.h"
+#include "AttributeInitializationData.h"
 #include "OakBaseMissionRewardData.generated.h"
 
 class UItemPoolData;

@@ -3,7 +3,7 @@
 #include "EMantleUpCheckState.generated.h"
 
 UENUM(BlueprintType)
-enum class EMantleUpCheckState :  {
+enum class EMantleUpCheckState : uint8 {
     Unknown,
     WallCheck_NoWall,
     WallCheck_TooFlat,

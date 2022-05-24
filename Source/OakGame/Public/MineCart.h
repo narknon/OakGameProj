@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Engine/EngineTypes.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/EngineTypes.h"
 #include "MineCart.generated.h"
 
 class USplineMovementComponentDoubleLinked;
-class UHavokNavObstacleComponent;
 class UPrimitiveComponent;
+class UHavokNavObstacleComponent;
 
 UCLASS(Abstract)
 class AMineCart : public AActor {

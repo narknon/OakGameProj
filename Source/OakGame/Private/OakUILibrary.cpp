@@ -1,12 +1,12 @@
 #include "OakUILibrary.h"
 
-class UGameInstance;
 class UGbxMenu;
 class IGbxMenu;
+class UGameInstance;
 class UObject;
 class UGbxMenuData;
-class AOakPlayerController;
 class UTutorialMessageDataAsset;
+class AOakPlayerController;
 class UInventoryListComponent;
 class UInventoryCategoryData;
 class AOakCharacter;

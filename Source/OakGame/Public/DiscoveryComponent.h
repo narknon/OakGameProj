@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "DiscoveredPlanetInfo.h"
 #include "Components/ActorComponent.h"
 #include "DiscoveredLevelInfo.h"
-#include "DiscoveredPlanetInfo.h"
 #include "FoundDiscoveryAreaDelegate.h"
 #include "DiscoveryComponent.generated.h"
 

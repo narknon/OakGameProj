@@ -4,8 +4,8 @@ class AGbxCharacter;
 class AActor;
 class USceneComponent;
 class UGbxSkeletalMeshComponent;
-class APlayerController;
 class UObject;
+class APlayerController;
 
 void UGbxGameplayStatics::SetTeamCollisionResponseWith(AActor* Actor, AActor* TeamActor, bool bIgnore) {
 }

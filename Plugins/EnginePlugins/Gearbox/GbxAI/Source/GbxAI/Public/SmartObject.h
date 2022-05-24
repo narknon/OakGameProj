@@ -3,8 +3,8 @@
 #include "GameFramework/Actor.h"
 #include "SmartObject.generated.h"
 
-class USmartObjectComponent;
 class UGbxActionComponent;
+class USmartObjectComponent;
 
 UCLASS()
 class GBXAI_API ASmartObject : public AActor {

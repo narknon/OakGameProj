@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MissionEnableCondition.h"
 #include "MissionObjectiveReferenceWeak.h"
+#include "MissionEnableCondition.h"
 #include "MissionEnableConditionBreadcrumbLinkedObjective.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

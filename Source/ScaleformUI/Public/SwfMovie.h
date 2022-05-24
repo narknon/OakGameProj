@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ScaleformTextureReference.h"
 #include "UObject/Object.h"
 #include "FlashTextureRescale.h"
+#include "ScaleformTextureReference.h"
 #include "FlashNativeBindingInfo.h"
 #include "SwfMovie.generated.h"
 

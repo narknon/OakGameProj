@@ -3,8 +3,8 @@
 #include "EStanceStackLayer.h"
 #include "StanceChangedEventArgs.generated.h"
 
-class UStanceData;
 class UStanceType;
+class UStanceData;
 
 USTRUCT(BlueprintType)
 struct FStanceChangedEventArgs {

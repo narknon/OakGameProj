@@ -3,8 +3,8 @@
 #include "Templates/SubclassOf.h"
 #include "ConditionalDamageModifier.h"
 #include "ConditionalDamageDamageTypeConditional.h"
-#include "EConditionalDamageTypeBonusMode.h"
 #include "AttributeInitializationData.h"
+#include "EConditionalDamageTypeBonusMode.h"
 #include "ConditionalDamageTypeModifier.generated.h"
 
 class UGbxDamageType;

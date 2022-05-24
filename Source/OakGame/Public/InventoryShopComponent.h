@@ -2,15 +2,15 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "InventoryListComponent.h"
-#include "AttributeInitializationData.h"
 #include "ItemPoolCollection.h"
+#include "AttributeInitializationData.h"
 #include "InventoryShopComponent.generated.h"
 
-class UInventoryCategoryData;
-class UItemPoolData;
-class UAttributeInitializer;
 class AOakPlayerController;
 class AActor;
+class UItemPoolData;
+class UAttributeInitializer;
+class UInventoryCategoryData;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UInventoryShopComponent : public UInventoryListComponent {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Condition.h"
 #include "AIAspect.h"
+#include "AIAspectSettings_Condition.h"
 #include "AIAspectSettings_ConditionData.h"
 #include "AIAspect_Condition.generated.h"
 

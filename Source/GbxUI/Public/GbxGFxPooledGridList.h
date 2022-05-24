@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxGFxGridScrollingList.h"
-#include "GbxGFxListCellUpdateDelegateDelegate.h"
 #include "GbxGFxPooledGridListConfig.h"
+#include "GbxGFxListCellUpdateDelegateDelegate.h"
 #include "GbxGFxPooledGridPoolInfo.h"
 #include "GbxGFxPooledGridList.generated.h"
 

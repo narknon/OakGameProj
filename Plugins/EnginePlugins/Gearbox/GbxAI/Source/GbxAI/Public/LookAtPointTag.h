@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
-#include "ELookAtPointType.h"
+#include "GbxParam.h"
 #include "GameplayTagContainer.h"
 #include "EFacingChannel.h"
-#include "GbxParam.h"
+#include "GbxDataAsset.h"
+#include "ELookAtPointType.h"
 #include "LookAtPointTag.generated.h"
 
 class UGbxCondition;

@@ -2,11 +2,11 @@
 #include "CoreMinimal.h"
 #include "BoneControllers/AnimNode_SkeletalControlBase.h"
 #include "BoneContainer.h"
-#include "BoneControllers/AnimNode_ModifyBone.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "Animation/AnimTypes.h"
 #include "SimpleMotionState.h"
+#include "BoneControllers/AnimNode_ModifyBone.h"
+#include "Animation/AnimTypes.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxAnimNode_SimpleMotionBoneControl.generated.h"
 
 USTRUCT(BlueprintType)

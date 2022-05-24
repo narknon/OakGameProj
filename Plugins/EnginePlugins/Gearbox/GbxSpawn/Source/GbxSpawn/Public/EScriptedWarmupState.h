@@ -3,7 +3,7 @@
 #include "EScriptedWarmupState.generated.h"
 
 UENUM(BlueprintType)
-enum class EScriptedWarmupState :  {
+enum class EScriptedWarmupState : uint8 {
     None,
     Activated,
     Complete,

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DebugMenuCommandItemData.h"
 #include "GbxUserWidget.h"
-#include "GbxUserWidgetDelegateDelegate.h"
+#include "DebugMenuCommandItemData.h"
 #include "GbxMenuInputEvent.h"
+#include "GbxUserWidgetDelegateDelegate.h"
 #include "DebugMenuCategoryList.generated.h"
 
 class UGbxListItem;

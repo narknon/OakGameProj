@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogParameterValue.h"
 #include "OakCharacter.h"
+#include "DialogParameterValue.h"
 #include "ReapBehaviorInterface.h"
 #include "OakCharacter_Default.generated.h"
 
-class UGbxDialogComponent;
 class UDialogEvent;
 class UStanceComponent;
+class UGbxDialogComponent;
 class UCharacterSoundTag;
 class UDialogParameter;
 

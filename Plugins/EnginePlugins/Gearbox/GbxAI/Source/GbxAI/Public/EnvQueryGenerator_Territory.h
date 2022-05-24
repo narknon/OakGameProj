@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ETerritoryMovementType.h"
 #include "EnvironmentQuery/Generators/EnvQueryGenerator_ProjectedPoints.h"
 #include "DataProviders/AIDataProvider.h"
 #include "ETerritoryType.h"
-#include "ETerritoryMovementType.h"
 #include "EnvQueryGenerator_Territory.generated.h"
 
 UCLASS(EditInlineNew)

@@ -3,12 +3,12 @@
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "TargetActorInfo.h"
-#include "UObject/NoExportTypes.h"
 #include "Perception/AIPerceptionTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "TargetActorInfoLibrary.generated.h"
 
-class UTargetingComponent;
 class UAISense;
+class UTargetingComponent;
 class AActor;
 
 UCLASS(BlueprintType)

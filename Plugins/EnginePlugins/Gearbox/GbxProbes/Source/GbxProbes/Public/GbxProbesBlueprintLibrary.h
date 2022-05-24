@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GameplayTagContainer.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "GbxProbeExtraData.h"
 #include "GbxProbeId.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
-#include "GameplayTagContainer.h"
 #include "EGbxProbeResult.h"
 #include "GbxProbesBlueprintLibrary.generated.h"
 

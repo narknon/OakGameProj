@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EGbxActionEndCondition.h"
 #include "GbxAction_SimpleAnim.h"
 #include "AnimMeshList.h"
+#include "EGbxActionEndCondition.h"
 #include "GbxAction_Anim.generated.h"
 
 UCLASS()

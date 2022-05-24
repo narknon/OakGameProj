@@ -4,10 +4,10 @@
 #include "GbxComboBoxItemInfo.h"
 #include "GbxComboBoxDropdownMenu.generated.h"
 
-class UWidget;
-class UGbxGridListWidget;
-class UGbxListItem;
 class UGbxComboBox;
+class UGbxGridListWidget;
+class UWidget;
+class UGbxListItem;
 
 UCLASS(EditInlineNew)
 class GBXUI_API UGbxComboBoxDropdownMenu : public UGbxUmgMenu {

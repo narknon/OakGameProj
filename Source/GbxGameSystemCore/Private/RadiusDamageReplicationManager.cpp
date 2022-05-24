@@ -2,12 +2,12 @@
 #include "Templates/SubclassOf.h"
 
 class AActor;
-class UImpactData;
-class UDamageData;
-class UGbxDamageType;
 class UParticleSystem;
 class UExplosionData;
+class UDamageData;
+class UGbxDamageType;
 class UWwiseEvent;
+class UImpactData;
 
 void ARadiusDamageReplicationManager::Multicast_StopRadiusEffect_Implementation(AActor* ContextActor, TSubclassOf<UDamageData> DamageData, bool bStopAllForContext) {
 }

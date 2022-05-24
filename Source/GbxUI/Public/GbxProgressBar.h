@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GbxProgressBarRange.h"
 #include "GbxUserWidget.h"
 #include "GbxProgressBarInterpolator.h"
 #include "EGbxProgressBarFillDirection.h"
-#include "GbxProgressBarRange.h"
 #include "UObject/NoExportTypes.h"
 #include "GbxProgressBar.generated.h"
 
 class UTexture2D;
+class UWidget;
 class UImage;
 class UTextBlock;
 class UWidgetAnimation;
-class UWidget;
 
 UCLASS(EditInlineNew)
 class GBXUI_API UGbxProgressBar : public UGbxUserWidget {

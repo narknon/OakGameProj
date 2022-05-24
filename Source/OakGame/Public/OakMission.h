@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Mission.h"
-#include "EOakMissionType.h"
 #include "EOakLeague.h"
+#include "Mission.h"
 #include "MissionStarterGear.h"
+#include "EOakMissionType.h"
 #include "OakMission.generated.h"
 
-class AOakGameMode;
-class UDialogEnumValue;
 class AOakVehicle;
 class UInventoryBalanceData;
 class UVehiclePartData;
 class AOakSpawner;
 class UMissionObjective;
+class UDialogEnumValue;
+class AOakGameMode;
 
 UCLASS()
 class OAKGAME_API UOakMission : public UMission {

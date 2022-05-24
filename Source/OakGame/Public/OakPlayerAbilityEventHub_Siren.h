@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PhaseTranceGraspKilledEventSignatureDelegate.h"
+#include "PhaseTranceGraspEventSignatureDelegate.h"
 #include "OakPlayerAbilityEventHub.h"
 #include "SimplePhaseTranceEventSignatureDelegate.h"
 #include "PhaseTranceEventSignatureDelegate.h"
-#include "PhaseTranceGraspEventSignatureDelegate.h"
+#include "PhaseTranceGraspKilledEventSignatureDelegate.h"
 #include "OakPlayerAbilityEventHub_Siren.generated.h"
 
 UCLASS()

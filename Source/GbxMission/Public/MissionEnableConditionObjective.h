@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MissionEnableCondition.h"
 #include "MissionObjectiveReferenceWeak.h"
+#include "MissionEnableCondition.h"
 #include "EMissionObjectiveStatus.h"
 #include "MissionEnableConditionObjective.generated.h"
 

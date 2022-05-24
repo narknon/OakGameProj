@@ -4,8 +4,8 @@
 #include "UObject/NoExportTypes.h"
 #include "VehicleTrailData.generated.h"
 
-class UParticleSystemComponent;
 class UGbxVehicleWheel;
+class UParticleSystemComponent;
 
 USTRUCT(BlueprintType)
 struct FVehicleTrailData {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "HealthTypeDamageSummary.h"
 #include "UObject/NoExportTypes.h"
+#include "HealthTypeDamageSummary.h"
 #include "CausedDeathDetails.generated.h"
 
 class UDamageSource;

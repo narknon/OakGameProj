@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PropertyToAttributeMapping.h"
 #include "Engine/Blueprint.h"
+#include "PropertyToAttributeMapping.h"
 #include "GbxAttributeSetBlueprint.generated.h"
 
 UCLASS()

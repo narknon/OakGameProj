@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "InspectionInfoProvider.h"
 #include "StatusEffectQuery.h"
 #include "StatusEffectInstanceStack.h"
-#include "StatusEffectInstanceReference.h"
+#include "InspectionInfoProvider.h"
 #include "StatusEffectRemoveSpec.h"
+#include "StatusEffectInstanceReference.h"
 #include "StatusEffectSpec.h"
 #include "StatusEffectQueryResult.h"
 #include "StatusEffectManagerComponent.generated.h"

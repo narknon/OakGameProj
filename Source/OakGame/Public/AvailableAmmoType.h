@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "AvailableAmmoType.generated.h"
 
-class UOakDebugWeaponBuilderButton;
 class UGbxAmmoTypeData;
+class UOakDebugWeaponBuilderButton;
 
 USTRUCT(BlueprintType)
 struct FAvailableAmmoType {

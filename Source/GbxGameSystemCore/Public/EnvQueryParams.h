@@ -5,8 +5,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxSignificance -FallbackName=GbxSignificance
 #include "EnvQueryParams.generated.h"
 
-class UEnvQuery;
 class UEnvQueryTest;
+class UEnvQuery;
 class UEnvQueryTestAsset;
 
 USTRUCT(BlueprintType)

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "StatusEffectStackingStrategyData_DurationRefundData.h"
 #include "StatusEffectStackingStrategyData.h"
 #include "EStatusEffectStackingInstanceReplacementCriteria.h"
 #include "EStatusEffectStackingInstanceSelectionCriteria.h"
-#include "StatusEffectStackingStrategyData_DurationRefundData.h"
 #include "StatusEffectStackingStrategyData_Capped.generated.h"
 
 UCLASS()

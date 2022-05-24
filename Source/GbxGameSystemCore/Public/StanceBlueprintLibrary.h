@@ -3,13 +3,13 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "StanceBlueprintLibrary.generated.h"
 
-class UStanceDataProvider;
+class UAnimInstance;
 class UStanceComponent;
 class AAIController;
 class AActor;
-class UAnimInstance;
-class UStanceData;
+class UStanceDataProvider;
 class UStanceType;
+class UStanceData;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UStanceBlueprintLibrary : public UBlueprintFunctionLibrary {

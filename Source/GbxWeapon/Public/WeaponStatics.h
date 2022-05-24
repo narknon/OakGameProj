@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
 #include "EWeaponVisibleAmmoUpdateMethod.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "EWeaponVisibleAmmoState.h"
 #include "EWeaponActionType.h"
 #include "ActionState_Base.h"

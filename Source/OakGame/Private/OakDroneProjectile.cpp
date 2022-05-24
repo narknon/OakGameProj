@@ -1,9 +1,9 @@
 #include "OakDroneProjectile.h"
-#include "Perception/AIPerceptionStimuliSourceComponent.h"
 #include "OakDamageComponent.h"
 #include "Components/SphereComponent.h"
 #include "OakDroneProjectileMovementComponent.h"
 #include "TargetableComponent.h"
+#include "Perception/AIPerceptionStimuliSourceComponent.h"
 
 class AActor;
 

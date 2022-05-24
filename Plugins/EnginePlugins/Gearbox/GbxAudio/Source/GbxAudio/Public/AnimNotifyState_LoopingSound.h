@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ActiveLoopingSoundNotifyData.h"
 #include "Animation/AnimNotifies/AnimNotifyState.h"
 #include "EWwiseNotifyComponentMethod.h"
-#include "ActiveLoopingSoundNotifyData.h"
 #include "AnimNotifyState_LoopingSound.generated.h"
 
 class UWwiseEvent;

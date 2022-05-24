@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "SpawnerEnabledEventDelegate.h"
 #include "OakMissionSpawner.h"
 #include "AttributeInitializationData.h"
-#include "SpawnerEnabledEventDelegate.h"
 #include "OakMissionRareSpawner.generated.h"
 
 class UGameStatData;

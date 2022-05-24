@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ImpactTriggerInfo.h"
-#include "GbxDataAsset.h"
-#include "EImpactUsage.h"
-#include "ImpactResponseEffect.h"
-#include "ImpactResponseInfo.h"
 #include "GbxSignificanceEvent.h"
+#include "GbxDataAsset.h"
+#include "ImpactResponseEffect.h"
+#include "EImpactUsage.h"
+#include "ImpactResponseInfo.h"
+#include "ImpactTriggerInfo.h"
 #include "ImpactData.generated.h"
 
 class UImpactData;

@@ -2,14 +2,13 @@
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAnimStateManager -FallbackName=GbxAnimStateManager
 #include "ECoverUserAnimState.h"
-#include "GbxAnimStateManager.h"
 #include "GbxAnimStateManager_Cover.generated.h"
 
+class UGbxCharacterAnimInstance;
+class UCoverUserComponent;
 class UCoverViewData;
 class UCoverStyleData;
 class UGbxCoverTransitionTable;
-class UGbxCharacterAnimInstance;
-class UCoverUserComponent;
 class UGbxCharacterMovementComponent;
 class UAnimSequence;
 

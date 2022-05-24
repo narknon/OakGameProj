@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InteractiveObject.h"
 #include "UObject/NoExportTypes.h"
+#include "InteractiveObject.h"
 #include "InstancedDestroyDelegateDelegate.h"
 #include "UObject/NoExportTypes.h"
 #include "DamageableHISM.generated.h"

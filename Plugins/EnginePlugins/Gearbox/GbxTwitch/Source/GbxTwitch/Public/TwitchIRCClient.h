@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "OnChannelMessageReceivedDelegate.h"
 #include "UObject/Object.h"
 #include "TwitchChannel.h"
-#include "OnChannelMessageReceivedDelegate.h"
 #include "TwitchIRCClient.generated.h"
 
 UCLASS(BlueprintType)

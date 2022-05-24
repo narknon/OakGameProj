@@ -4,8 +4,8 @@
 
 class UTravelStationData;
 class UItemPoolData;
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 
 USTRUCT(BlueprintType)
 struct FLevelledSaveGameData {

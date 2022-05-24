@@ -6,11 +6,11 @@
 #include "ETransactionType.h"
 #include "PlayerShopManagerComponent.generated.h"
 
-class UInventoryShopComponent;
+class UGbxCustomizationData;
 class AActor;
 class AOakPlayerController;
 class UOakSDUData;
-class UGbxCustomizationData;
+class UInventoryShopComponent;
 class UOakCustomizationData;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

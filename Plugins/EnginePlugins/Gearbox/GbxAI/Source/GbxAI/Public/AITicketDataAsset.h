@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "GbxParam.h"
+#include "GbxDataAsset.h"
 #include "AITicketDataAsset.generated.h"
 
 UCLASS(BlueprintType)

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "PerfSample.h"
+#include "UObject/Object.h"
 #include "Engine/LatentActionManager.h"
 #include "GbxPerfScopePerfSampleData.generated.h"
 

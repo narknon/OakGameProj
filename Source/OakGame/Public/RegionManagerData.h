@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PlayThroughData.h"
 #include "GbxDataAsset.h"
+#include "PlayThroughData.h"
 #include "RegionManagerData.generated.h"
 
 UCLASS()

@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ESpawnStretchType.h"
+#include "GameplayTagContainer.h"
 #include "Components/PrimitiveComponent.h"
 #include "ESpawnPointFilter.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=HavokNavSeed -FallbackName=HavokNavSeed
-#include "GameplayTagContainer.h"
 #include "SpawnPointComponentEventDelegate.h"
+#include "ESpawnStretchType.h"
 #include "GameplayTagContainer.h"
 #include "GameplayTagContainer.h"
 #include "UObject/NoExportTypes.h"

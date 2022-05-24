@@ -1,6 +1,6 @@
 #include "Agonizer9kFollowSpot.h"
-#include "Components/SceneComponent.h"
 #include "Components/SpotLightComponent.h"
+#include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
 
 class AActor;

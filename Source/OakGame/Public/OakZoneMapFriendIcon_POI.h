@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakZoneMapIcon_POI.h"
 #include "ZoneMapIconNotificationTempDelegate.h"
+#include "OakZoneMapIcon_POI.h"
 #include "OakZoneMapFriendIcon_POI.generated.h"
 
 UCLASS()

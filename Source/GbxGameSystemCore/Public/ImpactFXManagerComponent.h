@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ImpactFXManagerTrackingData.h"
-#include "Components/ActorComponent.h"
 #include "Engine/EngineTypes.h"
+#include "Components/ActorComponent.h"
+#include "ImpactFXManagerTrackingData.h"
 #include "UObject/NoExportTypes.h"
 #include "ImpactFXManagerComponent.generated.h"
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AIAspect_Navigation.h"
-#include "EGbxNavGoalReach.h"
 #include "GbxBlackboardKeySelector.h"
+#include "EGbxNavGoalReach.h"
 #include "AIAspect_NavBlackboard.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

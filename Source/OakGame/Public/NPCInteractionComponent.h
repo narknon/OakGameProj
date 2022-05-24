@@ -1,23 +1,23 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "EGbxActionEndState.h"
+#include "Engine/LatentActionManager.h"
+#include "MissionEventReference.h"
 #include "GameplayTagContainer.h"
 #include "ReplicatedInteractionInfo.h"
-#include "MissionEventReference.h"
-#include "Engine/LatentActionManager.h"
 #include "ItemPoolInfo.h"
 #include "UObject/NoExportTypes.h"
+#include "EGbxActionEndState.h"
 #include "NPCInteractionComponent.generated.h"
 
 class UWwiseEvent;
 class UStanceDataProvider;
 class ADroppedInventoryItemPickup;
-class UParticleSystem;
 class UMaterialInterface;
+class UParticleSystem;
+class UStaticMesh;
 class UParticleSystemComponent;
 class UObject;
-class UStaticMesh;
 class AActor;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

@@ -1,30 +1,30 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "StatusEffectManagerComponent.h"
 #include "EFreezeState.h"
 #include "CryoFreezeAssetData.h"
-#include "StatusEffectManagerComponent.h"
 #include "ShieldEffectStateData.h"
-#include "EOakStatusEffectResourceEffectType.h"
 #include "AttributeInitializationData.h"
 #include "EFreezeType.h"
 #include "CSBoosterStatus.h"
+#include "EOakElementalType.h"
 #include "StreamerBoosterStatus.h"
+#include "Engine/EngineTypes.h"
 #include "ActiveOakResourceEffect.h"
+#include "EOakStatusEffectResourceEffectType.h"
 #include "OakElementalAuraEffectInstance.h"
 #include "OakEffectPresentationManager.h"
 #include "EGbxActionEndState.h"
 #include "UObject/NoExportTypes.h"
 #include "GameResourcePoolReference.h"
-#include "EOakElementalType.h"
-#include "Engine/EngineTypes.h"
 #include "OakStatusEffectManagerComponent.generated.h"
 
 class UOakPresentableStatusEffectData;
-class AController;
 class AActor;
 class UGbxDamageType;
 class UDestructibleMesh;
+class AController;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class OAKGAME_API UOakStatusEffectManagerComponent : public UStatusEffectManagerComponent {

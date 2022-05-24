@@ -4,8 +4,8 @@
 #include "SpawnerTeamComponent.h"
 #include "SpawnerLinkComponent.h"
 
-class UTeam;
 class USpawnerStyle;
+class UTeam;
 class ASpawner;
 
 void ASpawner::SuspendAllActors() {

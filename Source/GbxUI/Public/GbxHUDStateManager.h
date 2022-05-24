@@ -3,8 +3,8 @@
 #include "HUDStateChangedEventDelegate.h"
 #include "GbxHUDStateManager.generated.h"
 
-class UGbxGFxHUDWidget;
 class UGbxHUDStateData;
+class UGbxGFxHUDWidget;
 
 USTRUCT(BlueprintType)
 struct GBXUI_API FGbxHUDStateManager {

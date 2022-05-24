@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "Components/ActorComponent.h"
-#include "EWeaponEquipType.h"
 #include "EZoomEventType.h"
+#include "Components/ActorComponent.h"
 #include "WeaponReloadStartedEventDelegate.h"
 #include "WeaponReloadEndedEventDelegate.h"
 #include "WeaponSlotContainer.h"
 #include "EWeaponPutDownType.h"
+#include "EWeaponEquipType.h"
 #include "ActiveWeaponsComponent.generated.h"
 
-class UWeaponSlotData;
 class AWeapon;
-class APawn;
+class UWeaponSlotData;
 class UInventoryBalanceData;
+class APawn;
 class UInventoryCategoryData;
 class UVehicleAttachWeaponAspectData;
 

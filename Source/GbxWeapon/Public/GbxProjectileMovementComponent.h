@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/ProjectileMovementComponent.h"
 #include "UObject/NoExportTypes.h"
+#include "GameFramework/ProjectileMovementComponent.h"
+#include "SoundPerceptionProperties.h"
 #include "Engine/EngineTypes.h"
 #include "BulletPerceptionProperties.h"
-#include "SoundPerceptionProperties.h"
 #include "GbxProjectileMovementComponent.generated.h"
 
-class AProjectile;
 class AActor;
+class AProjectile;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXWEAPON_API UGbxProjectileMovementComponent : public UProjectileMovementComponent {

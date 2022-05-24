@@ -1,8 +1,8 @@
 #include "LargeLiquidBody.h"
 #include "ElementalInteractionComponent.h"
+#include "GbxNavMeshPainterComponent.h"
 #include "ProceduralMeshComponent.h"
 #include "RegionBalanceStateComponent.h"
-#include "GbxNavMeshPainterComponent.h"
 
 class UPrimitiveComponent;
 class AActor;

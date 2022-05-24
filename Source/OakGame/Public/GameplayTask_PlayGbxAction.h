@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxActionRegister.h"
 #include "GameplayTask.h"
 #include "TaskEndStateActionDelegateDelegate.h"
 #include "TaskAnimEndActionDelegateDelegate.h"
+#include "GbxActionRegister.h"
 #include "EGbxActionNetMode.h"
 #include "UObject/NoExportTypes.h"
 #include "GameplayTask_PlayGbxAction.generated.h"

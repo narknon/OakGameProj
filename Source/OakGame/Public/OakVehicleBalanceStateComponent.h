@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "VehicleInventoryBalanceStateComponent.h"
+#include "GameResourcePoolReference.h"
 #include "HealthType.h"
 #include "OakVehicleBalanceStateComponent.generated.h"
 

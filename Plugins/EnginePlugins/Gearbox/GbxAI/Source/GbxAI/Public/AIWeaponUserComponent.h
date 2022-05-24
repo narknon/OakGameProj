@@ -1,22 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIWeaponUseSettings.h"
 #include "Components/ActorComponent.h"
 #include "InspectionInfoProvider.h"
 #include "AIWeaponUseEventSignatureDelegate.h"
+#include "AIWeaponUseSettings.h"
 #include "GbxParam.h"
 #include "NumericRange.h"
 #include "AIWeaponUserComponent.generated.h"
 
 class UDamageComponent;
-class UWeaponInterface;
-class IWeaponInterface;
 class UWeaponUserInterface;
 class IWeaponUserInterface;
-class UBlackboardComponent;
-class AGbxCharacter;
 class AGbxAIController;
+class AGbxCharacter;
+class UWeaponInterface;
+class IWeaponInterface;
 class UCoverUserComponent;
+class UBlackboardComponent;
 class UAIPerceptionComponent;
 class UTargetingComponent;
 class UGbxCondition;

@@ -4,9 +4,9 @@
 
 class UOakSDUData;
 class UStaticMesh;
-class USocketComponent;
 class UBoxComponent;
 class UStaticMeshComponent;
+class USocketComponent;
 class UTextRenderComponent;
 
 USTRUCT(BlueprintType)

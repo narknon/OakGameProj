@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=DeveloperSettings -FallbackName=DeveloperSettings
+#include "UObject/NoExportTypes.h"
 #include "InventoryManufacturerBalanceData.h"
 #include "OakVehicleSettings.generated.h"
 
-class UInventoryData;
 class UActorPartData;
 class UInventoryPartData;
+class UInventoryData;
 class UObject;
 
 UCLASS(BlueprintType, DefaultConfig, Config=Game)

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EScreenParticleScalingMode.h"
 #include "UObject/NoExportTypes.h"
+#include "EScreenParticleScalingMode.h"
 #include "ScreenParticleInitParams.generated.h"
 
 class UParticleSystem;

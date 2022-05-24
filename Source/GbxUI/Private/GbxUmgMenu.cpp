@@ -1,12 +1,12 @@
 #include "GbxUmgMenu.h"
 
-class UGbxHintBarWidgetContainer;
-class IGbxHintBarWidgetContainer;
 class UObject;
-class UWidget;
 class UGbxListItemFactory;
 class UGbxHintWidget;
 class IGbxHintWidget;
+class UWidget;
+class UGbxHintBarWidgetContainer;
+class IGbxHintBarWidgetContainer;
 class UGbxMenuData;
 
 void UGbxUmgMenu::SetWidgetAdjacency(UObject* Widget, const FGbxFocusableWidgetAdjacencyInfo AdjacencyInfo) {

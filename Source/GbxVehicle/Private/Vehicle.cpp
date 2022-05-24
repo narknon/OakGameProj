@@ -5,8 +5,8 @@
 class UTargetableComponent;
 class UTeam;
 class UVehiclePartData;
-class UTeamComponent;
 class UTargetingComponent;
+class UTeamComponent;
 
 void AVehicle::SetTeam(UTeam* Team) const {
 }

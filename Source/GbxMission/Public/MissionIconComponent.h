@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "MissionIconEnabledDelegateDelegate.h"
 #include "Components/PrimitiveComponent.h"
 #include "MissionIconInterface.h"
 #include "MissionObjectiveReferenceInterface.h"
@@ -8,12 +9,11 @@
 #include "MissionReferenceInterface.h"
 #include "EIconRadiusDrawStyle.h"
 #include "UObject/NoExportTypes.h"
-#include "MissionIconEnabledDelegateDelegate.h"
 #include "EMissionIconState.h"
 #include "MissionIconComponent.generated.h"
 
-class UGbxCondition;
 class UParticleSystem;
+class UGbxCondition;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXMISSION_API UMissionIconComponent : public UPrimitiveComponent, public IMissionObserverInterface, public IMissionObjectiveReferenceInterface, public IMissionIconInterface, public IMissionReferenceInterface {

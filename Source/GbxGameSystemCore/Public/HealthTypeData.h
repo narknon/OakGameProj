@@ -5,8 +5,8 @@
 #include "Engine/DataTable.h"
 #include "HealthTypeData.generated.h"
 
-class UPhysicalMaterial;
 class UGbxAttributeData;
+class UPhysicalMaterial;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UHealthTypeData : public UGbxDataAsset {

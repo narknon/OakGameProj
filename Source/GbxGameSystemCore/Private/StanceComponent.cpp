@@ -1,9 +1,9 @@
 #include "StanceComponent.h"
 #include "Net/UnrealNetwork.h"
 
-class UStanceType;
 class UStanceData;
 class UStanceDataProvider;
+class UStanceType;
 
 void UStanceComponent::StackStanceChangedCallback(EStanceStackLayer PreviousLayer, UStanceData* PreviousStance, EStanceStackLayer NextLayer, UStanceData* NextStance) {
 }

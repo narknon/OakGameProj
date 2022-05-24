@@ -4,9 +4,9 @@
 #include "HitReactionLayer.h"
 #include "HitReactionLayer_OakBase.generated.h"
 
-class UHitReactionTag;
 class UOakDamageSource;
 class UDataTable;
+class UHitReactionTag;
 
 UCLASS(Abstract, Const)
 class UHitReactionLayer_OakBase : public UHitReactionLayer {

@@ -3,16 +3,16 @@
 #include "Components/ActorComponent.h"
 #include "UsableAngleRestriction.h"
 #include "HoldToUseSettings.h"
-#include "UsableUsedSignatureDelegate.h"
 #include "UseDefSelection.h"
+#include "UsableUsedSignatureDelegate.h"
 #include "UsableUsedOnChannelSignatureDelegate.h"
 #include "UsableLookedAtSignatureDelegate.h"
 #include "UsableLookedAwayFromSignatureDelegate.h"
 #include "UsabilityQuery.h"
 #include "UsableComponent.generated.h"
 
-class UUsabilityDataSelection;
 class UGbxCondition;
+class UUsabilityDataSelection;
 
 UCLASS(Blueprintable, DefaultConfig, ClassGroup=Custom, Config=Game, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UUsableComponent : public UActorComponent {

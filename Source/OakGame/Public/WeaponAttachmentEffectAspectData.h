@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WeaponRegisterAttachmentEffectData.h"
 #include "WeaponEffectBaseAspectData.h"
+#include "WeaponRegisterAttachmentEffectData.h"
 #include "WeaponAttachmentEffectAspectData.generated.h"
 
 UCLASS(EditInlineNew)

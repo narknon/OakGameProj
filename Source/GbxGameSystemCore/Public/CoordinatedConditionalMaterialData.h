@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "CoordinatedConditionalMaterialData.generated.h"
 
-class UMaterial;
 class UMaterialInterface;
+class UMaterial;
 
 USTRUCT(BlueprintType)
 struct FCoordinatedConditionalMaterialData {

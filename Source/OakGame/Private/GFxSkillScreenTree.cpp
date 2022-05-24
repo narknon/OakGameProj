@@ -4,8 +4,8 @@
 class UGFxSkillScreenItem;
 class UGFxSkillScreenLoadoutSlot;
 class UGbxGFxButton;
-class UPlayerCharacterComponentSlotData;
 class UOakPlayerAbilitySlotData;
+class UPlayerCharacterComponentSlotData;
 class UGFxSkillScreenBranch;
 class UOakPlayerAbilityTreeItemData;
 class UOakActionAbility;

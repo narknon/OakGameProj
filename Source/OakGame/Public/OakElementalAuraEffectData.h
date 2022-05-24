@@ -5,8 +5,8 @@
 #include "OakElementalAuraEffectData.generated.h"
 
 class UOakElementalEffectData;
-class UDamageData;
 class UGbxAttributeData;
+class UDamageData;
 
 USTRUCT(BlueprintType)
 struct FOakElementalAuraEffectData {

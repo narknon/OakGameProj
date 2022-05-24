@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PawnAttachmentQueryResult.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "PawnAttachmentQueryResult.h"
 #include "PawnAttachmentFunctionLibrary.generated.h"
 
 class AActor;

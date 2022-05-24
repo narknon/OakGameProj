@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "DamageDataEventDetails.h"
+#include "ForceSelection.h"
 #include "UObject/Object.h"
 #include "GbxSignificanceEvent.h"
 #include "AttributeInitializationData.h"
-#include "DamageDataEventDetails.h"
-#include "ForceSelection.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "AttitudeDamageRules.h"
@@ -13,11 +13,11 @@
 #include "DamageData.generated.h"
 
 class UDamageAreaType;
+class UParticleSystem;
 class UDamageSource;
+class UMaterialInterface;
 class UGbxDamageType;
 class UConditionalDamageModifier;
-class UMaterialInterface;
-class UParticleSystem;
 class UWwiseEvent;
 class UFeedbackData;
 class UImpactData;

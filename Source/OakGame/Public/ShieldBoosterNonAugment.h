@@ -4,10 +4,10 @@
 #include "ShieldBoosterNonAugment.generated.h"
 
 class AOakCharacter;
+class UParticleSystem;
 class UOakManagedActorDefinition;
 class UStaticMeshComponent;
 class UWwiseEvent;
-class UParticleSystem;
 
 UCLASS()
 class AShieldBoosterNonAugment : public AOakInventoryItem {

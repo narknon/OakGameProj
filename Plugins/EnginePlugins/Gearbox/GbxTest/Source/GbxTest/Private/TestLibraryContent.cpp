@@ -1,9 +1,9 @@
 #include "TestLibraryContent.h"
 
 class UTexture;
-class UStaticMesh;
 class UMaterial;
 class UParticleSystem;
+class UStaticMesh;
 class USkeletalMesh;
 class UObject;
 

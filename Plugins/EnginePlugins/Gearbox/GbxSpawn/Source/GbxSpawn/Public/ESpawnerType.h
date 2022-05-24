@@ -3,7 +3,7 @@
 #include "ESpawnerType.generated.h"
 
 UENUM(BlueprintType)
-enum class ESpawnerType :  {
+enum class ESpawnerType : uint8 {
     None,
     Level,
     Static,

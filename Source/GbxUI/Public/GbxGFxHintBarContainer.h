@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxHintBarWidgetContainer.h"
 #include "GbxGFxGridScrollingList.h"
+#include "GbxHintBarWidgetContainer.h"
 #include "GbxGFxHintBarContainer.generated.h"
 
 class UGbxHintBar;

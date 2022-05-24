@@ -3,7 +3,7 @@
 #include "EWeaponEffectFlag.generated.h"
 
 UENUM(BlueprintType)
-enum class EWeaponEffectFlag :  {
+enum class EWeaponEffectFlag : uint8 {
     AutoActivate,
     PlayOnlyOnActiveSlot,
     IgnoredByFXCoordinator,

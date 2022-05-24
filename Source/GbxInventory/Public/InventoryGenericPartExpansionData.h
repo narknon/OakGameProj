@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "InventoryGenericPartExpansionListData.h"
+#include "GbxDataAsset.h"
 #include "InventoryGenericPartExpansionData.generated.h"
 
-class UInventoryBalanceCollectionData;
 class UGbxCondition;
+class UInventoryBalanceCollectionData;
 class UActorPartData;
 
 UCLASS()

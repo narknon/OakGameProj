@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MoneyStackValues.h"
 #include "GrenadeBehavior_PayloadBlueprint.h"
+#include "MoneyStackValues.h"
 #include "UObject/NoExportTypes.h"
 #include "GrenadeBehavior_PayloadMoney.generated.h"
 
-class ULootSpawnPatternData;
 class UParticleSystem;
+class ULootSpawnPatternData;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UGrenadeBehavior_PayloadMoney : public UGrenadeBehavior_PayloadBlueprint {

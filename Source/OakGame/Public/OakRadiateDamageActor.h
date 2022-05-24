@@ -2,12 +2,12 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GameFramework/Actor.h"
-#include "EnvQueryParams.h"
 #include "Engine/EngineTypes.h"
+#include "EnvQueryParams.h"
+#include "UObject/NoExportTypes.h"
 #include "ERadiateMovementType.h"
 #include "ERadiateMethod.h"
 #include "AttributeInitializationData.h"
-#include "UObject/NoExportTypes.h"
 #include "OakRadiateDamageActor.generated.h"
 
 class UOakDamageData;

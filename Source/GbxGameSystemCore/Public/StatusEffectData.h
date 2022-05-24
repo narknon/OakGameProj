@@ -2,13 +2,13 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "Engine/DataAsset.h"
-#include "AttributeEffect.h"
 #include "GameplayTagContainer.h"
+#include "AttributeEffect.h"
 #include "StatusEffectData.generated.h"
 
 class UStatusEffectStackingStrategyData;
-class UDamageSource;
 class UGbxDamageType;
+class UDamageSource;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UStatusEffectData : public UDataAsset {

@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CauseDamageStatusEffectOverrides.h"
-#include "OakElementalEffectBucketProviderInterface.h"
 #include "Projectile.h"
-#include "NameplateInfoProviderInterface.h"
 #include "EOakElementalStackBucketType.h"
+#include "OakElementalEffectBucketProviderInterface.h"
+#include "NameplateInfoProviderInterface.h"
+#include "CauseDamageStatusEffectOverrides.h"
 #include "Engine/EngineTypes.h"
 #include "OakProjectile.generated.h"
 
-class UTargetableComponent;
 class UDamageComponent;
+class UTargetableComponent;
 class UBalanceStateComponent;
 
 UCLASS()

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "StanceData.h"
 #include "EGbxStrafeType.h"
+#include "StanceData.h"
 #include "AIStanceData.generated.h"
 
 class UHavokPathFindingData;

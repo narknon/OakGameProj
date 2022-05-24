@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "TeamComponent.h"
-#include "TargetLocationSettings.h"
 #include "Perception/AISightTargetInterface.h"
 #include "TargetLocationBoundsSettings.h"
+#include "TeamComponent.h"
+#include "TargetLocationSettings.h"
 #include "ResourceLock.h"
-#include "OverrideMeleeSocket.h"
 #include "EAimAssistSnapTargetType.h"
+#include "OverrideMeleeSocket.h"
 #include "UObject/NoExportTypes.h"
 #include "TargetableComponent.generated.h"
 

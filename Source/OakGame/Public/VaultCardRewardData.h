@@ -3,8 +3,8 @@
 #include "VaultCardRewardDataBase.h"
 #include "VaultCardRewardData.generated.h"
 
-class UOakCustomizationData;
 class UWeaponSkinPartData;
+class UOakCustomizationData;
 class UWeaponTrinketPartData;
 class UCrewQuartersDecorationItemData;
 

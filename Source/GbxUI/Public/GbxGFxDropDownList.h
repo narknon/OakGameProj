@@ -4,10 +4,10 @@
 #include "GbxMenuInputEvent.h"
 #include "GbxGFxDropDownList.generated.h"
 
-class UGbxGFxComboBoxScrollingList;
 class UGbxGFxSlider;
 class UGbxTextField;
 class UGbxGFxButton;
+class UGbxGFxComboBoxScrollingList;
 
 UCLASS(NonTransient)
 class GBXUI_API UGbxGFxDropDownList : public UGbxGFxObject {

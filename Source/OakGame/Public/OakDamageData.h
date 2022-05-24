@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "DamageData.h"
 #include "AttributeInitializationData.h"
+#include "DamageData.h"
 #include "DamageDataCustomStatusEffectApplicationSpec.h"
 #include "EDamagePresentationModifier.h"
 #include "OakDamageData.generated.h"

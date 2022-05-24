@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryAspectData.h"
-#include "MaterialScalarParameterData.h"
 #include "RarityMaterialData.h"
+#include "InventoryAspectData.h"
 #include "MaterialVectorParameterData.h"
+#include "MaterialScalarParameterData.h"
 #include "MaterialTextureParameterData.h"
 #include "MaterialTextureAssetParameterData.h"
 #include "MaterialFontParameterData.h"

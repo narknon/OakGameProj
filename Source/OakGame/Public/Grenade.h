@@ -3,16 +3,17 @@
 #include "Templates/SubclassOf.h"
 #include "OakProjectile.h"
 #include "AIProjectileInterface.h"
-#include "UObject/NoExportTypes.h"
-#include "Engine/EngineTypes.h"
 #include "GrenadeAttachedTrail.h"
 #include "PayloadInstanceData.h"
 #include "GrenadeChildGenerationData.h"
+#include "UObject/NoExportTypes.h"
 #include "EnvQueryParams.h"
+#include "Engine/EngineTypes.h"
 #include "EChildPayloadType.h"
 #include "Grenade.generated.h"
 
 class USphereComponent;
+class UWwiseEvent;
 class AGrenadeMod;
 class AOakCharacter;
 class UCapsuleComponent;
@@ -20,14 +21,13 @@ class USkeletalMeshComponent;
 class UStaticMeshComponent;
 class UStaticMesh;
 class UGrenadeProjectileMovementComponent;
+class UParticleSystemComponent;
 class UGrenadeHomingComponent;
 class UDrunkenRandomMovementComponent;
 class UDrunkenWaveMovementComponent;
 class AActor;
 class UWwiseAudioComponent;
-class UParticleSystemComponent;
 class UGrenadeBehavior_Delivery;
-class UWwiseEvent;
 class UGrenadeBehavior_Payload;
 class UElementalEffectCollectionData;
 class UGrenadeBehavior;

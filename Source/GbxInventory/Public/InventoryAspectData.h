@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "EInventoryAspectUsagePriority.h"
+#include "GbxDataAsset.h"
 #include "InventoryAspectData.generated.h"
 
 class UInventoryBalanceStateComponent;

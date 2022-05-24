@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EOakElementalType.h"
 #include "DamageFilter.h"
+#include "EOakElementalType.h"
 #include "OakDamageFilter.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

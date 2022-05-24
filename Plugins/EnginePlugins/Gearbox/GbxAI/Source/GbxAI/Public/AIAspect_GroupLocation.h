@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_GroupLocation.h"
 #include "AIAspect.h"
+#include "AIAspectSettings_GroupLocation.h"
 #include "AIAspect_GroupLocation.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

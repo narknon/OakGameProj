@@ -1,30 +1,30 @@
 #include "GbxCharacter.h"
 #include "Net/UnrealNetwork.h"
-#include "GbxCharacterMovementComponent.h"
 #include "TargetableComponent.h"
-#include "GameplayTagContainerComponent.h"
+#include "GbxActionComponent.h"
+#include "GbxCharacterMovementComponent.h"
 #include "DamageComponent.h"
 #include "DamageCauserComponent.h"
-#include "GbxActionComponent.h"
+#include "GameplayTagContainerComponent.h"
 #include "DynamicPhysicalAnimationComponent.h"
 #include "GbxSkeletalMeshComponent.h"
 
 class UTeam;
-class UCharacterSoundTag;
-class UBlackboardComponent;
 class AGbxCharacter;
-class UBlackboardData;
-class UGbxUIName;
-class UTeamComponent;
-class AGbxPlayerController;
-class ULandingData;
 class UTargetingComponent;
+class AGbxPlayerController;
+class UGbxUIName;
+class UFirstPersonComponent;
+class UCharacterSoundTag;
+class ULandingData;
+class UTeamComponent;
+class USkeletalMeshComponent;
 class UGbxPerceptionComponent;
 class UPawnAttachSlotComponent;
 class AActor;
-class USkeletalMeshComponent;
-class UFirstPersonComponent;
 class USceneComponent;
+class UBlackboardComponent;
+class UBlackboardData;
 
 void AGbxCharacter::SetTeam(UTeam* Team) const {
 }

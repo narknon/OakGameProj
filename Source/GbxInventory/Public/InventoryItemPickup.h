@@ -2,31 +2,31 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GameFramework/Actor.h"
+#include "InventoryItemPickedUpEventDelegate.h"
 #include "EPickupActionType.h"
+#include "InventoryItemActivatedEventDelegate.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "InventoryItemPickupClientSpawnData.h"
-#include "InventoryItemActivatedEventDelegate.h"
-#include "InventoryItemPickedUpEventDelegate.h"
-#include "UObject/NoExportTypes.h"
-#include "EDropLifeSpanType.h"
 #include "Engine/NetSerialization.h"
 #include "UseEvent.h"
+#include "EDropLifeSpanType.h"
 #include "UObject/NoExportTypes.h"
 #include "InventoryItemPickup.generated.h"
 
-class UMeshComponent;
 class UWwiseEvent;
+class UInventoryCategoryData;
+class UGbxAction;
 class UStaticMeshComponent;
 class USkeletalMeshComponent;
+class UInventoryData;
 class UParticleSystemComponent;
 class UGbxCondition;
-class UInventoryCategoryData;
-class APlayerController;
+class UMeshComponent;
 class USphereComponent;
-class UInventoryData;
 class UInventoryBalanceStateComponent;
-class UGbxAction;
 class AController;
+class APlayerController;
 class UParticleSystem;
 
 UCLASS()

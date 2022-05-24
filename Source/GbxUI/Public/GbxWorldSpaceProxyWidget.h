@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxUserWidget.h"
 #include "UObject/NoExportTypes.h"
+#include "GbxUserWidget.h"
 #include "UObject/NoExportTypes.h"
 #include "GbxWorldSpaceProxyWidget.generated.h"
 

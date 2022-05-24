@@ -5,13 +5,13 @@
 #include "EVoiceOfGodSpeaker.h"
 #include "OakVoiceOfGodComponent.generated.h"
 
-class UParticleSystem;
 class UMaterialInstance;
+class UParticleSystem;
 class UGbxMediaData;
 class UMaterialInstanceDynamic;
+class UCharacterEchoData;
 class UMediaPlayer;
 class UScreenParticleManagerComponent;
-class UCharacterEchoData;
 class UPerformanceEchoData;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

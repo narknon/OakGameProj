@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CarnivoraDamageZoneInfo.h"
 #include "Components/BoxComponent.h"
+#include "UObject/NoExportTypes.h"
+#include "CarnivoraDamageZoneInfo.h"
 #include "AttributeInitializationData.h"
 #include "Engine/EngineTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "CarnivoraDamageZoneComponent.generated.h"
 
-class UPrimitiveComponent;
 class USceneComponent;
+class UPrimitiveComponent;
 class AActor;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

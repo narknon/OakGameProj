@@ -3,7 +3,7 @@
 #include "EPlanStage.generated.h"
 
 UENUM(BlueprintType)
-enum class EPlanStage :  {
+enum class EPlanStage : uint8 {
     NeedLeader,
     NeedFollowers,
     HasMinimumRoster,

@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EPickupLootAttachmentMode.h"
-#include "Components/ActorComponent.h"
-#include "PickupAttachedDelegateDelegate.h"
-#include "PickupDetachedDelegateDelegate.h"
 #include "LootConfigurationInfo.h"
+#include "PickupAttachedDelegateDelegate.h"
+#include "Components/ActorComponent.h"
+#include "PickupDetachedDelegateDelegate.h"
+#include "EPickupLootAttachmentMode.h"
 #include "UObject/NoExportTypes.h"
 #include "LootableComponent.generated.h"
 
-class ULootableBalanceData;
 class UGbxAction;
+class ULootableBalanceData;
 class ADroppedInventoryItemPickup;
 class AActor;
 

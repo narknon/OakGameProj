@@ -1,38 +1,38 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=OnlineSubsystemUtils -ObjectName=DownloadableContentData -FallbackName=DownloadableContentData
 #include "DlcLevelTravelPair.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=OnlineSubsystemUtils -ObjectName=DownloadableContentData -FallbackName=DownloadableContentData
 #include "LevelTravelDataListStationPatch.h"
 #include "UObject/NoExportTypes.h"
+#include "ChallengeFilterType.h"
 #include "GameplayTagContainer.h"
 #include "LevelledSaveGameData.h"
-#include "ChallengeFilterType.h"
 #include "ItemPoolCollection.h"
 #include "DownloadableExpansionData.generated.h"
 
-class UAdditionalZoneMapData;
-class UCrewQuartersDecorationData;
-class UGameStatList;
-class UZoneMapListData;
-class UDEPRECATED_OakMayhemModifiersDataAsset;
-class URegionManagerData;
+class UVaultCardGeneralData;
+class UMayhemOverrideDataAsset;
 class UFastTravelStationData;
-class UMission;
+class UZoneMapListData;
 class UOakCARMenuLoadout;
+class UMission;
+class URegionManagerData;
 class UChallengeList;
-class UDEPRECATED_OakMayhemUIDataAsset;
+class UGameStatList;
+class UChallengeCategoryData;
 class UGameStatData;
 class UOakLoadingScreenExpansionData;
-class UMayhemOverrideDataAsset;
-class UChallengeCategoryData;
+class UDEPRECATED_OakMayhemModifiersDataAsset;
+class UDEPRECATED_OakMayhemUIDataAsset;
+class UCrewQuartersDecorationData;
 class UGbxCustomizationData;
-class UGuardianRankRewardData;
 class UGuardianRankPerkData;
+class UAdditionalZoneMapData;
+class UGuardianRankRewardData;
 class UOakVaultCardRewardData;
-class UVaultCardGeneralData;
 class UItemPoolData;
-class UBehindTheScenesContent;
 class UOakPlayerAbilityTreeBranchData;
+class UBehindTheScenesContent;
 
 UCLASS()
 class UDownloadableExpansionData : public UDownloadableContentData {

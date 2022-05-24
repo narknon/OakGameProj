@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "VendingMachineTrayTile.generated.h"
 
-class AActor;
 class APickupableMeshActor;
+class AActor;
 class UInventoryBalanceStateComponent;
 
 USTRUCT(BlueprintType)

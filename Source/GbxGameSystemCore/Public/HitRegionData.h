@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "HitRegionHealthParams.h"
-#include "AttributeInitializationData.h"
 #include "ImpactResponseEffect.h"
 #include "EDamageSurfaceType.h"
 #include "HitRegionData.generated.h"
 
+class UParticleSystem;
 class UImpactData;
 class UPhysicalMaterial;
-class UParticleSystem;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UHitRegionData : public UGbxDataAsset {

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AttributeInitializationData.h"
 #include "Components/PrimitiveComponent.h"
 #include "SpawnEventDelegate.h"
-#include "AttributeInitializationData.h"
 #include "SpawnDoneEventDelegate.h"
 #include "SpawnWaveEventDelegate.h"
 #include "SpawnDataEventDelegate.h"
@@ -14,14 +14,14 @@
 #include "ESpawnerDrawStyle.h"
 #include "SpawnerComponent.generated.h"
 
-class USpawnOptionData;
 class AVolume;
 class USpawnerStyle;
-class USpawnFactory;
 class ASpawnPoint;
+class USpawnFactory;
+class UTeam;
 class USpawnPointComponent;
 class ASpawner;
-class UTeam;
+class USpawnOptionData;
 class USpawnerComponent;
 class AActor;
 

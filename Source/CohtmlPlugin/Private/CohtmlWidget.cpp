@@ -2,8 +2,8 @@
 
 class UObject;
 class UStructProperty;
-class UCohtmlJSEvent;
 class UTextureRenderTarget2D;
+class UCohtmlJSEvent;
 
 void UCohtmlWidget::UpdateWholeDataModelFromStruct(const UStructProperty* Struct) const {
 }

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "NumericRange.h"
 #include "GbxParam.h"
+#include "NumericRange.h"
 #include "AIWeaponUseSettings.generated.h"
 
 USTRUCT(BlueprintType)

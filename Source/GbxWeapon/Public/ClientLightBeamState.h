@@ -4,14 +4,14 @@
 #include "LightBeamAttachment.h"
 #include "ClientLightBeamState.generated.h"
 
-class UParticleSystem;
+class UImpactData;
 class ULightBeamData;
-class UWwiseEvent;
 class APawn;
 class AActor;
-class UImpactData;
-class UGbxDamageType;
 class UDamageSource;
+class UParticleSystem;
+class UWwiseEvent;
+class UGbxDamageType;
 class UCurveFloat;
 
 USTRUCT(BlueprintType)

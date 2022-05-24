@@ -2,7 +2,6 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "InteractiveObject.h"
-#include "LootableInteractionResponse.h"
 #include "LevelActorPersistenceInterface.h"
 #include "EMissionDrivenLootableType.h"
 #include "LootableDirectionalResponse.h"
@@ -10,7 +9,7 @@
 #include "ELootSpawnTiming.h"
 #include "ConditionalLootableInteractionResponse.h"
 #include "LootablePersistenceData.h"
-#include "LootableEventDelegate.h"
+#include "LootableInteractionResponse.h"
 #include "LootablePileInteractionResponse.h"
 #include "LootablePileDamageInteraction.h"
 #include "LootableMeshSwapData.h"
@@ -18,15 +17,16 @@
 #include "MissionEventReference.h"
 #include "UObject/NoExportTypes.h"
 #include "LootableAnimState.h"
+#include "LootableEventDelegate.h"
 #include "UseEvent.h"
 #include "LootableObjectDamageEventDetails.h"
 #include "Engine/DataTable.h"
 #include "LootableObject.generated.h"
 
 class ULootableBalanceData;
-class UDamageSource;
 class UGbxCondition;
 class UUsableComponent;
+class UDamageSource;
 class APlayerController;
 class USkeletalMeshComponent;
 class UOakMissionIconComponent;

@@ -3,7 +3,7 @@
 #include "LoginState.generated.h"
 
 UENUM(BlueprintType)
-enum class LoginState :  {
+enum class LoginState : uint8 {
     LoggedOut,
     LoggingIn,
     LoggedIn,

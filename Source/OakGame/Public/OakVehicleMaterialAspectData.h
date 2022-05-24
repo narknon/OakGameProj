@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SkinParameterData.h"
 #include "InventoryMaterialAspectData.h"
+#include "SkinParameterData.h"
 #include "OakVehicleMaterialAspectData.generated.h"
 
 class UMaterialInterface;

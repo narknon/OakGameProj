@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AttributeValueResolver.h"
-#include "AttributeInitializationData.h"
 #include "EStackOperator.h"
+#include "AttributeInitializationData.h"
 #include "ShieldAugmentValueResolver.generated.h"
 
 class UShieldAugment;

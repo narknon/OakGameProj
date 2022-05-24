@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "DialogParameterMapping.h"
 #include "GbxDialogDataAsset.h"
 #include "ELineScorePriorityMode.h"
 #include "DialogSelectionCondition.h"
 #include "DialogTimeSlotReference.h"
-#include "DialogParameterMapping.h"
 #include "DialogLineData.generated.h"
 
 class UDialogPerformanceData;
-class UDialogEvent;
 class UDialogEnumValue;
+class UDialogEvent;
 
 UCLASS(EditInlineNew)
 class GBXDIALOG_API UDialogLineData : public UGbxDialogDataAsset {

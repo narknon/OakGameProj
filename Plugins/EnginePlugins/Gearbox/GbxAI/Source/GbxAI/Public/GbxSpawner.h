@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GameplayTaskOwnerInterface.h"
 #include "Spawner.h"
 #include "GenericTeamAgentInterface.h"
-#include "GameplayTaskOwnerInterface.h"
 #include "GbxThreatSystemInterface.h"
 #include "SpawnerThreatenedEventDelegate.h"
 #include "GbxSpawner.generated.h"
 
-class UGbxSpawnerComponent;
 class UBalanceStateComponent;
-class USpawnNodeComponent;
-class UGameplayTasksComponent;
-class UAINodeComponent;
+class UGbxSpawnerComponent;
 class UAIGroupState;
+class UGameplayTasksComponent;
+class USpawnNodeComponent;
+class UAINodeComponent;
 
 UCLASS()
 class GBXAI_API AGbxSpawner : public ASpawner, public IGenericTeamAgentInterface, public IGameplayTaskOwnerInterface, public IGbxThreatSystemInterface {

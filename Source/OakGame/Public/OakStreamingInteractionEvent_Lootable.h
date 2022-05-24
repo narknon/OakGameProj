@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MinimalInventoryInfo.h"
+#include "LootableEventResultItem.h"
 #include "OakStreamingInteractionEvent.h"
 #include "OakThumbnailManagerConfig.h"
-#include "LootableEventResultItem.h"
+#include "MinimalInventoryInfo.h"
 #include "OakStreamingInteractionEvent_Lootable.generated.h"
 
-class UUIGlobals;
+class ALootableObject;
 class ULootableBalanceData;
-class UOakThumbnailManager;
 class UInventoryCategoryData;
+class UUIGlobals;
+class UOakThumbnailManager;
 class USpawnerComponent;
 class AActor;
-class ALootableObject;
 
 UCLASS()
 class UOakStreamingInteractionEvent_Lootable : public UOakStreamingInteractionEvent {

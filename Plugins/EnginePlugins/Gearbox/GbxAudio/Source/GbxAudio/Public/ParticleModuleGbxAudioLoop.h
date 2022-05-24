@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWwiseMultiPositionType.h"
-#include "ParticleModuleGbxAudioBase.h"
 #include "Distributions/DistributionFloat.h"
+#include "ParticleModuleGbxAudioBase.h"
+#include "EWwiseMultiPositionType.h"
 #include "ParticleModuleGbxAudioLoop.generated.h"
 
 class UWwiseEvent;

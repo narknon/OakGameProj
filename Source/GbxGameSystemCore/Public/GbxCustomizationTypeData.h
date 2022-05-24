@@ -3,8 +3,8 @@
 #include "GbxDataAsset.h"
 #include "GbxCustomizationTypeData.generated.h"
 
-class UGbxCustomizationTypeData;
 class UGbxCustomizationTargetData;
+class UGbxCustomizationTypeData;
 class UGameStatData;
 
 UCLASS()

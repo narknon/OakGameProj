@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "GbxParam.h"
+#include "GbxDataAsset.h"
 #include "VehicleDrivingDataAsset.generated.h"
 
 class UGbxCondition;

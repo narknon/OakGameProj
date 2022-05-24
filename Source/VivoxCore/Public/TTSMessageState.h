@@ -3,7 +3,7 @@
 #include "TTSMessageState.generated.h"
 
 UENUM(BlueprintType)
-enum class TTSMessageState :  {
+enum class TTSMessageState : uint8 {
     Playing,
     Enqueued,
 };

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/EngineTypes.h"
 #include "VoxelDataProvider.h"
 #include "AudioPrepComponentFilter.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/EngineTypes.h"
 #include "Engine/EngineTypes.h"
 #include "AudioOcclusionVoxelDataProvider.generated.h"
 

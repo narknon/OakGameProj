@@ -1,8 +1,5 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OnPlaybackEndDelegate.h"
-#include "OnRtpcSyncDelegate.h"
-#include "WwisePlaybackInstance.h"
 #include "WwiseGameObjectComponent.h"
 #include "EWwiseAudioComponentType.h"
 #include "OnNewAudioInstanceStartedDelegate.h"
@@ -13,8 +10,11 @@
 #include "OnMusicSyncPointDelegate.h"
 #include "OnMusicPlayStartedDelegate.h"
 #include "OnMusicBeatDelegate.h"
-#include "EWwiseMultiPositionType.h"
+#include "OnPlaybackEndDelegate.h"
+#include "OnRtpcSyncDelegate.h"
 #include "UObject/NoExportTypes.h"
+#include "EWwiseMultiPositionType.h"
+#include "WwisePlaybackInstance.h"
 #include "WwiseAudioComponent.generated.h"
 
 class UAudioParametersProviderInterface;

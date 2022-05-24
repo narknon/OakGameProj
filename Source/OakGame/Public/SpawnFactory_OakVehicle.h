@@ -4,10 +4,10 @@
 #include "SpawnFactory_Oak.h"
 #include "SpawnFactory_OakVehicle.generated.h"
 
+class UGbxUIName;
 class UInventoryBalanceData;
 class AOakVehicle;
 class USpawnFactory;
-class UGbxUIName;
 
 UCLASS(CollapseCategories, EditInlineNew)
 class OAKGAME_API USpawnFactory_OakVehicle : public USpawnFactory_Oak {

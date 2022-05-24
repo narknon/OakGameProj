@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAction.h"
-#include "AIAspectSettings_Teleport.h"
-#include "GbxBlackboardKeySelector.h"
 #include "AIAspectSettings_EnvQuery.h"
+#include "AIAspectSettings_Teleport.h"
+#include "AIAction.h"
+#include "GbxBlackboardKeySelector.h"
 #include "AIAction_Teleport.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

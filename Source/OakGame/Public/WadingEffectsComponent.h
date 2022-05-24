@@ -3,12 +3,12 @@
 #include "Components/ActorComponent.h"
 #include "WadingEffectsComponent.generated.h"
 
+class UPhysicalMaterial;
 class ALargeLiquidBody;
-class UPrimitiveComponent;
 class UElementalInteractionData;
+class UPrimitiveComponent;
 class UParticleSystemComponent;
 class UParticleSystem;
-class UPhysicalMaterial;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class OAKGAME_API UWadingEffectsComponent : public UActorComponent {

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
-#include "InspectionInfoProvider.h"
-#include "GameplayTagAssetInterface.h"
 #include "GameplayTagContainer.h"
+#include "Components/ActorComponent.h"
+#include "GameplayTagAssetInterface.h"
+#include "InspectionInfoProvider.h"
 #include "GameplayTagContainer.h"
 #include "EContainsTagComponent.h"
 #include "GameplayTagContainerComponent.generated.h"

@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "OnFaceFXEventSignatureDelegate.h"
 #include "Components/ActorComponent.h"
 #include "OnFaceFXAudioStartEventSignatureDelegate.h"
-#include "OnFaceFXEventSignatureDelegate.h"
 #include "FaceFXEntry.h"
 #include "FaceFXAnimId.h"
 #include "FaceFXComponent.generated.h"
 
-class UFaceFXActor;
+class UFaceFXAudioComponent;
 class UObject;
 class USkeletalMeshComponent;
-class UFaceFXAudioComponent;
+class UFaceFXActor;
 class UFaceFXAnim;
 class UFaceFXCharacter;
 

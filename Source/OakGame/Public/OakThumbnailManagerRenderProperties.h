@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ThumbnailParameters -FallbackName=ThumbnailParameters
 #include "UObject/NoExportTypes.h"
 #include "OakThumbnailManagerLightProperties.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=ThumbnailParameters -FallbackName=ThumbnailParameters
 #include "Engine/Scene.h"
 #include "OakThumbnailManagerRenderProperties.generated.h"
 

@@ -4,10 +4,10 @@
 #include "CriticalHitDamageOverrides.h"
 #include "DamageInfo.generated.h"
 
+class UFeedbackData;
 class UGbxDamageType;
 class UDamageModifierComponent;
 class UDamageSource;
-class UFeedbackData;
 class AActor;
 
 USTRUCT(BlueprintType)

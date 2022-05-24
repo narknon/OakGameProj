@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "WwiseImplementerInterface.h"
-#include "FoleyImplementerInterface.h"
 #include "Weapon.h"
+#include "FoleyImplementerInterface.h"
+#include "EWeaponHolsteredSizeType.h"
 #include "AudioParametersProviderInterface.h"
 #include "OakElementalEffectBucketProviderInterface.h"
-#include "EWeaponHolsteredSizeType.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat

@@ -1,10 +1,10 @@
 #include "GFxNameplate.h"
 
 class UTeamComponent;
-class UNameplateInfoProviderInterface;
-class INameplateInfoProviderInterface;
 class UTeam;
 class AGbxCharacter;
+class UNameplateInfoProviderInterface;
+class INameplateInfoProviderInterface;
 
 void UGFxNameplate::OnTeamUpdated(UTeamComponent* NewTeam, UTeam* OldTeam) {
 }

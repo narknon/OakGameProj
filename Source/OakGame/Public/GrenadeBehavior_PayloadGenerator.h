@@ -5,11 +5,11 @@
 #include "GrenadeBehavior_PayloadGenerator.generated.h"
 
 class UDamageSource;
+class UParticleSystem;
 class UDamageData;
-class UWwiseEvent;
 class UHealthTypeData;
 class UGbxDamageType;
-class UParticleSystem;
+class UWwiseEvent;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UGrenadeBehavior_PayloadGenerator : public UGrenadeBehavior_PayloadBlueprint {

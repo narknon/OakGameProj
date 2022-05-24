@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ResourceLock.h"
 #include "OakResourceEffectData.h"
 #include "GameResourcePoolReference.h"
+#include "ResourceLock.h"
 #include "ActiveOakResourceEffect.generated.h"
 
 USTRUCT(BlueprintType)

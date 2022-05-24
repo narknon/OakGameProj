@@ -4,8 +4,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
 #include "WeaponAmmoCurrencyComponent.generated.h"
 
-class UInventoryListComponent;
 class UInventoryCategoryData;
+class UInventoryListComponent;
 
 UCLASS(BlueprintType, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UWeaponAmmoCurrencyComponent : public UWeaponAmmoComponent {

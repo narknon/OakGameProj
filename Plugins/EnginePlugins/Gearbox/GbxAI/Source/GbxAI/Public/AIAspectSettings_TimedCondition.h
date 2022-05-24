@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxParam.h"
 #include "AIAspectSettings_ConditionData.h"
+#include "GbxParam.h"
 #include "EAIActionResultDirective.h"
 #include "EAIActionResult.h"
 #include "AIAspectSettings_TimedCondition.generated.h"

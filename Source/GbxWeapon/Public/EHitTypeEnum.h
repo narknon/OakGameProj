@@ -3,7 +3,7 @@
 #include "EHitTypeEnum.generated.h"
 
 UENUM(BlueprintType)
-enum class EHitTypeEnum :  {
+enum class EHitTypeEnum : uint8 {
     Friendly,
     Enemy,
     Neutral,

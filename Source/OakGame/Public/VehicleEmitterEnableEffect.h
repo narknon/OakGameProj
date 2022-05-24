@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EmitterEnableData.h"
 #include "BaseVehicleEffectData.h"
 #include "VehicleEffectQueryData.h"
+#include "EmitterEnableData.h"
 #include "VehicleEmitterEnableEffect.generated.h"
 
 UCLASS(EditInlineNew)

@@ -3,10 +3,10 @@
 #include "Components/ActorComponent.h"
 #include "DamageModifierComponent.generated.h"
 
-class UConditionalDamageHitRegionModifier;
 class UConditionalDamageCriticalModifier;
 class UConditionalDamageValueModifier;
 class UConditionalDamageTypeModifier;
+class UConditionalDamageHitRegionModifier;
 class UConditionalDamageModifier;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

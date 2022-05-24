@@ -3,7 +3,7 @@
 #include "EGbxParamValueFlags.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxParamValueFlags :  {
+enum class EGbxParamValueFlags : uint8 {
     ClampPositive,
     AllBBKeyTypes,
 };

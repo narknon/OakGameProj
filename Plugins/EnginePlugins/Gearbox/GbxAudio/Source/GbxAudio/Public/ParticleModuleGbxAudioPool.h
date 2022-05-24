@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ParticleModuleGbxAudioBase.h"
 #include "Distributions/DistributionFloat.h"
+#include "ParticleModuleGbxAudioBase.h"
 #include "ParticleModuleGbxAudioPool.generated.h"
 
 class UWwiseEvent;

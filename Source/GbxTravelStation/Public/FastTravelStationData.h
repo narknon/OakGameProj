@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "TravelStationData.h"
 #include "EFastTravelDirection.h"
+#include "UObject/NoExportTypes.h"
 #include "FastTravelStationData.generated.h"
 
 UCLASS()

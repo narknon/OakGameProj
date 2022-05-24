@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "Curves/CurveFloat.h"
 #include "Engine/DataAsset.h"
 #include "AttributeInitializationData.h"
+#include "Curves/CurveFloat.h"
 #include "OakPlayerTeleportData.generated.h"
 
 class UGbxAction;

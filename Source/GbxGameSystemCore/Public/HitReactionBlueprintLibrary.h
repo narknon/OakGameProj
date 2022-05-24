@@ -2,14 +2,14 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "ForceSelection.h"
 #include "UObject/NoExportTypes.h"
+#include "ForceSelection.h"
 #include "HitReactionBlueprintLibrary.generated.h"
 
-class UHitReactionData;
 class UHitReactionLayer;
-class UHitReactionTag;
 class AActor;
+class UHitReactionData;
+class UHitReactionTag;
 class UGbxAction;
 class UObject;
 

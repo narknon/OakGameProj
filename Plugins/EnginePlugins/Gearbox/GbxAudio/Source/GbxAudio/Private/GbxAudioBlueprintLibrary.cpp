@@ -1,9 +1,9 @@
 #include "GbxAudioBlueprintLibrary.h"
 
-class UCharacterSoundTag;
 class AActor;
-class UWwiseAuxBus;
+class UCharacterSoundTag;
 class UPrimitiveComponent;
+class UWwiseAuxBus;
 
 void UGbxAudioBlueprintLibrary::TriggerCharacterSound(AActor* Character, const UCharacterSoundTag* SoundTag) {
 }

@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ChallengeRegistrationCompleteDelegate.h"
+#include "ChallengeUpdateNotificationDelegate.h"
 #include "Components/ActorComponent.h"
+#include "ChallengeRegistrationCompleteDelegate.h"
 #include "ChallengeNotificationDelegate.h"
 #include "ChallengeInstanceData.h"
-#include "ChallengeUpdateNotificationDelegate.h"
 #include "ChallengesComponent.generated.h"
 
+class UGameStatData;
 class UChallengeCategoryData;
 class UGameStatsComponent;
-class UGameStatData;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UChallengesComponent : public UActorComponent {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
 #include "EUsableTypeCostContext.h"
 #include "UsableTypeDefinition.generated.h"
 

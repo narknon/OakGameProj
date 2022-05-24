@@ -1,7 +1,7 @@
 #include "OakVehicleProjectile.h"
+#include "GbxProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
 #include "Components/StaticMeshComponent.h"
-#include "GbxProjectileMovementComponent.h"
 
 class UPrimitiveComponent;
 class AActor;

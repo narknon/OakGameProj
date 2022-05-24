@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CurrentVocalLoopInfo.h"
 #include "Components/ActorComponent.h"
 #include "CharacterSoundInterface.h"
 #include "CurrentVocalization.h"
+#include "CurrentVocalLoopInfo.h"
 #include "CharacterSoundLogicComponent.generated.h"
 
 UCLASS(Abstract, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

@@ -8,12 +8,12 @@
 #include "ReplicatedLightProjectileInitializationData.generated.h"
 
 class ULightProjectileData;
-class AActor;
 class APawn;
+class AActor;
 class UImpactData;
 class UGbxDamageType;
-class UDamageSource;
 class UParticleSystem;
+class UDamageSource;
 class UWwiseEvent;
 
 USTRUCT(BlueprintType)

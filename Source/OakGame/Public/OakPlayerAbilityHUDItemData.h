@@ -3,8 +3,8 @@
 #include "Engine/DataAsset.h"
 #include "OakPlayerAbilityHUDItemData.generated.h"
 
-class UTexture;
 class UWwiseEvent;
+class UTexture;
 
 UCLASS()
 class OAKGAME_API UOakPlayerAbilityHUDItemData : public UDataAsset {

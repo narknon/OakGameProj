@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxDataAsset.h"
 #include "RuntimeActorPartListData.h"
+#include "UObject/NoExportTypes.h"
 #include "ActorPartSelectionData.generated.h"
 
 class UActorPartSelectionData;

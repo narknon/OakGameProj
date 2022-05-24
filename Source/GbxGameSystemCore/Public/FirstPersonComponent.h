@@ -6,16 +6,16 @@
 #include "UObject/NoExportTypes.h"
 #include "ViewLeadingTranslationInfo.h"
 #include "ViewLeadingRotationInfo.h"
-#include "UObject/NoExportTypes.h"
 #include "FirstPersonCreatedEventDelegate.h"
+#include "UObject/NoExportTypes.h"
 #include "TrackedFirstPersonComponent.h"
 #include "FirstPersonComponent.generated.h"
 
 class AFirstPersonConfigurationData;
 class UGbxSkeletalMeshComponent;
+class USceneComponent;
 class UAnimSequence;
 class UBlendSpaceBase;
-class USceneComponent;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UFirstPersonComponent : public UActorComponent {

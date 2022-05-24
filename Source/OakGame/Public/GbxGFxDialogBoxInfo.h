@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxGFxDialogBoxChoiceInfo.h"
 #include "GbxGFxDialogBoxOnChoiceMadeDelegate.h"
+#include "GbxGFxDialogBoxChoiceInfo.h"
 #include "EGbxGFxDialogBoxStyle.h"
 #include "EGbxGFxDialogBoxButtonType.h"
 #include "GbxGFxDialogBoxInfo.generated.h"

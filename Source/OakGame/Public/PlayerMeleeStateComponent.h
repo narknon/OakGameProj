@@ -3,8 +3,8 @@
 #include "Templates/SubclassOf.h"
 #include "Components/ActorComponent.h"
 #include "MeleeWeaponAttachmentData.h"
-#include "ReplicatedMeleeActionData.h"
 #include "EGbxActionEndState.h"
+#include "ReplicatedMeleeActionData.h"
 #include "PlayerMeleeStateComponent.generated.h"
 
 class UPlayerMeleeData;

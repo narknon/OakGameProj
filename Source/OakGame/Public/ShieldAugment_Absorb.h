@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ShieldAugment.h"
 #include "ShieldAugmentAbsorbRestoreData.h"
+#include "ShieldAugment.h"
 #include "ShieldAugment_Absorb.generated.h"
 
+class UGameStatData;
 class UWwiseEvent;
 class UGbxAttributeData;
 class UParticleSystem;
-class UGameStatData;
 class UWeaponSlotData;
 
 UCLASS(EditInlineNew)

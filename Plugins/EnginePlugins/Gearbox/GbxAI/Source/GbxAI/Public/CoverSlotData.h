@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "CoverLineOfSightParams.h"
+#include "GbxDataAsset.h"
 #include "CoverAdjustParams.h"
 #include "UObject/NoExportTypes.h"
 #include "CoverSlotData.generated.h"

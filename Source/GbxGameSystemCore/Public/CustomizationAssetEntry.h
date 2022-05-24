@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CustomizationAssetInfo.h"
 #include "UObject/NoExportTypes.h"
+#include "CustomizationAssetInfo.h"
 #include "UObject/NoExportTypes.h"
 #include "CustomizationAssetEntry.generated.h"
 

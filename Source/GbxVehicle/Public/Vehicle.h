@@ -1,21 +1,21 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OnActorComponentAppliedFromAspectDataDelegate.h"
 #include "GameFramework/Pawn.h"
 #include "GenericTeamAgentInterface.h"
 #include "SignificanceInterface.h"
+#include "OnActorComponentAppliedFromAspectDataDelegate.h"
 #include "Vehicle.generated.h"
 
 class UTargetingComponent;
 class USkeletalMeshComponent;
-class UDamageComponent;
 class UTargetableComponent;
+class UTeam;
 class UVehicleMovementInterface;
 class IVehicleMovementInterface;
+class UDamageComponent;
 class UDamageCauserComponent;
 class UVehiclePartSelectionData;
 class UVehiclePartData;
-class UTeam;
 class UTeamComponent;
 
 UCLASS()

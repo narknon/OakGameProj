@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OrganizationInfo.h"
 #include "GbxDataAsset.h"
+#include "OrganizationInfo.h"
 #include "CreditsDataAsset.generated.h"
 
 class UDataTable;

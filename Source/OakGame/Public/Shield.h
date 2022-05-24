@@ -6,27 +6,27 @@
 #include "AugmentData.h"
 #include "TrackedShieldAttributeData.h"
 #include "ShieldDamageModifierData.h"
-#include "GameResourcePoolReference.h"
 #include "EShieldState.h"
 #include "Engine/EngineTypes.h"
 #include "EOakElementalType.h"
 #include "EShieldAttributeModificationSource.h"
 #include "WeaponShotModifierData.h"
+#include "GameResourcePoolReference.h"
 #include "EHealthState.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
 #include "Shield.generated.h"
 
-class UViewAttachmentComponent;
-class UGameResourceData;
 class USkeletalMeshComponent;
+class UGameResourceData;
+class AOakCharacter;
 class UGbxAttributeData;
+class AOakCharacter_Player;
 class UShieldAugment;
 class UShieldBalanceStateComponent;
-class AOakCharacter_Player;
-class AOakCharacter;
 class UWeaponShotModifier;
 class UFeedbackData;
 class UWwiseAudioComponent;
+class UViewAttachmentComponent;
 class AWeapon;
 class UDamageSource;
 class UGbxDamageType;

@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "OakActionAbility.h"
-#include "UObject/NoExportTypes.h"
 #include "OakActionAbilityEnumMaskHelper.h"
+#include "UObject/NoExportTypes.h"
 #include "EOperativeBarrierModType.h"
 #include "OakActionAbility_Barrier.generated.h"
 
-class UOakActionAbilityAugmentData_Barrier;
 class AOperativeBarrier;
+class UOakActionAbilityAugmentData_Barrier;
 class AActor;
 
 UCLASS()

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AIAction_GoToPoint.h"
-#include "GbxParam.h"
 #include "AIAspectSettings_Weapon.h"
+#include "GbxParam.h"
 #include "AIAction_WeaponAtPoint.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

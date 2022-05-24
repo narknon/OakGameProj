@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ActorPartSelectionOverrideData.h"
 #include "ActorPartList.h"
+#include "ActorPartSelectionOverrideData.h"
 #include "SelectedInventoryInfo.generated.h"
 
 class UInventoryData;

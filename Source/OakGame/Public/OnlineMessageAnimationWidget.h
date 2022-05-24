@@ -4,8 +4,8 @@
 #include "OnlineMessageAnimationWidget.generated.h"
 
 class UWidgetAnimation;
-class UImage;
 class UGbxRichTextBlock;
+class UImage;
 class UInputComponent;
 
 UCLASS(EditInlineNew)

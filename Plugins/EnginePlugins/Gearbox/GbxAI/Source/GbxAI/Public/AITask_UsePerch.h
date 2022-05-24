@@ -4,9 +4,9 @@
 #include "ESmartObjectTaskState.h"
 #include "AITask_UsePerch.generated.h"
 
-class UAITask_MoveTo;
 class UPerchComponent;
 class UPerchTag;
+class UAITask_MoveTo;
 
 UCLASS()
 class GBXAI_API UAITask_UsePerch : public UAITask {

@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "HitRegionInfo.h"
 #include "UObject/NoExportTypes.h"
+#include "HitRegionInfo.h"
 #include "DamageReactionEventSummary.generated.h"
 
 class APawn;
-class UDamageSource;
-class UPrimitiveComponent;
 class UGbxDamageType;
+class UPrimitiveComponent;
+class UDamageSource;
 
 USTRUCT(BlueprintType)
 struct FDamageReactionEventSummary {

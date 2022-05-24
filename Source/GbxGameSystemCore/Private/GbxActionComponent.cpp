@@ -1,10 +1,10 @@
 #include "GbxActionComponent.h"
 #include "Templates/SubclassOf.h"
 
-class USceneComponent;
 class UGbxAction;
 class UGbxAction_Loop;
 class UActorComponent;
+class USceneComponent;
 
 void UGbxActionComponent::UpdateActionRemoteServer_Implementation(FActionState_Base ActionData) {
 }

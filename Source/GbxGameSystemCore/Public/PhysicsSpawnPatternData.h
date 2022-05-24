@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RelativeDirectionData.h"
 #include "SpawnPatternData.h"
+#include "RelativeDirectionData.h"
 #include "UObject/NoExportTypes.h"
 #include "PhysicsSpawnPatternData.generated.h"
 

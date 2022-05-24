@@ -1,25 +1,25 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "DamageGlobalsData.h"
-#include "PlayerDifficultyBalanceInfo.h"
-#include "AttributeInitializationData.h"
-#include "StatusEffectApplicationDamageDefaultSettings.h"
-#include "NumPlayersDamageBalanceInfo.h"
-#include "DamageDisplayInfo.h"
-#include "IncomingDamageDisplayInfo.h"
 #include "UObject/NoExportTypes.h"
 #include "IncomingDamagePresentationSource.h"
+#include "PlayerDifficultyBalanceInfo.h"
+#include "DamageGlobalsData.h"
+#include "AttributeInitializationData.h"
+#include "NumPlayersDamageBalanceInfo.h"
+#include "StatusEffectApplicationDamageDefaultSettings.h"
+#include "DamageDisplayInfo.h"
+#include "IncomingDamageDisplayInfo.h"
 #include "IncomingDamagePresentationGlobalInfo.h"
 #include "OakDamageGlobalsData.generated.h"
 
 class UOakDamageType;
-class UDamageSource;
-class UGbxAttributeData;
-class UWwiseEvent;
 class UWwiseRtpc;
-class UCurveFloat;
+class UGbxAttributeData;
 class UParticleSystem;
+class UDamageSource;
+class UWwiseEvent;
+class UCurveFloat;
 class UHealthTypeData;
 
 UCLASS()

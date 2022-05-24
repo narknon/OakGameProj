@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WeaponSimpleMotionControlBase.h"
-#include "BoneControllers/AnimNode_ModifyBone.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "Animation/AnimTypes.h"
 #include "SimpleMotionState.h"
+#include "BoneControllers/AnimNode_ModifyBone.h"
+#include "WeaponSimpleMotionControlBase.h"
+#include "Animation/AnimTypes.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "WeaponSimpleMotionBoneControl.generated.h"
 
 UCLASS(EditInlineNew)

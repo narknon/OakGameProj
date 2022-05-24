@@ -5,10 +5,10 @@
 #include "GbxGFxHUDWidget.generated.h"
 
 class UGbxGFxObject;
+class UGbxGFxHUDContainer;
 class UGbxGFxHintWidget;
 class AGbxPlayerController;
 class AGbxHUD;
-class UGbxGFxHUDContainer;
 class APawn;
 class UGameInstance;
 class UGbxUIGlobals;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "EGbxBoneModifyProfile_PoseMode.h"
-#include "AlphaBlend.h"
 #include "BoneModifyInfo.h"
+#include "AlphaBlend.h"
 #include "BoneModifyState.generated.h"
 
 USTRUCT(BlueprintType)

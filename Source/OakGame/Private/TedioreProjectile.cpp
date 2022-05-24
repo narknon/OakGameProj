@@ -7,13 +7,13 @@
 #include "SocketComponent.h"
 #include "GbxProjectileMovementComponent.h"
 
-class UParticleSystemComponent;
-class UParticleSystem;
-class UDrunkenBaseMovementComponent;
-class AWeapon;
 class UGrenadeHomingComponent;
+class UParticleSystemComponent;
 class ATedioreProjectile;
+class UParticleSystem;
 class UTedioreBehavior;
+class AWeapon;
+class UDrunkenBaseMovementComponent;
 
 void ATedioreProjectile::TurnAttachedTrailOn(bool bRestartTrail) {
 }

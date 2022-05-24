@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDialogBoxChoiceInfo.h"
 #include "GbxDialogBoxOnChoiceMadeDelegate.h"
+#include "GbxDialogBoxChoiceInfo.h"
 #include "GbxDialogBoxInfo.generated.h"
 
 USTRUCT(BlueprintType)

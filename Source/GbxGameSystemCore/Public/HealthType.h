@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "AttributeInitializationData.h"
+#include "GameResourcePoolReference.h"
 #include "HealthType.generated.h"
 
 class UHealthTypeData;

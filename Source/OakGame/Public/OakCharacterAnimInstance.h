@@ -1,24 +1,24 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxCharacterAnimInstance.h"
 #include "ECoverUserState.h"
-#include "UObject/NoExportTypes.h"
 #include "EVehicleArchetype.h"
+#include "UObject/NoExportTypes.h"
 #include "Engine/EngineTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "OakCharacterAnimInstance.generated.h"
 
 class ATurretSeatPawn;
 class UCoverViewData;
 class UCoverStyleData;
-class AActor;
 class UVehicleSeatComponent;
 class AOakVehicle;
 class UVehicleHoverComponent;
 class UAnimSequenceBase;
 class AWeapon;
 class UPrimitiveComponent;
+class AActor;
 class UPawnAttachSlotComponent;
 
 UCLASS(NonTransient)

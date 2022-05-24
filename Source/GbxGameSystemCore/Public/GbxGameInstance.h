@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SharedPickupInventoryActor.h"
-#include "UObject/NoExportTypes.h"
 #include "Engine/GameInstance.h"
 #include "MenuStash.h"
+#include "UObject/NoExportTypes.h"
+#include "SharedPickupInventoryActor.h"
 #include "GbxGameInstance.generated.h"
 
 class UDataTable;

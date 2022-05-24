@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxGFxMediaPlayerConfig.h"
 #include "UObject/Object.h"
+#include "GbxGFxMediaPlayerConfig.h"
 #include "GbxGFxMaterialRenderer.h"
 #include "GbxGFxMediaPlayer.generated.h"
 

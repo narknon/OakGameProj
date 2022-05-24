@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InheritedCustomizationTextureExtraParam.h"
 #include "CustomizationInheritedTextureBaseMaterial.h"
+#include "InheritedCustomizationTextureExtraParam.h"
 #include "CustomizationTextureInheritanceSettings.generated.h"
 
 class UMaterialInterface;

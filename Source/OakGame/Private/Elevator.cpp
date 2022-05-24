@@ -1,8 +1,8 @@
 #include "Elevator.h"
 #include "Net/UnrealNetwork.h"
-#include "GbxNavMeshSectionComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/TimelineComponent.h"
+#include "GbxNavMeshSectionComponent.h"
 #include "Components/BoxComponent.h"
 
 class UPrimitiveComponent;

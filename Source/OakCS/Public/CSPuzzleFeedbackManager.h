@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "CSPuzzleFeedbackSettings.h"
+#include "UObject/Object.h"
 #include "CSPuzzleFeedbackManager.generated.h"
 
 class UGFxCSPuzzle;
-class UGbxGFxObject;
 class UGFxCSTokenPool;
-class UGbxTextField;
 class UCSPuzzleSession;
 class UGFxCSProgressBar;
+class UGbxGFxObject;
+class UGbxTextField;
 class UGFxCSPuzzleMenu;
 class UGFxCSPuzzleTile;
 

@@ -5,8 +5,8 @@
 #include "UObject/NoExportTypes.h"
 #include "TravelStationComponentBase.generated.h"
 
-class UTravelStationData;
 class UObject;
+class UTravelStationData;
 class APawn;
 class AActor;
 

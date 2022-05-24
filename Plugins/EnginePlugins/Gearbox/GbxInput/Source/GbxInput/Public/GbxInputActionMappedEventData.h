@@ -2,9 +2,9 @@
 #include "CoreMinimal.h"
 #include "GbxInputButton.h"
 #include "GbxInputAxis.h"
+#include "GbxInputActionMappedEventParam_Int.h"
 #include "GbxInputActionMappedEventParam_String.h"
 #include "GbxInputActionMappedEventParam_Name.h"
-#include "GbxInputActionMappedEventParam_Int.h"
 #include "GbxInputActionMappedEventParam_Float.h"
 #include "GbxInputActionMappedEventData.generated.h"
 

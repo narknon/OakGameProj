@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxUmgMenu.h"
 #include "OnlineNetworkOptionData.h"
+#include "GbxUmgMenu.h"
 #include "OakOnlineNetworkOptionsMenu.generated.h"
 
 class UGbxGridListWidget;

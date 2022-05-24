@@ -5,8 +5,8 @@
 #include "ActiveTrackedFeedback.h"
 #include "PlayerCameraModesManager.generated.h"
 
-class AActor;
 class UCameraModesManager;
+class AActor;
 
 UCLASS(NonTransient)
 class GBXCAMERAMODES_API APlayerCameraModesManager : public AGbxPlayerCameraManager {

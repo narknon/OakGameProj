@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EViewTargetRotationUpdateMethod.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EViewTargetRotationUpdateMethod : int32 {
     FromCamera,
     Fixed,

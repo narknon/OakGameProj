@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWeaponPutDownType.h"
 #include "EWeaponEquipType.h"
+#include "EWeaponPutDownType.h"
 #include "WeaponAttachState.generated.h"
 
 class APawn;

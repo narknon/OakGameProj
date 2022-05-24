@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "UObject/NoExportTypes.h"
 #include "OnFogSceneUpdatedDelegateDelegate.h"
+#include "GameFramework/Actor.h"
 #include "FogOfDiscoveryCapture.generated.h"
 
 class UTextureRenderTarget2D;

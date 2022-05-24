@@ -8,8 +8,8 @@
 class UScrollBox;
 class UCheckBox;
 class UBUTTON;
-class UFastTravelStationDebugButton;
 class UTextBlock;
+class UFastTravelStationDebugButton;
 
 UCLASS(EditInlineNew, Config=Game)
 class GBXTRAVELSTATION_API UFastTravelStationDebugMenu : public UGbxDebugMenuSubmenu {

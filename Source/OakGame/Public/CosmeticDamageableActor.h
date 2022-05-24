@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DamageableInterface.h"
-#include "GameFramework/Actor.h"
 #include "CosmeticDamageEventDetails.h"
+#include "GameFramework/Actor.h"
+#include "DamageableInterface.h"
 #include "CosmeticDamageableActor.generated.h"
 
 UCLASS()

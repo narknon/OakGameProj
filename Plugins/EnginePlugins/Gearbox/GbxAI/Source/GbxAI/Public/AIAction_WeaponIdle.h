@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Weapon.h"
 #include "AIAction.h"
+#include "AIAspectSettings_Weapon.h"
 #include "AIAspectSettings_Rotation.h"
 #include "AIAction_WeaponIdle.generated.h"
 

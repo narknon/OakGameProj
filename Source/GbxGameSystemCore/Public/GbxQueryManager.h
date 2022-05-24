@@ -4,8 +4,8 @@
 #include "GbxQuery.h"
 #include "GbxQueryManager.generated.h"
 
-class UWorld;
 class UEnvQueryManager;
+class UWorld;
 class AActor;
 
 UCLASS(DefaultConfig, Config=Game)

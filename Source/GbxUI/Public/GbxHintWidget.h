@@ -4,8 +4,8 @@
 #include "GbxHintInfo.h"
 #include "GbxHintWidget.generated.h"
 
-class UGbxHintBar;
 class AGbxPlayerController;
+class UGbxHintBar;
 
 UINTERFACE(Blueprintable)
 class GBXUI_API UGbxHintWidget : public UInterface {

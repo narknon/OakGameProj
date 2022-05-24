@@ -5,10 +5,10 @@
 #include "Engine/EngineTypes.h"
 #include "GrenadeLingeringBeamTriggerComponent.generated.h"
 
-class UPrimitiveComponent;
 class UGbxDamageType;
 class AActor;
 class ULightBeamData;
+class UPrimitiveComponent;
 class UDamageSource;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

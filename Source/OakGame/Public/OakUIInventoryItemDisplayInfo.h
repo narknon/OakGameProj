@@ -7,8 +7,8 @@
 
 class UManufacturerData;
 class UInventoryRarityData;
-class UTexture;
 class UObject;
+class UTexture;
 class AActor;
 class UGbxDamageType;
 

@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ETestIssueType.h"
 #include "UObject/Object.h"
 #include "EGbxTestPlan.h"
 #include "EDiscovery.h"
-#include "GbxProbeId.h"
-#include "ETestIssueType.h"
 #include "ECompare.h"
+#include "GbxProbeId.h"
 #include "TestPolicy.generated.h"
 
 class UGbxTestHierarchicalCommands;

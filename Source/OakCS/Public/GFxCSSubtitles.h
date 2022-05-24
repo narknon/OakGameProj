@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxGFxObject.h"
 #include "ClosedCaptionEntry.h"
 #include "ESubtitleLayoutType.h"
+#include "GbxGFxObject.h"
 #include "SubtitleLine.h"
 #include "GFxCSSubtitles.generated.h"
 

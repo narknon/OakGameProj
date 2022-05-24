@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_ZeroRotation.h"
 #include "AIAspect.h"
+#include "AIAspectSettings_ZeroRotation.h"
 #include "AIAspect_ZeroRotation.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

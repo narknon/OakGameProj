@@ -3,7 +3,7 @@
 #include "ECameraBehaviorLookAxis.generated.h"
 
 UENUM(BlueprintType)
-enum class ECameraBehaviorLookAxis :  {
+enum class ECameraBehaviorLookAxis : uint8 {
     Pitch,
     Yaw,
     Roll,

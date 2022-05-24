@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EIronBearExitReason.h"
-#include "OakCharacter.h"
 #include "EIronBearSpawnStyle.h"
 #include "IronBearHardPointData.h"
 #include "EIronBearDamageLevel.h"
+#include "OakCharacter.h"
+#include "EIronBearExitReason.h"
 #include "EIronBearCoreType.h"
 #include "WwisePlaybackInstance.h"
 #include "GameResourcePoolReference.h"
@@ -13,24 +13,24 @@
 #include "OakCharacter_IronBear.generated.h"
 
 class UGbxAbility;
+class AOakCharacter_Player;
+class UGameResourceData;
+class UWwiseEvent;
 class UOakActionAbilityAugmentData_IronBear;
 class UOakActionAbilityAugmentSlotData;
 class ASeatPawn;
-class UWwiseEvent;
 class UWwiseRtpc;
 class UWwiseAuxBus;
 class UOakPlayerAbilityManagerComponent;
 class UOakActionAbility_IronBear;
-class AOakCharacter_Player;
 class AOakPlayerController;
-class UGameResourceData;
+class UOakActionAbilityAugmentData;
 class UPawnAttachSlotComponent;
 class UGbxCustomizationComponent;
 class UWwiseAudioEffect;
 class UAIWeaponUserComponent;
 class APawn;
 class AController;
-class UOakActionAbilityAugmentData;
 class UWeaponSlotData;
 class AOakWeapon_IronBearHardPoint;
 

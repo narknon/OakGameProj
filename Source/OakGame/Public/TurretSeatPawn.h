@@ -3,16 +3,16 @@
 #include "Templates/SubclassOf.h"
 #include "SeatPawn.h"
 #include "GenericTeamAgentInterface.h"
-#include "DamageCauserInterface.h"
 #include "PlayerAlertableInterface.h"
+#include "DamageCauserInterface.h"
 #include "EGroundTurretType.h"
 #include "SpawnCostSelection.h"
 #include "EPlayerAlertType.h"
 #include "TurretSeatPawn.generated.h"
 
+class UTeamComponent;
 class UOakPawnAttachSlotComponent;
 class UAIAction;
-class UTeamComponent;
 class AOakCharacter;
 class UMeshComponent;
 

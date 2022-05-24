@@ -7,9 +7,9 @@
 
 class UParticleSystem;
 class UStaticMesh;
-class UWeaponShieldComponent;
-class UStaticMeshComponent;
 class UWeaponHeatComponent;
+class UStaticMeshComponent;
+class UWeaponShieldComponent;
 class UWeaponChargeComponent;
 class AWeapon;
 

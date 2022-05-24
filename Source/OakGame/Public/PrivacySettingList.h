@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxMenuInputEvent.h"
 #include "GFxLobbyWidgetSettingList.h"
+#include "GbxMenuInputEvent.h"
 #include "PrivacySettingList.generated.h"
 
 class UGbxGFxDialogBox;

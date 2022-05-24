@@ -4,9 +4,9 @@
 #include "GbxMenuInputEvent.h"
 #include "GbxDebugMenu.generated.h"
 
-class UGbxGridListWidget;
 class UPanelWidget;
 class UBUTTON;
+class UGbxGridListWidget;
 class UGbxUserWidget;
 
 UCLASS(EditInlineNew, Config=GbxUI)

@@ -1,22 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EPlayerStandInType.h"
 #include "GameFramework/Actor.h"
+#include "OakPlayerAbilitySaveGameData.h"
 #include "PlayerStandInInitData.h"
 #include "OnCharacterSpawnedDelegate.h"
-#include "OakPlayerAbilitySaveGameData.h"
 #include "OnCharacterDestroyedDelegate.h"
+#include "EPlayerStandInType.h"
 #include "LobbyPlayerStandInLoadOutInfo.h"
 #include "OakPlayerCharacterSlotSaveGameData.h"
 #include "StandInAuxiliaryState.h"
 #include "PlayerStandIn.generated.h"
 
+class UGbxAction;
 class UPlayerStandInData;
 class UGbxCustomizationData;
 class UGbxAction_CoordinatedEffect;
 class AOakCharacter_StandIn;
-class UGbxAction;
 
 UCLASS()
 class APlayerStandIn : public AActor {

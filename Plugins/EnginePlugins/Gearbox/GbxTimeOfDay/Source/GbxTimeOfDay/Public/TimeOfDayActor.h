@@ -4,14 +4,14 @@
 #include "ControlledLight.h"
 #include "TimeOfDayActor.generated.h"
 
-class UTimeOfDayComponent;
-class UStaticMeshComponent;
-class UDirectionalLightComponent;
-class ALight;
-class USkyLightComponent;
-class UAtmosphericFogComponent;
-class UPostProcessComponent;
 class UExponentialHeightFogComponent;
+class UPostProcessComponent;
+class USkyLightComponent;
+class UTimeOfDayComponent;
+class UDirectionalLightComponent;
+class UAtmosphericFogComponent;
+class UStaticMeshComponent;
+class ALight;
 class UObject;
 
 UCLASS()

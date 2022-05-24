@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "CustomizationStreamingEntry.h"
+#include "GameFramework/Actor.h"
 #include "GbxCustomizationManager.generated.h"
 
 UCLASS()

@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "StanceChangedEventArgs.h"
 #include "Components/ActorComponent.h"
 #include "InspectionInfoProvider.h"
 #include "StanceChangedEventDelegate.h"
 #include "StanceStack.h"
-#include "StanceChangedEventArgs.h"
 #include "EStanceStackLayer.h"
 #include "StanceComponent.generated.h"
 
-class UStanceType;
 class UStanceData;
 class UStanceDataSelector;
+class UStanceType;
 class UStanceDataProvider;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

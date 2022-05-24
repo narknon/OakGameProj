@@ -1,7 +1,7 @@
 #include "GbxDataTableFunctionLibrary.h"
 
-class UDataTable;
 class UObject;
+class UDataTable;
 class UScriptStruct;
 
 float UGbxDataTableFunctionLibrary::GetDataTableValueFromHandle(const FDataTableValueHandle& ValueHandle, UObject* ContextSource, float DefaultValue) {

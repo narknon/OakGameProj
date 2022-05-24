@@ -1,20 +1,20 @@
 #include "GbxPlayerController.h"
 #include "Net/UnrealNetwork.h"
-#include "RecentDamageTrackingComponent.h"
 #include "ScreenParticleManagerComponent.h"
+#include "RecentDamageTrackingComponent.h"
 
-class UWwiseEvent;
-class UTargetableComponent;
 class UTeam;
+class UGbxProfile;
+class UTargetableComponent;
 class APawn;
 class UCinematicModeData;
-class UTeamComponent;
 class UTargetingComponent;
+class UTeamComponent;
 class AGbxCharacter;
-class UObject;
-class UGbxProfile;
 class UGbxPerceptionComponent;
 class UFeedbackData;
+class UWwiseEvent;
+class UObject;
 class UDamageData;
 class UGbxFeedbackData;
 

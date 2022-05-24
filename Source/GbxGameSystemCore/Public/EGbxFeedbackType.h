@@ -3,7 +3,7 @@
 #include "EGbxFeedbackType.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxFeedbackType :  {
+enum class EGbxFeedbackType : uint8 {
     Ranged = 0x1,
     Directional,
     RandomRumble = 0x4,

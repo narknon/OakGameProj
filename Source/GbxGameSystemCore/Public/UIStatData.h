@@ -4,8 +4,8 @@
 #include "UIStatCollector.h"
 #include "UIStatData.generated.h"
 
-class UObject;
 class UGbxAttributeData;
+class UObject;
 
 UCLASS(Abstract, Blueprintable, EditInlineNew)
 class GBXGAMESYSTEMCORE_API UUIStatData : public UGbxDataAsset {

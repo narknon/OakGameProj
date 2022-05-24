@@ -2,8 +2,8 @@
 #include "Net/UnrealNetwork.h"
 #include "Templates/SubclassOf.h"
 
-class AActor;
 class UChallengeLevelActorComponent;
+class AActor;
 
 void UChallengeLevelParentComponent::RemoveAssociatedActorComponent(UChallengeLevelActorComponent* AssociatedComponent) {
 }

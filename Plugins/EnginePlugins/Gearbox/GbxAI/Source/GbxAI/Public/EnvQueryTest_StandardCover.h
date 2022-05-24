@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EnvironmentQuery/EnvQueryTest.h"
 #include "DataProviders/AIDataProvider.h"
+#include "EnvironmentQuery/EnvQueryTest.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvQueryTest_StandardCover.generated.h"
 

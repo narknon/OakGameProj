@@ -1,42 +1,42 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxThreatSystemInterface.h"
-#include "GbxNavAvoidanceInterface.h"
 #include "AIController.h"
 #include "GameplayTagAssetInterface.h"
-#include "Engine/EngineTypes.h"
-#include "GbxEnvQueryHotSpotProviderInterface.h"
-#include "GameplayTagContainer.h"
 #include "EnvQueryParamsProvider.h"
 #include "GbxLevelSequenceControllableInterface.h"
+#include "GbxThreatSystemInterface.h"
+#include "GbxNavAvoidanceInterface.h"
+#include "GbxEnvQueryHotSpotProviderInterface.h"
 #include "UObject/NoExportTypes.h"
+#include "GameplayTagContainer.h"
 #include "OnAggroDelegate.h"
 #include "OnDeAggroDelegate.h"
+#include "Engine/EngineTypes.h"
 #include "GameplayTagContainer.h"
 #include "GbxAIController.generated.h"
 
-class UBlackboardComponent;
 class AGbxCharacter;
-class ASpawner;
-class UTargetableComponent;
+class UAIGroupState;
 class UGbxCharacterMovementComponent;
-class UTargetingComponent;
 class UGbxSpawnerComponent;
+class UTargetingComponent;
+class UTargetableComponent;
 class UTeamComponent;
 class AActor;
+class UGbxActionComponent;
 class UAIActionComponent;
-class UAIGroupState;
+class UBlackboardData;
 class UTerritoryComponent;
+class UBlackboardComponent;
 class UGbxNavComponent;
 class UAIUseComponent;
 class UAIWeaponUserComponent;
-class UGbxActionComponent;
-class USpawnerComponent;
-class ACharacter;
+class UAIPerceptionComponent;
 class UGbxLevelSequencePlayer;
 class UTeam;
-class UAIPerceptionComponent;
-class UBlackboardData;
+class USpawnerComponent;
+class ASpawner;
+class ACharacter;
 
 UCLASS()
 class GBXAI_API AGbxAIController : public AAIController, public IGameplayTagAssetInterface, public IGbxNavAvoidanceInterface, public IGbxEnvQueryHotSpotProviderInterface, public IGbxThreatSystemInterface, public IGbxLevelSequenceControllableInterface, public IEnvQueryParamsProvider {

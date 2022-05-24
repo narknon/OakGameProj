@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "OakPassiveAbilityHUDIconData.h"
 #include "OakPlayerAbilityHUDItemValueProviderInterface.h"
 #include "OakPlayerAbility.h"
 #include "TriggeredPassiveAbilityEffect.h"
-#include "OakPassiveAbilityHUDIconData.h"
 #include "OakPassiveAbility.generated.h"
 
 class UTexture;

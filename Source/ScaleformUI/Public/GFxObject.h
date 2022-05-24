@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/Object.h"
 #include "ASColorTransform.h"
 #include "UObject/NoExportTypes.h"
-#include "UObject/Object.h"
 #include "ASValue.h"
 #include "ASDisplayInfo.h"
 #include "GFxObject.generated.h"

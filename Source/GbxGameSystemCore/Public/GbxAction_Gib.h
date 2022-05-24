@@ -6,10 +6,10 @@
 #include "ImpactResponseEffect.h"
 #include "GbxAction_Gib.generated.h"
 
-class UParticleSystem;
 class UWwiseEvent;
 class USpawnPatternData;
 class AActor;
+class UParticleSystem;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UGbxAction_Gib : public UGbxAction {

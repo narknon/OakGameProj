@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakEffectPresentationItem.h"
-#include "Engine/NetSerialization.h"
 #include "OakFreezePresentation.h"
 #include "OakPresentationParticleSystemWrapper.h"
+#include "Engine/NetSerialization.h"
+#include "OakEffectPresentationItem.h"
 #include "AppliedMeshComponentTracker.h"
 #include "OakPresentationParamTransitionInstance.h"
 #include "OakEffectPresentationManager.generated.h"

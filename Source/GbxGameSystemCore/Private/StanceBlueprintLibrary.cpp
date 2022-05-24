@@ -1,12 +1,12 @@
 #include "StanceBlueprintLibrary.h"
 
 class AAIController;
-class UStanceDataProvider;
+class UAnimInstance;
 class UStanceComponent;
 class AActor;
-class UAnimInstance;
-class UStanceData;
+class UStanceDataProvider;
 class UStanceType;
+class UStanceData;
 
 UStanceComponent* UStanceBlueprintLibrary::TryGetStanceComponent(AAIController* AIController) {
     return NULL;

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "MayhemModeTwoLevelOverride.h"
+#include "GbxDataAsset.h"
 #include "MayhemOverrideDataAsset.generated.h"
 
 UCLASS()

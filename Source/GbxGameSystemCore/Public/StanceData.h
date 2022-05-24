@@ -5,9 +5,9 @@
 #include "StanceFloatValue.h"
 #include "StanceData.generated.h"
 
-class UPhysicalAnimationProfileAsset;
-class UStanceData;
 class UHitReactionLayer;
+class UStanceData;
+class UPhysicalAnimationProfileAsset;
 class UHitReactionData;
 
 UCLASS(Abstract, BlueprintType)

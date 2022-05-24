@@ -7,9 +7,9 @@
 
 class UWwiseEvent;
 class AGrenade;
-class ATedioreProjectile;
 class UParticleSystemComponent;
 class UParticleSystem;
+class ATedioreProjectile;
 class AActor;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

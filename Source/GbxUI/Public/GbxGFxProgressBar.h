@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxProgressBarInterpolator.h"
 #include "GbxGFxObject.h"
+#include "GbxProgressBarInterpolator.h"
 #include "GbxProgressBarRange.h"
 #include "GbxProgressBarRangeEventDelegate.h"
 #include "GbxProgressBarEventDelegate.h"

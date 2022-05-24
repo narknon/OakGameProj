@@ -1,9 +1,9 @@
 #include "GbxAttributeFunctionLibrary.h"
 #include "Templates/SubclassOf.h"
 
-class UObject;
 class UGbxAttributeData;
 class UAttributeInitializer;
+class UObject;
 
 void UGbxAttributeFunctionLibrary::UnbindFromOnAttributeChanged(const FGbxAttributeDelegateBindingHandle& BindingHandle) {
 }

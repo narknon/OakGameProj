@@ -6,9 +6,9 @@
 #include "Engine/EngineTypes.h"
 #include "ImpactEffectFunctionLibrary.generated.h"
 
+class UParticleSystemComponent;
 class UImpactData;
 class AActor;
-class UParticleSystemComponent;
 
 UCLASS(BlueprintType)
 class UImpactEffectFunctionLibrary : public UBlueprintFunctionLibrary {

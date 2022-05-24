@@ -4,17 +4,17 @@
 #include "SenseConfigProviderInterface.h"
 #include "OakAIController.generated.h"
 
-class AOakCharacter;
-class UTurretMovementComponent;
-class UVehicleSeatComponent;
+class UOakNpcGreetingComponent;
 class UAIWeaponUserComponent;
 class AOakVehicle;
 class ASeatPawn;
+class AOakCharacter;
 class AVehicleSeatPawn;
+class UTurretMovementComponent;
+class UVehicleSeatComponent;
 class ATurretSeatPawn;
 class UOakAIActionComponent;
 class UOakNavComponent;
-class UOakNpcGreetingComponent;
 class AController;
 class APawn;
 

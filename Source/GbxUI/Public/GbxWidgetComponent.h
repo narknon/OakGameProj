@@ -6,9 +6,9 @@
 #include "GbxWidgetComponent.generated.h"
 
 class UUserWidget;
-class AGbxPlayerController;
 class UCurveFloat;
 class UBorder;
+class AGbxPlayerController;
 class USceneComponent;
 class UGbxUserWidget;
 

@@ -4,8 +4,8 @@
 #include "GbxEqsTestingPawn.generated.h"
 
 class UDamageComponent;
-class UTargetableComponent;
 class UGbxCharacterMovementComponent;
+class UTargetableComponent;
 class UDamageCauserComponent;
 class UGameplayTagContainerComponent;
 

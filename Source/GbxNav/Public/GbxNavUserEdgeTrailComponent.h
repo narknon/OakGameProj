@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "Components/ActorComponent.h"
-#include "NumericRange.h"
 #include "GbxNavAgentProperties.h"
+#include "NumericRange.h"
 #include "GbxNavUserEdgeTrailComponent.generated.h"
 
 class UGbxUserEdge;

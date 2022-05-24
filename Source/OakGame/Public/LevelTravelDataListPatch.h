@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "LevelTravelDataListPatch.generated.h"
 
-class UGbxCondition;
 class ULevelTravelStationData;
+class UGbxCondition;
 
 USTRUCT(BlueprintType)
 struct FLevelTravelDataListPatch {

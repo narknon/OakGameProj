@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SavedCollision.h"
 #include "AI/Navigation/NavigationTypes.h"
+#include "SavedCollision.h"
 #include "GbxNavCorrecter.generated.h"
 
 class AGbxNavWorld;

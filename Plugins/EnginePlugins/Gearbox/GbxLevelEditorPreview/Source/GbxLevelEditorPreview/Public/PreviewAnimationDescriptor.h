@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "PreviewAnimationDescriptor.generated.h"
 
-class UAnimationAsset;
 class USkeletalMesh;
+class UAnimationAsset;
 
 USTRUCT(BlueprintType)
 struct GBXLEVELEDITORPREVIEW_API FPreviewAnimationDescriptor {

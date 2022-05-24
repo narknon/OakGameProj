@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
 #include "AIAction_UseCover.h"
 #include "GbxParam.h"
-#include "UObject/NoExportTypes.h"
 #include "AIAction_SimpleCover.generated.h"
 
 class UEnvQueryTestAsset;

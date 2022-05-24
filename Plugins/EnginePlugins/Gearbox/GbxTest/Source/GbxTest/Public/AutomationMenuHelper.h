@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AutomationMenuFocusInfo.h"
 #include "UObject/Object.h"
 #include "EAutomationUIAction.h"
 #include "EAutomationUIDirection.h"
-#include "AutomationMenuFocusInfo.h"
 #include "AutomationMenuHelper.generated.h"
 
 class UAutomationMenuHelper;

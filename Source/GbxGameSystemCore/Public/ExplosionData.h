@@ -1,20 +1,20 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RadialBlurSelection -FallbackName=RadialBlurSelection
-#include "GbxDataAsset.h"
 #include "GbxSignificanceEvent.h"
+#include "GbxDataAsset.h"
 #include "DamageTypeExplosionAssociation.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RadialBlurSelection -FallbackName=RadialBlurSelection
 #include "EExplosionTinnitusDuration.h"
 #include "ExplosionSizeProperties.h"
 #include "ExplosionData.generated.h"
 
+class UParticleSystem;
+class UDamageType;
 class UExplosionSizeSelectionData;
 class UFeedbackData;
-class UParticleSystem;
 class UWwiseEvent;
 class UImpactData;
-class UDamageType;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UExplosionData : public UGbxDataAsset {

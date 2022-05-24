@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
-#include "GbxParam.h"
 #include "EPlanMemberReplacement.h"
+#include "GbxParam.h"
+#include "GameplayTagContainer.h"
 #include "PlanRoleRequirements.generated.h"
 
 class UGbxCondition;

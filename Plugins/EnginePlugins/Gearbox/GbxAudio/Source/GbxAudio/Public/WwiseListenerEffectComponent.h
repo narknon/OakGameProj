@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WwiseEffectInfo.h"
 #include "Components/ActorComponent.h"
 #include "WwiseEffectProviderInterface.h"
-#include "WwiseEffectInfo.h"
 #include "WwiseListenerEffectComponent.generated.h"
 
 class UWwiseAuxBus;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WeightedTransporterCrane.h"
 #include "Components/ActorComponent.h"
 #include "TransporterSingleCraneEventDelegate.h"
+#include "WeightedTransporterCrane.h"
 #include "TransporterTrackComponent.generated.h"
 
 class ATransporterCrane;

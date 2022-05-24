@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxUserWidget.h"
 #include "EGbxSpinnerWidgetGoToMethod.h"
+#include "GbxUserWidget.h"
 #include "GbxUISpinnerWidget.generated.h"
 
 class UCanvasPanel;

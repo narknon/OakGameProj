@@ -5,9 +5,9 @@
 #include "UObject/NoExportTypes.h"
 #include "CameraInputs.generated.h"
 
-class APlayerController;
-class AActor;
 class USceneComponent;
+class AActor;
+class APlayerController;
 
 UCLASS(BlueprintType)
 class GBXCAMERAMODES_API UCameraInputs : public UObject {

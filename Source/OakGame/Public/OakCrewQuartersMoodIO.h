@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UseEvent.h"
 #include "AdvancedInteractiveObject.h"
+#include "UseEvent.h"
 #include "OakCrewQuartersMoodIO.generated.h"
 
 class ACrewQuartersRoom;

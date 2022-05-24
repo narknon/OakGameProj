@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
 #include "GameplayTagContainer.h"
+#include "GbxDataAsset.h"
 #include "GlobalAIData.generated.h"
 
-class UHitReactionLayer;
 class UHitReactionTag;
+class UHitReactionLayer;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UGlobalAIData : public UGbxDataAsset {

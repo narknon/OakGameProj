@@ -6,11 +6,11 @@
 #include "GbxDialogSettings.generated.h"
 
 class UWwiseRtpc;
+class AActor;
+class UDialogBlackboard;
 class UDialogParameter;
 class UDialogEnumValue;
-class AActor;
 class UWwiseEvent;
-class UDialogBlackboard;
 class UDialogEnumType;
 
 UCLASS()

@@ -6,13 +6,13 @@
 #include "GbxListItemDelegateDelegate.h"
 #include "GbxListItemFactory.generated.h"
 
-class UGbxListItem;
-class UGbxListItemText;
-class UGbxListItemBoolean;
+class UGbxListItemComboBox;
 class UGbxList;
 class IGbxList;
 class UGbxListItemNumber;
-class UGbxListItemComboBox;
+class UGbxListItem;
+class UGbxListItemText;
+class UGbxListItemBoolean;
 class APlayerController;
 
 UCLASS(BlueprintType)

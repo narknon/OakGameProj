@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "UObject/NoExportTypes.h"
 #include "WheelState.h"
+#include "UObject/NoExportTypes.h"
 #include "Engine/EngineTypes.h"
 #include "CarnivoraTread.generated.h"
 
 class UInstancedStaticMeshComponent;
 class USplineComponent;
+class UPrimitiveComponent;
 class UStaticMesh;
 class USkeletalMeshComponent;
-class UPrimitiveComponent;
 
 UCLASS()
 class OAKGAME_API ACarnivoraTread : public AActor {

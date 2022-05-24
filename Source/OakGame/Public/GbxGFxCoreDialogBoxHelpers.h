@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "GbxGFxDialogBoxChoiceInfo.h"
 #include "GbxGFxDialogBoxOnChoiceMadeDelegate.h"
 #include "GbxGFxDialogBoxInfo.h"
 #include "EGbxGFxDialogBoxStyle.h"
-#include "GbxGFxDialogBoxChoiceInfo.h"
 #include "GbxGFxCoreDialogBoxHelpers.generated.h"
 
 class UGbxGFxDialogBox;

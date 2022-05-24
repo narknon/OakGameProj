@@ -4,9 +4,9 @@
 #include "UIManagerMessage.h"
 #include "MessageStackManager.generated.h"
 
-class UUIManager;
 class UGFxRolloutMessage;
 class AOakPlayerController;
+class UUIManager;
 
 UCLASS()
 class UMessageStackManager : public UObject {

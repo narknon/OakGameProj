@@ -3,8 +3,8 @@
 #include "UObject/NoExportTypes.h"
 #include "ChallengeMinimapIcon.generated.h"
 
-class UGFxMinimapWidget;
 class UChallengeLevelActorComponent;
+class UGFxMinimapWidget;
 
 USTRUCT(BlueprintType)
 struct FChallengeMinimapIcon {

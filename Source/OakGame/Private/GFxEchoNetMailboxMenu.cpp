@@ -1,9 +1,9 @@
 #include "GFxEchoNetMailboxMenu.h"
 
 class UGbxGFxDialogBox;
-class AActor;
-class UGbxGFxObject;
 class UInventoryCategoryData;
+class UGbxGFxObject;
+class AActor;
 
 void UGFxEchoNetMailboxMenu::OnUpdateMailCell(const FGbxGFxListCellUpdateInfo& UpdateInfo) const {
 }

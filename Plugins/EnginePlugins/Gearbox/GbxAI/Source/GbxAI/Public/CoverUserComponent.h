@@ -1,32 +1,32 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "CoverAction.h"
-#include "SavedCollision.h"
-#include "CoverStateDelegateDelegate.h"
+#include "ECoverUserState.h"
 #include "Components/ActorComponent.h"
 #include "InspectionInfoProvider.h"
-#include "GbxParam.h"
-#include "ECoverUserState.h"
-#include "CoverClientData.h"
-#include "CoverStyleUserData.h"
+#include "CoverStateDelegateDelegate.h"
+#include "CoverAction.h"
 #include "AITicketUseData.h"
 #include "CoverFaceDirections.h"
+#include "SavedCollision.h"
+#include "CoverClientData.h"
+#include "CoverStyleUserData.h"
+#include "GbxParam.h"
 #include "Engine/EngineTypes.h"
 #include "CoverUserComponent.generated.h"
 
-class UHitReactionLayer;
-class AGbxCharacter;
-class UGbxNavCharacterMovementComponent;
-class UAIWeaponUserComponent;
-class USkeletalMeshComponent;
-class ACharacter;
 class AGbxAIController;
+class USkeletalMeshComponent;
+class AGbxCharacter;
 class UDamageComponent;
 class UGbxNavComponent;
 class UStanceComponent;
 class UTargetingComponent;
+class UGbxNavCharacterMovementComponent;
+class UAIWeaponUserComponent;
+class UHitReactionLayer;
 class UGbxCoverTransitionTable;
+class ACharacter;
 class UCoverStyleData;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

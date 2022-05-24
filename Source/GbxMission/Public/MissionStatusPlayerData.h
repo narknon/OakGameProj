@@ -4,8 +4,8 @@
 #include "EMissionStatus.h"
 #include "MissionStatusPlayerData.generated.h"
 
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 
 USTRUCT(BlueprintType)
 struct FMissionStatusPlayerData {

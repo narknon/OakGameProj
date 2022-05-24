@@ -1,25 +1,25 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DamageComponent.h"
-#include "SecondaryHealthDamageEventDelegate.h"
-#include "TakeAnyPipelineDamageDelegateDelegate.h"
 #include "HealthTypeEventDelegate.h"
+#include "DamageComponent.h"
+#include "GoreRegionEventSummary.h"
+#include "SecondaryHealthDamageEventDelegate.h"
 #include "HealthTypeDepletedEventDelegate.h"
 #include "ShieldAbsorbedDamageEventDelegate.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "TakeAnyPipelineDamageDelegateDelegate.h"
 #include "EGoreRegionType.h"
 #include "DamageBlockDelegateDelegate.h"
 #include "ElementalDeathDelegateDelegate.h"
 #include "EOakElementalType.h"
 #include "GoreRegionState.h"
 #include "UObject/NoExportTypes.h"
-#include "GoreRegionEventSummary.h"
 #include "OakDamageComponent.generated.h"
 
-class UGoreAoEDamageData;
+class UWeaponShieldComponent;
 class UDamageBlockData;
 class UHitReactionTag;
-class UWeaponShieldComponent;
+class UGoreAoEDamageData;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakDamageComponent : public UDamageComponent {

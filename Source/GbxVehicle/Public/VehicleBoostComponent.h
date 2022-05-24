@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "Components/ActorComponent.h"
 #include "VehicleBoostValueReachedEventDelegateDelegate.h"
+#include "GameResourcePoolReference.h"
 #include "UObject/NoExportTypes.h"
 #include "VehicleBoostComponent.generated.h"
 

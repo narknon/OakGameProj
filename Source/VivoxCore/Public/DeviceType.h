@@ -3,7 +3,7 @@
 #include "DeviceType.generated.h"
 
 UENUM(BlueprintType)
-enum class DeviceType :  {
+enum class DeviceType : uint8 {
     NullDevice,
     SpecificDevice,
     DefaultSystemDevice,

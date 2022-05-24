@@ -5,8 +5,8 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
 #include "WeaponFireBeamComponent.generated.h"
 
-class UCurveFloat;
 class ULightBeamData;
+class UCurveFloat;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXWEAPON_API UWeaponFireBeamComponent : public UWeaponFireComponent {

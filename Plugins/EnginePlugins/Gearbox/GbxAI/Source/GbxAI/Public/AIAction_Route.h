@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AIAction_Sequence.h"
 #include "AIAspectSettings_Navigation.h"
 #include "AIAspectSettings_Route.h"
-#include "AIAction_Sequence.h"
 #include "GbxBlackboardKeySelector.h"
 #include "AIAction_Route.generated.h"
 

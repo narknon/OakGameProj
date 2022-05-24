@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "AimAssistParameters.h"
+#include "UObject/NoExportTypes.h"
 #include "OakAimAssistParameters.generated.h"
 
 UCLASS()

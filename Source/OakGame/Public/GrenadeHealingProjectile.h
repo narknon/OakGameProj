@@ -5,16 +5,16 @@
 #include "Engine/EngineTypes.h"
 #include "GrenadeHealingProjectile.generated.h"
 
-class UPrimitiveComponent;
 class UGbxDamageType;
 class USphereComponent;
 class AActor;
 class UWwiseAudioComponent;
 class UProjectileHomingComponent;
+class UParticleSystem;
 class UDamageData;
 class UHealthTypeData;
-class UParticleSystem;
 class UWwiseEvent;
+class UPrimitiveComponent;
 
 UCLASS()
 class OAKGAME_API AGrenadeHealingProjectile : public AOakProjectile {

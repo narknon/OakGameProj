@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxFeedbackBase.h"
 #include "GameFramework/ForceFeedbackEffect.h"
 #include "AttributeInitializationData.h"
-#include "Curves/CurveFloat.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=RadialBlurSelection -FallbackName=RadialBlurSelection
+#include "Curves/CurveFloat.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "EScreenParticleScalingMode.h"
 #include "GbxFeedbackData.generated.h"

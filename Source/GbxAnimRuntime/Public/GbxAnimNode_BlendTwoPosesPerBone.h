@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Animation/AnimNodeBase.h"
-#include "Animation/AnimNodeBase.h"
 #include "BoneWeightCurveOverride.h"
+#include "Animation/AnimNodeBase.h"
+#include "Animation/AnimNodeBase.h"
 #include "UObject/NoExportTypes.h"
 #include "GbxAnimNode_BlendTwoPosesPerBone.generated.h"
 

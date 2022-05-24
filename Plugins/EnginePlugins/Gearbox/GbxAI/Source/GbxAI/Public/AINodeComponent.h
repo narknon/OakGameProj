@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/PrimitiveComponent.h"
-#include "AINodeLink.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=HavokNavSeed -FallbackName=HavokNavSeed
+#include "AINodeLink.h"
 #include "AINodeEventDelegate.h"
 #include "UObject/NoExportTypes.h"
 #include "AINodeComponent.generated.h"

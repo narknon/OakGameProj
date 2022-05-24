@@ -4,7 +4,6 @@
 #include "GbxGlobalsData.h"
 #include "OakGlobalsData.generated.h"
 
-class UDataTable;
 class UFriendGlobals;
 class UGbxUIGlobals;
 class UInventoryGlobals;
@@ -14,8 +13,9 @@ class UOakStreamingInteractionGlobals;
 class UOakDialogSettings;
 class UOakLoadingScreenGlobals;
 class UPlayerClassIdentifier;
-class UOakDownloadableContentGlobalsData;
 class UOakDeveloperPerks;
+class UDataTable;
+class UOakDownloadableContentGlobalsData;
 class UOakCustomizationData;
 class UOakWeaponGlobalsData;
 

@@ -3,8 +3,8 @@
 #include "AttributeEffectReference.h"
 #include "AppliedAttributeEffect.generated.h"
 
-class UObject;
 class UStatusEffectManagerComponent;
+class UObject;
 
 USTRUCT(BlueprintType)
 struct FAppliedAttributeEffect {

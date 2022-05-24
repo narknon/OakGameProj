@@ -5,8 +5,8 @@
 #include "PreviewState.h"
 #include "PreviewComponent.generated.h"
 
-class USkinnedMeshComponent;
 class AActor;
+class USkinnedMeshComponent;
 class UBlueprint;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

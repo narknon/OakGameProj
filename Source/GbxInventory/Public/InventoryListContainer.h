@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryListEntry.h"
 #include "Engine/NetSerialization.h"
+#include "InventoryListEntry.h"
 #include "InventoryListContainer.generated.h"
 
 USTRUCT(BlueprintType)

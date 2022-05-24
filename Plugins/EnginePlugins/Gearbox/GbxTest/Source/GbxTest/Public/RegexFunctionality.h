@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ESyntaxOption.h"
 #include "UObject/Object.h"
 #include "Regex.h"
-#include "ESyntaxOption.h"
 #include "RegexFunctionality.generated.h"
 
 class UMatcherFunctionality;

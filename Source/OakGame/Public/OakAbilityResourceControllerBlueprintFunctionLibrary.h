@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakAbilityResourceSpec_SirenRushStack.h"
+#include "OakAbilityResourceController_SirenRushStack.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "OakAbilityResourceSpec_WeaponShotModifier.h"
 #include "OakAbilityResourceController_WeaponShotModifier.h"
-#include "OakAbilityResourceController_SirenRushStack.h"
+#include "OakAbilityResourceSpec_SirenRushStack.h"
 #include "OakAbilityResourceControllerBlueprintFunctionLibrary.generated.h"
 
 UCLASS(BlueprintType)

@@ -1,9 +1,9 @@
 #include "GbxBlackboardKeySelectorExt.h"
 
-class AActor;
 class UBlackboardComponent;
 class UProperty;
 class UObject;
+class AActor;
 
 void UGbxBlackboardKeySelectorExt::SetValueAsVector(const FGbxBlackboardKeySelector& Key, UBlackboardComponent* BlackboardComponent, FVector Value) {
 }

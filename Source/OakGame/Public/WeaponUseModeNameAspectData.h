@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryAspectData.h"
 #include "EWeaponUseMode.h"
+#include "InventoryAspectData.h"
 #include "WeaponUseModeNameAspectData.generated.h"
 
 class UUIStatData_Text;

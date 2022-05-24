@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "AudioPrepComponentFilter.h"
 #include "Engine/EngineTypes.h"
 #include "AudioPrepHitResultFilter.h"
+#include "AudioPrepComponentFilter.h"
 #include "GbxAudioBlueprintLibrary.generated.h"
 
-class UWwiseAuxBus;
-class UCharacterSoundTag;
-class AActor;
 class UPrimitiveComponent;
+class UWwiseAuxBus;
+class AActor;
+class UCharacterSoundTag;
 
 UCLASS(BlueprintType)
 class GBXAUDIO_API UGbxAudioBlueprintLibrary : public UBlueprintFunctionLibrary {

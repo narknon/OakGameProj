@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RecentlyResistedAttackData.h"
-#include "RecentDamageTrackingComponent.h"
-#include "RecentIncomingDamageData.h"
 #include "TriggeredDamagePresentation.h"
+#include "RecentDamageTrackingComponent.h"
+#include "RecentlyResistedAttackData.h"
+#include "RecentIncomingDamageData.h"
 #include "OakRecentDamageTrackingComponent.generated.h"
 
 class UScreenParticleManagerComponent;

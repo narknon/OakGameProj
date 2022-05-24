@@ -3,14 +3,14 @@
 #include "GameFramework/Actor.h"
 #include "StandInAuxiliaryActor.generated.h"
 
-class AOakCharacter_StandIn;
 class AWeapon;
-class UGbxSkeletalMeshComponent;
 class UGbxActionComponent;
 class UGbxCustomizationComponent;
 class USkeletalMeshComponent;
+class UGbxSkeletalMeshComponent;
 class UInventoryBalanceData;
 class USceneComponent;
+class AOakCharacter_StandIn;
 class AOakCharacter_Player;
 
 UCLASS(Transient)

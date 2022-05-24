@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GrenadeBehavior_Delivery.h"
 #include "Engine/EngineTypes.h"
+#include "GrenadeBehavior_Delivery.h"
 #include "GrenadeBehavior_DeliveryBlueprint.generated.h"
 
 class AGrenadeMod;

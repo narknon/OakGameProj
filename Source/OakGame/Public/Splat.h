@@ -5,10 +5,10 @@
 
 class UWwiseAudioComponent;
 class UElementalInteractionComponent;
+class UMaterialInstanceDynamic;
+class USplatData;
 class UGbxConvexComponent;
 class UDecalComponent;
-class USplatData;
-class UMaterialInstanceDynamic;
 class UParticleSystemComponent;
 
 UCLASS(NotPlaceable)

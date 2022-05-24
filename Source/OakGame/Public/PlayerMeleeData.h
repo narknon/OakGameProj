@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
-#include "MeleeReverseImpactEntry.h"
+#include "GbxDataAsset.h"
 #include "Engine/EngineTypes.h"
+#include "MeleeReverseImpactEntry.h"
 #include "PlayerMeleeData.generated.h"
 
-class UImpactData;
 class UDamageData;
 class UGbxCondition;
-class UFeedbackData;
 class UGbxAction;
+class UImpactData;
+class UFeedbackData;
 
 UCLASS()
 class UPlayerMeleeData : public UGbxDataAsset {

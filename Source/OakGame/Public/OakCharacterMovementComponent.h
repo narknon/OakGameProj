@@ -11,22 +11,22 @@
 #include "EJumpType.h"
 #include "OakCharacterMovementComponent.generated.h"
 
-class AOakCharacter;
+class UWwiseEvent;
 class UCharacterSlidingData;
 class UGbxAction;
-class UCharacterGroundSlamData;
-class UCurveFloat;
-class UOakPlayerTeleportData;
 class UImpactData;
-class UWwiseEvent;
-class UParticleSystemComponent;
+class UCurveFloat;
+class UCharacterGroundSlamData;
 class UOakLadderInteractData;
+class AOakCharacter;
 class UCoverUserComponent;
 class UOakStatusEffectManagerComponent;
+class UPrimitiveComponent;
 class UFightForYourLifeComponent;
 class UOakCharacterAnimInstance;
 class ACharacterForcedSlidingVolume;
-class UPrimitiveComponent;
+class UOakPlayerTeleportData;
+class UParticleSystemComponent;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakCharacterMovementComponent : public UGbxNavCharacterMovementComponent {

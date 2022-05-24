@@ -1,22 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AugmentData.h"
 #include "UObject/Object.h"
 #include "AttributeInitializationData.h"
-#include "GameResourcePoolReference.h"
 #include "ShieldAugmentDamageEventData.h"
-#include "AugmentData.h"
 #include "WeaponShotModifierData.h"
+#include "GameResourcePoolReference.h"
 #include "ReceivedDamageDetails.h"
 #include "CausedDamageDetails.h"
 #include "ShieldAugment.generated.h"
 
 class AShield;
-class AController;
-class AWeapon;
 class AOakCharacter;
+class AWeapon;
 class UDamageSource;
 class UGbxDamageType;
 class UDamageComponent;
+class AController;
 class UDamageCauserComponent;
 class AActor;
 

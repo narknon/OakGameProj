@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
 #include "HitReactionPair.h"
+#include "GbxDataAsset.h"
 #include "HitReactionData.generated.h"
 
 class UHitReactionLayer;

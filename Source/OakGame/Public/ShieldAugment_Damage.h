@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "ForceSelection.h"
 #include "ShieldAugment_Triggerable.h"
 #include "AttributeInitializationData.h"
-#include "ForceSelection.h"
 #include "SingularityInitializationInfo.h"
 #include "ShieldAugment_Damage.generated.h"
 

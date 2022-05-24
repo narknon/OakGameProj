@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "FaceFXAnimId.h"
 #include "MovieSceneSection.h"
 #include "FaceFXSkelMeshComponentId.h"
+#include "FaceFXAnimId.h"
 #include "FaceFXAnimationSection.generated.h"
 
 class UFaceFXAnim;

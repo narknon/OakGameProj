@@ -1,11 +1,11 @@
 #include "LightBeamStatics.h"
 #include "Templates/SubclassOf.h"
 
-class APawn;
+class UDamageSource;
 class AActor;
 class ULightBeamData;
+class APawn;
 class UGbxDamageType;
-class UDamageSource;
 class UImpactData;
 
 void ULightBeamStatics::SetBeamFlag(FLightBeamInitializationData& InitData, ELightBeamFlag Flag) {

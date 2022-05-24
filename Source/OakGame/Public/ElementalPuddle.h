@@ -1,19 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "DamageableInterface.h"
 #include "GameFramework/Actor.h"
-#include "UObject/NoExportTypes.h"
 #include "ProjectedMeshOptions.h"
+#include "DamageableInterface.h"
+#include "UObject/NoExportTypes.h"
 #include "EPuddleState.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "ElementalPuddle.generated.h"
 
 class UElementalInteractionComponent;
-class AElementalInteractionManager;
 class UWwiseAudioComponent;
-class UObject;
+class AElementalInteractionManager;
 class UProceduralMeshComponent;
 class UElementalPuddleOverlapCollisonComponent;
 class UBalanceStateComponent;
@@ -22,6 +21,7 @@ class UElementalPuddleConfigurationData;
 class UHavokNavObstacle;
 class UParticleSystemComponent;
 class AElementalPuddle;
+class UObject;
 class UElementalPuddleSpawnData;
 class APawn;
 class UElementalPuddleSimpleSpawnData;

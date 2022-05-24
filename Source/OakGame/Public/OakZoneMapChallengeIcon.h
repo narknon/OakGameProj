@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EZoneMapChallengeStatus.h"
-#include "OakZoneMapIcon_POI.h"
 #include "ZoneMapChallengeEntry.h"
+#include "OakZoneMapIcon_POI.h"
+#include "EZoneMapChallengeStatus.h"
 #include "OakZoneMapChallengeIcon.generated.h"
 
 class UTexture2D;

@@ -4,8 +4,8 @@
 #include "UObject/NoExportTypes.h"
 #include "LootableObjectDamageEventDetails.generated.h"
 
-class AActor;
 class UGbxDamageType;
+class AActor;
 class UDamageSource;
 
 USTRUCT(BlueprintType)

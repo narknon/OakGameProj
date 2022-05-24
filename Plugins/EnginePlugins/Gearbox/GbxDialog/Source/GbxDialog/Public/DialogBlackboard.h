@@ -11,11 +11,11 @@
 #include "DialogBlackboard.generated.h"
 
 class UGbxDialogComponent;
+class AActor;
 class UDialogNameTag;
+class UDialogLookupSystem;
 class UDialogScriptData;
 class UDialogControlSystem;
-class UDialogLookupSystem;
-class AActor;
 class APlayerController;
 
 UCLASS()

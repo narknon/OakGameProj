@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "MissionProgress.h"
 #include "GameFramework/Actor.h"
+#include "MissionProgress.h"
 #include "MissionTrackerBase.generated.h"
 
-class UMission;
 class UGlobalMissionGraph;
+class UMission;
 
 UCLASS(NotPlaceable, Transient)
 class GBXMISSION_API AMissionTrackerBase : public AActor {

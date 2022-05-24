@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "GbxParam.h"
 #include "GameplayTagContainer.h"
+#include "GbxDataAsset.h"
 #include "PerchTag.generated.h"
 
 class UPerchType;

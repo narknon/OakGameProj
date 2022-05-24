@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WwisePlaybackInstance.h"
 #include "WwiseEvent.h"
+#include "WwisePlaybackInstance.h"
 #include "WwiseAudioInputEvent.generated.h"
 
 UCLASS()

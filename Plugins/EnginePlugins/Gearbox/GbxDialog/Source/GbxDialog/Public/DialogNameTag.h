@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EVoiceOfGodSpeaker.h"
 #include "GbxDataAsset.h"
-#include "ConditionalEchoData.h"
 #include "DialogEnumValueInterface.h"
+#include "EVoiceOfGodSpeaker.h"
+#include "ConditionalEchoData.h"
 #include "DialogMoodInfo.h"
 #include "DialogNameTag.generated.h"
 
 class UWwiseRtpc;
-class UDialogNameTag;
-class UDialogEnumValue;
 class UCharacterEchoDataBase;
+class UDialogEnumValue;
+class UDialogNameTag;
 class UDialogNameTagMoodData;
 
 UCLASS(BlueprintType)

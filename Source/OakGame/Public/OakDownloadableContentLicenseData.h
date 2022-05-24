@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=OnlineSubsystemUtils -ObjectName=DownloadableContentLicenseData -FallbackName=DownloadableContentLicenseData
-#include "InventorySerialNumberAssetInterface.h"
 #include "UObject/NoExportTypes.h"
+#include "InventorySerialNumberAssetInterface.h"
 #include "OakDownloadableContentLicenseData.generated.h"
 
 UCLASS()

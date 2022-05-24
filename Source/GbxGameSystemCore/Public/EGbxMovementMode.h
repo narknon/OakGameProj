@@ -3,7 +3,7 @@
 #include "EGbxMovementMode.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxMovementMode :  {
+enum class EGbxMovementMode : uint8 {
     GBXMOVE_Ladder,
     GBXMOVE_Mantle,
     GBXMOVE_PawnAttached,

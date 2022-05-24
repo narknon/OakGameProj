@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "AudioPrepLocationConsumer.h"
 #include "AudioPositioningProviderInterface.h"
-#include "EWwiseMultiPositionType.h"
 #include "EDistributedSoundMode.h"
+#include "AudioPrepLocationConsumer.h"
+#include "EWwiseMultiPositionType.h"
 #include "UObject/NoExportTypes.h"
 #include "DistributedAmbientSound.generated.h"
 
 class UWwiseAudioComponent;
-class UAudioPrepLocationFinder;
 class UWwiseEvent;
+class UAudioPrepLocationFinder;
 
 UCLASS()
 class GBXAUDIO_API ADistributedAmbientSound : public AActor, public IAudioPositioningProviderInterface, public IAudioPrepLocationConsumer {

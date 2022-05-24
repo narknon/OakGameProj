@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDamageType.h"
 #include "DialogEnumValueInterface.h"
+#include "GbxDamageType.h"
 #include "EOakElementalType.h"
 #include "OakDamageType.generated.h"
 
-class UDialogEnumValue;
 class UGameStatData;
+class UDialogEnumValue;
 
 UCLASS()
 class UOakDamageType : public UGbxDamageType, public IDialogEnumValueInterface {

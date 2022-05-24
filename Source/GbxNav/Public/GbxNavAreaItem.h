@@ -11,7 +11,7 @@ struct GBXNAV_API FGbxNavAreaItem {
     GENERATED_BODY()
 public:
     UPROPERTY(EditAnywhere)
-    UGbxNavArea* ;
+    UGbxNavArea* GbxNavArea;
     
     UPROPERTY(EditAnywhere)
     float CostScale;

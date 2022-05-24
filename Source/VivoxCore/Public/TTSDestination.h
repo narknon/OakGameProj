@@ -3,7 +3,7 @@
 #include "TTSDestination.generated.h"
 
 UENUM(BlueprintType)
-enum class TTSDestination :  {
+enum class TTSDestination : uint8 {
     Default,
     RemoteTransmission = 0x0,
     LocalPlayback,

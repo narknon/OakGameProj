@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakDroneProjectileMovementComponent.h"
-#include "GRMLNHoverProfile.h"
-#include "DroneMovementComponentBoostSignatureDelegate.h"
 #include "AttributeInitializationData.h"
+#include "OakDroneProjectileMovementComponent.h"
+#include "DroneMovementComponentBoostSignatureDelegate.h"
+#include "GRMLNHoverProfile.h"
 #include "OakDroneProjectileMovementComponent_GRMLN.generated.h"
 
 class AOakDroneProjectile_GRMLN;

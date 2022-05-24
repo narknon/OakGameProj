@@ -1,10 +1,10 @@
 #include "GbxGameSystemCoreBlueprintLibrary.h"
 
-class USceneComponent;
 class UPrimitiveComponent;
 class AActor;
 class UGameInstance;
 class UObject;
+class USceneComponent;
 class AVolume;
 
 void UGbxGameSystemCoreBlueprintLibrary::SetComponentPhysicalRotation(UPrimitiveComponent* Target, float PitchRotation, float YawRotation, float RollRotation, FName BoneName) {

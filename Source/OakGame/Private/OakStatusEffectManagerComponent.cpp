@@ -2,9 +2,9 @@
 #include "Net/UnrealNetwork.h"
 #include "Templates/SubclassOf.h"
 
-class AController;
 class UGbxDamageType;
 class UDestructibleMesh;
+class AController;
 
 void UOakStatusEffectManagerComponent::UnlockFreezePauseState(FName Reason) {
 }

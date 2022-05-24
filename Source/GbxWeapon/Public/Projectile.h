@@ -3,25 +3,25 @@
 #include "Templates/SubclassOf.h"
 #include "GameFramework/Actor.h"
 #include "CauseDamageContextSourceInterface.h"
-#include "EWeaponShotModifierType.h"
 #include "GenericTeamAgentInterface.h"
-#include "UObject/NoExportTypes.h"
 #include "DamageInfo.h"
+#include "EWeaponShotModifierType.h"
 #include "AttributeInitializationData.h"
+#include "UObject/NoExportTypes.h"
 #include "ForceSelection.h"
 #include "CriticalHitDamageOverrides.h"
 #include "Engine/EngineTypes.h"
 #include "Projectile.generated.h"
 
-class USceneComponent;
-class UGbxProjectileMovementComponent;
 class UImpactData;
-class UDamageSource;
 class UExplosionComponent;
+class UGbxDamageType;
+class UGbxProjectileMovementComponent;
 class UDamageData;
 class UTeam;
-class UGbxDamageType;
+class UDamageSource;
 class UExplosionData;
+class USceneComponent;
 class AWeapon;
 
 UCLASS()

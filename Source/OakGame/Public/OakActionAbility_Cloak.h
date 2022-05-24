@@ -3,8 +3,8 @@
 #include "Templates/SubclassOf.h"
 #include "OakActionAbility_Beastmaster.h"
 #include "AttributeInitializationData.h"
-#include "WeaponShotModifierData.h"
 #include "OakActionCloak_TrackedTargetState.h"
+#include "WeaponShotModifierData.h"
 #include "OakActionAbility_Cloak.generated.h"
 
 class UWeaponShotModifier;

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
+#include "GameplayTagContainer.h"
 #include "ESpawnPointFilter.h"
 #include "GbxParam.h"
-#include "GameplayTagContainer.h"
 #include "SpawnLimitData.generated.h"
 
 USTRUCT(BlueprintType)

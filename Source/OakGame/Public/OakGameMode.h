@@ -3,10 +3,10 @@
 #include "GbxGameMode.h"
 #include "OakGameMode.generated.h"
 
+class UTravelStationData;
 class AController;
 class APawn;
 class UItemPoolData;
-class UTravelStationData;
 class AActor;
 class ATravelStationTracker;
 class AOakPlayerController;

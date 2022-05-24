@@ -4,8 +4,8 @@
 #include "OakAbilityResourceSpec_WeaponShotModifier.generated.h"
 
 class UOakDamageCauserComponent;
-class UWeaponShotModifier;
 class UObject;
+class UWeaponShotModifier;
 
 USTRUCT(BlueprintType)
 struct FOakAbilityResourceSpec_WeaponShotModifier : public FGbxAbilityResourceSpec {

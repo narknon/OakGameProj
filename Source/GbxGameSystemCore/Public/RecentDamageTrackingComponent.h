@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
 #include "RecentlyCausedDamageInstance.h"
+#include "Components/ActorComponent.h"
 #include "RecentDamageTrackingComponent.generated.h"
 
 class AGbxPlayerController;

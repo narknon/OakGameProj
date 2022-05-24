@@ -3,9 +3,9 @@
 #include "VehicleAnimInstance.h"
 #include "OakVehicleAnimInstance.generated.h"
 
-class UVehicleHoverComponent;
-class AOakVehicle;
 class UWheeledVehicleMovementComponentNW;
+class AOakVehicle;
+class UVehicleHoverComponent;
 class UAnimSequenceBase;
 
 UCLASS(NonTransient)

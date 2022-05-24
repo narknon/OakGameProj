@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "EFriendEventPriority.h"
 #include "Engine/DataTable.h"
 #include "EFriendEventType.h"
-#include "EFriendEventPriority.h"
 #include "FriendEventDataEntry.generated.h"
 
 USTRUCT()

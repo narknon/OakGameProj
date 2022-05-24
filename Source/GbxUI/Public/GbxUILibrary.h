@@ -3,16 +3,16 @@
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "UObject/NoExportTypes.h"
-#include "GbxUserWidgetDelegateDelegate.h"
 #include "GbxListItemDelegateDelegate.h"
+#include "GbxUserWidgetDelegateDelegate.h"
 #include "GbxUILibrary.generated.h"
 
 class UGbxListItemText;
+class UGbxFullScreenMovie;
 class UObject;
+class AGbxPlayerController;
 class UGbxList;
 class IGbxList;
-class UGbxFullScreenMovie;
-class AGbxPlayerController;
 class UMediaSource;
 class APlayerController;
 class UGbxListItemNumber;

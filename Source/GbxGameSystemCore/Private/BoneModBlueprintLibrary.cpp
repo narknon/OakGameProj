@@ -1,8 +1,8 @@
 #include "BoneModBlueprintLibrary.h"
 
+class UObject;
 class UCurveFloat;
 class UGbxBoneModifyProfile;
-class UObject;
 
 void UBoneModBlueprintLibrary::SetBoneTranslation(const FName BoneName, const FVector Translation, UObject* Target, const float InBlendTime, const EAlphaBlendOption InBlendOption, const UCurveFloat* InCustomBlendCurve) {
 }

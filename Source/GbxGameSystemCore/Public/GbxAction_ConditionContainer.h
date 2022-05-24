@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxAction.h"
-#include "EActionSelectionMethod.h"
 #include "ConditionActionPair.h"
+#include "EActionSelectionMethod.h"
 #include "GbxAction_ConditionContainer.generated.h"
 
 UCLASS()

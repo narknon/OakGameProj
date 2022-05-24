@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "PawnSceneAttachmentInfo.h"
 #include "EAttachmentTransitionTiming.h"
+#include "PawnSceneAttachmentInfo.h"
 #include "PawnAttachmentTransition.generated.h"
 
 class UGbxAction;

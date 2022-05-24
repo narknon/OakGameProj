@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "BaseVehicleEffectDataWithLocation.h"
 #include "ConditionalAudioSwitch.h"
+#include "BaseVehicleEffectDataWithLocation.h"
 #include "VehicleAudioEffect.generated.h"
 
 class UWwiseEvent;

@@ -6,8 +6,8 @@
 #include "ElementalSlideEffect.h"
 #include "CharacterSlidingData.generated.h"
 
-class UImpactData;
 class UControlledMove;
+class UImpactData;
 class UWwiseEvent;
 
 UCLASS()

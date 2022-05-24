@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/NetSerialization.h"
 #include "InventoryListEntryHandle.h"
+#include "Engine/NetSerialization.h"
 #include "EPlayerDroppability.h"
 #include "InventoryListEntry.generated.h"
 

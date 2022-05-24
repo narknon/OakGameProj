@@ -1,9 +1,9 @@
 #include "GFxInteractionPrompt.h"
 
 class AController;
-class UInventoryCategoryData;
-class UUsableComponent;
 class UPrimitiveComponent;
+class UUsableComponent;
+class UInventoryCategoryData;
 
 void UGFxInteractionPrompt::UpdateUsabilityTextColor() const {
 }

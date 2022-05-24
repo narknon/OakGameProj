@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "UObject/NoExportTypes.h"
 #include "ProjectileHomingComponentEventDelegate.h"
+#include "UObject/NoExportTypes.h"
 #include "ProjectileHomingComponent.generated.h"
 
 class AActor;

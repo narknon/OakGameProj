@@ -3,7 +3,7 @@
 #include "ECMInheritVelocityType.generated.h"
 
 UENUM(BlueprintType)
-enum class ECMInheritVelocityType :  {
+enum class ECMInheritVelocityType : uint8 {
     Forward,
     Backward,
     Right,

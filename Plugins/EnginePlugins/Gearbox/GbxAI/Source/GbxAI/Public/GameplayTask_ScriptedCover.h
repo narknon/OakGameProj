@@ -3,10 +3,10 @@
 #include "GameplayTask_ScriptedAction.h"
 #include "GameplayTask_ScriptedCover.generated.h"
 
-class UCoverSlotComponent;
-class UCoverUserComponent;
 class ACover;
 class AActor;
+class UCoverSlotComponent;
+class UCoverUserComponent;
 class UGameplayTask_ScriptedCover;
 
 UCLASS(MinimalAPI)

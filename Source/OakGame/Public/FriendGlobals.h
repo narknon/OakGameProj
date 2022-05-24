@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "GameplayTagContainer.h"
+#include "GbxDataAsset.h"
 #include "FriendGlobals.generated.h"
 
 class UVaultHunterStatusData;
-class UChallengeList;
 class UDataTable;
+class UChallengeList;
 
 UCLASS(EditInlineNew)
 class UFriendGlobals : public UGbxDataAsset {

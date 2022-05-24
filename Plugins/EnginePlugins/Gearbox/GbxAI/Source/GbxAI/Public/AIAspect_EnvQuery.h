@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_EnvQuery.h"
 #include "AIAspect.h"
+#include "AIAspectSettings_EnvQuery.h"
 #include "AIAspectEnvQueryValueChangedBlueprintDelegateDelegate.h"
 #include "AIAspect_EnvQuery.generated.h"
 

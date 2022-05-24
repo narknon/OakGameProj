@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "ProtectionTimerSettings.h"
-#include "AttributeInitializationData.h"
+#include "DamageLocalizationSettings.h"
 #include "LevelBasedDamageScale.h"
 #include "Curves/CurveFloat.h"
-#include "DamageLocalizationSettings.h"
 #include "DamageGlobalsData.generated.h"
 
-class UImpactData;
 class UGbxDamageType;
+class UImpactData;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UDamageGlobalsData : public UGbxDataAsset {

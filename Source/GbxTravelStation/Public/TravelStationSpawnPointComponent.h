@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/CapsuleComponent.h"
-#include "TravelStationSpawnPointInterface.h"
 #include "TravelStationActorSpawnedDelegate.h"
+#include "TravelStationSpawnPointInterface.h"
 #include "TravelStationSpawnPointComponent.generated.h"
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "WeaponBonusDataTableAttributeMappingData.h"
+#include "GbxDataAsset.h"
 #include "WeaponBonusDataTableColumnCollectionData.h"
 #include "WeaponBonusDataTableData.generated.h"
 

@@ -4,8 +4,8 @@
 #include "OakPhaseWebSphereBeamData.h"
 #include "OakPhaseWebSphereLinkedTargetItem.generated.h"
 
-class AOakCharacter;
 class UParticleSystemComponent;
+class AOakCharacter;
 
 USTRUCT(BlueprintType)
 struct FOakPhaseWebSphereLinkedTargetItem : public FFastArraySerializerItem {

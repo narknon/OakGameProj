@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EWeaponShotModifierType.h"
-#include "GbxDataAsset.h"
 #include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
+#include "EWeaponShotModifierType.h"
 #include "EWeaponShotDamageModifierType.h"
 #include "ECriticalHitDamageOverride.h"
 #include "WeaponShotModifier.generated.h"
 
-class UImpactData;
-class UGbxDamageType;
 class UConditionalDamageModifier;
+class UGbxDamageType;
+class UImpactData;
 
 UCLASS(EditInlineNew)
 class GBXWEAPON_API UWeaponShotModifier : public UGbxDataAsset {

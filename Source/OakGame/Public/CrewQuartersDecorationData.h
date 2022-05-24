@@ -4,8 +4,8 @@
 #include "UObject/NoExportTypes.h"
 #include "CrewQuartersDecorationData.generated.h"
 
-class UInventoryRarityData;
 class UTexture;
+class UInventoryRarityData;
 
 UCLASS()
 class UCrewQuartersDecorationData : public UDataAsset {

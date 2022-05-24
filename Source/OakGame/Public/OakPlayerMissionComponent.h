@@ -2,18 +2,18 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "PlayerMissionComponent.h"
+#include "ReplicatedMissionData.h"
+#include "MissionDeliveryData.h"
 #include "MissionObserverPlayerInterface.h"
 #include "ApplyMissionRewardsDelegateDelegate.h"
 #include "PlotMissionsCompletedDelegate.h"
-#include "MissionDeliveryData.h"
 #include "GbxMenuInputEvent.h"
-#include "ReplicatedMissionData.h"
 #include "OakPlayerMissionComponent.generated.h"
 
-class UMissionObjective;
-class UMission;
 class AActor;
 class AWeapon;
+class UMission;
+class UMissionObjective;
 class APawn;
 class UGbxGFxDialogBox;
 class AOakPlayerController;

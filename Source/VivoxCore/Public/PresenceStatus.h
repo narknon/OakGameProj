@@ -3,7 +3,7 @@
 #include "PresenceStatus.generated.h"
 
 UENUM(BlueprintType)
-enum class PresenceStatus :  {
+enum class PresenceStatus : uint8 {
     Unavailable,
     Available,
     Chat,

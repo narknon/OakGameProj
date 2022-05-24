@@ -1,29 +1,29 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EReviveState.h"
 #include "UsableComponent.h"
 #include "EExitDownStateReason.h"
 #include "GameResourcePoolReference.h"
-#include "Engine/Scene.h"
 #include "EDownState.h"
+#include "Engine/Scene.h"
+#include "EReviveState.h"
 #include "ExitDownStateInformation.h"
 #include "StatusEffectInstanceReference.h"
 #include "CausedDamageDetails.h"
 #include "FightForYourLifeComponent.generated.h"
 
-class UDamageSource;
-class UHUDNotificationAsset;
 class UFightForYourLifeComponent;
+class UHUDNotificationAsset;
 class UGbxAttributeData;
 class UTravelStationResurrectComponent;
 class AActor;
+class UWwiseEvent;
 class UGameResourceData;
 class UStatusEffectData;
 class UCurveFloat;
-class UWwiseEvent;
-class UParticleSystemComponent;
-class UGbxHUDStateData;
+class UDamageSource;
 class UParticleSystem;
+class UGbxHUDStateData;
+class UParticleSystemComponent;
 class UGbxDamageType;
 class UDamageComponent;
 

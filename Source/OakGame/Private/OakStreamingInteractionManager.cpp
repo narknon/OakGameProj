@@ -1,7 +1,7 @@
 #include "OakStreamingInteractionManager.h"
 
-class AOakPlayerController;
 class UOakStreamingInteractionManager;
+class AOakPlayerController;
 
 void UOakStreamingInteractionManager::OnThumbnailLoaded() {
 }

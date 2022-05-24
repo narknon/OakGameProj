@@ -1,9 +1,9 @@
 #include "GFxVendingMachineMenu.h"
 
+class UInventorySlotData;
+class UGbxGFxButton;
 class AActor;
 class UInventoryCategoryData;
-class UGbxGFxButton;
-class UInventorySlotData;
 class UGbxGFxObject;
 
 void UGFxVendingMachineMenu::OnVendingSelectionChanged() const {

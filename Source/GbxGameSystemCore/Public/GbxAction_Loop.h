@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxAction_SimpleAnim.h"
-#include "WeightedAnim.h"
 #include "AnimMeshList.h"
+#include "WeightedAnim.h"
 #include "LoopAnimData.h"
 #include "GbxParam.h"
 #include "GbxAction_Loop.generated.h"
 
-class AActor;
 class UGbxCondition;
+class AActor;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UGbxAction_Loop : public UGbxAction_SimpleAnim {

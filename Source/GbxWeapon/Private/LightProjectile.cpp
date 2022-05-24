@@ -1,14 +1,14 @@
 #include "LightProjectile.h"
 #include "Net/UnrealNetwork.h"
 
-class UParticleSystemComponent;
 class AActor;
 class UActorComponent;
 class UWwiseEvent;
-class UGbxDamageType;
 class UPrimitiveComponent;
+class UParticleSystemComponent;
 class APawn;
 class UImpactData;
+class UGbxDamageType;
 
 void ULightProjectile::SetLifetime(float NewLifetime) {
 }

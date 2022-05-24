@@ -2,9 +2,9 @@
 #include "Net/UnrealNetwork.h"
 
 class AInventoryItemPickup;
+class UInventoryCustomizationPartData;
 class AActor;
 class UInventoryCategoryData;
-class UInventoryCustomizationPartData;
 
 int32 UInventoryListComponent::SizeInInventory(AInventoryItemPickup* PickupToTest) {
     return 0;

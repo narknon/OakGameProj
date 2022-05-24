@@ -3,8 +3,8 @@
 #include "EDamageReactionEventType.h"
 #include "DamageReactionEvent_DamageComponent.generated.h"
 
-class UGameResourcePoolData;
 class UDamageFilter;
+class UGameResourcePoolData;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FDamageReactionEvent_DamageComponent {

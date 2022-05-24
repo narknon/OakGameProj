@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "WeaponPreUseComponent.h"
+#include "PaintedTarget.h"
 #include "TargetingUpdateSignatureDelegate.h"
 #include "EnvQueryParams.h"
 #include "AttributeInitializationData.h"
-#include "PaintedTarget.h"
 #include "FalconStrikeTargetingComponent.generated.h"
 
-class AActor;
 class UInWorldIconData;
-class ULightProjectile;
+class AActor;
 class AOakCharacter_Player;
+class ULightProjectile;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UFalconStrikeTargetingComponent : public UWeaponPreUseComponent {

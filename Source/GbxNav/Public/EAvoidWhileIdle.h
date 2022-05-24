@@ -3,7 +3,7 @@
 #include "EAvoidWhileIdle.generated.h"
 
 UENUM(BlueprintType)
-enum class EAvoidWhileIdle :  {
+enum class EAvoidWhileIdle : uint8 {
     Default,
     AvoidWhileIdle,
     OnlyAvoidWhileMoving,

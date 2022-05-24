@@ -10,8 +10,8 @@ class UParticleSystem;
 class UStaticMesh;
 class UWwiseEvent;
 class UMaterialInstanceConstant;
-class UObject;
 class AActor;
+class UObject;
 
 USTRUCT(BlueprintType)
 struct FAmputateLimbData {

@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "CoverAdjustParams.h"
 #include "GameFramework/Actor.h"
 #include "UObject/NoExportTypes.h"
+#include "CoverAdjustParams.h"
 #include "Cover.generated.h"
 
-class UCoverSlotComponent;
 class UCoverSlotData;
+class UCoverSlotComponent;
 
 UCLASS(DefaultConfig, Config=Game)
 class GBXAI_API ACover : public AActor {

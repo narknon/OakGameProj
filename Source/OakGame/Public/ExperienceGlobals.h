@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "AttributeInitializationData.h"
+#include "GbxDataAsset.h"
 #include "PlayerVaultCardLevelFormula.h"
 #include "LevelBasedExpScale.h"
-#include "GbxDataAsset.h"
-#include "AttributeInitializationData.h"
 #include "ExpAwardWeight.h"
 #include "PlayerExperienceFormula.h"
 #include "PlayerGuardianRankFormula.h"

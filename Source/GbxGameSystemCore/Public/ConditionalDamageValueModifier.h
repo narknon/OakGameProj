@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Curves/CurveFloat.h"
-#include "ConditionalDamageDamageConditionalValue.h"
 #include "ConditionalDamageModifier.h"
 #include "EConditionalDamageModifierType.h"
 #include "AttributeInitializationData.h"
+#include "Curves/CurveFloat.h"
+#include "ConditionalDamageDamageConditionalValue.h"
 #include "ConditionalDamageValueModifier.generated.h"
 
 UCLASS(EditInlineNew)

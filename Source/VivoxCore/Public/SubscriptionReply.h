@@ -3,7 +3,7 @@
 #include "SubscriptionReply.generated.h"
 
 UENUM(BlueprintType)
-enum class SubscriptionReply :  {
+enum class SubscriptionReply : uint8 {
     Allow,
     Block,
 };

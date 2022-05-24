@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "SpawnDetails.h"
 #include "GbxDataAsset.h"
-#include "SpawnLimitData.h"
-#include "GameplayTagContainer.h"
 #include "SpawnPointEffect.h"
+#include "GameplayTagContainer.h"
+#include "SpawnDetails.h"
 #include "UObject/NoExportTypes.h"
+#include "SpawnLimitData.h"
 #include "UObject/NoExportTypes.h"
 #include "OakSpawnerDefinition.generated.h"
 
 class AOakSpawner;
+class UObject;
 class UOakAction_CoordinatedEffect;
 class USpawnerStyle;
-class UObject;
 class AActor;
 class USpawnerComponent;
 class UOakSpawnerDefinition;

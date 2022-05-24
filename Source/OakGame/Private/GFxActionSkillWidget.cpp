@@ -1,9 +1,9 @@
 #include "GFxActionSkillWidget.h"
 #include "Templates/SubclassOf.h"
 
+class UGbxAbility;
 class UOakActionAbilityAugmentSlotData;
 class UOakActionAbility;
-class UGbxAbility;
 
 void UGFxActionSkillWidget::SetRemainingCharges(int32 NewRemainingCharges) const {
 }

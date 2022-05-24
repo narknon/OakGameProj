@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/DataAsset.h"
 #include "EGbxInputRebindPlatformSupportType.h"
+#include "Engine/DataAsset.h"
 #include "GbxInputKeyRebindData.generated.h"
 
 UCLASS(Abstract)

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "BlackJackCardDefinition.h"
 #include "Components/ActorComponent.h"
 #include "BlackJackEventDelegate.h"
-#include "BlackJackCardDefinition.h"
 #include "BlackJackComponent.generated.h"
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

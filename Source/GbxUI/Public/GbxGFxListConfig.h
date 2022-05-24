@@ -5,10 +5,10 @@
 #include "EGbxGFxScrollListFocusOrderPriority.h"
 #include "EGbxGFxScrollListFocusChangedAction.h"
 #include "EGbxGFxListOrientation.h"
-#include "EGbxGFxScrollListWrapMode.h"
-#include "EGbxGFxListAlignment.h"
-#include "UObject/NoExportTypes.h"
 #include "EGbxFocusableWidgetMouseBehavior.h"
+#include "UObject/NoExportTypes.h"
+#include "EGbxGFxListAlignment.h"
+#include "EGbxGFxScrollListWrapMode.h"
 #include "GbxGFxListConfig.generated.h"
 
 USTRUCT(BlueprintType)

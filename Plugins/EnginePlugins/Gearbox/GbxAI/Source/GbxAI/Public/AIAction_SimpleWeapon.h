@@ -5,10 +5,10 @@
 #include "UObject/NoExportTypes.h"
 #include "AIAction_SimpleWeapon.generated.h"
 
-class UGbxWeaponSlotData;
 class UEnvQueryTestAsset;
-class UEnvQuery;
+class UGbxWeaponSlotData;
 class UAITicketDataAsset;
+class UEnvQuery;
 
 UCLASS(CollapseCategories, EditInlineNew, Config=Game)
 class GBXAI_API UAIAction_SimpleWeapon : public UAIAction_WeaponAtPoint {

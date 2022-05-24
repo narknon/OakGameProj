@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "DuelTeamGroup.h"
 #include "GbxDataAsset.h"
 #include "DuelModeSettings.h"
+#include "DuelTeamGroup.h"
 #include "DuelGlobals.generated.h"
 
 class UDamageSource;
+class UGameStatData;
 class ADuelArena;
 class ADuelTotem;
 class UGbxAction;
-class UGameStatData;
 
 UCLASS()
 class UDuelGlobals : public UGbxDataAsset {

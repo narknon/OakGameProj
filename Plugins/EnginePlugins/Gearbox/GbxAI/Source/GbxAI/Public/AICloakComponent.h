@@ -3,19 +3,19 @@
 #include "Templates/SubclassOf.h"
 #include "Components/ActorComponent.h"
 #include "AICloakEventDelegate.h"
-#include "SavedCollision.h"
 #include "CloakRepData.h"
+#include "SavedCollision.h"
 #include "CloakPrimData.h"
 #include "AICloakComponent.generated.h"
 
-class UGbxCharacterMovementComponent;
+class UStanceDataProvider;
+class UAICloakData;
+class UGbxAction;
+class UGbxActionComponent;
 class UTargetableComponent;
 class UGbxNavComponent;
-class UGbxActionComponent;
-class UAICloakData;
+class UGbxCharacterMovementComponent;
 class UStanceComponent;
-class UStanceDataProvider;
-class UGbxAction;
 class UDamageComponent;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

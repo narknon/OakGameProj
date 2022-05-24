@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EMissionStatus.h"
 #include "DialogScriptPinnedRef.h"
+#include "EMissionStatus.h"
 #include "MissionProgress.generated.h"
 
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 class UMissionObjective;
 
 USTRUCT(BlueprintType)

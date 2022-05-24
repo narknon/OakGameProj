@@ -1,22 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "DefaultExplosionSettings.h"
 #include "GameplayTagContainer.h"
-#include "AttributeInitializationData.h"
 #include "MantleGlobalData.h"
 #include "GbxGameplayGlobals.generated.h"
 
-class UImpactData;
 class UUsableTypeDefinition;
-class UChallengeList;
 class UHealthTypeData;
-class UEnvQuery;
 class UGlobalAIData;
+class UEnvQuery;
+class UImpactData;
 class UWwiseEvent;
 class UDataTable;
 class UGameStatData;
 class UGameStatList;
+class UChallengeList;
 
 UCLASS()
 class GBXGAMESYSTEMCORE_API UGbxGameplayGlobals : public UGbxDataAsset {

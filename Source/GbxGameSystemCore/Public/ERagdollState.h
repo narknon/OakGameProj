@@ -3,7 +3,7 @@
 #include "ERagdollState.generated.h"
 
 UENUM(BlueprintType)
-enum class ERagdollState :  {
+enum class ERagdollState : uint8 {
     Start,
     Anim,
     Ragdoll,

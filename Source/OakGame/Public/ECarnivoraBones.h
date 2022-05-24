@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ECarnivoraBones.generated.h"
+
+UENUM(BlueprintType)
+enum class ECarnivoraBones : uint8 {
+    Root,
+    RW_Root,
+    RW_SuspensionR0,
+    RW_SuspensionR1,
+    RW_Wheel0,
+    RW_Tire0,
+    RW_Wheel1,
+    RW_Tire1,
+    RW_Wheel2,
+    RW_Tire2,
+    RW_SuspensionB0,
+    RW_SuspensionB1,
+    TrackShaft3,
+    TrackSuspension3,
+    TrackTire3,
+    TrackShaft3_T,
+    SideAxle,
+    TrackShaft0,
+    TrackSuspension2,
+    TrackTire2,
+    TrackShaft0_T,
+    SideAxle1,
+    TrackShaft1,
+    SideAxleSecondary,
+    TrackSuspension1,
+    TrackTire1,
+    TrackShaft1_T,
+    SideAxleSecondary1,
+    SideAxle2,
+    TrackShaft2,
+    TrackSuspension0,
+    TrackTire0,
+    TrackShaft2_T,
+    TunnelDoor,
+    MainAxle,
+    MainAxle_Part1,
+    MainAxle_Part2,
+    Count,
+};
+

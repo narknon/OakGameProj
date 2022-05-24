@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
 #include "GbxParam.h"
+#include "GbxDataAsset.h"
 #include "SpawnDLCGroup.h"
 #include "SpawnDLCScriptGroup.h"
 #include "SpawnDLCData.generated.h"

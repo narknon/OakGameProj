@@ -1,15 +1,15 @@
 #include "GbxDialogBlueprintLibrary.h"
 
-class UDialogEvent;
 class UObject;
+class AActor;
 class UDialogNameTag;
 class UDialogSelectorFunction;
-class AActor;
 class UDialogEnumValue;
 class UDialogParameter;
 class UDialogTimeSlotData;
 class UDialogScriptData;
 class UQuietTimePredicate;
+class UDialogEvent;
 class UGbxDialogComponent;
 class UDialogPerformanceData;
 

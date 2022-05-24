@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameFramework/Volume.h"
 #include "UObject/NoExportTypes.h"
+#include "GameFramework/Volume.h"
 #include "UObject/NoExportTypes.h"
 #include "TritonProbeLocationProvider.generated.h"
 

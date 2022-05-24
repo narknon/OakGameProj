@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "Engine/EngineTypes.h"
 #include "GbxAction_Anim.h"
+#include "Engine/EngineTypes.h"
 #include "GbxAction_SpawnAnim.generated.h"
 
 class UGbxAction;

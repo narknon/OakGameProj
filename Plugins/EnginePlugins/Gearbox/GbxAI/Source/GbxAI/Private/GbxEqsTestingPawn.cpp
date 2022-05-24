@@ -1,7 +1,7 @@
 #include "GbxEqsTestingPawn.h"
 #include "DamageComponent.h"
-#include "TargetableComponent.h"
 #include "GbxCharacterMovementComponent.h"
+#include "TargetableComponent.h"
 #include "DamageCauserComponent.h"
 #include "GameplayTagContainerComponent.h"
 

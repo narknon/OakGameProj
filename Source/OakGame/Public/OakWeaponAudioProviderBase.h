@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "WeaponConfigurationRtpc.h"
+#include "WeaponAudioBodyLoop.h"
 #include "AudioParametersProviderInterface.h"
 #include "WeaponAudioProviderComponent.h"
 #include "UObject/NoExportTypes.h"
-#include "WeaponConfigurationRtpc.h"
-#include "WeaponAudioBodyLoop.h"
 #include "WeaponConfigurationEvent.h"
 #include "OakWeaponAudioProviderBase.generated.h"
 
 class UWwiseEvent;
-class AOakCharacter;
+class UWwiseAudioComponent;
 class UFoleyAccessoryComponent;
 class UOakAudioGlobalsData;
-class UWwiseAudioComponent;
 class AWeapon;
+class AOakCharacter;
 class UWwiseSwitch;
 
 UCLASS(Abstract, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

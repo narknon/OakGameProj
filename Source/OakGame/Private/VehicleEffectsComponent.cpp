@@ -1,7 +1,7 @@
 #include "VehicleEffectsComponent.h"
 
-class UMaterialInterface;
 class AActor;
+class UMaterialInterface;
 class UMaterialInstanceDynamic;
 
 void UVehicleEffectsComponent::StopEffects(EVehicleEffectEvent Event) {

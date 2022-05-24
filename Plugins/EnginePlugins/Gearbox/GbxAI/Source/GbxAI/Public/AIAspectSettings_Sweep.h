@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxBlackboardKeySelector.h"
-#include "GbxParam.h"
 #include "ESweepDirection.h"
+#include "GbxParam.h"
 #include "AIAspectSettings_Sweep.generated.h"
 
 USTRUCT(BlueprintType)

@@ -2,10 +2,10 @@
 #include "CoreMinimal.h"
 #include "GbxHUDFeedbackManager.generated.h"
 
-class APawn;
 class UGbxGFxHUDFeedbackData;
 class UGbxGFxMovie;
 class AGbxPlayerController;
+class APawn;
 class APlayerCameraManager;
 
 USTRUCT(BlueprintType)

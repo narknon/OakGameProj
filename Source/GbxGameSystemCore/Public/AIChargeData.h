@@ -2,16 +2,16 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GbxDataAsset.h"
+#include "ERelativeSizeCharge.h"
+#include "ForceSelection.h"
 #include "EChargeCurveType.h"
 #include "Curves/CurveFloat.h"
-#include "ForceSelection.h"
-#include "ERelativeSizeCharge.h"
 #include "AIChargeData.generated.h"
 
 class UGbxAction;
+class UStanceDataProvider;
 class UGbxAction_AICharge;
 class UHitReactionTag;
-class UStanceDataProvider;
 class UCurveFloat;
 
 UCLASS()

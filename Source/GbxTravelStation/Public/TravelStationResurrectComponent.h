@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "TravelStationComponentBase.h"
 #include "TravelStationResurrectChangedDelegate.h"
+#include "TravelStationComponentBase.h"
 #include "TravelStationCharacterResurrectedDelegate.h"
 #include "TravelStationResurrectComponent.generated.h"
 

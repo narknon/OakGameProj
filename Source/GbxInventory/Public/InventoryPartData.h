@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InstigatorAttributeEffectData.h"
+#include "UIStatPriorityData.h"
+#include "AttributeEffectData.h"
 #include "ActorPartData.h"
 #include "InventorySerialNumberAssetInterface.h"
-#include "AttributeEffectData.h"
 #include "AttributeInitializationData.h"
-#include "UIStatPriorityData.h"
+#include "InstigatorAttributeEffectData.h"
 #include "UObject/NoExportTypes.h"
 #include "InventoryPartData.generated.h"
 

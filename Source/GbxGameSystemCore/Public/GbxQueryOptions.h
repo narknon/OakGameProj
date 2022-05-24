@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxParam.h"
 #include "ETimedUpdateBehavior.h"
 #include "EQueryOwnerLocationUse.h"
+#include "GbxParam.h"
 #include "GbxQueryOriginOptions.h"
 #include "GbxQueryOptions.generated.h"
 

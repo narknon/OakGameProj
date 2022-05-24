@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/Object.h"
 #include "ReplicatedCameraModeState.h"
-#include "UObject/NoExportTypes.h"
 #include "CameraModesManager.generated.h"
 
 class UCameraState;
 class UCameraModeSet;
-class UCameraMode;
 class UCameraInputs;
+class UCameraMode;
 
 UCLASS(DefaultConfig)
 class GBXCAMERAMODES_API UCameraModesManager : public UObject {

@@ -1,7 +1,7 @@
 #include "OakInventoryListComponent.h"
 
-class UWeaponSkinPartData;
 class AActor;
+class UWeaponSkinPartData;
 
 void UOakInventoryListComponent::ServerUseItemInInventory_Implementation(const FInventoryListEntryHandle& InventoryItemHandle) {
 }

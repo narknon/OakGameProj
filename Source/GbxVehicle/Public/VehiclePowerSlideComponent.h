@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RelativeDirectionData.h"
-#include "Components/ActorComponent.h"
 #include "EInAirBehavior.h"
+#include "Components/ActorComponent.h"
 #include "PowerSlideEventDelegate.h"
 #include "OnStartPowerSlideBoostEventDelegate.h"
 #include "Curves/CurveFloat.h"
+#include "RelativeDirectionData.h"
 #include "VehiclePowerSlideComponent.generated.h"
 
 UCLASS(BlueprintType, EditInlineNew, ClassGroup=Custom, Config=GbxVehicle, meta=(BlueprintSpawnableComponent))

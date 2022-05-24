@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "Engine/EngineTypes.h"
 #include "SmartObject.h"
 #include "ETinkPileBuildOption.h"
-#include "ETinkPileUseState.h"
 #include "SmartObjectActionSet.h"
-#include "Engine/EngineTypes.h"
+#include "ETinkPileUseState.h"
 #include "TinkPile.generated.h"
 
 class UOakSpawnerComponent;
-class UTerritoryComponent;
 class UOakSpawnPointComponent;
+class UTeam;
 class USkeletalMeshComponent;
 class URegionBalanceStateComponent;
-class UTeam;
+class UTerritoryComponent;
 class USpawnOptionData;
 class UAnimSequence;
 class AGbxAIController;

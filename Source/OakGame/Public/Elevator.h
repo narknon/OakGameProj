@@ -2,20 +2,20 @@
 #include "CoreMinimal.h"
 #include "InteractiveObject.h"
 #include "UObject/NoExportTypes.h"
-#include "Engine/EngineTypes.h"
-#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "ElevatorEventDelegate.h"
+#include "UObject/NoExportTypes.h"
+#include "Engine/EngineTypes.h"
 #include "Elevator.generated.h"
 
-class UFeedbackData;
 class UBoxComponent;
 class USplineComponent;
 class UStaticMeshComponent;
-class UWwiseEvent;
 class UTimelineComponent;
 class UCurveFloat;
 class UGbxNavMeshSectionComponent;
+class UWwiseEvent;
+class UFeedbackData;
 class AOakCharacter;
 class UPrimitiveComponent;
 class AActor;

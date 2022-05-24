@@ -11,8 +11,8 @@ class UOakStreamingInteractionGlobals;
 class UOakThumbnailManager;
 class AStreamingEventDispatcher;
 class UUIGlobals;
-class AOakPlayerController;
 class UOakStreamingInteractionManager;
+class AOakPlayerController;
 
 UCLASS(BlueprintType)
 class OAKGAME_API UOakStreamingInteractionManager : public UObject {

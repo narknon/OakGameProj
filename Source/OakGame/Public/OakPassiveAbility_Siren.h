@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakPassiveAbility.h"
-#include "EPhaseTranceElementalType.h"
-#include "SirenArmControllerInterface.h"
 #include "OakPassiveAbilitySirenGhostArmControllerSpec.h"
+#include "OakPassiveAbility.h"
+#include "SirenArmControllerInterface.h"
+#include "EPhaseTranceElementalType.h"
 #include "OakPassiveAbility_Siren.generated.h"
 
 class UOakActionAbilityAugmentData_PhaseTrance_Element;

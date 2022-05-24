@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxGFxHUDWidgetInfo.h"
 #include "GbxDataAsset.h"
+#include "GbxGFxHUDWidgetInfo.h"
 #include "GbxHUDLayoutData.h"
 #include "GbxHUDData.generated.h"
 
+class UGbxHUDStateData;
 class UGbxGFxHUDContainer;
 class UGbxGFxHUDFeedbackData;
-class UGbxHUDStateData;
 
 UCLASS()
 class GBXUI_API UGbxHUDData : public UGbxDataAsset {

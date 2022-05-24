@@ -4,8 +4,8 @@
 #include "OakCoordinatedEffectSwitch.generated.h"
 
 class UEnum;
-class AActor;
 class UGbxActionComponent;
+class AActor;
 
 USTRUCT(BlueprintType)
 struct OAKGAME_API FOakCoordinatedEffectSwitch {

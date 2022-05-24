@@ -3,7 +3,7 @@
 #include "EAIChargeAnim.generated.h"
 
 UENUM(BlueprintType)
-enum class EAIChargeAnim :  {
+enum class EAIChargeAnim : uint8 {
     None,
     Start,
     Loop,

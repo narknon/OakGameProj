@@ -3,8 +3,8 @@
 #include "GbxGFxMaterialRenderer.generated.h"
 
 class UGbxGFxMovie;
-class UMaterialInterface;
 class UTextureRenderTarget2D;
+class UMaterialInterface;
 
 USTRUCT(BlueprintType)
 struct GBXUI_API FGbxGFxMaterialRenderer {

@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "OakActionAbility.h"
-#include "EPhaseTranceEffectType.h"
 #include "SirenArmControllerInterface.h"
+#include "EPhaseTranceEffectType.h"
 #include "GameResourcePoolReference.h"
 #include "PhaseTranceActivationComboData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
@@ -17,9 +17,9 @@
 
 class UOakActionAbilityAugmentSlotData;
 class UOakActionAbilityAugmentData_PhaseTrance_Element;
+class UGameResourcePoolData;
 class UDamageSource;
 class UGbxDamageType;
-class UGameResourcePoolData;
 class UOakActionAbility_PhaseTrance;
 class UOakDamageType;
 class UOakAction_Anim_ActionAbility_PhaseTrance;

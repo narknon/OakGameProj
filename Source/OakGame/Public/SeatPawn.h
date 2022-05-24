@@ -6,10 +6,10 @@
 #include "GbxWeaponUserInterface.h"
 #include "SeatPawn.generated.h"
 
+class UInputComponent;
 class UBodyWeaponHoldManagerComponent;
 class UWeaponSlotData;
 class UOakPawnAttachSlotComponent;
-class UInputComponent;
 class UActiveWeaponsComponent;
 class USceneComponent;
 

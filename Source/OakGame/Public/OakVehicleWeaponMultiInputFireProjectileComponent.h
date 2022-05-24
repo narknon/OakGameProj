@@ -4,9 +4,9 @@
 #include "OakVehicleWeaponFireProjectileComponent.h"
 #include "OakVehicleWeaponMultiInputFireProjectileComponent.generated.h"
 
-class UFiringPattern;
 class AActor;
 class ULightProjectileData;
+class UFiringPattern;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakVehicleWeaponMultiInputFireProjectileComponent : public UOakVehicleWeaponFireProjectileComponent {

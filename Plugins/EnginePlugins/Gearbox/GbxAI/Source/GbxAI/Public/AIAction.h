@@ -3,8 +3,8 @@
 #include "AIActionBase.h"
 #include "AIAction.generated.h"
 
-class UAIAspect;
 class UBlackboardData;
+class UAIAspect;
 class UAIAction;
 
 UCLASS(CollapseCategories, EditInlineNew, Placeable)

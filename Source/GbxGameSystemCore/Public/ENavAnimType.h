@@ -3,7 +3,7 @@
 #include "ENavAnimType.generated.h"
 
 UENUM(BlueprintType)
-enum class ENavAnimType :  {
+enum class ENavAnimType : uint8 {
     None,
     Direction,
     Destination,

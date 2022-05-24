@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "AIOOrientedParticleData.h"
 #include "GameFramework/Actor.h"
+#include "AIOOrientedParticleData.h"
 #include "PlayerAlertableInterface.h"
 #include "AdvancedInteractiveObjectProxy.generated.h"
 

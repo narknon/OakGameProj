@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxParam.h"
 #include "AIAction_Sequence.h"
+#include "GbxParam.h"
 #include "AIAction_TargetSequence.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

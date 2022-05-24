@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "TODCollectionVector4Parameter.h"
 #include "UObject/Object.h"
 #include "Materials/MaterialParameterCollection.h"
 #include "Materials/MaterialParameterCollection.h"
+#include "TODCollectionVector4Parameter.h"
 #include "TimeOfDayLayer.generated.h"
 
 class UTimeOfDayCycle;

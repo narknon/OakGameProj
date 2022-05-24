@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxAnimTableRow.h"
 #include "NumericRange.h"
+#include "GbxAnimTableRow.h"
 #include "GbxNavAnimTableRow.generated.h"
 
 USTRUCT()

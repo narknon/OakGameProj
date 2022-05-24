@@ -8,8 +8,8 @@ class AOakUIActorContainer;
 class UObject;
 class AActor;
 class AOakPlayerController;
-class USceneComponent;
 class UInventoryBalanceStateComponent;
+class USceneComponent;
 
 USTRUCT(BlueprintType)
 struct FStandInUIController {

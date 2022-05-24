@@ -2,38 +2,38 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GbxUIGlobals.h"
-#include "OakBackpackCapacityThreshold.h"
 #include "GFxNewsMenuFullscreenData.h"
-#include "CurrencyInfo.h"
+#include "OakBackpackCapacityThreshold.h"
 #include "OakThumbnailManagerRenderProperties.h"
 #include "OakThumbnailManagerConfig.h"
+#include "CurrencyInfo.h"
 #include "UObject/NoExportTypes.h"
-#include "EVoiceOfGodSpeaker.h"
 #include "ECARPartType.h"
+#include "EVoiceOfGodSpeaker.h"
 #include "UIGlobals.generated.h"
 
-class UGFxModalTutorialDataAsset;
-class UGFxStatusMenuData;
-class UGFxNewsMenuItemDataAsset;
 class UInWorldIconData;
-class UDialogParameter;
+class UGFxModalTutorialDataAsset;
 class UGbxMenuData;
+class UGFxStatusMenuData;
 class UGbxGFxDialogBoxData;
-class UGbxHUDStateData;
 class UPlayerClassIdentifier;
 class UTexture;
 class UTutorialMessageDataAsset;
-class UBoosterData;
+class UGFxNewsMenuItemDataAsset;
 class UGFxControllerDisconnectMovie;
-class UDialogEvent;
-class UInventoryCategoryData;
-class UOakCARMenuLoadout;
-class UGbxInputActionData;
 class USwfMovie;
+class UInventoryCategoryData;
+class UDialogEvent;
+class UGbxInputActionData;
 class UGFxRolloutMessage;
 class UHUDNotificationAsset;
-class UMediaSource;
+class UOakCARMenuLoadout;
+class UDialogParameter;
 class UGbxHUDData;
+class UMediaSource;
+class UGbxHUDStateData;
+class UBoosterData;
 
 UCLASS(BlueprintType)
 class OAKGAME_API UUIGlobals : public UGbxUIGlobals {

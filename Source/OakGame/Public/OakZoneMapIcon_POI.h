@@ -4,12 +4,12 @@
 #include "ZoneMapPOIEntry.h"
 #include "OakZoneMapIcon_POI.generated.h"
 
-class UTexture2D;
-class UMaterial;
-class UZoneMapPOITypeData;
 class UMeshComponent;
+class UTexture2D;
+class UZoneMapPOITypeData;
 class UMaterialInstanceDynamic;
 class AActor;
+class UMaterial;
 
 UCLASS()
 class OAKGAME_API AOakZoneMapIcon_POI : public AZoneMapIconBase {

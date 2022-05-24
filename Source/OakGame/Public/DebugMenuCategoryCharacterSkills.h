@@ -8,10 +8,10 @@
 class UOakAbilityDebugMenuCascadingList;
 class UTextBlock;
 class UCanvasPanel;
+class AOakCharacter_Player;
 class UPlayerCharacterComponent;
 class UOakPlayerAbilityManagerComponent;
 class UOakPlayerAbilityTree;
-class AOakCharacter_Player;
 class UPlayerBalanceStateComponent;
 class UOakPlayerAbilityTreeItemData_Ability;
 class UOakPlayerAbilityTreeItemData_ActionAbilityAugment;

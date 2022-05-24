@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EMissionStatus.h"
-#include "MissionPlaythroughData.h"
 #include "Components/ActorComponent.h"
 #include "MissionDataChangedDelegate.h"
+#include "EMissionStatus.h"
+#include "MissionPlaythroughData.h"
 #include "PlayerMissionComponent.generated.h"
 
-class UMissionObjective;
 class AMissionTracker;
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
+class UMissionObjective;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXMISSION_API UPlayerMissionComponent : public UActorComponent {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWeaponUseMode.h"
 #include "UIStatData_Attribute.h"
+#include "EWeaponUseMode.h"
 #include "UIStatData_WeaponAttribute.generated.h"
 
 UCLASS(EditInlineNew)

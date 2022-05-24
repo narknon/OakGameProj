@@ -7,8 +7,8 @@
 #include "OakPlayerAnimInstance.generated.h"
 
 class AOakCharacter_Player;
-class UGbxBoneSet;
 class UOakFirstPersonData;
+class UGbxBoneSet;
 class AWeapon;
 
 UCLASS(NonTransient)

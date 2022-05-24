@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxDataAsset.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=AnimGraphRuntime -ObjectName=ScreenSizeSelection -FallbackName=ScreenSizeSelection
 #include "UObject/NoExportTypes.h"
 #include "NumericRange.h"
-#include "EGbxLookAxisOption.h"
 #include "BoneContainer.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=AnimGraphRuntime -ObjectName=ScreenSizeSelection -FallbackName=ScreenSizeSelection
 #include "BoneControllers/AnimNode_LegIK.h"
 #include "BoneBlendParams.h"
+#include "EGbxLookAxisOption.h"
 #include "UObject/NoExportTypes.h"
 #include "ForwardDynamicsNodeProfile.h"
 #include "EAnimBPProfileImport.h"

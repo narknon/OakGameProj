@@ -4,10 +4,10 @@
 #include "AimAssistSmoothingProperties.h"
 #include "OakAimAssistStrategy.generated.h"
 
+class UTargetingComponent;
 class AActor;
 class AOakPlayerController;
 class UOakGameInstance;
-class UTargetingComponent;
 
 UCLASS()
 class UOakAimAssistStrategy : public UAimAssistStrategy {

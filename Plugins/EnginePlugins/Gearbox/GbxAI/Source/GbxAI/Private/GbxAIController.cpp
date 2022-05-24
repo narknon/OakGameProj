@@ -4,21 +4,21 @@
 #include "GbxNavComponent.h"
 
 class UTargetingComponent;
-class UAIGroupState;
+class UTeamComponent;
+class UBlackboardData;
 class UTerritoryComponent;
 class UTeam;
 class UAIWeaponUserComponent;
+class UGbxActionComponent;
 class AActor;
-class UTeamComponent;
-class UGbxCharacterMovementComponent;
 class UTargetableComponent;
 class USpawnerComponent;
 class ASpawner;
 class UAIPerceptionComponent;
 class UBlackboardComponent;
+class UGbxCharacterMovementComponent;
+class UAIGroupState;
 class AGbxCharacter;
-class UGbxActionComponent;
-class UBlackboardData;
 class ACharacter;
 
 void AGbxAIController::SetTerritory(UTerritoryComponent* Territory) {

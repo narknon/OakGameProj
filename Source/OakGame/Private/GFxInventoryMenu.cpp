@@ -1,11 +1,11 @@
 #include "GFxInventoryMenu.h"
 
+class UInventoryCategoryData;
 class UWeaponTrinketPartData;
 class UInventorySlotData;
-class UInventoryCategoryData;
 class UGbxGFxButton;
-class AActor;
 class UOakInventoryCustomizationPartData;
+class AActor;
 class AWeapon;
 class UGbxGFxObject;
 

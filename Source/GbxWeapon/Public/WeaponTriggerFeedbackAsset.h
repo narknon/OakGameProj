@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WeaponTriggerFireThreasholdData.h"
-#include "WeaponTriggerFeedbackData.h"
 #include "GbxDataAsset.h"
-#include "WeaponTriggerVibrationData.h"
+#include "WeaponTriggerFeedbackData.h"
 #include "EWeaponTriggerFeedbackMode.h"
+#include "WeaponTriggerFireThreasholdData.h"
 #include "WeaponTriggerWeaponData.h"
+#include "WeaponTriggerVibrationData.h"
 #include "WeaponTriggerFeedbackAsset.generated.h"
 
 UCLASS()

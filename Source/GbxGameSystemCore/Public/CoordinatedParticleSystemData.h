@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ECoordinatedParticleScaleMode.h"
 #include "UObject/NoExportTypes.h"
 #include "CoordinatedVectorParameter.h"
 #include "CoordinatedScalarParameter.h"
+#include "ECoordinatedParticleScaleMode.h"
 #include "CoordinatedParticleSystemData.generated.h"
 
 class UParticleSystem;

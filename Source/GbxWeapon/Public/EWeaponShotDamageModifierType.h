@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EWeaponShotDamageModifierType.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EWeaponShotDamageModifierType : int32 {
     Scale,
     Add,

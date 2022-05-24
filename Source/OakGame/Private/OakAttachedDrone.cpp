@@ -1,10 +1,10 @@
 #include "OakAttachedDrone.h"
 #include "Net/UnrealNetwork.h"
-#include "Components/SphereComponent.h"
 #include "OakDamageComponent.h"
 #include "WwiseAudioComponent.h"
-#include "TeamComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/SphereComponent.h"
+#include "TeamComponent.h"
 
 class UPrimitiveComponent;
 class AActor;

@@ -4,12 +4,12 @@
 #include "UObject/NoExportTypes.h"
 #include "OakAudioGlobalsData.generated.h"
 
-class UWwiseRtpc;
-class UOakStatusEffectPresentationData;
+class UWwiseSwitch;
 class UOakElementalEffectData;
 class UWwiseEvent;
 class UGbxCondition;
-class UWwiseSwitch;
+class UWwiseRtpc;
+class UOakStatusEffectPresentationData;
 
 UCLASS()
 class OAKGAME_API UOakAudioGlobalsData : public UGbxAudioGlobalsData {

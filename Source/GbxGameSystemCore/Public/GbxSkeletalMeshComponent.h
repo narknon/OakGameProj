@@ -1,21 +1,21 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/SkeletalMeshComponent.h"
-#include "BMPOverride.h"
-#include "ImpactDataOverride.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoneModInstance -FallbackName=BoneModInstance
 #include "ReplicatedGestaltPartsData.h"
+#include "ImpactDataOverride.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "StretchBonesInstance.h"
-#include "BoneModifyProfileData.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GaitScalingSettings -FallbackName=GaitScalingSettings
 #include "StretchAnimData.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=BoneModInstance -FallbackName=BoneModInstance
+#include "BoneModifyProfileData.h"
+#include "BMPOverride.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GaitScalingSettings -FallbackName=GaitScalingSettings
 #include "Engine/EngineTypes.h"
 #include "GbxAnimPoseMatch.h"
 #include "GbxSkeletalMeshComponent.generated.h"
 
-class UGbxBoneModifyProfile;
 class UGestaltPartData_Mesh;
 class UGestaltPartListData;
+class UGbxBoneModifyProfile;
 class UGlobalBoneModifyProfileState;
 class UImpactData;
 class UGbxAnimBlueprintProfile;

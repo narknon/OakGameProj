@@ -2,8 +2,8 @@
 #include "Templates/SubclassOf.h"
 
 class UObject;
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 
 void UMissionFunctionLibrary::UpdateMissionObjectiveRef(UObject* WorldContextObject, FMissionObjectiveReference ObjectiveRef) {
 }

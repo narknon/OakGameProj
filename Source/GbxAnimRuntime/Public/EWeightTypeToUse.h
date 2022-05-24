@@ -3,7 +3,7 @@
 #include "EWeightTypeToUse.generated.h"
 
 UENUM(BlueprintType)
-enum class EWeightTypeToUse :  {
+enum class EWeightTypeToUse : uint8 {
     Zero,
     One,
     Cached,

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
 #include "GbxParam.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "GbxNamedParam.h"
 #include "GbxParamExt.generated.h"
 

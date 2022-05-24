@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GbxDataAsset.h"
 #include "EOptionItemType.h"
 #include "EOptionType.h"
-#include "GbxDataAsset.h"
 #include "UObject/NoExportTypes.h"
 #include "OptionDescriptionItem.generated.h"
 
 class UOptionDescriptionItem;
-class UTexture2D;
 class UGbxInputKeyRebindData_Button;
 class UGbxInputKeyRebindData_Axis;
+class UTexture2D;
 
 UCLASS(CollapseCategories, EditInlineNew)
 class UOptionDescriptionItem : public UGbxDataAsset {

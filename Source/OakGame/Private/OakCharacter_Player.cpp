@@ -6,12 +6,12 @@
 
 class AActor;
 class UInventorySlotData;
+class UEchoLogData;
 class AGrenade;
 class UOakCustomizationData;
 class UOakSDUData;
 class UOakHUDSkillIconWidget;
 class UGbxAction;
-class UEchoLogData;
 class UInventoryCategoryData;
 class AEchoDevice;
 

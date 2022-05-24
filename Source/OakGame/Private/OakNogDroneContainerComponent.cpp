@@ -1,8 +1,8 @@
 #include "OakNogDroneContainerComponent.h"
 #include "Templates/SubclassOf.h"
 
-class AOakDroneProjectile;
 class AActor;
+class AOakDroneProjectile;
 
 void UOakNogDroneContainerComponent::ToggleDroneBone(int32 DroneIndex, bool bToggleOn, bool bInstant) {
 }

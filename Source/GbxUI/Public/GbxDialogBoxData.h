@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDialogBoxInfo.h"
 #include "GbxUmgMenuData.h"
+#include "GbxDialogBoxInfo.h"
 #include "GbxDialogBoxTemplateMapItem.h"
 #include "GbxDialogBoxData.generated.h"
 

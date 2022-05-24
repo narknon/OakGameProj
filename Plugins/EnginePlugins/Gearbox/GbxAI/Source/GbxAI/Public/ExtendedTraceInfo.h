@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "GbxParam.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EUberTraceMultiTraceRequirement.h"
 #include "EnvironmentQuery/EnvQueryTypes.h"
-#include "GbxParam.h"
 #include "ExtendedTraceInfo.generated.h"
 
 class UEnvQueryContext;

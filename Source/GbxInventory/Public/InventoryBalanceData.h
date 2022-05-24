@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "ActorPartSelectionData.h"
-#include "InventorySerialNumberAssetInterface.h"
-#include "InventoryManufacturerBalanceData.h"
 #include "RuntimeGenericPartListData.h"
+#include "ActorPartSelectionData.h"
+#include "InventoryManufacturerBalanceData.h"
+#include "InventorySerialNumberAssetInterface.h"
 #include "UObject/NoExportTypes.h"
 #include "InventoryBalanceData.generated.h"
 

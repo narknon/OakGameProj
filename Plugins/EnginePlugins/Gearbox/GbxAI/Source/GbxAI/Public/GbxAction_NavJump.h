@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxAction_Navigation.h"
-#include "ENavJumpRotation.h"
 #include "StretchBonesSettings.h"
 #include "ENavJumpStage.h"
 #include "AnimMeshList.h"
+#include "ENavJumpRotation.h"
 #include "AnimActionDef.h"
 #include "GbxAction_NavJump.generated.h"
 
-class AActor;
 class UAnimSequenceBase;
+class AActor;
 
 UCLASS()
 class GBXAI_API UGbxAction_NavJump : public UGbxAction_Navigation {

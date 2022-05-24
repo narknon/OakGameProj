@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EDynamicToKinematicTransition.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EDynamicToKinematicTransition : int32 {
     NoTransition,
     RagdollLandToStandUp,

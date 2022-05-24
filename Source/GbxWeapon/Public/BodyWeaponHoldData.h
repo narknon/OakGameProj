@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "BodyWeaponActionInfo.h"
+#include "GbxDataAsset.h"
 #include "BodyWeaponHoldData.generated.h"
 
 UCLASS()

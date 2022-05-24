@@ -1,10 +1,10 @@
 #include "ScreenParticleManagerComponent.h"
 
 class AActor;
+class UMaterialInterface;
 class UParticleSystemComponent;
 class UParticleSystem;
 class UParticlePropertyTrackingData;
-class UMaterialInterface;
 
 void UScreenParticleManagerComponent::ShowScreenParticleForActor(AActor* Actor, UParticleSystem* Template, bool bHideWhenFinished, FVector2D ContentDims, float ParticleDepth, EScreenParticleScalingMode ScalingMode, bool bOnlyOwnerSee, bool bAlwaysVisible, FName Tag, bool bAllowMultipleInstances, bool bServerAuthority, bool bTickEvenWhenPaused, bool bHideDuringInGameMenu) {
 }

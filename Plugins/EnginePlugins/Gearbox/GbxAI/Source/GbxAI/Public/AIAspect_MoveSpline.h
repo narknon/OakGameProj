@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspect_Navigation.h"
 #include "AIAspectSettings_MoveSpline.h"
+#include "AIAspect_Navigation.h"
 #include "AIAspect_MoveSpline.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

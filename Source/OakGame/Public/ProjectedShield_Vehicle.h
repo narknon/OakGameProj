@@ -3,8 +3,8 @@
 #include "ProjectedShield.h"
 #include "ProjectedShield_Vehicle.generated.h"
 
-class UVehicleEffectsComponent;
 class UMaterialInstanceDynamic;
+class UVehicleEffectsComponent;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UProjectedShield_Vehicle : public UProjectedShield {

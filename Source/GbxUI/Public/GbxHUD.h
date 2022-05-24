@@ -5,9 +5,9 @@
 #include "EGbxMenuInputDevice.h"
 #include "GbxHUD.generated.h"
 
+class UGbxGFxHUDContainer;
 class APawn;
 class UGbxHUDData;
-class UGbxGFxHUDContainer;
 class AGbxPlayerController;
 class AGbxCharacter;
 class UGbxHUDStateData;

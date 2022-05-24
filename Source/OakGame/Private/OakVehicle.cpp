@@ -1,33 +1,33 @@
 #include "OakVehicle.h"
 #include "Net/UnrealNetwork.h"
-#include "OakMinimapIconComponent.h"
+#include "GameResourcePoolManagerComponent.h"
 #include "VehicleSeatComponent.h"
-#include "OakStatusEffectManagerComponent.h"
+#include "VehicleEffectsComponent.h"
+#include "OakMinimapIconComponent.h"
 #include "TargetableComponent.h"
 #include "OakVehicleDamageComponent.h"
 #include "OakDamageCauserComponent.h"
-#include "GameResourcePoolManagerComponent.h"
-#include "VehicleEffectsComponent.h"
+#include "OakStatusEffectManagerComponent.h"
 #include "VehicleAudioProviderComponent.h"
 
-class APlayerController;
-class UWeaponSlotData;
-class UObject;
 class UHavokPathFindingData;
 class UFeedbackData;
+class AVehicleSeatPawn;
+class UVehiclePartData;
+class UObject;
+class UHealthTypeData;
+class UWeaponSlotData;
+class AActor;
 class UItemPoolData;
 class AOakVehicle;
-class AActor;
-class AOakAIController;
-class UVehiclePartData;
 class UDamageComponent;
 class UDamageCauserComponent;
 class AController;
 class APawn;
-class UHealthTypeData;
 class AWeapon;
-class AVehicleSeatPawn;
 class UOakDamageComponent;
+class AOakAIController;
+class APlayerController;
 
 void AOakVehicle::UnlockWorldTravel(FName Reason) {
 }

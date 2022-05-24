@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxDataAsset.h"
-#include "OakCARVehicleUIInfo.h"
 #include "ECARPartType.h"
 #include "UObject/NoExportTypes.h"
+#include "OakCARVehicleUIInfo.h"
 #include "OakCARVehiclePartData.generated.h"
 
 class UInventoryData;

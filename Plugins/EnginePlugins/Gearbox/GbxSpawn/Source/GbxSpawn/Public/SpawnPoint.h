@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "SpawnPointProvider.h"
-#include "SpawnPointEventDelegate.h"
 #include "GameplayTagContainer.h"
+#include "SpawnPointEventDelegate.h"
 #include "SpawnPoint.generated.h"
 
 class USpawnerComponent;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "UObject/Interface.h"
 #include "GbxListItemDelegateDelegate.h"
+#include "UObject/Interface.h"
 #include "GbxListItemDelegateWithControllerDelegate.h"
 #include "GbxList.generated.h"
 

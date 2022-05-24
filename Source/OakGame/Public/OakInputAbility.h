@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "EPlayerInputLockType.h"
 #include "OakAbility.h"
 #include "GbxInputActionReceiverInterface.h"
-#include "EPlayerInputLockType.h"
 #include "OakInputAbility.generated.h"
 
 UCLASS()

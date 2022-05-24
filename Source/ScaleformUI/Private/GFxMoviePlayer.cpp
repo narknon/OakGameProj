@@ -1,11 +1,11 @@
 #include "GFxMoviePlayer.h"
 
 class UTexture;
-class UObject;
 class USwfMovie;
+class UObject;
 class UTextureRenderTarget2D;
-class UGFxMoviePlayer;
 class UGFxObject;
+class UGFxMoviePlayer;
 
 bool UGFxMoviePlayer::Start(bool bRefresh) const {
     return false;

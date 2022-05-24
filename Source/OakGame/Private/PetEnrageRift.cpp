@@ -1,8 +1,8 @@
 #include "PetEnrageRift.h"
 #include "Net/UnrealNetwork.h"
 
-class UPrimitiveComponent;
 class UCinematicModeData;
+class UPrimitiveComponent;
 class AActor;
 
 

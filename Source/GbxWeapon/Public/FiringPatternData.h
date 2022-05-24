@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "FiringPatternSample.h"
+#include "UObject/Object.h"
 #include "FiringPatternData.generated.h"
 
 UCLASS(Const, HideDropdown)

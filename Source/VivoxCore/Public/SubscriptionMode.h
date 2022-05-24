@@ -3,7 +3,7 @@
 #include "SubscriptionMode.generated.h"
 
 UENUM(BlueprintType)
-enum class SubscriptionMode :  {
+enum class SubscriptionMode : uint8 {
     Accept,
     Block,
     Defer,

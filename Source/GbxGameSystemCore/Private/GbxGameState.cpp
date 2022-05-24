@@ -2,8 +2,8 @@
 #include "Net/UnrealNetwork.h"
 
 class UParticleSystem;
-class UObject;
 class USceneComponent;
+class UObject;
 class AActor;
 class UImpactData;
 class UHitRegionData;

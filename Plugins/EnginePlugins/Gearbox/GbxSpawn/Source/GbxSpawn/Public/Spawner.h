@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SpawnerWaveEventDelegate.h"
 #include "GameFramework/Actor.h"
+#include "SpawnerWaveEventDelegate.h"
 #include "SpawnPointProvider.h"
 #include "SpawnerEventDelegate.h"
 #include "SpawnerDoneEventDelegate.h"
 #include "SpawnerDataEventDelegate.h"
 #include "Spawner.generated.h"
 
-class USpawnerTeamComponent;
 class USpawnerComponent;
 class USpawnerLinkComponent;
-class USpawnPointComponent;
 class UTeam;
+class USpawnPointComponent;
+class USpawnerTeamComponent;
 class USpawnerStyle;
 class ASpawner;
 

@@ -4,8 +4,8 @@
 #include "GbxDialogDataAsset.h"
 #include "DialogEnumValue.generated.h"
 
-class UGbxUIName;
 class UDialogEnumType;
+class UGbxUIName;
 
 UCLASS()
 class GBXDIALOG_API UDialogEnumValue : public UGbxDialogDataAsset, public IDialogEnumValueInterface {

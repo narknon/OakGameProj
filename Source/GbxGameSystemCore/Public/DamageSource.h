@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "DamageSourceHealthTypeModifier.h"
 #include "UObject/Object.h"
 #include "AttributeInitializationData.h"
 #include "DamageModifierAttributeCollection.h"
-#include "DamageSourceHealthTypeModifier.h"
 #include "DamageSource.generated.h"
 
 UCLASS(Const)

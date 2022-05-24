@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "PlanetMapDataToPlanetIdMappingData.h"
 #include "GbxDataAsset.h"
 #include "MapIDToPlanetDataMappingData.h"
 #include "DiscoveryIOData.h"
 #include "GalaxySkyboxData.h"
 #include "ZoneIdToMapIdMappingData.h"
-#include "PlanetMapDataToPlanetIdMappingData.h"
 #include "ZoneIDToMissionEventReferenceData.h"
 #include "GalaxyExpansionData.generated.h"
 

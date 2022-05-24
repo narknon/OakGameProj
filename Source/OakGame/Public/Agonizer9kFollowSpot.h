@@ -4,8 +4,8 @@
 #include "UObject/NoExportTypes.h"
 #include "Agonizer9kFollowSpot.generated.h"
 
-class USceneComponent;
 class USpotLightComponent;
+class USceneComponent;
 class UStaticMeshComponent;
 
 UCLASS()

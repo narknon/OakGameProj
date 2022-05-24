@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "VehiclePartListData.h"
-#include "WeightedPassengersNum.h"
 #include "SpawnFactory_OakVehicle.h"
-#include "UObject/NoExportTypes.h"
 #include "SeatOccupant.h"
+#include "VehiclePartListData.h"
+#include "UObject/NoExportTypes.h"
+#include "WeightedPassengersNum.h"
 #include "SpawnFactory_OakVehicleBuilder.generated.h"
 
 class AOakVehicle;

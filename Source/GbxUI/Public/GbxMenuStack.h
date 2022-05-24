@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
+#include "GbxMenuAxisInputEvent.h"
 #include "GbxMenuInputListener.h"
 #include "EGbxMenuInputDevice.h"
 #include "GbxMenuInputEvent.h"
-#include "GbxMenuStackWithMenuDelegateDelegate.h"
-#include "GbxMenuAxisInputEvent.h"
 #include "GbxMenuStackMultiCastDelegateDelegate.h"
-#include "InputCoreTypes.h"
+#include "GbxMenuStackWithMenuDelegateDelegate.h"
 #include "Engine/EngineBaseTypes.h"
+#include "InputCoreTypes.h"
 #include "GbxMenuStack.generated.h"
 
-class UGbxMenuStackMenuInfo;
-class UGbxMenuInput;
 class AGbxPlayerController;
+class UGbxMenuInput;
+class UGbxMenuStackMenuInfo;
 class UGbxMenuData;
 class UGbxGameInstance;
 

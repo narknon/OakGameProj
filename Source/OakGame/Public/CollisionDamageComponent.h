@@ -11,11 +11,11 @@
 #include "UObject/NoExportTypes.h"
 #include "CollisionDamageComponent.generated.h"
 
-class UPrimitiveComponent;
-class UGbxDamageType;
-class UGbxCondition;
 class UDamageSource;
+class UGbxCondition;
+class UGbxDamageType;
 class AOakVehicle;
+class UPrimitiveComponent;
 class AActor;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

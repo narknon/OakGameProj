@@ -7,8 +7,8 @@
 #include "ChallengeLevelActorComponent.generated.h"
 
 class UChallenge;
-class AActor;
 class UChallengeLevelActorComponent;
+class AActor;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UChallengeLevelActorComponent : public UGbxAreaComponent {

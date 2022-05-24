@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "TedioreBehavior.h"
 #include "UObject/NoExportTypes.h"
+#include "TedioreBehavior.h"
 #include "TedioreBehavior_Shooting.generated.h"
 
 class UEffectCollectionData;
-class UParticleSystem;
 class ATedioreProjectile;
+class UParticleSystem;
 
 UCLASS(EditInlineNew)
 class UTedioreBehavior_Shooting : public UTedioreBehavior {

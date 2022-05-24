@@ -8,8 +8,8 @@
 
 class UDamageComponent;
 class UHitRegionData;
-class UPrimitiveComponent;
 class USkeletalMeshComponent;
+class UPrimitiveComponent;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UHitRegionComponent : public UActorComponent, public IInspectionInfoProvider {

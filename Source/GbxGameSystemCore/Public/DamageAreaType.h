@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
-#include "Engine/EngineTypes.h"
 #include "Engine/EngineTypes.h"
 #include "EDamageAreaOverlapFilterType.h"
+#include "UObject/Object.h"
+#include "Engine/EngineTypes.h"
 #include "DamageAreaType.generated.h"
 
 UCLASS(Abstract, CollapseCategories, EditInlineNew, Within=DamageData)

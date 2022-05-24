@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxCondition.h"
 #include "GbxBlackboardKeySelector.h"
+#include "GbxCondition.h"
 #include "GbxParam.h"
 #include "GbxCondition_AI_IsInRange.generated.h"
 

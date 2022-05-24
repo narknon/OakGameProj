@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWwiseNotifyComponentMethod.h"
 #include "Animation/AnimNotifies/AnimNotify.h"
+#include "EWwiseNotifyComponentMethod.h"
 #include "EAcousticsMode.h"
 #include "AnimNotify_WwiseEvent.generated.h"
 

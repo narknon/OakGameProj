@@ -1,6 +1,6 @@
 #include "OakUIActorContainer.h"
-#include "SocketComponent.h"
 #include "Components/SceneComponent.h"
+#include "SocketComponent.h"
 
 AOakUIActorContainer::AOakUIActorContainer() {
     this->SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));

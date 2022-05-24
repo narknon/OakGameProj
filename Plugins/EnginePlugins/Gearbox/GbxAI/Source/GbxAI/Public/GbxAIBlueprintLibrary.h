@@ -3,14 +3,14 @@
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "BehaviorTree/BehaviorTreeTypes.h"
-#include "ETerritoryType.h"
 #include "UObject/NoExportTypes.h"
+#include "ETerritoryType.h"
 #include "GbxAIBlueprintLibrary.generated.h"
 
-class UBlackboardComponent;
+class UGbxNavAreaData;
 class AActor;
 class UHavokPathFindingData;
-class UGbxNavAreaData;
+class UBlackboardComponent;
 class UBTNode;
 class UAIAction;
 

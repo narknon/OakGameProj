@@ -1,7 +1,7 @@
 #include "GFxGearUpExtractionMenu.h"
 
-class UGbxGFxButton;
 class UInventoryCategoryData;
+class UGbxGFxButton;
 class UGbxGFxDialogBox;
 
 void UGFxGearUpExtractionMenu::OnTargetInventoryQuantityChanged(const FInventoryListEntryHandle& UpdatedItemHandle, const UInventoryCategoryData* ItemCategory, int32 Quantity, int32 MaxQuantity) const {

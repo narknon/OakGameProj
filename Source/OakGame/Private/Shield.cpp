@@ -4,10 +4,10 @@
 #include "Components/SkeletalMeshComponent.h"
 #include "WwiseAudioComponent.h"
 
-class UGbxAttributeData;
-class AWeapon;
 class UDamageSource;
+class UGbxAttributeData;
 class AOakCharacter;
+class AWeapon;
 class UGbxDamageType;
 class UParticleSystemComponent;
 class UPawnAttachSlotComponent;

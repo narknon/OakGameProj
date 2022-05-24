@@ -9,9 +9,9 @@
 #include "GbxNavPathingData.h"
 #include "GbxNavCharacterMovementComponent.generated.h"
 
-class UGbxNavMeshLayer;
 class AGbxNavWorld;
 class UGbxNavComponent;
+class UGbxNavMeshLayer;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXNAV_API UGbxNavCharacterMovementComponent : public UGbxCharacterMovementComponent {

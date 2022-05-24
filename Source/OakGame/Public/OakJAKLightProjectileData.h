@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "EnvQueryParams.h"
 #include "OakLightProjectileData.h"
 #include "OakJAKFeedbackData.h"
 #include "RelativeDirectionData.h"
-#include "EnvQueryParams.h"
 #include "OakJAKLightProjectileData.generated.h"
 
 class ULightProjectileData;

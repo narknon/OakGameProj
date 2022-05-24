@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDebugMenuSubmenu.h"
 #include "GbxCascadingListItemData.h"
+#include "GbxDebugMenuSubmenu.h"
 #include "EMissionStatus.h"
 #include "EMissionDebugStatus.h"
 #include "MissionDebugMenu.generated.h"

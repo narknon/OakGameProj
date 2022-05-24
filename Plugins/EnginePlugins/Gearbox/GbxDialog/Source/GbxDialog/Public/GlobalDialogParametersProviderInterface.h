@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogContext.h"
 #include "UObject/Interface.h"
+#include "DialogContext.h"
 #include "GlobalDialogParametersProviderInterface.generated.h"
 
 UINTERFACE(Blueprintable)

@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "OakActionAbility.h"
-#include "EGRMLNModType.h"
 #include "OakActionAbilityEnumMaskHelper.h"
+#include "EGRMLNModType.h"
 #include "OakActionAbility_GRMLN.generated.h"
 
 class UOakActionAbilityAugmentData_GRMLN;

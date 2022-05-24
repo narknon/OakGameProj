@@ -3,8 +3,8 @@
 #include "ShieldAugment.h"
 #include "ShieldAugment_Amp.generated.h"
 
-class UWwiseEvent;
 class UWeaponShotModifier;
+class UWwiseEvent;
 
 UCLASS(EditInlineNew)
 class UShieldAugment_Amp : public UShieldAugment {

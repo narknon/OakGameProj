@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MainMenuCameraViewpointGroup.h"
-#include "MenuMapPlaythroughChangedDelegateDelegate.h"
 #include "GameFramework/Actor.h"
 #include "MainMenuViewpointChangedDelegateDelegate.h"
 #include "MenuMapMenuFlowDelegateDelegate.h"
+#include "MenuMapPlaythroughChangedDelegateDelegate.h"
+#include "MainMenuCameraViewpointGroup.h"
 #include "MenuMapOnUIGroupModeChangedDelegate.h"
 #include "MenuMapOnDifficultyChangedDelegate.h"
 #include "EMainMenuViewpointType.h"

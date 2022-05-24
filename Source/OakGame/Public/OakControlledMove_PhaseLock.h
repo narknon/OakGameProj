@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "OakControlledMove.h"
-#include "UObject/NoExportTypes.h"
-#include "OakActionAbilityOwnedResourceInterface.h"
 #include "GameplayTagContainer.h"
 #include "AttributeInitializationData.h"
+#include "OakControlledMove.h"
+#include "OakActionAbilityOwnedResourceInterface.h"
 #include "Curves/CurveFloat.h"
+#include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "OakControlledMove_PhaseLock.generated.h"
 

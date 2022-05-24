@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Engine/EngineTypes.h"
 #include "TrackedSlidingImpactEffect.h"
+#include "Engine/EngineTypes.h"
 #include "SlidingImpactState.generated.h"
 
 class UOakCharacterMovementComponent;

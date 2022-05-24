@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "TravelStationComponentBase.h"
-#include "FastTravelStationUndiscoveredDelegate.h"
 #include "FastTravelStationDiscoveredDelegate.h"
+#include "FastTravelStationUndiscoveredDelegate.h"
 #include "FastTravelStationComponent.generated.h"
 
 class UFastTravelStationData;
+class UFastTravelStationComponent;
 class AActor;
 class UObject;
-class UFastTravelStationComponent;
 class APawn;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

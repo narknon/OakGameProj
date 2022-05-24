@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "CohtmlSound.h"
+#include "UObject/Object.h"
 #include "CohtmlAudioWrapper.generated.h"
 
 UCLASS()

@@ -1,8 +1,8 @@
 #include "OakDeveloperPerks.h"
 
 class UItemPoolData;
-class UEnum;
 class UGbxInventoryCategoryData;
+class UEnum;
 class AOakPlayerController;
 
 void UOakDeveloperPerks::UnlockWeaponTrinkets() const {

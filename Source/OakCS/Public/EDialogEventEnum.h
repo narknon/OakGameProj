@@ -3,7 +3,7 @@
 #include "EDialogEventEnum.generated.h"
 
 UENUM(BlueprintType)
-enum class EDialogEventEnum :  {
+enum class EDialogEventEnum : uint8 {
     DE_Introduction,
     DE_SubmittedPuzzle,
     DE_IdleLine,

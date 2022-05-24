@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AnimNode_RigidBody.h"
 #include "EForwardDynamicsActivation.h"
+#include "AnimNode_RigidBody.h"
 #include "GbxAnimNode_ForwardDynamics.generated.h"
 
 class UPhysicalAnimationProfileAsset;

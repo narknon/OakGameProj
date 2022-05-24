@@ -3,8 +3,8 @@
 #include "ElementalPuddleTransitionConfigurationData.generated.h"
 
 class UMaterialInterface;
-class UWwiseEvent;
 class UPhysicalMaterial;
+class UWwiseEvent;
 
 USTRUCT(BlueprintType)
 struct FElementalPuddleTransitionConfigurationData {

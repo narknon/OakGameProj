@@ -3,21 +3,21 @@
 #include "Templates/SubclassOf.h"
 #include "GbxDataAsset.h"
 #include "GoreSizeSelectionData.h"
-#include "EGoreRegionType.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EMaterialParameterCopyMethod -FallbackName=EMaterialParameterCopyMethod
+#include "EGoreRegionType.h"
 #include "UObject/NoExportTypes.h"
 #include "ForceSelection.h"
 #include "GoreSelectionResults.h"
 #include "GoreDamageData.generated.h"
 
-class UWwiseEvent;
-class UHitReactionTag;
 class UParticleSystem;
+class UDialogEvent;
 class UStaticMesh;
+class UHitReactionTag;
 class UMaterialInstanceConstant;
+class UWwiseEvent;
 class AActor;
 class UObject;
-class UDialogEvent;
 
 UCLASS(BlueprintType)
 class UGoreDamageData : public UGbxDataAsset {

@@ -2,10 +2,10 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "GbxBlackboardKeySelector.h"
+#include "EAITargetScoringBoost.h"
 #include "TargetActorInfo.h"
 #include "UObject/NoExportTypes.h"
-#include "EAITargetScoringBoost.h"
+#include "GbxBlackboardKeySelector.h"
 #include "AITargetingBlueprintLibrary.generated.h"
 
 class UAISense;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "VehicleSeatPawn.h"
-#include "ESmartActionResult.h"
 #include "GbxBlackboardKeySelector.h"
+#include "ESmartActionResult.h"
 #include "GameplayTagContainer.h"
 #include "VehicleGunnerSeatPawn.generated.h"
 

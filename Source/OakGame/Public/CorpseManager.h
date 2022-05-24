@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "CorpseRecord.h"
+#include "UObject/Object.h"
 #include "CorpseManager.generated.h"
 
 UCLASS(Transient, Config=Game)

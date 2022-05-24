@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogThread.h"
 #include "UObject/Object.h"
+#include "DialogThread.h"
 #include "QuietTimeTracker.h"
 #include "DialogControlSystem.generated.h"
 
 class UWorld;
+class UGbxDialogSettings;
 class UDialogBlackboard;
 class UDialogLookupSystem;
-class UGbxDialogSettings;
 
 UCLASS()
 class GBXDIALOG_API UDialogControlSystem : public UObject {

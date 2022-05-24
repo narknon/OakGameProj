@@ -5,9 +5,9 @@
 #include "VehicleOverrideData.h"
 #include "WeaponVehicleAnimInstance.generated.h"
 
+class USkeletalMeshComponent;
 class AOakWeapon_Vehicle;
 class AOakVehicle;
-class USkeletalMeshComponent;
 
 UCLASS(NonTransient)
 class OAKGAME_API UWeaponVehicleAnimInstance : public UAnimInstance {

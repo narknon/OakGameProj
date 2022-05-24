@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ChallengeMinimapIcon.h"
+#include "ChallengeInWorldIconQueueEntry.h"
 #include "ChallengeManager.h"
 #include "ChallengeInWorldIcon.h"
-#include "ChallengeInWorldIconQueueEntry.h"
+#include "ChallengeMinimapIcon.h"
 #include "OakChallengeManager.generated.h"
 
 class UGFxInWorldIconContainer;

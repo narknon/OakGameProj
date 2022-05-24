@@ -5,8 +5,8 @@
 #include "MantleState.generated.h"
 
 class UGbxCharacterMovementComponent;
-class UGbxGameplayGlobals;
 class UMantleData;
+class UGbxGameplayGlobals;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FMantleState {

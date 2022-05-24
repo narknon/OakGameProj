@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "AttributeInitializationData.h"
 #include "LootAttachmentInfo.h"
+#include "AttributeInitializationData.h"
 #include "LootConfigurationInfo.generated.h"
 
 class UAttributeInitializer;

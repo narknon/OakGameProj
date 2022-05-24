@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "Engine/EngineTypes.h"
 #include "GrenadeBehavior_Payload.h"
 #include "UObject/NoExportTypes.h"
 #include "PayloadInstanceData.h"
 #include "GrenadeChildGenerationData.h"
-#include "Engine/EngineTypes.h"
 #include "DamageDataEventDetails.h"
 #include "GrenadeBehavior_PayloadBlueprint.generated.h"
 

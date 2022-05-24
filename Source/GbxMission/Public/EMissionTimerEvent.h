@@ -3,7 +3,7 @@
 #include "EMissionTimerEvent.generated.h"
 
 UENUM(BlueprintType)
-enum class EMissionTimerEvent :  {
+enum class EMissionTimerEvent : uint8 {
     TimerStarted,
     TimerStopped,
     TimeAdded,

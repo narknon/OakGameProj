@@ -3,7 +3,7 @@
 #include "EGbxDialogCompileStatus.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxDialogCompileStatus :  {
+enum class EGbxDialogCompileStatus : uint8 {
     UpToDate,
     Dirty,
     Error,

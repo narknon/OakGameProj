@@ -4,9 +4,9 @@
 #include "OakOnlineLobbyPlayerInfo.h"
 #include "OakOnlinePlayerDetailsMenu.generated.h"
 
+class UGbxListItem;
 class UGbxScrollBoxList;
 class UTextBlock;
-class UGbxListItem;
 
 UCLASS(EditInlineNew)
 class UOakOnlinePlayerDetailsMenu : public UGbxUmgMenu {

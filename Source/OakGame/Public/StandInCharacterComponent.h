@@ -6,11 +6,11 @@
 #include "StandInCharacterComponent.generated.h"
 
 class UGbxAction;
-class AStandInAuxiliaryActor;
 class AActor;
 class AOakCharacter_StandIn;
 class UGbxDataAsset;
 class AOakCharacter_Player;
+class AStandInAuxiliaryActor;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UStandInCharacterComponent : public UActorComponent {

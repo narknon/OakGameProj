@@ -4,12 +4,12 @@
 #include "MapCharacterPhysicsSettings.h"
 #include "OakMapData.generated.h"
 
-class UPhysicalMaterial;
+class UEnum;
 class UParticleSystem;
 class UDataTable;
-class UEnum;
-class UImpactExpansionData;
 class UZoneMapMeshData;
+class UImpactExpansionData;
+class UPhysicalMaterial;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UOakMapData : public UMapData {

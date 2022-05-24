@@ -1,8 +1,8 @@
 #include "OakWeapon.h"
 #include "Net/UnrealNetwork.h"
 
-class UManufacturerData;
 class UWwiseAudioComponent;
+class UManufacturerData;
 
 void AOakWeapon::UpdateBodyLoopActivity() {
 }

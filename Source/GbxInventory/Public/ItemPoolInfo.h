@@ -3,8 +3,8 @@
 #include "AttributeInitializationData.h"
 #include "ItemPoolInfo.generated.h"
 
-class UItemPoolData;
 class UItemPoolPartSelectionOverrideData;
+class UItemPoolData;
 
 USTRUCT(BlueprintType)
 struct GBXINVENTORY_API FItemPoolInfo {

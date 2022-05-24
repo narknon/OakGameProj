@@ -1,20 +1,20 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EVendingMachineTrayTileType.h"
 #include "AdvancedInteractiveObject.h"
 #include "SpawnedActorInterface.h"
 #include "LevelActorPersistenceInterface.h"
 #include "EVendingMachineType.h"
+#include "EVendingMachineTrayTileType.h"
 #include "EVendingMachineBuyType.h"
 #include "VendingMachine.generated.h"
 
 class UInventoryShopComponent;
 class UGbxAreaComponent;
-class AGbxPlayerController;
 class UBalanceStateComponent;
-class UBoxComponent;
 class USpawnerComponent;
+class UBoxComponent;
 class AActor;
+class AGbxPlayerController;
 
 UCLASS()
 class AVendingMachine : public AAdvancedInteractiveObject, public ISpawnedActorInterface, public ILevelActorPersistenceInterface {

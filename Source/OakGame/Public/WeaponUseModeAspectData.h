@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryAspectData.h"
 #include "EWeaponUseMode.h"
+#include "InventoryAspectData.h"
 #include "WeaponUseModeAspectData.generated.h"
 
 class UWeaponUseComponent;

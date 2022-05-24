@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ECoordinatedEffectParamScaleMode.h"
-#include "Curves/CurveFloat.h"
 #include "UObject/NoExportTypes.h"
+#include "Curves/CurveFloat.h"
+#include "ECoordinatedEffectParamScaleMode.h"
 #include "AttributeInitializationData.h"
 #include "CoordinatedScalarParameter.generated.h"
 

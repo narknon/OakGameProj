@@ -2,15 +2,15 @@
 #include "Components/SceneCaptureComponent2D.h"
 #include "GameFramework/SpringArmComponent.h"
 
+class UZoneMapData;
 class UObject;
-class AOakZoneMapIcon_POI;
-class UPlanetData;
-class UZoneMapPOITypeData;
-class UOakMinimapIconComponent;
 class UOakZoneMapIcon;
 class USceneComponent;
+class AOakZoneMapIcon_POI;
+class UZoneMapPOITypeData;
 class UMapIconAnchor;
-class UZoneMapData;
+class UPlanetData;
+class UOakMinimapIconComponent;
 class AOakVehicle;
 class UZoneMapMeshData;
 class UChallengeCategoryData;

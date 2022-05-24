@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxSkeletalMeshComponent.h"
 #include "GbxBlackboardKeySelector.h"
+#include "GbxSkeletalMeshComponent.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "OakNogDroneContainerComponent.generated.h"
 
-class AActor;
-class AGbxCharacter;
 class UParticleSystem;
 class AOakDroneProjectile;
+class AActor;
+class AGbxCharacter;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakNogDroneContainerComponent : public UGbxSkeletalMeshComponent {

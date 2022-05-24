@@ -3,9 +3,9 @@
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "HitRegionFunctionLibrary.generated.h"
 
+class UPrimitiveComponent;
 class AActor;
 class UHitRegionData;
-class UPrimitiveComponent;
 
 UCLASS(BlueprintType)
 class UHitRegionFunctionLibrary : public UBlueprintFunctionLibrary {

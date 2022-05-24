@@ -3,10 +3,10 @@
 #include "Components/SphereComponent.h"
 
 class AController;
-class UParticleSystem;
 class APlayerController;
-class AActor;
 class UMeshComponent;
+class AActor;
+class UParticleSystem;
 class UWwiseEvent;
 class UInventoryBalanceStateComponent;
 

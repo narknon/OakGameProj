@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "DeathCircleStageData.h"
-#include "AttributeInitializationData.h"
 #include "EOakAchievements.h"
 #include "GearUpData.generated.h"
 
 class UDamageData;
+class UParticleSystem;
+class UPrimitiveComponent;
 class UWwiseRtpc;
 class UMaterialInterface;
-class UParticleSystem;
 class UStaticMesh;
-class UPrimitiveComponent;
 class UGbxCondition;
 class UMission;
 class UWwiseEvent;

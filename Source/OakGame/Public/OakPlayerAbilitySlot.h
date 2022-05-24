@@ -4,8 +4,8 @@
 #include "Engine/NetSerialization.h"
 #include "OakPlayerAbilitySlot.generated.h"
 
-class UOakPlayerAbilitySlotData;
 class UOakPlayerAbility;
+class UOakPlayerAbilitySlotData;
 
 USTRUCT(BlueprintType)
 struct FOakPlayerAbilitySlot : public FFastArraySerializerItem {

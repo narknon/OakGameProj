@@ -3,9 +3,9 @@
 #include "Animation/AnimNode_AssetPlayerBase.h"
 #include "GbxAnimNode_AnimTable.generated.h"
 
+class UGbxAnimInstance;
 class UGbxAnimTable;
 class UAnimSequenceBase;
-class UGbxAnimInstance;
 
 USTRUCT(BlueprintType)
 struct GBXANIMRUNTIME_API FGbxAnimNode_AnimTable : public FAnimNode_AssetPlayerBase {

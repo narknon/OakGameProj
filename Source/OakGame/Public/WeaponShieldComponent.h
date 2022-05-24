@@ -1,23 +1,22 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "Components/ActorComponent.h"
-#include "WeaponRegisterAttachmentEffectData.h"
 #include "WeaponDebugInterface.h"
-#include "AttributeEffectData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
 #include "AttributeInitializationData.h"
+#include "AttributeEffectData.h"
+#include "GbxAttributeModifierHandle.h"
+#include "WeaponRegisterAttachmentEffectData.h"
+#include "GameResourcePoolReference.h"
 #include "EWeaponShieldActivationTrigger.h"
 #include "EWeaponZoomState.h"
 #include "DamageCompTakeShieldDamageDelegateDelegate.h"
 #include "WeaponShieldEventDelegate.h"
-#include "GbxAttributeModifierHandle.h"
 #include "EWeaponShieldState.h"
 #include "WeaponShieldComponent.generated.h"
 
 class UGameResourcePoolData;
 class UHitRegionData;
-class APawn;
 class UCurveFloat;
 class UParticleSystem;
 class UWwiseEvent;
@@ -26,8 +25,9 @@ class UOakStatusEffectManagerComponent;
 class UWwiseAudioComponent;
 class UWeaponScopeComponent;
 class AWeapon;
-class AOakPlayerController;
 class UStatusEffectData;
+class AOakPlayerController;
+class APawn;
 
 UCLASS(Blueprintable, EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UWeaponShieldComponent : public UActorComponent, public IWeaponDebugInterface {

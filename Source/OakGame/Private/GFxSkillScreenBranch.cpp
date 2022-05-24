@@ -1,8 +1,8 @@
 #include "GFxSkillScreenBranch.h"
 
 class UGbxGFxButton;
-class UGFxSkillScreenItem;
 class UOakPlayerAbilityTreeTierData;
+class UGFxSkillScreenItem;
 
 void UGFxSkillScreenBranch::OnTreeItemUnfocused(UGbxGFxButton* BUTTON, const FGbxMenuInputEvent& InputInfo) {
 }

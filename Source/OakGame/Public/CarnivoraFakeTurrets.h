@@ -4,8 +4,8 @@
 #include "ECarnivoraFakeTurretShootingStyle.h"
 #include "CarnivoraFakeTurrets.generated.h"
 
-class UGbxDamageType;
 class ULightProjectileData;
+class UGbxDamageType;
 class AActor;
 
 USTRUCT(BlueprintType)

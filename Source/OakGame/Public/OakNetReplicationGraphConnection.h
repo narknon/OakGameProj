@@ -3,9 +3,9 @@
 #include "NetReplicationGraphConnection.h"
 #include "OakNetReplicationGraphConnection.generated.h"
 
-class UOakReplicationGraphNode_AlwaysRelevant_ForConnection;
-class UReplicationGraphNode_GridSpatialization2D;
 class AActor;
+class UReplicationGraphNode_GridSpatialization2D;
+class UOakReplicationGraphNode_AlwaysRelevant_ForConnection;
 
 UCLASS(NonTransient)
 class UOakNetReplicationGraphConnection : public UNetReplicationGraphConnection {

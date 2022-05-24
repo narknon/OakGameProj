@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_IsInTerritory.h"
 #include "AIAspect.h"
+#include "AIAspectSettings_IsInTerritory.h"
 #include "AIAspect_IsInTerritory.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

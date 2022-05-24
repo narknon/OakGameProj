@@ -3,7 +3,7 @@
 #include "EGbxButtonEvent.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxButtonEvent :  {
+enum class EGbxButtonEvent : uint8 {
     Pressed,
     Released,
 };

@@ -1,20 +1,20 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/ActorComponent.h"
-#include "OakCARMenuVehicleConfig.h"
 #include "InventoryDataUnlockedInfo.h"
+#include "Components/ActorComponent.h"
 #include "InventoryPartDataUnlockedInfo.h"
+#include "OakCARMenuVehicleConfig.h"
 #include "Engine/EngineTypes.h"
 #include "ECARPartType.h"
 #include "VehicleSpawnerComponent.generated.h"
 
 class UVehicleClassIdentifier;
-class UInventoryPartData;
-class UInventoryData;
 class UInventoryBalanceData;
+class UInventoryData;
 class AOakVehicle;
 class UObject;
 class ACatchARide;
+class UInventoryPartData;
 class UWorld;
 class AOakSpawner;
 class AActor;

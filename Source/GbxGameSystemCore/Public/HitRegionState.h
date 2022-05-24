@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameResourcePoolReference.h"
 #include "DamageReactionEvent.h"
+#include "GameResourcePoolReference.h"
 #include "HitRegionState.generated.h"
 
 class UHitRegionData;
-class UPrimitiveComponent;
 class UChildActorComponent;
+class UPrimitiveComponent;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FHitRegionState {

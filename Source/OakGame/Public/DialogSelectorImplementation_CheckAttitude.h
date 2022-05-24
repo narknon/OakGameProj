@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GenericTeamAgentInterface.h"
 #include "DialogSelectorImplementation.h"
+#include "GenericTeamAgentInterface.h"
 #include "DialogSelectorImplementation_CheckAttitude.generated.h"
 
 class UDialogParameter;

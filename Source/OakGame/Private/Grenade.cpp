@@ -10,11 +10,11 @@
 
 class UGrenadeBehavior;
 class AActor;
-class UWwiseEvent;
 class UGrenadeBehavior_Payload;
 class AGrenade;
-class UParticleSystemComponent;
+class UWwiseEvent;
 class UParticleSystem;
+class UParticleSystemComponent;
 class UGrenadeHomingComponent;
 class UDrunkenWaveMovementComponent;
 class UDrunkenRandomMovementComponent;

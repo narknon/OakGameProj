@@ -1,9 +1,9 @@
 #include "TargetActorInfoLibrary.h"
 #include "Templates/SubclassOf.h"
 
+class UAISense;
 class AActor;
 class UTargetingComponent;
-class UAISense;
 
 bool UTargetActorInfoLibrary::IsSenseActive(const FTargetActorInfo& Info, TSubclassOf<UAISense> Sense) {
     return false;

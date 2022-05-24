@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WeaponSimpleMotionControlBase.h"
 #include "SimpleMotionState.h"
+#include "WeaponSimpleMotionControlBase.h"
 #include "Animation/AnimData/BoneMaskFilter.h"
 #include "WeaponSimpleMotionBlendControl.generated.h"
 

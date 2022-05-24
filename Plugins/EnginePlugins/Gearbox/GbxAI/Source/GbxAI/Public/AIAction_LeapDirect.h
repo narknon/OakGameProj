@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Leap.h"
-#include "AIAction.h"
 #include "AIAspectSettings_EnvQuery.h"
+#include "AIAction.h"
+#include "AIAspectSettings_Leap.h"
 #include "AIAction_LeapDirect.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

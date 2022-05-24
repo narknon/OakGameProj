@@ -7,10 +7,10 @@
 class UGbxDamageType;
 class USphereComponent;
 class UStaticMeshComponent;
-class UDamageComponent;
-class UWwiseEvent;
 class UHealthTypeData;
 class UGbxAttributeData;
+class UDamageComponent;
+class UWwiseEvent;
 class UDamageSource;
 class AController;
 class UDamageCauserComponent;

@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ExtractedOakInventoryCombinationNameData.h"
 #include "InventoryNamingStrategyData.h"
 #include "OakInventoryNameData.h"
-#include "ExtractedOakInventoryCombinationNameData.h"
 #include "OakInventoryNamingStrategyData.generated.h"
 
 class UInventoryPartData;

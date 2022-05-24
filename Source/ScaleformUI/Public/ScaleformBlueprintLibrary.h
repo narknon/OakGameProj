@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "Kismet/BlueprintFunctionLibrary.h"
 #include "ASValue.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
 #include "ScaleformBlueprintLibrary.generated.h"
 
+class UTextureRenderTarget2D;
 class UGFxObject;
 class UGFxMoviePlayer;
 class UObject;
 class USwfMovie;
-class UTextureRenderTarget2D;
 
 UCLASS(BlueprintType)
 class SCALEFORMUI_API UScaleformBlueprintLibrary : public UBlueprintFunctionLibrary {

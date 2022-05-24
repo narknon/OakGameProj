@@ -3,53 +3,53 @@
 #include "Templates/SubclassOf.h"
 #include "OakCharacter_Default.h"
 #include "EDuelClassification.h"
+#include "EWeaponEquipType.h"
 #include "EDuelLoseReason.h"
 #include "UObject/NoExportTypes.h"
 #include "VaultRewardReceivedDelegate.h"
 #include "OnPlayerTossedGrenadeSignatureDelegate.h"
 #include "OnPlayerCrouchEventSignatureDelegate.h"
 #include "TakeAnyPipelineDamageDelegateDelegate.h"
-#include "InventorySlotContainer.h"
 #include "GrenadeThrowFailedDelegate.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
 #include "PlayerEchoDeviceState.h"
 #include "OakSDUContainer.h"
 #include "ReplicatedPlayerEchoDeviceState.h"
-#include "EVaultRewardType.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "InventorySlotContainer.h"
 #include "ResourceLock.h"
 #include "PlayerPainSoundData.h"
 #include "WeaponSlotContainer.h"
-#include "EWeaponEquipType.h"
 #include "HitFriendlyEventDetails.h"
+#include "EVaultRewardType.h"
 #include "OakCharacter_Player.generated.h"
 
 class AEchoDevice;
-class AOakCharacter_Player;
+class UFeedbackData;
+class UInventorySlotData;
 class UParticleSystem;
+class AOakCharacter;
+class UGbxAttributeData;
+class UHavokNavObstacleComponent;
+class AOakCharacter_Player;
 class APhotoModeController;
 class UGFxPhotoModeMenu;
 class UOakCustomizationComponent;
 class AActor;
-class UFeedbackData;
+class UGameResourceData;
 class UWwiseEvent;
 class UOakHUDSkillIconWidget;
 class UGbxAction;
-class UGameResourceData;
 class UOakCustomizationData;
-class AOakPlayerController;
 class UGbxCustomizationTypeData;
 class UGFxSkillScreenTree;
-class UInventorySlotData;
+class AGrenade;
 class UEchoLogData;
 class UPlayerBalanceStateComponent;
-class UGbxAttributeData;
-class UHavokNavObstacleComponent;
 class UOakPlayerAbilityManagerComponent;
 class UCapsuleComponent;
-class AGrenade;
+class AOakPlayerController;
 class UOakSDUData;
 class UOakActionAbility;
-class AOakCharacter;
 class UInventoryCategoryData;
 
 UCLASS()

@@ -6,8 +6,8 @@
 #include "GameplayTagContainer.h"
 #include "OakStatusEffectGlobalsData.generated.h"
 
-class UOakFreezeData;
 class UOakElementalEffectData;
+class UOakFreezeData;
 class UParticleSystem;
 
 UCLASS(BlueprintType)

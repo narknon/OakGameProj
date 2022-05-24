@@ -1,9 +1,9 @@
 #include "GFxInWorldIconContainer.h"
 
-class AOakPlayerState;
-class UPlayerAlertData;
 class AActor;
 class AGbxCharacter;
+class AOakPlayerState;
+class UPlayerAlertData;
 
 void UGFxInWorldIconContainer::UnregisterTarget(const FHUDInWorldIconTargetInfo& TargetInfo) const {
 }

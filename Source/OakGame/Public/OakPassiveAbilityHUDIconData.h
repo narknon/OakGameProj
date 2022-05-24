@@ -3,9 +3,9 @@
 #include "EOakPassiveAbilityHUDIconActivationType.h"
 #include "OakPassiveAbilityHUDIconData.generated.h"
 
-class UStatusEffectData;
 class UOakPlayerAbilityHUDItemData;
 class UOakAbilityTimerData;
+class UStatusEffectData;
 
 USTRUCT(BlueprintType)
 struct FOakPassiveAbilityHUDIconData {

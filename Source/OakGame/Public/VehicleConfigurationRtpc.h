@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "VehicleConfigurationRtpc.generated.h"
 
-class UWwiseRtpc;
 class UGbxAttributeData;
+class UWwiseRtpc;
 
 USTRUCT(BlueprintType)
 struct FVehicleConfigurationRtpc {

@@ -2,22 +2,22 @@
 #include "CoreMinimal.h"
 #include "GbxAnimInstance.h"
 #include "UObject/NoExportTypes.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GaitScalingSettings -FallbackName=GaitScalingSettings
-#include "NavAnimClientData.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "NavAnimServerData.h"
+#include "NavAnimClientData.h"
 #include "EGbxCharacterBlendPoints.h"
 #include "ENavAnimState.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GaitScalingSettings -FallbackName=GaitScalingSettings
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EBoneSetTransitionBlendType -FallbackName=EBoneSetTransitionBlendType
 #include "GbxCharacterAnimInstance.generated.h"
 
-class UStanceDataProvider;
 class UStanceComponent;
+class UGbxBoneSet;
+class UStanceDataProvider;
 class UStanceData;
 class UStanceType;
-class UGbxBoneSet;
 
 UCLASS(NonTransient)
 class GBXGAMESYSTEMCORE_API UGbxCharacterAnimInstance : public UGbxAnimInstance {

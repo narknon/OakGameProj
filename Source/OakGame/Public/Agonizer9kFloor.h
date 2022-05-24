@@ -2,19 +2,19 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GameFramework/Actor.h"
-#include "SectorFromBP.h"
 #include "OnFloorFirstFlame2Delegate.h"
+#include "SectorFromBP.h"
 #include "Ring.h"
 #include "Sector.h"
 #include "Agonizer9kFloor.generated.h"
 
 class UWwiseAudioComponent;
-class UWwiseEvent;
 class UTeam;
 class USceneComponent;
 class UMaterialInstance;
-class UDamageData;
 class UCurveFloat;
+class UDamageData;
+class UWwiseEvent;
 class AAgonizer9k;
 
 UCLASS()

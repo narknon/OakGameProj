@@ -3,7 +3,7 @@
 #include "EContextualMenuExpandDirection.generated.h"
 
 UENUM(BlueprintType)
-enum class EContextualMenuExpandDirection :  {
+enum class EContextualMenuExpandDirection : uint8 {
     Unknown,
     Down,
     Up,

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAction_Sequence.h"
 #include "AIActionSettings_Plan.h"
+#include "AIAction_Sequence.h"
 #include "AIAction_Plan.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

@@ -3,11 +3,11 @@
 #include "Templates/SubclassOf.h"
 
 class USceneComponent;
+class UExplosionComponent;
 class UGbxDamageType;
 class UGbxProjectileMovementComponent;
 class UDamageSource;
 class AActor;
-class UExplosionComponent;
 
 void AProjectile::StopBlockingPawns() {
 }

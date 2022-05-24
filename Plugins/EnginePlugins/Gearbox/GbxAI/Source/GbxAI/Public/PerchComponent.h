@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/PrimitiveComponent.h"
 #include "GbxParam.h"
+#include "Components/PrimitiveComponent.h"
 #include "SmartObjectInterface.h"
 #include "SmartObjectUseRequest.h"
 #include "PerchComponent.generated.h"

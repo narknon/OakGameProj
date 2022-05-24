@@ -7,10 +7,10 @@
 class AController;
 class UCrewQuartersAssetDecorationData;
 class UCrewQuartersDecorationData;
-class UPrimitiveComponent;
-class UAnimSequence;
 class UMeshComponent;
+class UAnimSequence;
 class ACrewQuartersDecorationDisplayActor;
+class UPrimitiveComponent;
 class ACrewQuartersRoom;
 
 UCLASS()

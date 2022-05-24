@@ -1,12 +1,12 @@
 #include "WwiseGameplayStatics.h"
 
+class UWwiseListenerEnvironmentalEffect;
+class USceneComponent;
 class UObject;
 class UWwiseBank;
 class UWwiseAudioInputEvent;
 class AActor;
 class UWwiseAudioComponent;
-class UWwiseListenerEnvironmentalEffect;
-class USceneComponent;
 class UWwiseState;
 class UWwiseRtpc;
 class UWwiseEvent;

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "DialogBlackboard.h"
+#include "EchoLogTrackingInfo.h"
 #include "OnEchoLogInitialPlayFinishedDelegate.h"
 #include "DialogScriptPinnedRef.h"
-#include "EchoLogTrackingInfo.h"
 #include "OakDialogBlackboard.generated.h"
 
 class UEchoLogData;

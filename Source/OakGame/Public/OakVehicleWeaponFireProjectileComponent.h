@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "WeaponFireProjectileComponent.h"
 #include "OnDummyProjectileSpawnedSignatureDelegate.h"
+#include "WeaponFireProjectileComponent.h"
 #include "DummyProjectileInfo.h"
 #include "OnCurrentProjectileIndexChangedSignatureDelegate.h"
 #include "OakVehicleWeaponFireProjectileComponent.generated.h"

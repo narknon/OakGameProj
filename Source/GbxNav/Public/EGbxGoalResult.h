@@ -3,7 +3,7 @@
 #include "EGbxGoalResult.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxGoalResult :  {
+enum class EGbxGoalResult : uint8 {
     Failed,
     Reached,
     Success,

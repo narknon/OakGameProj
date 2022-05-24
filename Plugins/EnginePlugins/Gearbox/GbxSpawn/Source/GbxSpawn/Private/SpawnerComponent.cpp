@@ -1,8 +1,8 @@
 #include "SpawnerComponent.h"
 
+class USpawnerStyle;
 class UTeam;
 class USpawnOptionData;
-class USpawnerStyle;
 class USpawnerComponent;
 class AActor;
 

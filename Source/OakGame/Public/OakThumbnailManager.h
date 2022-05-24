@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "OakThumbnailManagerConfig.h"
+#include "UObject/Object.h"
 #include "OnIconLoadedDelegateDelegate.h"
 #include "OakThumbnailManager.generated.h"
 

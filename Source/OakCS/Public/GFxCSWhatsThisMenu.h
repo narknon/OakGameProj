@@ -4,11 +4,11 @@
 #include "GFxCSWhatsThisMenu.generated.h"
 
 class ALevelSequenceActor;
-class UGbxLevelSequence;
-class UMaterialInterface;
-class UParticleSystem;
-class UWwiseEvent;
 class UScreenParticleManagerComponent;
+class UGbxLevelSequence;
+class UParticleSystem;
+class UMaterialInterface;
+class UWwiseEvent;
 class ULevelSequencePlayer;
 
 UCLASS()

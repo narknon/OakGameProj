@@ -8,9 +8,9 @@
 class UObject;
 class UElementalPuddleConfigurationData;
 class AElementalPuddle;
+class AActor;
 class UElementalPuddleSimpleSpawnData;
 class UElementalPuddleSpawnData;
-class AActor;
 class APawn;
 
 AElementalPuddle* AElementalPuddle::SpawnElementalPuddle(UObject* WorldContextObject, TSubclassOf<AElementalPuddle> PuddleClass, FTransform SpawnTransform, const UElementalPuddleConfigurationData* PuddleConfiguration, const UElementalPuddleSpawnData* PuddleSpawnData, float AutoAlignTraceDistance, AActor* SpawnOwner, float OverrideFullSizeScale, APawn* OverrideInstigator) {

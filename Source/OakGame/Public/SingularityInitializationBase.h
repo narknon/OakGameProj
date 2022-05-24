@@ -3,11 +3,11 @@
 #include "GameplayTagContainer.h"
 #include "SingularityInitializationBase.generated.h"
 
-class AActor;
 class UHitReactionTag;
+class UWwiseEvent;
+class AActor;
 class UWwiseRtpc;
 class UWwiseAuxBus;
-class UWwiseEvent;
 
 USTRUCT(BlueprintType)
 struct FSingularityInitializationBase {

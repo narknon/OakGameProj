@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "WwiseAudioEventTrackKey.h"
 #include "Matinee/InterpTrackVectorBase.h"
+#include "WwiseAudioEventTrackKey.h"
 #include "InterpTrackWwiseAudioEvent.generated.h"
 
 UCLASS(CollapseCategories)

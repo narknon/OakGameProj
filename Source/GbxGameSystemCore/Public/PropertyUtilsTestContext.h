@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/Object.h"
 #include "PropertyUtilsTestStruct.h"
+#include "UObject/Object.h"
 #include "PropertyUtilsTestContext.generated.h"
 
 class UPropertyUtilsTestContext;

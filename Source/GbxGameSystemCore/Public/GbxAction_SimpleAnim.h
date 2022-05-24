@@ -5,8 +5,8 @@
 #include "Engine/EngineTypes.h"
 #include "GbxAction_SimpleAnim.generated.h"
 
-class UGbxBoneSet;
 class UPhysicalAnimationProfileAsset;
+class UGbxBoneSet;
 class AActor;
 
 UCLASS(Abstract)

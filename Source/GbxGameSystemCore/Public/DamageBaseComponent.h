@@ -5,9 +5,9 @@
 #include "RegisteredConditionalDamageCriticalModifier.h"
 #include "DamageBaseComponent.generated.h"
 
+class UTeamComponent;
 class UConditionalDamageHitRegionModifier;
 class UTargetableComponent;
-class UTeamComponent;
 class UConditionalDamageTypeModifier;
 
 UCLASS(Abstract, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

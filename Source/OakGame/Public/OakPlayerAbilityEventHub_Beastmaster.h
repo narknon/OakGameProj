@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakPlayerAbilityEventHub.h"
 #include "BeastmasterPetEventSignatureDelegate.h"
+#include "OakPlayerAbilityEventHub.h"
 #include "OakPlayerAbilityEventHub_Beastmaster.generated.h"
 
 UCLASS()

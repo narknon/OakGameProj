@@ -3,8 +3,8 @@
 #include "OakMapData.h"
 #include "OakMainMenuMapData.generated.h"
 
-class APostProcessVolume;
 class APlayerStandIn;
+class APostProcessVolume;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UOakMainMenuMapData : public UOakMapData {

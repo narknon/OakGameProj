@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "GbxAction_NavHomingJump.h"
-#include "GbxActionRegister.h"
 #include "ELeapOnVehicle_SeatType.h"
+#include "GbxActionRegister.h"
 #include "OakAction_LeapOnVehicle.generated.h"
 
 class UGbxAction;

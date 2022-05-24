@@ -4,8 +4,8 @@
 #include "GbxQueryOptions.h"
 #include "GbxQuery.generated.h"
 
-class UBlackboardComponent;
 class AActor;
+class UBlackboardComponent;
 class UNavComponent;
 
 USTRUCT(BlueprintType)

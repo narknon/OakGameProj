@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxTriggerProperty.h"
 #include "PreviewComponent.h"
 #include "SpawnPreviewState.h"
+#include "GbxTriggerProperty.h"
 #include "ECycleDirection.h"
 #include "SpawnPreviewComponent.generated.h"
 

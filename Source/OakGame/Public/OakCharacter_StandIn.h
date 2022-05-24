@@ -4,14 +4,14 @@
 #include "PlayerStandInInitData.h"
 #include "OakCharacter_StandIn.generated.h"
 
+class AOakCharacter_Player;
 class UOakCustomizationComponent;
 class UGbxSkeletalMeshComponent;
 class UStandInCharacterComponent;
 class UBodyWeaponHoldManagerComponent;
-class UOakCustomizationData;
 class UInventoryBalanceData;
+class UOakCustomizationData;
 class AWeapon;
-class AOakCharacter_Player;
 class UGbxCustomizationData;
 
 UCLASS()

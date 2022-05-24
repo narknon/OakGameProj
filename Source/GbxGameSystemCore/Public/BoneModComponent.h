@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/SceneComponent.h"
-#include "Animation/AnimTypes.h"
 #include "AlphaBlend.h"
+#include "Animation/AnimTypes.h"
 #include "BoneModComponent.generated.h"
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

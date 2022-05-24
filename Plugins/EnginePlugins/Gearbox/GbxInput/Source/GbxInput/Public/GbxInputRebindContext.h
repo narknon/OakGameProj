@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxInputRebind_Button.h"
 #include "Engine/DataAsset.h"
+#include "GbxInputRebind_Button.h"
 #include "GbxInputRebind_Axis.h"
 #include "GbxInputRebindContext.generated.h"
 

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxAction_SimpleAnim.h"
 #include "CoverHitReactionItem.h"
+#include "GbxAction_SimpleAnim.h"
 #include "GbxAction_CoverHitReaction.generated.h"
 
 UCLASS()

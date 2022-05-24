@@ -3,7 +3,7 @@
 #include "EAIActionState.generated.h"
 
 UENUM(BlueprintType)
-enum class EAIActionState :  {
+enum class EAIActionState : uint8 {
     Idle,
     Starting,
     Running,

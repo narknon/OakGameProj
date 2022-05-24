@@ -4,8 +4,8 @@
 #include "GrenadeBehavior_PayloadBlueprint.h"
 #include "GrenadeBehavior_PayloadArtillery.generated.h"
 
-class UDamageData;
 class UStaticMesh;
+class UDamageData;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UGrenadeBehavior_PayloadArtillery : public UGrenadeBehavior_PayloadBlueprint {

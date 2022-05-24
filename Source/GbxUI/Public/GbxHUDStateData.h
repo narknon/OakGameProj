@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EHUDInitializationAnimationSet.h"
 #include "GbxDataAsset.h"
+#include "EHUDInitializationAnimationSet.h"
 #include "EGbxHUDStateListType.h"
 #include "GbxHUDStateData.generated.h"
 

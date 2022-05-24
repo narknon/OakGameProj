@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxCustomizationData.h"
-#include "InventorySerialNumberAssetInterface.h"
 #include "UObject/NoExportTypes.h"
+#include "InventorySerialNumberAssetInterface.h"
+#include "GbxCustomizationData.h"
 #include "InventoryCustomizationPartData.generated.h"
 
 UCLASS(Abstract)

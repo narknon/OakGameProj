@@ -3,7 +3,7 @@
 #include "EAggregateBoneStatusFlag.generated.h"
 
 UENUM(BlueprintType)
-enum class EAggregateBoneStatusFlag :  {
+enum class EAggregateBoneStatusFlag : uint8 {
     ABS_HasDynamic,
     ABS_HasMotion,
     ABS_HasPoseVariance,

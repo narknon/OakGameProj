@@ -3,7 +3,7 @@
 #include "EVerticalTextAutoSizeType.generated.h"
 
 UENUM(BlueprintType)
-enum class EVerticalTextAutoSizeType :  {
+enum class EVerticalTextAutoSizeType : uint8 {
     none,
     top,
     center,

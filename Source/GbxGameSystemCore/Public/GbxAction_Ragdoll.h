@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "GbxAction_SimpleAnim.h"
 #include "UObject/NoExportTypes.h"
-#include "AnimActionDef.h"
 #include "AttachedObjectFollow.h"
+#include "AnimActionDef.h"
 #include "GbxAction_Ragdoll.generated.h"
 
 class UMotionMatchedAnimationTable;

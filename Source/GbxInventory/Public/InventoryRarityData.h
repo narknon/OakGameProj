@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "UObject/NoExportTypes.h"
 #include "EDropLifeSpanType.h"
-#include "AttributeInitializationData.h"
 #include "InventoryRarityData.generated.h"
 
 class UParticleSystem;
-class UWwiseEvent;
 class UGameStatData;
+class UWwiseEvent;
 
 UCLASS(BlueprintType)
 class GBXINVENTORY_API UInventoryRarityData : public UGbxDataAsset {

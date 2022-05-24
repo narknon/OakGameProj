@@ -1,19 +1,19 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
-#include "AttributeInitializationData.h"
 #include "ForceSelection.h"
 #include "OakFreezeData.generated.h"
 
-class UDestructibleComponent;
 class UMaterialInterface;
-class UGbxAction_CoordinatedEffect;
-class UPhysicalMaterial;
-class UDestructibleMesh;
 class UStaticMesh;
+class UDestructibleComponent;
+class UGbxAction_CoordinatedEffect;
+class UDestructibleMesh;
+class UPhysicalMaterial;
 class UGbxDamageType;
 class UDamageSource;
 class UImpactData;

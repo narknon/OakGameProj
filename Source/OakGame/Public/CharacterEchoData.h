@@ -4,9 +4,9 @@
 #include "ECharacterEchoDataMediaPlaybackType.h"
 #include "CharacterEchoData.generated.h"
 
-class UMediaSource;
 class UGbxUIName;
 class USwfMovie;
+class UMediaSource;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UCharacterEchoData : public UCharacterEchoDataBase {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "DialogParameterType.h"
 #include "GbxDialogDataAsset.h"
+#include "DialogParameterType.h"
 #include "DialogParameter.generated.h"
 
 class UDialogParameter;

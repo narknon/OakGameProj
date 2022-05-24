@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Challenge.h"
 #include "OakChallengeTierRewards.h"
+#include "Challenge.h"
 #include "AttributeInitializationData.h"
 #include "OakChallengeTierRewardsPerInstance.h"
 #include "OakChallenge.generated.h"
 
 class URegionData;
+class UWeaponSkinPartData;
 class UItemPoolData;
 class UOakCustomizationData;
-class UWeaponSkinPartData;
 class UWeaponTrinketPartData;
 class UActivityFeedReward;
 class UPlayerClassIdentifier;

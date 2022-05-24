@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "AIAction_WeaponAtPoint.h"
 #include "GbxParam.h"
-#include "AIAspectSettings_GbxAction.h"
 #include "UObject/NoExportTypes.h"
+#include "AIAspectSettings_GbxAction.h"
 #include "AIAction_SimpleHide.generated.h"
 
 class UGbxWeaponSlotData;

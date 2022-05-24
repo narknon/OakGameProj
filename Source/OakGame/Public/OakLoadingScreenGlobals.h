@@ -6,9 +6,9 @@
 #include "UObject/NoExportTypes.h"
 #include "OakLoadingScreenGlobals.generated.h"
 
+class UFont;
 class UMaterialInterface;
 class UStaticMesh;
-class UFont;
 class UTexture2D;
 class ULocalizedOverlays;
 

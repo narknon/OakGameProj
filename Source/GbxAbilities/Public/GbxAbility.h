@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "UObject/Object.h"
+#include "GbxAbilityEffect.h"
 #include "GbxAbilityEffectInstance.h"
 #include "EGbxAbilityState.h"
 #include "EGbxAbilityDurationType.h"
-#include "UObject/Object.h"
-#include "GbxAbilityEffect.h"
 #include "GbxAbility.generated.h"
 
 class UGbxAbilityManagerComponent;

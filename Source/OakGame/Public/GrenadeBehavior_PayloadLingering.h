@@ -5,8 +5,8 @@
 #include "LingeringDamageTypeInfo.h"
 #include "GrenadeBehavior_PayloadLingering.generated.h"
 
-class UGbxDamageType;
 class UStaticMesh;
+class UGbxDamageType;
 
 UCLASS(EditInlineNew)
 class OAKGAME_API UGrenadeBehavior_PayloadLingering : public UGrenadeBehavior_PayloadBlueprint {

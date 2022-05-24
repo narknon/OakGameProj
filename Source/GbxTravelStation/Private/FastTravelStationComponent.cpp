@@ -1,10 +1,10 @@
 #include "FastTravelStationComponent.h"
 #include "Net/UnrealNetwork.h"
 
+class UFastTravelStationComponent;
 class AActor;
 class UObject;
 class UFastTravelStationData;
-class UFastTravelStationComponent;
 class APawn;
 
 void UFastTravelStationComponent::OnTravelStationActivated(AActor* PreviousStation) {

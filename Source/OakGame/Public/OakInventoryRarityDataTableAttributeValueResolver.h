@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EOakInventoryRarityBalanceTableType.h"
 #include "DataTableFunctionAttributeValueResolver.h"
+#include "EOakInventoryRarityBalanceTableType.h"
 #include "OakInventoryRarityDataTableAttributeValueResolver.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

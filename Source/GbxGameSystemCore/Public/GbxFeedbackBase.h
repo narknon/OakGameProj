@@ -4,8 +4,8 @@
 #include "UObject/NoExportTypes.h"
 #include "GbxFeedbackBase.generated.h"
 
-class UObject;
 class UGbxFeedbackBase;
+class UObject;
 class AGbxPlayerController;
 
 UCLASS(Abstract, BlueprintType)

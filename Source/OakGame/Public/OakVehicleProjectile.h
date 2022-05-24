@@ -5,13 +5,13 @@
 #include "UObject/NoExportTypes.h"
 #include "OakVehicleProjectile.generated.h"
 
-class UPrimitiveComponent;
 class USphereComponent;
 class AActor;
 class AOakVehicle;
 class UStaticMeshComponent;
-class UOakProjectileVehicleData;
+class UPrimitiveComponent;
 class UGbxProjectileMovementComponent;
+class UOakProjectileVehicleData;
 
 UCLASS()
 class AOakVehicleProjectile : public AOakProjectile {

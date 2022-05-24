@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Navigation.h"
 #include "AIAction.h"
 #include "AIAspectSettings_Rotation.h"
 #include "AIAspectSettings_Orbit.h"
+#include "AIAspectSettings_Navigation.h"
 #include "AIAction_Orbit.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

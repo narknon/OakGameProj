@@ -2,9 +2,9 @@
 #include "Net/UnrealNetwork.h"
 
 class UTravelStationData;
-class APlayerController;
 class UTravelStationComponentBase;
 class AActor;
+class APlayerController;
 class UFastTravelStationData;
 
 void ATravelStationTracker::TravelToStationTimer() {

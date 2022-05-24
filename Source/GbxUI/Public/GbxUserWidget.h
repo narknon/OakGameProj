@@ -1,20 +1,20 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "GbxUserWidgetDelegateDelegate.h"
 #include "Blueprint/UserWidget.h"
 #include "GbxFocusableWidget.h"
-#include "GbxUserWidgetDelegateDelegate.h"
 #include "EGbxFocusableWidgetMouseBehavior.h"
-#include "UObject/NoExportTypes.h"
 #include "EGbxFocusableWidgetState.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxUserWidget.generated.h"
 
-class UImage;
-class UDataTable;
 class UTextBlock;
-class UBUTTON;
 class UGbxFocusableWidgetStyleData;
+class UImage;
+class UBUTTON;
 class UGbxUmgMenu;
+class UDataTable;
 class UWidgetAnimation;
 class UWidget;
 

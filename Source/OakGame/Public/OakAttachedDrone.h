@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxParam.h"
+#include "UObject/NoExportTypes.h"
 #include "Engine/EngineTypes.h"
 #include "OakAttachedDrone.generated.h"
 
@@ -10,11 +10,11 @@ class UWwiseAudioComponent;
 class UStaticMeshComponent;
 class UAnimationAsset;
 class UCurveFloat;
-class USkeletalMeshComponent;
 class USphereComponent;
 class UOakDamageComponent;
 class UTeamComponent;
 class AOakVehicle;
+class USkeletalMeshComponent;
 class UAnimInstance;
 class UPrimitiveComponent;
 

@@ -1,13 +1,13 @@
 #include "GbxUILibrary.h"
 #include "Templates/SubclassOf.h"
 
+class UGbxFullScreenMovie;
 class UObject;
+class APlayerController;
+class AGbxPlayerController;
 class UGbxList;
 class IGbxList;
-class AGbxPlayerController;
-class APlayerController;
 class UMediaSource;
-class UGbxFullScreenMovie;
 class UGbxListItemText;
 class UGbxListItemNumber;
 class UGbxListItem;

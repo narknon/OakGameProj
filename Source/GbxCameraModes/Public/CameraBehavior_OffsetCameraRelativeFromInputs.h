@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "CameraBehavior.h"
+#include "UObject/NoExportTypes.h"
 #include "CameraBehavior_OffsetCameraRelativeFromInputs.generated.h"
 
 UCLASS(EditInlineNew)

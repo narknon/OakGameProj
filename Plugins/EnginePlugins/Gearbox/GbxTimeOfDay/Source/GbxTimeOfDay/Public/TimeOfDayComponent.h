@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "TimeOfDayCycleInstanceData.h"
 #include "Components/SceneComponent.h"
+#include "TimeOfDayCycleInstanceData.h"
 #include "TimeOfDayComponent.generated.h"
 
 class UDEPRECATED_TimeOfDayCycleInstance;

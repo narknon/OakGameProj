@@ -3,8 +3,8 @@
 #include "UObject/NoExportTypes.h"
 #include "MissionObjectiveSetReference.generated.h"
 
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 
 USTRUCT(BlueprintType)
 struct GBXMISSION_API FMissionObjectiveSetReference {

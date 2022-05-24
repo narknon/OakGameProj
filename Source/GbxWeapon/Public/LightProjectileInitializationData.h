@@ -3,17 +3,17 @@
 #include "Templates/SubclassOf.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
+#include "DamageGoreModifiers.h"
 #include "ForceSelection.h"
 #include "EWeaponShotModifierType.h"
 #include "CriticalHitDamageOverrides.h"
-#include "DamageGoreModifiers.h"
 #include "LightProjectileRingData.h"
 #include "LightProjectileInitializationData.generated.h"
 
 class ULightProjectileData;
+class UGbxDamageType;
 class APawn;
 class AActor;
-class UGbxDamageType;
 class UDamageSource;
 class UImpactData;
 class UDamageModifierComponent;

@@ -5,8 +5,8 @@
 #include "SmartActionUser.h"
 #include "SmartObjectActionState.generated.h"
 
-class AController;
 class USmartObjectAction;
+class AController;
 
 USTRUCT(BlueprintType)
 struct GBXAI_API FSmartObjectActionState {

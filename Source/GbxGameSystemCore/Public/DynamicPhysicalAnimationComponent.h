@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "UObject/NoExportTypes.h"
 #include "EPhysicalAnimationRootMotionControl.h"
+#include "UObject/NoExportTypes.h"
 #include "Engine/EngineTypes.h"
 #include "DynamicPhysicalAnimationComponent.generated.h"
 
 class USkeletalMeshComponent;
-class UPhysicsAsset;
 class UPrimitiveComponent;
+class UPhysicsAsset;
 class UPhysicalAnimationProfileAsset;
 class AActor;
 

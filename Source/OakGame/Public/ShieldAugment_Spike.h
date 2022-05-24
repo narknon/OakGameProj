@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "AttributeInitializationData.h"
 #include "ShieldAugment.h"
-#include "ShieldTriggeredElementalEffect.h"
+#include "AttributeInitializationData.h"
 #include "ShieldTriggeredProjectileReflectEffect.h"
+#include "ShieldTriggeredElementalEffect.h"
 #include "ShieldAugment_Spike.generated.h"
 
 class UDamageSource;

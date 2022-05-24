@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxFlag.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "GbxFlag.h"
 #include "GbxFlagFunctionLibrary.generated.h"
 
 class UObject;

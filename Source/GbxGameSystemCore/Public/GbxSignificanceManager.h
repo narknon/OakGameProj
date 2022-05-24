@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "SignificanceManager.h"
 #include "CachedInterp.h"
+#include "SignificanceManager.h"
 #include "GbxSignificanceManager.generated.h"
 
 UCLASS()

@@ -4,9 +4,9 @@
 #include "ImpactResponseParams.h"
 #include "ImpactResponseEffect.generated.h"
 
-class UMaterialInterface;
 class UImpactData;
 class UWwiseEvent;
+class UMaterialInterface;
 class UParticleSystem;
 class UFeedbackData;
 

@@ -3,7 +3,7 @@
 #include "EAudioFadeModel.generated.h"
 
 UENUM(BlueprintType)
-enum class EAudioFadeModel :  {
+enum class EAudioFadeModel : uint8 {
     InverseByDistance,
     LinearByDistance,
     ExponentialByDistance,

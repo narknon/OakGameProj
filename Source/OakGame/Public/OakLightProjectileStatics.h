@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "OakLightProjectileInitializationData.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "OakLightProjectileInitializationData.h"
 #include "UObject/NoExportTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "OakLightProjectileStatics.generated.h"

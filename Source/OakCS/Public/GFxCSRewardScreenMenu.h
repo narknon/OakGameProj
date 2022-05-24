@@ -6,9 +6,9 @@
 
 class UGbxGFxGridScrollingList;
 class UCSLevelData;
-class UGFxCSProgressBar;
 class UGbxTextField;
 class UGbxGFxObject;
+class UGFxCSProgressBar;
 class UGFxCSRewardScreenItem;
 class UGbxGFxButton;
 

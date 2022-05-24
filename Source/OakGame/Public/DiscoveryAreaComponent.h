@@ -7,8 +7,8 @@
 
 class UChallenge;
 class UWwiseEvent;
-class UGbxUIName;
 class URegionData;
+class UGbxUIName;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class OAKGAME_API UDiscoveryAreaComponent : public UGbxAreaComponent {

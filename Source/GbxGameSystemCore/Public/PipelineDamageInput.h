@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "CriticalHitDamageOverrides.h"
 #include "DamageGoreModifiers.h"
+#include "CriticalHitDamageOverrides.h"
 #include "PipelineDamageInput.generated.h"
 
 class UDamageComponent;
-class AActor;
-class UDamageableInterface;
-class IDamageableInterface;
 class APawn;
 class AController;
+class UDamageableInterface;
+class IDamageableInterface;
+class AActor;
 class UDamageSource;
 class UDamageModifierComponent;
 class UGbxDamageType;

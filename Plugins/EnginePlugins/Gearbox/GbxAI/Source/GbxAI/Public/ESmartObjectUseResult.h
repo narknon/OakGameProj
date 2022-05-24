@@ -3,7 +3,7 @@
 #include "ESmartObjectUseResult.generated.h"
 
 UENUM(BlueprintType)
-enum class ESmartObjectUseResult :  {
+enum class ESmartObjectUseResult : uint8 {
     Failure,
     Running,
     Blocking,

@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "TestInfoMesh.h"
 #include "TestInfoMeshLOD.h"
 #include "TestInfoTexture.h"
 #include "TestInfoMeshLODSummary.h"
-#include "TestInfoMesh.h"
 #include "TestInfoStaticMesh.h"
 #include "TestInfoSkeletalMesh.h"
 #include "TestInfoParticleSystem.h"
@@ -12,10 +12,10 @@
 #include "TestInfoMaterial.h"
 #include "TestLibraryContent.generated.h"
 
-class UTexture;
-class UStaticMesh;
 class UMaterial;
 class UParticleSystem;
+class UStaticMesh;
+class UTexture;
 class USkeletalMesh;
 class UObject;
 

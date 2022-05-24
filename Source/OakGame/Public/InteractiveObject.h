@@ -1,28 +1,28 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UserStatesRuntimeData.h"
+#include "GameFramework/Actor.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxBlueprintActionInterface -FallbackName=GbxBlueprintActionInterface
+#include "InteractiveObjectTrapEntry.h"
+#include "MissionObserverInterface.h"
 #include "DamageableInterface.h"
 #include "InspectionInfoProvider.h"
 #include "UserStatesInterface.h"
-#include "GameFramework/Actor.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxBlueprintActionInterface -FallbackName=GbxBlueprintActionInterface
-#include "MissionObserverInterface.h"
-#include "OakElementalEffectBucketProviderInterface.h"
+#include "EInteractiveObjectInteractiveState.h"
 #include "PlayerAlertableInterface.h"
+#include "OakElementalEffectBucketProviderInterface.h"
 #include "NameplateInfoProviderInterface.h"
 #include "CompiledUserStatesData.h"
+#include "UserStatesRuntimeData.h"
 #include "UserStatesReplicationData.h"
 #include "EInteractiveObjectState.h"
 #include "EInteractiveObjectLockState.h"
-#include "EInteractiveObjectInteractiveState.h"
-#include "InteractiveObjectTrapEntry.h"
 #include "EPlayerAlertType.h"
 #include "InteractiveObject.generated.h"
 
-class UOakDamageComponent;
-class UTargetableComponent;
-class USkeletalMeshComponent;
 class UAnimationAsset;
+class UOakDamageComponent;
+class USkeletalMeshComponent;
+class UTargetableComponent;
 
 UCLASS()
 class OAKGAME_API AInteractiveObject : public AActor, public IMissionObserverInterface, public IDamageableInterface, public IOakElementalEffectBucketProviderInterface, public IPlayerAlertableInterface, public IGbxBlueprintActionInterface, public IUserStatesInterface, public IInspectionInfoProvider, public INameplateInfoProviderInterface {

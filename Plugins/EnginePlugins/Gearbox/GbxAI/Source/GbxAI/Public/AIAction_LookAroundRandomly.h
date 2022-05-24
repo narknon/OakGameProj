@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAction.h"
 #include "LookAroundRandomlySettings.h"
+#include "AIAction.h"
 #include "AIAction_LookAroundRandomly.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

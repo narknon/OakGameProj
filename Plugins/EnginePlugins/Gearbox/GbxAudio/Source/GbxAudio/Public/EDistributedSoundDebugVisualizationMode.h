@@ -3,7 +3,7 @@
 #include "EDistributedSoundDebugVisualizationMode.generated.h"
 
 UENUM(BlueprintType)
-enum class EDistributedSoundDebugVisualizationMode :  {
+enum class EDistributedSoundDebugVisualizationMode : uint8 {
     Off,
     ActiveLocations,
     Tree,

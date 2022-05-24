@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "IronBearHardPointAugmentInfo.h"
 #include "StandInAuxiliaryActor.h"
 #include "HardPointSlotSettings.h"
+#include "IronBearHardPointAugmentInfo.h"
 #include "StandInAuxiliaryActor_IronBear.generated.h"
 
 class UOakActionAbilityAugmentData;

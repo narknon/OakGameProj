@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "BaseVehicleEffectDataWithLocation.h"
-#include "RelativeDirectionData.h"
 #include "Engine/EngineTypes.h"
+#include "RelativeDirectionData.h"
 #include "VehicleImpactEffect.generated.h"
 
 class UImpactData;

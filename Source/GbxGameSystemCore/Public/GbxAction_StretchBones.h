@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "GbxAction_SimpleAnim.h"
 #include "AnimActionDef.h"
-#include "EStretchBonesActorTrackingStyle.h"
+#include "UObject/NoExportTypes.h"
 #include "StretchBonesSettings.h"
 #include "GbxBlackboardKeySelector.h"
+#include "EStretchBonesActorTrackingStyle.h"
 #include "GbxAction_StretchBones.generated.h"
 
 UCLASS()

@@ -5,8 +5,8 @@
 #include "UObject/NoExportTypes.h"
 #include "FacingInfo.generated.h"
 
-class USceneComponent;
 class AActor;
+class USceneComponent;
 
 USTRUCT(BlueprintType)
 struct GBXGAMESYSTEMCORE_API FFacingInfo {

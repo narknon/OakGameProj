@@ -3,9 +3,9 @@
 #include "Templates/SubclassOf.h"
 #include "DamageChallengeData.generated.h"
 
-class UGbxDamageType;
 class UWeaponTypeData;
 class UManufacturerData;
+class UGbxDamageType;
 
 USTRUCT(BlueprintType)
 struct FDamageChallengeData {

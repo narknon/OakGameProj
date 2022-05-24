@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
 #include "CARPreviewMesh.h"
 #include "OakCARMenuStatValue.h"
 #include "CARPreviewParticleSystem.h"
+#include "UObject/NoExportTypes.h"
 #include "Engine/Scene.h"
 #include "OakCARVehicleUIInfo.generated.h"
 
-class UTexture;
 class UWwiseEvent;
+class UTexture;
 
 USTRUCT(BlueprintType)
 struct OAKGAME_API FOakCARVehicleUIInfo {

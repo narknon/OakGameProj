@@ -1,7 +1,7 @@
 #include "GameplayTask_RunEnvQuery.h"
 
-class AActor;
 class UGameplayTask_RunEnvQuery;
+class AActor;
 
 UGameplayTask_RunEnvQuery* UGameplayTask_RunEnvQuery::RunEnvQueryOnLocation(AActor* QueryOwner, const FEnvQueryParams& QueryParams, FVector Location) {
     return NULL;

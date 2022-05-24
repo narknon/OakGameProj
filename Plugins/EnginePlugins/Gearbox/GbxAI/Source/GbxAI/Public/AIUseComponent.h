@@ -1,18 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "ActionCooldownInfo.h"
 #include "SmartObjectUser.h"
 #include "AIUsageEventDelegate.h"
 #include "ActionUseState.h"
-#include "ActionCooldownInfo.h"
 #include "GameplayTagContainer.h"
 #include "ESmartObjectTaskResult.h"
 #include "AIUseComponent.generated.h"
 
-class UGbxActionComponent;
 class AGbxAIController;
 class APawn;
 class AActor;
+class UGbxActionComponent;
 class UAITask;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

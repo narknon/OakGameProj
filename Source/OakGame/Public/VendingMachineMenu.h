@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxMenuInputEvent.h"
-#include "OakUIInventoryItemDisplayInfo.h"
 #include "GbxUmgMenu.h"
+#include "OakUIInventoryItemDisplayInfo.h"
+#include "GbxMenuInputEvent.h"
 #include "VendingMachineMenu.generated.h"
 
+class UGbxListItem;
 class UGbxScrollBoxList;
 class UImage;
 class UTextBlock;
-class UGbxListItem;
 class AOakCharacter;
 class UPlayerShopManagerComponent;
 class UGbxUserWidget;

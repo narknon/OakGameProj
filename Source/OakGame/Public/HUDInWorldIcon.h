@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxHUDWidget.h"
-#include "UObject/NoExportTypes.h"
 #include "HUDInWorldIconTargetInfo.h"
+#include "UObject/NoExportTypes.h"
 #include "HUDInWorldIcon.generated.h"
 
 class AActor;

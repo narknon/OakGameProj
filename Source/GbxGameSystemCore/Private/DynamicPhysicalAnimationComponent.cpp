@@ -1,8 +1,8 @@
 #include "DynamicPhysicalAnimationComponent.h"
 
 class USkeletalMeshComponent;
-class UPrimitiveComponent;
 class UPhysicalAnimationProfileAsset;
+class UPrimitiveComponent;
 class AActor;
 
 void UDynamicPhysicalAnimationComponent::SetStrengthMultiplier(float NewValue) {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
 #include "SpawnerComponent.h"
+#include "GameplayTagContainer.h"
 #include "GbxSpawnerComponent.generated.h"
 
 class AGbxSpawner;

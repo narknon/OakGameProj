@@ -5,8 +5,8 @@
 #include "Engine/EngineTypes.h"
 #include "OakProjectile_PhaseTrance.generated.h"
 
-class UPrimitiveComponent;
 class AActor;
+class UPrimitiveComponent;
 
 UCLASS()
 class AOakProjectile_PhaseTrance : public AOakProjectile_ActionAbility {

@@ -3,9 +3,9 @@
 #include "GbxCustomizationComponent.h"
 
 class AActor;
-class UParticleSystemComponent;
-class UPrimitiveComponent;
 class UCinematicModeData;
+class UPrimitiveComponent;
+class UParticleSystemComponent;
 class ULightProjectile;
 
 void AOakDroneProjectile_GRMLN::UpdateActiveTarget() {

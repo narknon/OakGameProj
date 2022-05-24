@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "OakProjectile_ActionAbility.h"
-#include "EOakActionAbilityPetModType.h"
 #include "UObject/NoExportTypes.h"
 #include "OakActionAbilityEnumMaskHelper.h"
+#include "EOakActionAbilityPetModType.h"
 #include "OakProjectile_RakkAttack_Rakk.generated.h"
 
 class UOakActionAbility_RakkAttack;

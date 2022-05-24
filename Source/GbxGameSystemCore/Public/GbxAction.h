@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
-#include "GameplayTaskOwnerInterface.h"
-#include "UObject/NoExportTypes.h"
-#include "EGbxActionPriority.h"
 #include "EGbxActionEndState.h"
+#include "GameplayTaskOwnerInterface.h"
+#include "EGbxActionPriority.h"
+#include "UObject/NoExportTypes.h"
 #include "GbxAction.generated.h"
 
-class AActor;
 class UScriptStruct;
+class AActor;
 
 UCLASS(Blueprintable)
 class GBXGAMESYSTEMCORE_API UGbxAction : public UObject, public IGameplayTaskOwnerInterface {

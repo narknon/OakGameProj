@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "GlobalAIData.h"
 #include "AttributeInitializationData.h"
 #include "GameplayTagContainer.h"
-#include "GlobalAIData.h"
 #include "OakGlobalAIData.generated.h"
 
 UCLASS()

@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/Object.h"
+#include "WeaponSkeletalControlInstance.h"
 #include "WeaponMaterialEffectInstance.h"
 #include "EWeaponTextureMipsSetting.h"
 #include "WeaponEffectAttachment.h"
-#include "WeaponSkeletalControlInstance.h"
 #include "WeaponTrinketAttachment.h"
 #include "WeaponAttachmentSlot.generated.h"
 
-class UTexture;
 class UMeshComponent;
+class UTexture;
 
 UCLASS(BlueprintType, EditInlineNew, Within=Weapon)
 class GBXWEAPON_API UWeaponAttachmentSlot : public UObject {

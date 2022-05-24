@@ -5,8 +5,8 @@
 #include "Engine/EngineTypes.h"
 #include "CryoDestructibleComponent.generated.h"
 
-class UDestructibleComponent;
 class UMaterialInterface;
+class UDestructibleComponent;
 class AActor;
 
 UCLASS(EditInlineNew, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

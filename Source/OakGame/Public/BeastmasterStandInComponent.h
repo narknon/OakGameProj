@@ -9,8 +9,8 @@
 #include "BeastmasterStandInComponent.generated.h"
 
 class UGbxAction;
-class UOakPlayerAbilitySlotData;
 class UPlayerCharacterComponentSlotData;
+class UOakPlayerAbilitySlotData;
 class UPrimitiveComponent;
 class UPlayerCharacterComponentAugmentData;
 class AStandInAuxiliaryActor_Pet;

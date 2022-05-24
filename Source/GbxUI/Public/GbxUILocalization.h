@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InputCoreTypes.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "UObject/NoExportTypes.h"
 #include "Styling/SlateBrush.h"
+#include "UObject/NoExportTypes.h"
 #include "EGbxActionToTextType.h"
+#include "InputCoreTypes.h"
 #include "GbxUILocalization.generated.h"
 
 class AGbxPlayerController;

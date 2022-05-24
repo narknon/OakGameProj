@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxAction.h"
 #include "EDirectionPlane.h"
-#include "DirectionActionData.h"
 #include "RelativeDirectionData.h"
+#include "GbxAction.h"
+#include "DirectionActionData.h"
 #include "GbxAction_DirectionContainer.generated.h"
 
 UCLASS()

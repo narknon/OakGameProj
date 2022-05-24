@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "ELightProjectileSubdivisionMode.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class ELightProjectileSubdivisionMode : int32 {
     Distance,
     Seconds,

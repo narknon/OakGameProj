@@ -1,7 +1,7 @@
 #include "GbxHUD.h"
 
-class UGbxHUDStateData;
 class AGbxPlayerController;
+class UGbxHUDStateData;
 class UGbxHUDData;
 class AGbxCharacter;
 class APawn;

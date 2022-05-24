@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxDataAsset.h"
 #include "PhotoModeOptionSet.h"
+#include "GbxDataAsset.h"
 #include "PhotoModeGlobals.generated.h"
 
 class UGbxMenuData;

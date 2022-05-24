@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeInitializationData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
+#include "AttributeInitializationData.h"
 #include "ModifierMathAttributeValueResolverStackEntry.generated.h"
 
 USTRUCT(BlueprintType)

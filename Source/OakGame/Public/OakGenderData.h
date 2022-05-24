@@ -4,12 +4,12 @@
 #include "UObject/NoExportTypes.h"
 #include "OakGenderData.generated.h"
 
-class USkeletalMesh;
-class UDialogNameTag;
-class UGestaltPartListData;
-class UGbxAnimSet;
-class UAnimInstance;
 class UMaterialInstance;
+class UGbxAnimSet;
+class USkeletalMesh;
+class UGestaltPartListData;
+class UAnimInstance;
+class UDialogNameTag;
 class UDestructibleMesh;
 
 USTRUCT(BlueprintType)

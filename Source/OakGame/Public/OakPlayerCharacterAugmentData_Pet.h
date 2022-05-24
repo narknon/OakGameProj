@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "PlayerCharacterComponentAugmentData.h"
 #include "EOakActionAbilityPetEvolutionType.h"
 #include "EOakActionAbilityPetType.h"
+#include "PlayerCharacterComponentAugmentData.h"
 #include "OakPlayerCharacterAugmentData_Pet.generated.h"
 
 UCLASS()

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
 #include "UseDefSelection.h"
+#include "GbxDataAsset.h"
 #include "UsabilityDataSelection.generated.h"
 
 class UGbxCondition;

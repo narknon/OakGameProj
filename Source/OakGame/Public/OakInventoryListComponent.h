@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InventoryListComponent.h"
 #include "EInventoryListType.h"
+#include "InventoryListComponent.h"
 #include "InventoryListEntryHandle.h"
 #include "OakInventoryListComponent.generated.h"
 
-class UWeaponSkinPartData;
 class AActor;
+class UWeaponSkinPartData;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UOakInventoryListComponent : public UInventoryListComponent {

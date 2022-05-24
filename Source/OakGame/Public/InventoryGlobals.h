@@ -3,27 +3,27 @@
 #include "Templates/SubclassOf.h"
 #include "GbxDataAsset.h"
 #include "Engine/EngineTypes.h"
-#include "ManufacturerWeaponSightData.h"
 #include "AttributeInitializationData.h"
-#include "AttributeEffectData.h"
 #include "ForceSelection.h"
+#include "ManufacturerWeaponSightData.h"
 #include "UObject/NoExportTypes.h"
 #include "OakWeaponNamedNamingAttribute.h"
 #include "VendingMachineRefillAmmoData.h"
+#include "AttributeEffectData.h"
 #include "InventoryGlobals.generated.h"
 
 class UInventorySlotData;
-class UDamageData;
-class UGbxDamageType;
 class UParticleSystem;
 class UGbxInventoryCategoryData;
 class UExplosionData;
+class UDamageData;
+class UGbxDamageType;
 class AGrenade;
+class UGbxAttributeData;
 class UDataTable;
+class UFeedbackData;
 class USkeletalMesh;
 class UGameResourceData;
-class UGbxAttributeData;
-class UFeedbackData;
 
 UCLASS(BlueprintType)
 class OAKGAME_API UInventoryGlobals : public UGbxDataAsset {

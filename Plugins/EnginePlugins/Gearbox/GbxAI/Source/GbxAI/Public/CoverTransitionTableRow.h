@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxAnimTableRow.h"
 #include "NumericRange.h"
+#include "GbxAnimTableRow.h"
 #include "ECoverSlotHeight.h"
 #include "ECoverFaceDirection.h"
 #include "CoverTransitionTableRow.generated.h"

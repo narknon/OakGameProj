@@ -1,14 +1,14 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+#include "AttributeInitializationData.h"
 #include "GbxDataAsset.h"
 #include "EElementalInteractionSourceMode.h"
-#include "AttributeInitializationData.h"
 #include "ElementalInteractionTransitionData.h"
 #include "ElementalInteractionData.generated.h"
 
-class UGbxDamageType;
 class UGbxNavArea;
+class UGbxDamageType;
 class UNavArea;
 
 UCLASS(BlueprintType)

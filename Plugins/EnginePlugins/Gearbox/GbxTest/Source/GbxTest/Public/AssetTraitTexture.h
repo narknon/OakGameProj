@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OptionalTextureLODGroup.h"
 #include "AssetTrait.h"
 #include "OptionalTextureCompressionMethod.h"
+#include "OptionalTextureLODGroup.h"
 #include "OptionalInt32.h"
 #include "OptionalBool.h"
 #include "AssetTraitTexture.generated.h"

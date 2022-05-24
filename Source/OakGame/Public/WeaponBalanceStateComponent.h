@@ -7,13 +7,13 @@
 
 class UWeaponMaterialWearAspectData;
 class UWeaponAudioStreamingAspectData;
+class AOakWeapon;
+class UWeaponAudioAspectData;
 class UWeaponSkinPartData;
 class UWeaponEffectBaseAspectData;
 class UWeaponFoleyAspectData;
-class UWeaponTrinketPartData;
-class AOakWeapon;
-class UWeaponAudioAspectData;
 class UWeaponPlayerMeleeOverrideAspectData;
+class UWeaponTrinketPartData;
 class UGbxCustomizationComponent;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

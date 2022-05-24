@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "GbxDataAsset.h"
-#include "OakCARVehicleUIInfo.h"
 #include "ECARRestrictionType.h"
+#include "OakCARVehicleUIInfo.h"
 #include "OakCARVehicleData.generated.h"
 
 UCLASS()

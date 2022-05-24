@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Navigation.h"
 #include "AIAction.h"
 #include "AIAspectSettings_MoveSpline.h"
+#include "AIAspectSettings_Navigation.h"
 #include "AIAction_MoveSpline.generated.h"
 
 class UObject;

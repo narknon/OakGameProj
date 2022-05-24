@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxDataAsset.h"
-#include "GbxParam.h"
 #include "PlanRoleRequirements.h"
+#include "GbxParam.h"
+#include "GbxDataAsset.h"
 #include "AIPlanData.generated.h"
 
 UCLASS(BlueprintType)

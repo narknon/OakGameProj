@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxProbeId.h"
-#include "ETestIssueType.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "ETestIssueType.h"
 #include "ECompare.h"
-#include "Engine/LatentActionManager.h"
+#include "GbxProbeId.h"
 #include "GbxTestInputAction.h"
+#include "Engine/LatentActionManager.h"
 #include "TestLibrarySimulation.generated.h"
 
 class UObject;

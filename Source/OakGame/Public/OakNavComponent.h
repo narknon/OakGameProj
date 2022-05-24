@@ -1,17 +1,17 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "RubberbandSpeedData.h"
 #include "GbxNavComponent.h"
-#include "OakNavReverseState.h"
 #include "OakVehicleNavCorrecter.h"
+#include "OakNavReverseState.h"
 #include "StuckTeleport.h"
 #include "UObject/NoExportTypes.h"
 #include "ESpeedModifierOverridePriority.h"
 #include "EDrivingOverridePriority.h"
+#include "RubberbandSpeedData.h"
 #include "OakNavComponent.generated.h"
 
-class UVehicleDrivingDataAsset;
 class ASeatPawn;
+class UVehicleDrivingDataAsset;
 class AOakVehicle;
 class UAIVehicleFlightComponent;
 class AOakAIController;

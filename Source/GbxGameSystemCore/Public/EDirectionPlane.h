@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EDirectionPlane.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EDirectionPlane : int32 {
     Horizontal,
     Vertical,

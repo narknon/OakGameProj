@@ -6,11 +6,11 @@
 #include "VaultCardColumnData.h"
 #include "OakVaultCardRewardData.generated.h"
 
-class UDownloadableExpansionData;
-class UInventoryCategoryData;
 class UItemPoolData;
-class UChallengeList;
+class UInventoryCategoryData;
 class UTexture;
+class UChallengeList;
+class UDownloadableExpansionData;
 
 UCLASS()
 class UOakVaultCardRewardData : public UGbxDataAsset {

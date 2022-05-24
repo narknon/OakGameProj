@@ -1,7 +1,7 @@
 #include "VaRestJsonValue.h"
 
-class UVaRestJsonValue;
 class UObject;
+class UVaRestJsonValue;
 class UVaRestJsonObject;
 
 bool UVaRestJsonValue::IsNull() const {

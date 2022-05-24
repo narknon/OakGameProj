@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "ECARStatus.h"
 #include "Animation/AnimInstance.h"
+#include "ECARStatus.h"
 #include "CARConsoleAnimInstance.generated.h"
 
 UCLASS(NonTransient)

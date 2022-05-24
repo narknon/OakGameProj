@@ -2,12 +2,12 @@
 #include "CoreMinimal.h"
 #include "Animation/AnimInstance.h"
 #include "RuntimeStateMachineData.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxStateManagerRuntime -FallbackName=GbxStateManagerRuntime
 #include "GbxAnimTableMapItem.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxStateManagerRuntime -FallbackName=GbxStateManagerRuntime
 #include "GbxAnimInstance.generated.h"
 
-class UGbxAnimStateMachineDefinition;
 class UGbxSkeletalMeshComponent;
+class UGbxAnimStateMachineDefinition;
 class UGbxAnimTable;
 class UAnimSequence;
 

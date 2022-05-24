@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EncounterWave.h"
 #include "SpawnerStyle.h"
+#include "EncounterWave.h"
 #include "SpawnerStyle_Encounter.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

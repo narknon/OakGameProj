@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "OakInventoryMenuItemGrouping.generated.h"
 
-class UWeaponTypeAsset;
 class UManufacturerData;
+class UWeaponTypeAsset;
 
 USTRUCT(BlueprintType)
 struct OAKGAME_API FOakInventoryMenuItemGrouping {

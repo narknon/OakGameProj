@@ -3,7 +3,7 @@
 #include "EBankLoadState.generated.h"
 
 UENUM(BlueprintType)
-enum class EBankLoadState :  {
+enum class EBankLoadState : uint8 {
     Unloaded,
     AsyncLoading,
     Loaded,

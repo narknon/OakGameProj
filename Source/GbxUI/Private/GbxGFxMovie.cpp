@@ -1,11 +1,11 @@
 #include "GbxGFxMovie.h"
 #include "Templates/SubclassOf.h"
 
-class UTextureRenderTarget2D;
 class AGbxPlayerController;
-class UDataTable;
 class UGbxGFxMovie;
+class UTextureRenderTarget2D;
 class APawn;
+class UDataTable;
 
 bool UGbxGFxMovie::TranslateWorldToLocal(const FVector& LocationWorldSpace, FVector2D& OutPositionLocal, bool bPlayerViewportRelative, bool bUseMovieDimensions) const {
     return false;

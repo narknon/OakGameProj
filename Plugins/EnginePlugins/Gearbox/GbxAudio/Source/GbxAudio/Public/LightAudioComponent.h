@@ -1,15 +1,15 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "Components/SceneComponent.h"
-#include "EWwiseCurveInterpolation.h"
-#include "AudioDistanceThresholdSubscriberInterface.h"
-#include "WwisePlaybackInstance.h"
 #include "WwiseLocationOverride.h"
+#include "Components/SceneComponent.h"
+#include "AudioDistanceThresholdSubscriberInterface.h"
+#include "EWwiseCurveInterpolation.h"
+#include "WwisePlaybackInstance.h"
 #include "LightAudioComponent.generated.h"
 
 class UWwiseRtpc;
-class UWwiseEvent;
 class UAudioDistanceThresholdManager;
+class UWwiseEvent;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXAUDIO_API ULightAudioComponent : public USceneComponent, public IAudioDistanceThresholdSubscriberInterface {

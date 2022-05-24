@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EGbxGFxMenuSwitchNavWidgetType.h"
 #include "GbxGFxObject.h"
 #include "GbxGFxMenuSwitcherNavClickedDelegateDelegate.h"
-#include "GbxGFxMenuSwitcherSubmenuInfo.h"
 #include "GbxGFxMenuSwitcherNavWidgetCustomItem.h"
+#include "EGbxGFxMenuSwitchNavWidgetType.h"
+#include "GbxGFxMenuSwitcherSubmenuInfo.h"
 #include "GbxMenuInputEvent.h"
 #include "GbxGFxMenuSwitcherNavWidget.generated.h"
 
-class UGbxGFxHintWidget;
-class UGbxGFxGridScrollingList;
 class UGbxGFxButton;
+class UGbxGFxGridScrollingList;
+class UGbxGFxHintWidget;
 
 UCLASS(NonTransient)
 class GBXUI_API UGbxGFxMenuSwitcherNavWidget : public UGbxGFxObject {

@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "AppliedMeshComponentTracker.generated.h"
 
-class UMeshComponent;
 class UOakStatusEffectManagerComponent;
+class UMeshComponent;
 class AActor;
 
 USTRUCT(BlueprintType)

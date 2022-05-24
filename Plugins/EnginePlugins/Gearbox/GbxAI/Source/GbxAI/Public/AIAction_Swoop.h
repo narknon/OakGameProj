@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAspectSettings_Navigation.h"
 #include "AIAction_Sequence.h"
 #include "AIAspectSettings_Swoop.h"
+#include "AIAspectSettings_Navigation.h"
 #include "AIAspectSettings_Rotation.h"
 #include "AIAction_Swoop.generated.h"
 

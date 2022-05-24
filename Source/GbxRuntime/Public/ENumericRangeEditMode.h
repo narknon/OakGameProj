@@ -3,7 +3,7 @@
 #include "ENumericRangeEditMode.generated.h"
 
 UENUM(BlueprintType)
-enum class ENumericRangeEditMode :  {
+enum class ENumericRangeEditMode : uint8 {
     MinMax,
     ValueVariance,
     Variance,

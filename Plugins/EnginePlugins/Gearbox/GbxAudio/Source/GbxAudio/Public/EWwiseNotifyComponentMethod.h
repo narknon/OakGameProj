@@ -2,7 +2,7 @@
 #include "CoreMinimal.h"
 #include "EWwiseNotifyComponentMethod.generated.h"
 
-UENUM(BlueprintType)
+UENUM()
 enum class EWwiseNotifyComponentMethod : int32 {
     UseActorDefaultComponent,
     FindComponentsByTag,

@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "UObject/NoExportTypes.h"
-#include "ActorPartListData.h"
 #include "GbxDataAsset.h"
 #include "EActorPartReplacementMode.h"
+#include "UObject/NoExportTypes.h"
+#include "ActorPartListData.h"
 #include "ActorPartSetData.generated.h"
 
 class UActorPartData;

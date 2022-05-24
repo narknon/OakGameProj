@@ -1,7 +1,7 @@
 #include "OakCheatManager.h"
 
-class UGbxGFxDialogBox;
 class UPlayerClassIdentifier;
+class UGbxGFxDialogBox;
 
 void UOakCheatManager::WipeRecentlyMetPlayers() {
 }

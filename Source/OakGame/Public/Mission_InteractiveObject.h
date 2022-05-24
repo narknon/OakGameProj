@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MissionObjectiveReference.h"
 #include "InteractiveObject.h"
+#include "MissionObjectiveReference.h"
 #include "UserStateEnumValue.h"
 #include "Mission_InteractiveObject.generated.h"
 

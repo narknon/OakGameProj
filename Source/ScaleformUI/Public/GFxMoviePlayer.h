@@ -1,11 +1,11 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GFxWidgetBinding.h"
-#include "UObject/Object.h"
-#include "GFxHitTestType.h"
-#include "ExternalTexture.h"
 #include "InputCoreTypes.h"
+#include "UObject/Object.h"
 #include "EGFxRenderTextureMode.h"
+#include "GFxHitTestType.h"
+#include "GFxWidgetBinding.h"
+#include "ExternalTexture.h"
 #include "FsCommandSignatureDelegate.h"
 #include "OnStartCommandSignatureDelegate.h"
 #include "OnTickCommandSignatureDelegate.h"
@@ -20,11 +20,11 @@
 #include "EGFxAlign.h"
 #include "GFxMoviePlayer.generated.h"
 
-class UTexture;
-class USwfMovie;
+class UGFxMoviePlayer;
 class UGFxObject;
 class UTextureRenderTarget2D;
-class UGFxMoviePlayer;
+class UTexture;
+class USwfMovie;
 
 UCLASS(BlueprintType, Const)
 class SCALEFORMUI_API UGFxMoviePlayer : public UObject {

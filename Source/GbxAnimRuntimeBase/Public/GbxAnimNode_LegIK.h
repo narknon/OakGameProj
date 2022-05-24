@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "NumericRange.h"
 #include "BoneControllers/AnimNode_LegIK.h"
 #include "UObject/NoExportTypes.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=AnimGraphRuntime -ObjectName=ScreenSizeSelection -FallbackName=ScreenSizeSelection
-#include "NumericRange.h"
 #include "BoneContainer.h"
 #include "GbxAnimNode_LegIK.generated.h"
 

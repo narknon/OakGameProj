@@ -3,9 +3,9 @@
 #include "GbxDebugMenuSubmenu.h"
 #include "GbxDebugRumbleMenu.generated.h"
 
+class UGbxListItem;
 class UGbxListItemNumber;
 class UGbxScrollBoxList;
-class UGbxListItem;
 
 UCLASS(EditInlineNew, Config=Game)
 class GBXUI_API UGbxDebugRumbleMenu : public UGbxDebugMenuSubmenu {

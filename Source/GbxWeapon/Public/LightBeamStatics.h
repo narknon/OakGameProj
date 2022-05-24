@@ -3,17 +3,17 @@
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "LightBeamInitializationData.h"
-#include "LightBeamCallbackEventDelegate.h"
 #include "ELightBeamFlag.h"
-#include "LightBeamQueryData.h"
-#include "LightBeamAttachment.h"
 #include "ForceSelection.h"
+#include "LightBeamQueryData.h"
+#include "LightBeamCallbackEventDelegate.h"
+#include "LightBeamAttachment.h"
 #include "LightBeamStatics.generated.h"
 
 class UDamageSource;
-class APawn;
 class AActor;
 class ULightBeamData;
+class APawn;
 class UGbxDamageType;
 class UImpactData;
 

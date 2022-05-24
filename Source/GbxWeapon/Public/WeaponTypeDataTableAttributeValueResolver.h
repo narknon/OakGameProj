@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "EWeaponTypeDataTableType.h"
 #include "DataTableFunctionAttributeValueResolver.h"
+#include "EWeaponTypeDataTableType.h"
 #include "WeaponTypeDataTableAttributeValueResolver.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

@@ -3,17 +3,17 @@
 #include "Templates/SubclassOf.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "MissionEventReference.h"
-#include "MissionObjectiveReference.h"
-#include "MissionObjectiveSetReference.h"
 #include "EMissionObjectiveSetStatus.h"
 #include "EMissionStatus.h"
 #include "EMissionObjectiveStatus.h"
+#include "MissionObjectiveReference.h"
+#include "MissionObjectiveSetReference.h"
 #include "MissionObjectiveReferenceWeak.h"
 #include "MissionFunctionLibrary.generated.h"
 
 class UObject;
-class UMissionObjectiveSet;
 class UMission;
+class UMissionObjectiveSet;
 
 UCLASS(BlueprintType)
 class GBXMISSION_API UMissionFunctionLibrary : public UBlueprintFunctionLibrary {

@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "InputCoreTypes.h"
 #include "EGbxMenuInputActionTrigger.h"
+#include "InputCoreTypes.h"
 #include "GbxMenuInputAction.generated.h"
 
 USTRUCT(BlueprintType)

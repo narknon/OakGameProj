@@ -3,7 +3,7 @@
 #include "EGbxGFxSliderState.generated.h"
 
 UENUM(BlueprintType)
-enum class EGbxGFxSliderState :  {
+enum class EGbxGFxSliderState : uint8 {
     NotScrolling,
     ScrollingLeft,
     ScrollingRight,

@@ -3,7 +3,7 @@
 #include "EAIActionLayer.generated.h"
 
 UENUM(BlueprintType)
-enum class EAIActionLayer :  {
+enum class EAIActionLayer : uint8 {
     Default,
     Script,
     Count,

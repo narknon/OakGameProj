@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxReplicatorProxyData.h"
 #include "Components/ActorComponent.h"
 #include "WeaponDebugInterface.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "GbxReplicatorProxyData.h"
 #include "WeaponHeatEventNotify.h"
 #include "EWeaponEffectType.h"
 #include "HeatChangedDelegateDelegate.h"

@@ -4,10 +4,10 @@
 #include "TeleportUserEdgeData.h"
 #include "GbxUserEdgeState.generated.h"
 
-class UGbxActionComponent;
-class UGbxNavComponent;
-class AGbxNavWorld;
 class AAIController;
+class AGbxNavWorld;
+class UGbxNavComponent;
+class UGbxActionComponent;
 
 USTRUCT(BlueprintType)
 struct FGbxUserEdgeState {

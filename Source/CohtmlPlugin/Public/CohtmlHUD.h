@@ -4,8 +4,8 @@
 #include "UObject/NoExportTypes.h"
 #include "CohtmlHUD.generated.h"
 
-class UMaterialInstanceDynamic;
 class UMaterial;
+class UMaterialInstanceDynamic;
 
 UCLASS(MinimalAPI, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UCohtmlHUD : public UCohtmlBaseComponent {

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "AIAspect_Navigation.h"
+#include "GbxBlackboardKeySelector.h"
 #include "EGbxNavGoalReach.h"
 #include "ECircleDirection.h"
-#include "GbxBlackboardKeySelector.h"
 #include "AIAspect_Circle.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

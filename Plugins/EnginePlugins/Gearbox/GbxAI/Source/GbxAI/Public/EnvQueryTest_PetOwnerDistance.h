@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
 #include "EnvironmentQuery/EnvQueryTest.h"
+#include "GameplayTagContainer.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvQueryTest_PetOwnerDistance.generated.h"
 

@@ -3,14 +3,9 @@
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxBaseMediaManager -FallbackName=GbxBaseMediaManager
 #include "GbxMediaManager.generated.h"
 
+class UObject;
 class UMediaPlayer;
 class UGbxMediaData;
-class UObject;
-
-UCLASS(BlueprintType)
-class UGbxBaseMediaManager : public UObject
-{
-};
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UGbxMediaManager : public UGbxBaseMediaManager {

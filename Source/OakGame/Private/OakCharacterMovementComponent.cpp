@@ -1,8 +1,8 @@
 #include "OakCharacterMovementComponent.h"
 #include "Net/UnrealNetwork.h"
 
-class UParticleSystemComponent;
 class UOakPlayerTeleportData;
+class UParticleSystemComponent;
 
 bool UOakCharacterMovementComponent::TeleportPlayer(const FVector& TargetLocation, UOakPlayerTeleportData* TeleportData) {
     return false;

@@ -1,16 +1,16 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "CurrentDialogPerformanceInfo.h"
 #include "OnStartedDialogPerformanceDelegate.h"
+#include "CurrentDialogPerformanceInfo.h"
 #include "DialogScriptPinnedRef.h"
 #include "InitialDialogInProgress.h"
 #include "DialogConversation.h"
 #include "GbxDialogComponent.generated.h"
 
 class UDialogNameTag;
-class UDialogScriptData;
 class UWwiseAudioComponent;
+class UDialogScriptData;
 class APlayerController;
 class UDialogPerformanceData;
 class UDialogStyle;

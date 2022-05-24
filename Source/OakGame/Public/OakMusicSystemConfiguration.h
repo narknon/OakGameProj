@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "EOakMusicLayer.h"
 #include "GbxDataAsset.h"
 #include "Curves/CurveFloat.h"
 #include "EOakMusicPart.h"
 #include "EOakMusicSection.h"
-#include "EOakMusicLayer.h"
 #include "MusicLayerInfo.h"
 #include "MusicInterestASR.h"
 #include "OakMusicSystemConfiguration.generated.h"

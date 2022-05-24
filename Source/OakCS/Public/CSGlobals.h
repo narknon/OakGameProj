@@ -5,9 +5,9 @@
 #include "DebugPuzzle.h"
 #include "CSGlobals.generated.h"
 
-class UOakCustomizationData;
-class UInventoryCategoryData;
 class UTutorialPuzzle;
+class UInventoryCategoryData;
+class UOakCustomizationData;
 class UCSLevelData;
 class UBoosterData;
 

@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "ETerritoryDrawStyle.h"
 #include "Components/PrimitiveComponent.h"
 #include "TerritoryData.h"
 #include "ETerritoryCombatProxyType.h"
-#include "ETerritoryDrawStyle.h"
 #include "TerritoryComponent.generated.h"
 
 class UTerritoryComponent;

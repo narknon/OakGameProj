@@ -1,8 +1,8 @@
 #include "VaRestRequestJSON.h"
 
-class UObject;
-class UVaRestJsonObject;
 class UVaRestRequestJSON;
+class UVaRestJsonObject;
+class UObject;
 
 void UVaRestRequestJSON::SetVerb(ERequestVerb Verb) {
 }

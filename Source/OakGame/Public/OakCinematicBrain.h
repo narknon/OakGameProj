@@ -6,10 +6,10 @@
 #include "OnCinematicBrainEventDelegate.h"
 #include "OakCinematicBrain.generated.h"
 
-class ULevelSequencePlayer;
-class UOakCinematicBrainData;
-class UMediaTexture;
 class UWwiseMediaAudioSinkProvider;
+class UOakCinematicBrainData;
+class ULevelSequencePlayer;
+class UMediaTexture;
 class UMediaPlayer;
 class UOakCinematicTag;
 class UMediaSource;

@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AutoplayMissionState.h"
 #include "Components/SceneComponent.h"
+#include "AutoplayCombatState.h"
 #include "MissionObserverInterface.h"
 #include "GbxNavPathingData.h"
-#include "AutoplayCombatState.h"
+#include "AutoplayMissionState.h"
 #include "OakAutoplayComponent.generated.h"
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

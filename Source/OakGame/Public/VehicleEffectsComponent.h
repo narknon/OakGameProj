@@ -1,35 +1,35 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "VehicleComponent.h"
+#include "StatusEffectSpec.h"
 #include "OnEffectEventSimpleDelegate.h"
 #include "OnRestartEffectsAfterTravelDelegate.h"
 #include "OnOverspinStartedDelegate.h"
 #include "UObject/NoExportTypes.h"
-#include "Curves/CurveFloat.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EPhysicalSurface -FallbackName=EPhysicalSurface
-#include "OnImpactDetectedSignatureDelegate.h"
+#include "Curves/CurveFloat.h"
 #include "VehicleImpactEffectData.h"
 #include "UObject/NoExportTypes.h"
+#include "OnImpactDetectedSignatureDelegate.h"
 #include "OnGrindingStoppedDelegate.h"
-#include "EFreezeType.h"
-#include "VehicleEffect.h"
 #include "EVehicleEffectEvent.h"
+#include "VehicleEffect.h"
 #include "VehicleEffectQueryData.h"
-#include "UObject/NoExportTypes.h"
-#include "StatusEffectSpec.h"
-#include "EOakElementalType.h"
 #include "Engine/EngineTypes.h"
+#include "UObject/NoExportTypes.h"
+#include "EOakElementalType.h"
+#include "EFreezeType.h"
 #include "UObject/NoExportTypes.h"
 #include "OnAnimateEndedDelegate.h"
 #include "VehicleEffectsComponent.generated.h"
 
 class UParticleSystem;
+class UMaterialInstanceDynamic;
 class UCurveFloat;
 class UOakVehicleEffectAspectDataCollection;
-class AActor;
 class UScreenParticleManagerComponent;
+class AActor;
 class UMaterialInterface;
-class UMaterialInstanceDynamic;
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class UVehicleEffectsComponent : public UVehicleComponent {

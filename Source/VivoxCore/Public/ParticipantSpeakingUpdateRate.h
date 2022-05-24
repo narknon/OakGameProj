@@ -3,7 +3,7 @@
 #include "ParticipantSpeakingUpdateRate.generated.h"
 
 UENUM(BlueprintType)
-enum class ParticipantSpeakingUpdateRate :  {
+enum class ParticipantSpeakingUpdateRate : uint8 {
     StateChange,
     Never,
     Update1Hz,

@@ -3,7 +3,7 @@
 #include "ESpawnerActorState.generated.h"
 
 UENUM(BlueprintType)
-enum class ESpawnerActorState :  {
+enum class ESpawnerActorState : uint8 {
     Unborn,
     Alive,
     Suspended,

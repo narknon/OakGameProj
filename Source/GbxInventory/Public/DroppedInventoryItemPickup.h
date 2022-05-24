@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "Engine/EngineTypes.h"
 #include "InventoryItemPickup.h"
 #include "Engine/NetSerialization.h"
-#include "Engine/EngineTypes.h"
 #include "UObject/NoExportTypes.h"
 #include "DroppedInventoryItemPickup.generated.h"
 
-class AActor;
 class UPrimitiveComponent;
+class AActor;
 
 UCLASS()
 class GBXINVENTORY_API ADroppedInventoryItemPickup : public AInventoryItemPickup {

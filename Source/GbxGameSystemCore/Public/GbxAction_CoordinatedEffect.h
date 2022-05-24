@@ -1,13 +1,13 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EMaterialParameterCopyMethod -FallbackName=EMaterialParameterCopyMethod
+#include "GbxAction.h"
 #include "CoordinatedLightParameterData.h"
 #include "CoordinatedConditionalMaterialData.h"
-#include "GbxAction.h"
 #include "CoordinatedVectorParameter.h"
 #include "CoordinatedScalarParameter.h"
 #include "CoordinatedParticleSystemData.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EMaterialParameterCopyMethod -FallbackName=EMaterialParameterCopyMethod
 #include "CoordinatedParticleSystemParameterData.h"
 #include "ECoordinatedOwnedParticleAction.h"
 #include "CoordinatedAudioData.h"

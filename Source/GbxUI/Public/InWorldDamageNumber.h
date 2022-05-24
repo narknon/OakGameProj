@@ -4,9 +4,9 @@
 #include "DamageAnimationPairing.h"
 #include "InWorldDamageNumber.generated.h"
 
+class UGbxRichTextBlock;
 class AGbxPlayerController;
 class UCanvasPanel;
-class UGbxRichTextBlock;
 class UUserWidget;
 class UWidgetComponent;
 

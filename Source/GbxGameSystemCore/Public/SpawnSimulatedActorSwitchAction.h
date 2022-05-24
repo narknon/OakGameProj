@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
 #include "SceneBodySwitchAction.h"
-#include "RelativeDirectionData.h"
 #include "UObject/NoExportTypes.h"
+#include "RelativeDirectionData.h"
 #include "SpawnSimulatedActorSwitchAction.generated.h"
 
 class AActor;

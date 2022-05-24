@@ -2,11 +2,11 @@
 #include "Net/UnrealNetwork.h"
 
 class AActor;
+class UDamageSource;
 class UGbxAttributeData;
 class UWwiseEvent;
 class UGbxDamageType;
 class UHUDNotificationAsset;
-class UDamageSource;
 
 void UFightForYourLifeComponent::UpdatePreGiveUp() {
 }

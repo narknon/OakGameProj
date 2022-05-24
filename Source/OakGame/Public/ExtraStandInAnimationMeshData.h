@@ -3,8 +3,8 @@
 #include "Templates/SubclassOf.h"
 #include "ExtraStandInAnimationMeshData.generated.h"
 
-class UGbxAnimSet;
 class UAnimInstance;
+class UGbxAnimSet;
 
 USTRUCT(BlueprintType)
 struct FExtraStandInAnimationMeshData {

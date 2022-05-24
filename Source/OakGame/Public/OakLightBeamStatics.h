@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "OakLightBeamInitializationData.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "OakLightBeamInitializationData.h"
 #include "OakLightBeamStatics.generated.h"
 
 UCLASS(BlueprintType)

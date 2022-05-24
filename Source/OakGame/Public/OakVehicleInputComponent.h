@@ -1,8 +1,8 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GbxInputComponent.h"
 #include "Curves/CurveFloat.h"
 #include "EVehicleCameraRelativeDrivingMode.h"
+#include "GbxInputComponent.h"
 #include "OakVehicleInputComponent.generated.h"
 
 class UGbxInputActionData_Continuous_Vector;

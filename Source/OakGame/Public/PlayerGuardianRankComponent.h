@@ -1,12 +1,12 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "GuardianRankRewardEntry.h"
-#include "Components/ActorComponent.h"
 #include "GuardianRankEnabledIndexTracker.h"
-#include "GuardianRankPerkEntry.h"
-#include "GuardianRankChangedEventDelegate.h"
-#include "GuardianRankRewardCategoryEntry.h"
+#include "Components/ActorComponent.h"
 #include "GuardianTokensAddedEventDelegate.h"
+#include "GuardianRankRewardEntry.h"
+#include "GuardianRankPerkEntry.h"
+#include "GuardianRankRewardCategoryEntry.h"
+#include "GuardianRankChangedEventDelegate.h"
 #include "GuardianExperienceAddedDelegate.h"
 #include "GuardianRewardEnableChangeDelegate.h"
 #include "GuardianPerkEnableChangeDelegate.h"
@@ -14,9 +14,9 @@
 #include "EPlayerExperienceType.h"
 #include "PlayerGuardianRankComponent.generated.h"
 
-class UPlayerBalanceStateComponent;
-class UGuardianRankRewardData;
 class UGbxAbility;
+class UGuardianRankRewardData;
+class UPlayerBalanceStateComponent;
 class AOakCharacter;
 class UGuardianRankPerkData;
 class AGbxCharacter;

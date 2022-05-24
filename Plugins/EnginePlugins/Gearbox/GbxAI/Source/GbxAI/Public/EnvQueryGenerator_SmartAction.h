@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GameplayTagContainer.h"
 #include "EnvironmentQuery/EnvQueryGenerator.h"
 #include "DataProviders/AIDataProvider.h"
+#include "GameplayTagContainer.h"
 #include "ETerritoryType.h"
 #include "DataProviders/AIDataProvider.h"
 #include "EnvQueryGenerator_SmartAction.generated.h"

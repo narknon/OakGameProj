@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AIAction.h"
 #include "AIAspectSettings_GbxAction.h"
+#include "AIAction.h"
 #include "AIAction_PlayGbxAction.generated.h"
 
 UCLASS(CollapseCategories, EditInlineNew)

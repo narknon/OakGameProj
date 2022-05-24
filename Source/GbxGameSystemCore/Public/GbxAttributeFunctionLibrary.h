@@ -1,23 +1,23 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "GbxAttributeModifierHandle.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "GbxAttributeDelegateBindingHandle.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
-//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=OnAttributeChangedDelegate__DelegateSignature -FallbackName=OnAttributeChangedDelegateDelegate
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeFloat -FallbackName=GbxAttributeFloat
+#include "GbxAttributeDelegateBindingHandle.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=OnAttributeChangedDelegate__DelegateSignature -FallbackName=OnAttributeChangedDelegateDelegate
+//CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxAttributeInteger -FallbackName=GbxAttributeInteger
+#include "GbxAttributeModifierHandle.h"
 #include "EGbxAttributeModifierActionExecOutput.h"
 #include "Engine/DataTable.h"
-#include "AttributeBaseValueData.h"
 #include "AttributeInitializationData.h"
 #include "AttributeEffectData.h"
+#include "AttributeBaseValueData.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=EGbxAttributeModifierType -FallbackName=EGbxAttributeModifierType
 #include "GbxAttributeFunctionLibrary.generated.h"
 
-class UObject;
 class UGbxAttributeData;
 class UAttributeInitializer;
+class UObject;
 
 UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UGbxAttributeFunctionLibrary : public UBlueprintFunctionLibrary {

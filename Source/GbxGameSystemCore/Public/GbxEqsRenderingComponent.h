@@ -1,10 +1,10 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "EnvironmentQuery/EQSRenderingComponent.h"
-#include "EnvQueryParams.h"
 #include "EnvironmentQuery/EQSQueryResultSourceInterface.h"
-//CROSS-MODULE INCLUDE V2: -ModuleName=AIModule -ObjectName=EEqsTraceDrawMode -FallbackName=EEqsTraceDrawMode
 #include "EnvQueryParamsProvider.h"
+//CROSS-MODULE INCLUDE V2: -ModuleName=AIModule -ObjectName=EEqsTraceDrawMode -FallbackName=EEqsTraceDrawMode
+#include "EnvQueryParams.h"
 #include "GbxEqsRenderingComponent.generated.h"
 
 UCLASS(ClassGroup=Custom, meta=(BlueprintSpawnableComponent))

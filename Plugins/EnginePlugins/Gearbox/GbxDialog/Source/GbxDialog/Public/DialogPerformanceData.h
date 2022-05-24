@@ -4,8 +4,8 @@
 #include "GbxDialogDataAsset.h"
 #include "GbxTriggerProperty.h"
 #include "DialogPerformanceNotify.h"
-#include "EGbxDialogQuietTimeScope.h"
 #include "UObject/NoExportTypes.h"
+#include "EGbxDialogQuietTimeScope.h"
 #include "DialogPerformanceData.generated.h"
 
 class UWwiseEvent;

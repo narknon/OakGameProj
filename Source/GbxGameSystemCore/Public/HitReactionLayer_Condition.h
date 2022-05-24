@@ -1,9 +1,9 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Templates/SubclassOf.h"
-#include "EHitReactionConditionCombine.h"
-#include "HitReactionCondition.h"
 #include "HitReactionLayer.h"
+#include "HitReactionCondition.h"
+#include "EHitReactionConditionCombine.h"
 #include "HitReactionLayer_Condition.generated.h"
 
 UCLASS(Abstract, Const)

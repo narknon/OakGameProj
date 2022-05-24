@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "MayhemModifierSet.h"
 #include "MayhemModifierSlotInterface.h"
+#include "MayhemModifierSet.h"
 #include "MayhemModifierSlotDataAsset.generated.h"
 
 UCLASS()

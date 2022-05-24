@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "CustomizationInheritedTextureBaseMaterial.generated.h"
 
-class UGbxCustomizationTargetData;
 class UMaterialInterface;
+class UGbxCustomizationTargetData;
 
 USTRUCT(BlueprintType)
 struct FCustomizationInheritedTextureBaseMaterial {

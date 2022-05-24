@@ -3,7 +3,7 @@
 #include "EPlanValidityCode.generated.h"
 
 UENUM(BlueprintType)
-enum class EPlanValidityCode :  {
+enum class EPlanValidityCode : uint8 {
     Unknown,
     PlanIsValid,
     NoPlanData,

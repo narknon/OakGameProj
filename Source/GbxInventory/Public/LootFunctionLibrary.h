@@ -6,8 +6,8 @@
 #include "UObject/NoExportTypes.h"
 #include "LootFunctionLibrary.generated.h"
 
-class UItemPoolListData;
 class UObject;
+class UItemPoolListData;
 
 UCLASS(BlueprintType)
 class GBXINVENTORY_API ULootFunctionLibrary : public UBlueprintFunctionLibrary {

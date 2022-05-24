@@ -4,9 +4,9 @@
 #include "InspectionInfoProvider.h"
 #include "CustomizationColorApplication.h"
 #include "CustomizationTextureInheritanceSettings.h"
+#include "EGbxCustomizationComponentInitSourceType.h"
 #include "CustomizationColorEntry.h"
 #include "CustomizationLinkedParameterEntry.h"
-#include "EGbxCustomizationComponentInitSourceType.h"
 #include "GbxCustomizationContainer.h"
 #include "CharacterCustomizationAppliedDelegate.h"
 #include "MaterialArray.h"
@@ -14,9 +14,9 @@
 #include "UObject/NoExportTypes.h"
 #include "GbxCustomizationComponent.generated.h"
 
+class UGbxCustomizationData;
 class UGbxCustomizationComponent;
 class UMeshComponent;
-class UGbxCustomizationData;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UGbxCustomizationComponent : public UActorComponent, public IInspectionInfoProvider {

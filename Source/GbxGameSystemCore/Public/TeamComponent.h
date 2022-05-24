@@ -7,8 +7,8 @@
 #include "TeamComponent.generated.h"
 
 class UTeam;
-class AActor;
 class UTeamComponent;
+class AActor;
 
 UCLASS(BlueprintType, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class GBXGAMESYSTEMCORE_API UTeamComponent : public UActorComponent, public IInspectionInfoProvider {

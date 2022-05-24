@@ -1,7 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
-#include "AttributeEffectData.h"
 #include "Engine/DataAsset.h"
+#include "AttributeEffectData.h"
 #include "SprintData.generated.h"
 
 class UCurveFloat;

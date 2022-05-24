@@ -2,8 +2,8 @@
 #include "Net/UnrealNetwork.h"
 #include "Components/BillboardComponent.h"
 
-class UDynamicRoomBaseData;
 class AGbxCharacter;
+class UDynamicRoomBaseData;
 
 bool ADynamicRoomBase::VisibleForAllPlayers() {
     return false;
