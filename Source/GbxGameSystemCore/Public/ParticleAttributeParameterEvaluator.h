@@ -6,6 +6,12 @@
 class UGbxAttributeData;
 
 UCLASS(EditInlineNew)
+class UParticleParameterEvaluator : public UObject
+{
+};
+
+
+UCLASS(EditInlineNew)
 class GBXGAMESYSTEMCORE_API UParticleAttributeParameterEvaluator : public UParticleParameterEvaluator {
     GENERATED_BODY()
 public:

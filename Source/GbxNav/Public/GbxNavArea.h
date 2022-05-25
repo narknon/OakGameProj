@@ -1,12 +1,18 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
+#include "Engine/DataAsset.h"
 //CROSS-MODULE INCLUDE V2: -ModuleName=Engine -ObjectName=GbxNavAreaBase -FallbackName=GbxNavAreaBase
 //CROSS-MODULE INCLUDE V2: -ModuleName=NavigationSystem -ObjectName=EHavokNavMaterial -FallbackName=EHavokNavMaterial
 #include "GbxNavArea.generated.h"
 
 class UGbxNavMeshLayer;
 class UGbxNavArea;
+
+UCLASS()
+class GBXNAV_API UGbxNavAreaBase : public UDataAsset
+{
+};
 
 UCLASS()
 class GBXNAV_API UGbxNavArea : public UGbxNavAreaBase {
@@ -21,10 +27,10 @@ private:
     
     UPROPERTY(EditAnywhere)
     UGbxNavArea* EffectiveArea;
-    
+
+    /*to fix
     UPROPERTY(EditAnywhere)
-    EHavokNavMaterial HavokNavMaterial;
-    
+    EHavokNavMaterial HavokNavMaterial;*/
 public:
     UGbxNavArea();
 };
