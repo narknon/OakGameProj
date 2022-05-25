@@ -7,6 +7,7 @@ Base uproject generated with UE4SS https://github.com/UE4SS/UE4SS, with assistan
 Big thank you to CheatingMuppet for help as always.
 
 ### Collaborators: 
+ManiacalSpy
 
 
 
