@@ -8,6 +8,11 @@ class UMediaPlayer;
 class UGbxMediaData;
 
 UCLASS(BlueprintType)
+class UGbxBaseMediaManager : public UObject
+{
+};
+
+UCLASS(BlueprintType)
 class GBXGAMESYSTEMCORE_API UGbxMediaManager : public UGbxBaseMediaManager {
     GENERATED_BODY()
 public:
